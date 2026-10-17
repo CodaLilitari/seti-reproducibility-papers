@@ -1,0 +1,852 @@
+{
+  "date": "2026-10-15",
+  "scope": "R1/R2 local successor curation only; no numerical execution or public release",
+  "predecessor_manifest_sha256": "ef432d093896c83330a095c9e831fcab93e4b8c5e74bc46e8f887a3f9047d7a4",
+  "predecessor_payloads": 64,
+  "exact_copies_from_predecessor": 62,
+  "documentary_derivatives": 2,
+  "records": [
+    {
+      "path": "development-replay/counterexamples.py",
+      "predecessor": {
+        "bytes": 9215,
+        "sha256": "72e817379406be24ce05c511afc86df8d4c888bd56ab32c0a900645d384f0049"
+      },
+      "successor": {
+        "bytes": 9215,
+        "sha256": "72e817379406be24ce05c511afc86df8d4c888bd56ab32c0a900645d384f0049"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "development-replay/counterexamples_receipt.json",
+      "predecessor": {
+        "bytes": 4768,
+        "sha256": "a394c22ec6b1d3e11282ec8e3727c607ed80d225172ec6d496b35d8ce47faa07"
+      },
+      "successor": {
+        "bytes": 4768,
+        "sha256": "a394c22ec6b1d3e11282ec8e3727c607ed80d225172ec6d496b35d8ce47faa07"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "development-replay/manifest_verification.log",
+      "predecessor": {
+        "bytes": 62,
+        "sha256": "328a695b3cb349208ed216d85169971f7249508245d8e89245cf48b3250c2890"
+      },
+      "successor": {
+        "bytes": 62,
+        "sha256": "328a695b3cb349208ed216d85169971f7249508245d8e89245cf48b3250c2890"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "development-replay/POSTHOC_DIAGNOSTICS.md",
+      "predecessor": {
+        "bytes": 7662,
+        "sha256": "10f55504c4bac09058d24d8ca5ca7e88fe5a59ab0bd016e51148ea731740cf21"
+      },
+      "successor": {
+        "bytes": 7662,
+        "sha256": "10f55504c4bac09058d24d8ca5ca7e88fe5a59ab0bd016e51148ea731740cf21"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "development-replay/posthoc_diagnostics.py",
+      "predecessor": {
+        "bytes": 12562,
+        "sha256": "fe02d831f8ce2a677aa9a30d34fc480dcf794cef18f0b80f173b5d997888f438"
+      },
+      "successor": {
+        "bytes": 12562,
+        "sha256": "fe02d831f8ce2a677aa9a30d34fc480dcf794cef18f0b80f173b5d997888f438"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "development-replay/posthoc_diagnostics_results.json",
+      "predecessor": {
+        "bytes": 31259,
+        "sha256": "aba00b0936908a163d16af5efaac284321eb9b12d15932bf18ff4a4f06237e0f"
+      },
+      "successor": {
+        "bytes": 31259,
+        "sha256": "aba00b0936908a163d16af5efaac284321eb9b12d15932bf18ff4a4f06237e0f"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "development-replay/replay.py",
+      "predecessor": {
+        "bytes": 5361,
+        "sha256": "8d23a0ce4dc67f01af9e9803ae6da2db0f452d101d0b6089a5fef2d7c994f32e"
+      },
+      "successor": {
+        "bytes": 5361,
+        "sha256": "8d23a0ce4dc67f01af9e9803ae6da2db0f452d101d0b6089a5fef2d7c994f32e"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "development-replay/replay_receipt.json",
+      "predecessor": {
+        "bytes": 2451,
+        "sha256": "50e3d239674a6a4ed255b78e85b3f3f44dd68ec7629083d038dddaa21427ec8b"
+      },
+      "successor": {
+        "bytes": 2451,
+        "sha256": "50e3d239674a6a4ed255b78e85b3f3f44dd68ec7629083d038dddaa21427ec8b"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "development-replay/REPORT.md",
+      "predecessor": {
+        "bytes": 6909,
+        "sha256": "fbf777dd59f50ac8222bb0874f970898184167e5cf868689e3bbfbab20304bb6"
+      },
+      "successor": {
+        "bytes": 6909,
+        "sha256": "fbf777dd59f50ac8222bb0874f970898184167e5cf868689e3bbfbab20304bb6"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "development-replay/six_tests.log",
+      "predecessor": {
+        "bytes": 637,
+        "sha256": "295d0cd87c8d493ad83b9d1ac67fed1faf0d969ac24004321604c14411d65d95"
+      },
+      "successor": {
+        "bytes": 637,
+        "sha256": "295d0cd87c8d493ad83b9d1ac67fed1faf0d969ac24004321604c14411d65d95"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "development-replay/three_peaks.log",
+      "predecessor": {
+        "bytes": 2096,
+        "sha256": "74478d48ffa8090dc2246d838aab9928f06a6a75c3e21a1c92196492571c9afd"
+      },
+      "successor": {
+        "bytes": 2096,
+        "sha256": "74478d48ffa8090dc2246d838aab9928f06a6a75c3e21a1c92196492571c9afd"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "provenance/historical/development-replay-REVIEW_MANIFEST.json",
+      "predecessor": {
+        "bytes": 1646,
+        "sha256": "a62f937caa71150b7076087ce4053bb895e3d6db20a20a279d703ec06350aa9f"
+      },
+      "successor": {
+        "bytes": 1646,
+        "sha256": "a62f937caa71150b7076087ce4053bb895e3d6db20a20a279d703ec06350aa9f"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "provenance/historical/v3_1-MANIFEST_SHA256.json",
+      "predecessor": {
+        "bytes": 2597,
+        "sha256": "ff1d58cbad68565088f0fb31393bc2498325bbcfb4de003f812eff158c4ccb72"
+      },
+      "successor": {
+        "bytes": 2597,
+        "sha256": "ff1d58cbad68565088f0fb31393bc2498325bbcfb4de003f812eff158c4ccb72"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "provenance/historical/V3_1_MANIFEST.json",
+      "predecessor": {
+        "bytes": 2909,
+        "sha256": "b90c89a0d88ca39ae502223b3d80cef9277abeaf6fde01673d6fc9faf08d2360"
+      },
+      "successor": {
+        "bytes": 2909,
+        "sha256": "b90c89a0d88ca39ae502223b3d80cef9277abeaf6fde01673d6fc9faf08d2360"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "provenance/INPUT_IDENTITIES_AND_CURATION.json",
+      "predecessor": {
+        "bytes": 31502,
+        "sha256": "ad6be2ef36b7fc75a5a48a5423ac3ed7f4d04f09900d88be9e80ed3db9d0af46"
+      },
+      "successor": {
+        "bytes": 31502,
+        "sha256": "ad6be2ef36b7fc75a5a48a5423ac3ed7f4d04f09900d88be9e80ed3db9d0af46"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "provenance/licenses/ASTROPY_LICENSE.rst",
+      "predecessor": {
+        "bytes": 1522,
+        "sha256": "dc0c37a9ade395ef3a9b909b7db944729bd0064d6ff1d65e76ecc5e9db055915"
+      },
+      "successor": {
+        "bytes": 1522,
+        "sha256": "dc0c37a9ade395ef3a9b909b7db944729bd0064d6ff1d65e76ecc5e9db055915"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "provenance/NATIVE_SOURCE_IDENTITIES.json",
+      "predecessor": {
+        "bytes": 2536,
+        "sha256": "5201faed64d99f544fcfda5cb740e1c65ce689efa605666d0aa2b6113c8893f9"
+      },
+      "successor": {
+        "bytes": 2536,
+        "sha256": "5201faed64d99f544fcfda5cb740e1c65ce689efa605666d0aa2b6113c8893f9"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "provenance/SOURCE_ATTRIBUTION_AND_TERMS.md",
+      "predecessor": {
+        "bytes": 5895,
+        "sha256": "fa046d6c4a4ac5a606ac7ac4d1bb6471e426645ffd2f472d792272df8842ff4e"
+      },
+      "successor": {
+        "bytes": 5895,
+        "sha256": "fa046d6c4a4ac5a606ac7ac4d1bb6471e426645ffd2f472d792272df8842ff4e"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "provenance/V3_1_REPORTING_CHANGELOG.md",
+      "predecessor": {
+        "bytes": 2438,
+        "sha256": "fd06deddb6ec6a80c1d230d92e2237950e99d4ec4128d4457ef9dae59d29d9fd"
+      },
+      "successor": {
+        "bytes": 2438,
+        "sha256": "fd06deddb6ec6a80c1d230d92e2237950e99d4ec4128d4457ef9dae59d29d9fd"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "README.md",
+      "predecessor": {
+        "bytes": 5744,
+        "sha256": "f1522c424fadbe0d2db8817a5ac00ba8a28046e9416b177ba60e281788d04eae"
+      },
+      "successor": {
+        "bytes": 6478,
+        "sha256": "660e88d530b91f87978b84eb0a40b8393d817f8b1aa330173361de1733469e07"
+      },
+      "action": "documentary_status_derivative"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "predecessor": {
+        "bytes": 7285,
+        "sha256": "a83cea6867d3a4e14702272fb300b01b917b04b4e63f1150033184f2ead33193"
+      },
+      "successor": {
+        "bytes": 8206,
+        "sha256": "708c2b7ecf1c1852794526e2e06f68bbebfe934cec5608b5cdb7487ad86428f8"
+      },
+      "action": "documentary_status_derivative"
+    },
+    {
+      "path": "requirements-analysis.txt",
+      "predecessor": {
+        "bytes": 176,
+        "sha256": "6ef68928aad4c610cb032f27f4a7d6dd5116ffb1ac223719a46b439fe7a66358"
+      },
+      "successor": {
+        "bytes": 176,
+        "sha256": "6ef68928aad4c610cb032f27f4a7d6dd5116ffb1ac223719a46b439fe7a66358"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "requirements-prototype.txt",
+      "predecessor": {
+        "bytes": 156,
+        "sha256": "164a10fe027e1ae8c89f4cf52b1e6f000304599d6538cecd73e3b157db17b43c"
+      },
+      "successor": {
+        "bytes": 156,
+        "sha256": "164a10fe027e1ae8c89f4cf52b1e6f000304599d6538cecd73e3b157db17b43c"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "source/planet_hunt_tess_development_2026-10-08/CODA_HANDOFF.md",
+      "predecessor": {
+        "bytes": 2209,
+        "sha256": "a2e272053be01cda39a03eab97a72c58cf2064d4eb9f066bef6a4044bbbec3cc"
+      },
+      "successor": {
+        "bytes": 2209,
+        "sha256": "a2e272053be01cda39a03eab97a72c58cf2064d4eb9f066bef6a4044bbbec3cc"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "source/planet_hunt_tess_development_2026-10-08/data/catalog_comparison.csv",
+      "predecessor": {
+        "bytes": 214,
+        "sha256": "ee70118bdb5ef881ab52e0792802a83a9afd4c755cf8e87ecea2667ce7149534"
+      },
+      "successor": {
+        "bytes": 214,
+        "sha256": "ee70118bdb5ef881ab52e0792802a83a9afd4c755cf8e87ecea2667ce7149534"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "source/planet_hunt_tess_development_2026-10-08/data/export.b64",
+      "predecessor": {
+        "bytes": 10283,
+        "sha256": "201a162d979755c779de0b32fd6732e5f2f316003f57119f4c00122b9c579881"
+      },
+      "successor": {
+        "bytes": 10283,
+        "sha256": "201a162d979755c779de0b32fd6732e5f2f316003f57119f4c00122b9c579881"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "source/planet_hunt_tess_development_2026-10-08/data/retrieval.wl",
+      "predecessor": {
+        "bytes": 1018,
+        "sha256": "1ff2aadd10c6972b4f5b0b28f1566fd19bc10f22efeb919a8812089440a507b6"
+      },
+      "successor": {
+        "bytes": 1018,
+        "sha256": "1ff2aadd10c6972b4f5b0b28f1566fd19bc10f22efeb919a8812089440a507b6"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "source/planet_hunt_tess_development_2026-10-08/data/toi270_s4_binned.csv",
+      "predecessor": {
+        "bytes": 19928,
+        "sha256": "7e2269301ce4b08fe13d0c57b34efcb54bd4a5fc293a23a362a648b39ec4d0e1"
+      },
+      "successor": {
+        "bytes": 19928,
+        "sha256": "7e2269301ce4b08fe13d0c57b34efcb54bd4a5fc293a23a362a648b39ec4d0e1"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "source/planet_hunt_tess_development_2026-10-08/data/toi270_s4_binned.csv.gz",
+      "predecessor": {
+        "bytes": 7708,
+        "sha256": "ea6d4c0ceb83df5683ab100b93f32e95c5b9cf1fdcaaeb52c39130ca4664e6f6"
+      },
+      "successor": {
+        "bytes": 7708,
+        "sha256": "ea6d4c0ceb83df5683ab100b93f32e95c5b9cf1fdcaaeb52c39130ca4664e6f6"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "source/planet_hunt_tess_development_2026-10-08/environment.json",
+      "predecessor": {
+        "bytes": 214,
+        "sha256": "690fc143b4ec4a16d0159ec72fee975b0bb659d14af8e9fb707d5fca915be414"
+      },
+      "successor": {
+        "bytes": 214,
+        "sha256": "690fc143b4ec4a16d0159ec72fee975b0bb659d14af8e9fb707d5fca915be414"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "source/planet_hunt_tess_development_2026-10-08/MANIFEST.json",
+      "predecessor": {
+        "bytes": 2777,
+        "sha256": "e33f7f07ebbb5704a9a483236957bef6e28a1c5516330bdcd4be83d7420442de"
+      },
+      "successor": {
+        "bytes": 2777,
+        "sha256": "e33f7f07ebbb5704a9a483236957bef6e28a1c5516330bdcd4be83d7420442de"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "source/planet_hunt_tess_development_2026-10-08/PLAN_BEFORE_FLUX.md",
+      "predecessor": {
+        "bytes": 2130,
+        "sha256": "849ea2d97731724d95c84e6c11b8363b3cea6b49c03e6b99111b6c5fc48dd8ce"
+      },
+      "successor": {
+        "bytes": 2130,
+        "sha256": "849ea2d97731724d95c84e6c11b8363b3cea6b49c03e6b99111b6c5fc48dd8ce"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "source/planet_hunt_tess_development_2026-10-08/README.md",
+      "predecessor": {
+        "bytes": 7307,
+        "sha256": "f782a6189e9d750b5ab3d756c384fe71249824c576ee3695f1154b205fa33d0c"
+      },
+      "successor": {
+        "bytes": 7307,
+        "sha256": "f782a6189e9d750b5ab3d756c384fe71249824c576ee3695f1154b205fa33d0c"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "source/planet_hunt_tess_development_2026-10-08/results/detrended.csv",
+      "predecessor": {
+        "bytes": 121649,
+        "sha256": "b483afe405498f5a321d8e360d9098557c81c3defa618076f0d0dfed69eed867"
+      },
+      "successor": {
+        "bytes": 121649,
+        "sha256": "b483afe405498f5a321d8e360d9098557c81c3defa618076f0d0dfed69eed867"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "source/planet_hunt_tess_development_2026-10-08/results/implementation_tests.txt",
+      "predecessor": {
+        "bytes": 627,
+        "sha256": "bcc4daa57bc8b5fc69e0df398dccc155b15b466cd0ba550211d8381720a6f08f"
+      },
+      "successor": {
+        "bytes": 627,
+        "sha256": "bcc4daa57bc8b5fc69e0df398dccc155b15b466cd0ba550211d8381720a6f08f"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "source/planet_hunt_tess_development_2026-10-08/results/known_planet_recovery.png",
+      "predecessor": {
+        "bytes": 122460,
+        "sha256": "2e0041de7d0a93df0ab1f7360a5e57b58699036406a15d803eee4c51686de37a"
+      },
+      "successor": {
+        "bytes": 122460,
+        "sha256": "2e0041de7d0a93df0ab1f7360a5e57b58699036406a15d803eee4c51686de37a"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "source/planet_hunt_tess_development_2026-10-08/results/periodogram_1.csv",
+      "predecessor": {
+        "bytes": 900052,
+        "sha256": "db0e525bbd91064341f9b029e5669c4bad1673a1db579843bcd859720984dd54"
+      },
+      "successor": {
+        "bytes": 900052,
+        "sha256": "db0e525bbd91064341f9b029e5669c4bad1673a1db579843bcd859720984dd54"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "source/planet_hunt_tess_development_2026-10-08/results/periodogram_2.csv",
+      "predecessor": {
+        "bytes": 900052,
+        "sha256": "16bbb1febbdce1adb955bb51de9e65a64afcd8b0489e0d5958f0a7e126ebb1ee"
+      },
+      "successor": {
+        "bytes": 900052,
+        "sha256": "16bbb1febbdce1adb955bb51de9e65a64afcd8b0489e0d5958f0a7e126ebb1ee"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "source/planet_hunt_tess_development_2026-10-08/results/periodogram_3.csv",
+      "predecessor": {
+        "bytes": 900052,
+        "sha256": "8e8364d753a578e8103f9f2d5fc12e8d67fcc27e4f92192679da9bdef5375b83"
+      },
+      "successor": {
+        "bytes": 900052,
+        "sha256": "8e8364d753a578e8103f9f2d5fc12e8d67fcc27e4f92192679da9bdef5375b83"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "source/planet_hunt_tess_development_2026-10-08/results/search_results.json",
+      "predecessor": {
+        "bytes": 2010,
+        "sha256": "5674ac9a86790730d7450a3ec7717d03dc7b162f8a17eb1ed9f9ce46d27bf188"
+      },
+      "successor": {
+        "bytes": 2010,
+        "sha256": "5674ac9a86790730d7450a3ec7717d03dc7b162f8a17eb1ed9f9ce46d27bf188"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "source/planet_hunt_tess_development_2026-10-08/search.py",
+      "predecessor": {
+        "bytes": 5619,
+        "sha256": "48d62036f02e9ba8e26262f19d85df8850f9231274f43420ca4538cdc8056755"
+      },
+      "successor": {
+        "bytes": 5619,
+        "sha256": "48d62036f02e9ba8e26262f19d85df8850f9231274f43420ca4538cdc8056755"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "source/planet_hunt_tess_development_2026-10-08/test_search.py",
+      "predecessor": {
+        "bytes": 2116,
+        "sha256": "a6f1069e35f7bfd0281550f5aaa338526d16a9edd0bcaaf1af466698e76d3953"
+      },
+      "successor": {
+        "bytes": 2116,
+        "sha256": "a6f1069e35f7bfd0281550f5aaa338526d16a9edd0bcaaf1af466698e76d3953"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "source/planet_hunt_tess_development_2026-10-08/verify.py",
+      "predecessor": {
+        "bytes": 635,
+        "sha256": "1a447450ac433ffe849d3929567bfd06692aec5bda77dd3a72e5ed29f3caf252"
+      },
+      "successor": {
+        "bytes": 635,
+        "sha256": "1a447450ac433ffe849d3929567bfd06692aec5bda77dd3a72e5ed29f3caf252"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "standard-bls/configuration-before-run.json",
+      "predecessor": {
+        "bytes": 938,
+        "sha256": "31261f02b1b4e81134b45c76054a69ac06c5231268ab9d00e8d9a7b924552e4b"
+      },
+      "successor": {
+        "bytes": 938,
+        "sha256": "31261f02b1b4e81134b45c76054a69ac06c5231268ab9d00e8d9a7b924552e4b"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "standard-bls/crosscheck-results.json",
+      "predecessor": {
+        "bytes": 31974,
+        "sha256": "12470849317ddb429f1e1c9dde1ab26d6f891f2a5df56081a98b5465dbab0d7a"
+      },
+      "successor": {
+        "bytes": 31974,
+        "sha256": "12470849317ddb429f1e1c9dde1ab26d6f891f2a5df56081a98b5465dbab0d7a"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "standard-bls/data/toi270-s0004.fits",
+      "predecessor": {
+        "bytes": 1897920,
+        "sha256": "09f1e69d89dce001e447fbc509b9453f033b2428d183add334b43b93dbc8c93b"
+      },
+      "successor": {
+        "bytes": 1897920,
+        "sha256": "09f1e69d89dce001e447fbc509b9453f033b2428d183add334b43b93dbc8c93b"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "standard-bls/data/toi270-s0004.fits.receipt.json",
+      "predecessor": {
+        "bytes": 512,
+        "sha256": "34a79cdeedefe646880b27eff9946e889f6cab9a00e492d24d7ba5641ad5c9e7"
+      },
+      "successor": {
+        "bytes": 512,
+        "sha256": "34a79cdeedefe646880b27eff9946e889f6cab9a00e492d24d7ba5641ad5c9e7"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "standard-bls/data/toi270-s0005.fits",
+      "predecessor": {
+        "bytes": 1923840,
+        "sha256": "739250df0d1ccda4304e01213f1f0f53c24603e3e223ff646157b6721665a9d5"
+      },
+      "successor": {
+        "bytes": 1923840,
+        "sha256": "739250df0d1ccda4304e01213f1f0f53c24603e3e223ff646157b6721665a9d5"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "standard-bls/data/toi270-s0005.fits.receipt.json",
+      "predecessor": {
+        "bytes": 512,
+        "sha256": "572589a40dfa5ebd8387cdd5a45488eaa050d6adfac93c1b2b4c5d96c6f5b727"
+      },
+      "successor": {
+        "bytes": 512,
+        "sha256": "572589a40dfa5ebd8387cdd5a45488eaa050d6adfac93c1b2b4c5d96c6f5b727"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "standard-bls/run_crosscheck.py",
+      "predecessor": {
+        "bytes": 7119,
+        "sha256": "9fd8943d52930c8e4285a548d16664a54c6f8c426e24999e497a9a46eaa87def"
+      },
+      "successor": {
+        "bytes": 7119,
+        "sha256": "9fd8943d52930c8e4285a548d16664a54c6f8c426e24999e497a9a46eaa87def"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "tess-development-v3_1/IMPLEMENTATION_SPEC.md",
+      "predecessor": {
+        "bytes": 12548,
+        "sha256": "d133263c01f1b3f4bcd8c58683c4a9d7604608a96275997b0e3318896a0116d4"
+      },
+      "successor": {
+        "bytes": 12548,
+        "sha256": "d133263c01f1b3f4bcd8c58683c4a9d7604608a96275997b0e3318896a0116d4"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "tess-development-v3_1/METADATA_COMPLETENESS_SPEC.md",
+      "predecessor": {
+        "bytes": 22181,
+        "sha256": "e12694943a9aaa6d7546e68d86163976c8340dc32126335e93642e7a188e1a40"
+      },
+      "successor": {
+        "bytes": 22181,
+        "sha256": "e12694943a9aaa6d7546e68d86163976c8340dc32126335e93642e7a188e1a40"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "tess-development-v3_1/metadata_contract.py",
+      "predecessor": {
+        "bytes": 21817,
+        "sha256": "b6da38de7987a6783a003925e0c7f07370309ea29d5a5478afca9356753214ad"
+      },
+      "successor": {
+        "bytes": 21817,
+        "sha256": "b6da38de7987a6783a003925e0c7f07370309ea29d5a5478afca9356753214ad"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "tess-development-v3_1/README.md",
+      "predecessor": {
+        "bytes": 11463,
+        "sha256": "5f474869ebb110f87a791a1f87ecff35595b2d3b61c8c316172c51b750252715"
+      },
+      "successor": {
+        "bytes": 11463,
+        "sha256": "5f474869ebb110f87a791a1f87ecff35595b2d3b61c8c316172c51b750252715"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "tess-development-v3_1/run_offline_checks.py",
+      "predecessor": {
+        "bytes": 3887,
+        "sha256": "e92419e95be37e9f2503a1491a355691a66019c2b7d50ba10137dcb92b9819e8"
+      },
+      "successor": {
+        "bytes": 3887,
+        "sha256": "e92419e95be37e9f2503a1491a355691a66019c2b7d50ba10137dcb92b9819e8"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "tess-development-v3_1/synthetic_driver.py",
+      "predecessor": {
+        "bytes": 3299,
+        "sha256": "ee0e54e97a2c388fc60c7f35115f3928e21adcd981b0900999cee065e1ce9da1"
+      },
+      "successor": {
+        "bytes": 3299,
+        "sha256": "ee0e54e97a2c388fc60c7f35115f3928e21adcd981b0900999cee065e1ce9da1"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "tess-development-v3_1/synthetic_output/discovery_freeze.json",
+      "predecessor": {
+        "bytes": 85195,
+        "sha256": "c978b901025857d894737b7f2fb251dc86c55eb840811e9c2220de1dfcdbe668"
+      },
+      "successor": {
+        "bytes": 85195,
+        "sha256": "c978b901025857d894737b7f2fb251dc86c55eb840811e9c2220de1dfcdbe668"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "tess-development-v3_1/synthetic_output/synthetic_driver_result.json",
+      "predecessor": {
+        "bytes": 6707,
+        "sha256": "392c976a64ab24ef08265d992b1421e85208a66465a5a559889d9a0eaa315047"
+      },
+      "successor": {
+        "bytes": 6707,
+        "sha256": "392c976a64ab24ef08265d992b1421e85208a66465a5a559889d9a0eaa315047"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "tess-development-v3_1/tess_components.py",
+      "predecessor": {
+        "bytes": 25983,
+        "sha256": "1e01c9ba8b358228aed0581f1731f99dc1595402037f4bbf9f7cc0f8c6832826"
+      },
+      "successor": {
+        "bytes": 25983,
+        "sha256": "1e01c9ba8b358228aed0581f1731f99dc1595402037f4bbf9f7cc0f8c6832826"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "tess-development-v3_1/test_metadata_contract.py",
+      "predecessor": {
+        "bytes": 18041,
+        "sha256": "9463277e448875963892c40655d2ce284e8dca0375c968b3a1108ca86167101d"
+      },
+      "successor": {
+        "bytes": 18041,
+        "sha256": "9463277e448875963892c40655d2ce284e8dca0375c968b3a1108ca86167101d"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "tess-development-v3_1/test_tess_components.py",
+      "predecessor": {
+        "bytes": 15996,
+        "sha256": "ae96d40a17bf6fb6de580604bd56a9f808fa106d594d53c96da76ff4dd786712"
+      },
+      "successor": {
+        "bytes": 15996,
+        "sha256": "ae96d40a17bf6fb6de580604bd56a9f808fa106d594d53c96da76ff4dd786712"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "tess-development-v3_1/unittest.log",
+      "predecessor": {
+        "bytes": 6801,
+        "sha256": "bced5da77e6f55717c97256b265d462b3073378f578fc1d3feae3bb86298ea4a"
+      },
+      "successor": {
+        "bytes": 6801,
+        "sha256": "bced5da77e6f55717c97256b265d462b3073378f578fc1d3feae3bb86298ea4a"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "tess-development-v3_1/VERIFICATION_RECEIPT.json",
+      "predecessor": {
+        "bytes": 7250,
+        "sha256": "d0518d8fcd51bc0d9158cfbbf883cd4846d0e32a91b8cb1dfde32f568a4ac7a8"
+      },
+      "successor": {
+        "bytes": 7250,
+        "sha256": "d0518d8fcd51bc0d9158cfbbf883cd4846d0e32a91b8cb1dfde32f568a4ac7a8"
+      },
+      "action": "exact_copy"
+    },
+    {
+      "path": "verify_manifest.py",
+      "predecessor": {
+        "bytes": 2147,
+        "sha256": "7779e5cbc1cf261b1d3f5725e413fd81a4abdd8ebc47efdf168f5a45e65899c2"
+      },
+      "successor": {
+        "bytes": 2147,
+        "sha256": "7779e5cbc1cf261b1d3f5725e413fd81a4abdd8ebc47efdf168f5a45e65899c2"
+      },
+      "action": "exact_copy"
+    }
+  ],
+  "added_files": [
+    {
+      "path": "CLAIM_TO_EVIDENCE.json",
+      "bytes": 9732,
+      "sha256": "2adbdae542f2452be6aa4ef73e3d85dac222d3b97c26b96456f1420b119d9da9"
+    },
+    {
+      "path": "CLAIM_TO_EVIDENCE.md",
+      "bytes": 4182,
+      "sha256": "2ec41f17408a40b92fbd3696f5ae34748203f7e468d5956bca3f4538baa4d3c5"
+    },
+    {
+      "path": "provenance/T5_REVIEW_SCOPE.json",
+      "bytes": 1712,
+      "sha256": "240c3bc5d17d1180c06f29de5c6de2168a23c69a3698fca6086d83342025a153"
+    },
+    {
+      "path": "replay/TESS_REPLAY_COMPARISON.json",
+      "bytes": 21512,
+      "sha256": "75b6c197ec0af4716e23d8ac86a618a2f23bb6ef5295a42c0bf2fe123e02cbe3"
+    },
+    {
+      "path": "replay/TESS_REPLAY_STATUS.md",
+      "bytes": 5105,
+      "sha256": "94033b281dd833f293140558211f8f5131164f1c2a4697fc570219c1174c5c19"
+    }
+  ],
+  "addition_derivations": {
+    "replay/TESS_REPLAY_STATUS.md": "Exact copy of the public-safe Oct15 replay status.",
+    "replay/TESS_REPLAY_COMPARISON.json": "Whitelist-derived existing receipt; private path slots normalized, local cache/interpreter paths omitted; scientific values and all recorded check outcomes preserved.",
+    "provenance/T5_REVIEW_SCOPE.json": "Narrow source-hashed summary of two saved October8 reviewer reports. No private conversation body or reviewer script supplied.",
+    "CLAIM_TO_EVIDENCE.md": "New nonexhaustive central-claim navigation; actual payloads and omissions explicit.",
+    "CLAIM_TO_EVIDENCE.json": "Machine-readable version with exact mapped file identities."
+  },
+  "source_report_identities": [
+    {
+      "label": "REPLAY_RECEIPT.json",
+      "bytes": 20949,
+      "sha256": "7173848565e77e9806d47155b7a50d83c14b9789dae7a190dda96f3c1d429585",
+      "supplied": false
+    },
+    {
+      "label": "TESS_REPLAY_STATUS.md",
+      "bytes": 5105,
+      "sha256": "94033b281dd833f293140558211f8f5131164f1c2a4697fc570219c1174c5c19",
+      "supplied": false
+    },
+    {
+      "label": "LILITARI_V3_ASSESSMENT.md",
+      "bytes": 7124,
+      "sha256": "c1f6d4cdab629880506eb1e635bd546441c85b978c2e9e869bfa4f764b90e739",
+      "supplied": false
+    },
+    {
+      "label": "LILITARI_V3_1_CLOSURE.md",
+      "bytes": 2865,
+      "sha256": "bea7caf088c646b3ad43b55669033031be2c4eb7d10e6fbd02f3491dedaedc9b",
+      "supplied": false
+    },
+    {
+      "label": "REVIEW_MEMO.md",
+      "bytes": 20514,
+      "sha256": "ea703d08762c7399221e3650a9752199c58d7ab90731304ab317e85c5b0b4aa1",
+      "supplied": false
+    },
+    {
+      "label": "PREPARATION_ACTIONS.json",
+      "bytes": 2535,
+      "sha256": "83a5805c7c7f288bae1d282163658bad0f7a8874de9396e45b1162ca5f52de77",
+      "supplied": false
+    }
+  ],
+  "original_curation_record": "provenance/INPUT_IDENTITIES_AND_CURATION.json",
+  "limits": "The original curation ledger and historical manifests retain their original meaning. The current manifest covers this successor, excludes only itself, and also binds this provenance file. Private receipts and reviewer records remain outside the candidate."
+}

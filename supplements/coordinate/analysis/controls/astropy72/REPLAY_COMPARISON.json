@@ -1,0 +1,187 @@
+{
+  "record_kind": "curated existing execution record; not an additional execution",
+  "original_private_receipt": {
+    "bytes": 9272,
+    "sha256": "26107613e50f5402e885e16096934141395a4074839f5cb9a2f1586981910217"
+  },
+  "status": "passed",
+  "completed_utc": "2026-10-15T17:28:27.895192+00:00",
+  "command": {
+    "script": "astropy_crosscheck_public.py",
+    "script_identity": {
+      "bytes": 4284,
+      "sha256": "21d4f6e4318b05d218f5edf0ae743f12ee7850471aeface56a9aa62da604aa66"
+    },
+    "execution_flags": [
+      "-I",
+      "-B"
+    ],
+    "invocation_scope": "Executed through inspected Python audit wrapper in isolated working copy.",
+    "wrapper_identity": {
+      "bytes": 2858,
+      "sha256": "b11c03fec05d0a11d8e848a08f9878feae36000a51ddf91b04af7018c2adc2ee"
+    },
+    "started_utc": "2026-10-15T17:28:18.235941+00:00",
+    "priority": "BELOW_NORMAL_PRIORITY_CLASS",
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_utc": "2026-10-15T17:28:19.146258+00:00",
+    "wall_seconds": 0.910415299993474,
+    "stdout": {
+      "bytes": 1000,
+      "sha256": "1afac17ea5a2a40e502c220e64418d50bdde251e85cc88f1242b9fda7fb007a4"
+    },
+    "stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "environment_preflight": {
+    "started_utc": "2026-10-15T17:28:16.069433+00:00",
+    "priority": "BELOW_NORMAL_PRIORITY_CLASS",
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_utc": "2026-10-15T17:28:18.225642+00:00",
+    "wall_seconds": 2.15690280002309,
+    "stdout": {
+      "bytes": 865,
+      "sha256": "f92547a032e6de1c2c402d00f28613c0cb2eefe17b5deb6c98d26db361b24383"
+    },
+    "stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "environment": {
+    "python": "3.13.15",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "astropy": "8.0.1",
+    "thread_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "iers_auto_download": false,
+    "imports_succeeded": [
+      "numpy",
+      "scipy.stats.rayleigh",
+      "astropy.coordinates",
+      "astropy.io.fits"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "inputs/gaia_dr3_snapshot_20260925.csv",
+      "bytes": 1759,
+      "sha256": "ebc0f022f36d65525a96082be2c9b7d96302e17f24a02276af50a5fc70dd5c8b"
+    },
+    {
+      "path": "source_tables.json",
+      "bytes": 22117,
+      "sha256": "62a9fe9430be1d0b9ff0e85549ae002a7c565be1239f3994dc7ddf2b41490396"
+    },
+    {
+      "path": "candidate_radius_models.csv",
+      "bytes": 10895,
+      "sha256": "846bffa0d5a7f084f22fb2c9c74b0a04201a522b89ff3ea32b22ee710a6f2eab"
+    }
+  ],
+  "policy": {
+    "frozen_utc": "2026-10-15T17:28:07.016517+00:00",
+    "science_commands_permitted": 1,
+    "rerun_permitted": false,
+    "schema_and_order": "Exact CSV field names, row order, candidate/band/model/epoch strings",
+    "expected_rows": 72,
+    "expected_candidate_band_pairs": 36,
+    "expected_rows_per_model": 36,
+    "required_csv_sha256": "25b8600736c555a38a6101ff6a422bd516341a42ba48beb61cd4d03684dcdd89",
+    "csv_byte_identity_required": true,
+    "relative_tolerance": 1e-09,
+    "absolute_tolerance_arcsec": 1e-10,
+    "tiny_values": "For nonzero reference magnitude below 1e-8, relative tolerance only; exact zero uses absolute tolerance.",
+    "scientific_summary": "Exact fields, schema, counts and strings; numeric maxima use the unchanged relative/absolute arcsec criteria. Exact numeric equality reported separately.",
+    "runtime_fields_excluded_from_scientific_comparison": [
+      "astropy",
+      "numpy",
+      "python",
+      "executable",
+      "platform"
+    ],
+    "internal_assertions": "Unchanged: 72 rows, 36 unique pairs, max difference < 1e-4 arcsec.",
+    "guards": "Existing inspected Python audit hook; no socket except local gethostname, subprocess or outside-QA writes. IERS downloads disabled; library threads 1; below-normal child priority; no GPU.",
+    "scope": "One provenance-only derivative of historical arithmetic, not new measurements, original historical author code, or a new physical validation.",
+    "stop": "Any discrepancy stays failed: no numerical retry, source tuning, or tolerance relaxation."
+  },
+  "policy_identity": {
+    "bytes": 1534,
+    "sha256": "9e6894c4fdbd1c3791f3fb44c6a56edfd70e833768b1d363a4a23c3a15fc6748"
+  },
+  "guards": {
+    "environment": {
+      "blocked_events": [],
+      "scope": "Python audit events; inspected code contains no native network/GPU path. Not an OS firewall or packet capture."
+    },
+    "astropy_crosscheck_public": {
+      "blocked_events": [],
+      "scope": "Python audit events; inspected code contains no native network/GPU path. Not an OS firewall or packet capture."
+    }
+  },
+  "rows": 72,
+  "candidate_band_pairs": 36,
+  "csv_reference": {
+    "origin": "retained historical output",
+    "in_package_path": "astropy_crosscheck.csv",
+    "bytes": 6491,
+    "sha256": "25b8600736c555a38a6101ff6a422bd516341a42ba48beb61cd4d03684dcdd89"
+  },
+  "csv_actual": {
+    "path": "astropy_crosscheck.csv",
+    "bytes": 6491,
+    "sha256": "25b8600736c555a38a6101ff6a422bd516341a42ba48beb61cd4d03684dcdd89"
+  },
+  "csv_byte_identical": true,
+  "scientific_summary_exact": true,
+  "scientific_summary": {
+    "gaia_snapshot_date": "2026-09-25",
+    "rows": 72,
+    "candidates_bands": 36,
+    "max_absolute_difference_arcsec": 8.49259882240716e-06,
+    "max_absolute_difference_by_model_arcsec": {
+      "correct_2016": 5.592861009873218e-07,
+      "offset_minus16": 8.49259882240716e-06
+    },
+    "accepted_tolerance_arcsec": 0.0001,
+    "method": "SkyCoord parses sexagesimal strings; distance from parallax; radial velocity assumed zero; apply_space_motion from Gaia reference epoch; spherical separation. No stdlib audit functions imported.",
+    "limitations": "Checks propagation arithmetic under zero radial velocity; not new observations, fresh Gaia retrieval, or original-code recovery."
+  },
+  "reference_raw_summary_identity": {
+    "bytes": 998,
+    "sha256": "97b6becd3f6e074587aa25e75082a70bc764ff29a9d7c7dc8b22a0915ee653ff"
+  },
+  "actual_raw_summary_identity": {
+    "bytes": 998,
+    "sha256": "7ec4681f48ef2a7ba02ecd7240e70d78014fa8dbf4faca8a4bde4270675275a3"
+  },
+  "supplied_sanitized_summary": {
+    "path": "astropy_crosscheck_summary.json",
+    "bytes": 875,
+    "sha256": "3fdf20db215f7a808cb97734d45ce8c32f10800cd0d030852c411b35138f6a60"
+  },
+  "sanitization": "Raw summary omits executable field only; JSON is serialized for this curated artifact. Numerical and other fields retained unchanged. Private command/interpreter/cache paths are omitted from this derived execution record; raw receipts remain private.",
+  "preservation": {
+    "frozen_stage_unchanged": true,
+    "canonical_sources_and_sent_packet_unchanged": true,
+    "working_sources_and_inputs_unchanged": true
+  },
+  "failures": [],
+  "limits": [
+    "One numerical command, no repeat or retuning.",
+    "Application guard, not an OS firewall or memory/CPU quota.",
+    "No source HTML acquired, copied or revalidated.",
+    "No new measurements or physical validation.",
+    "The separate D1 I-shift exception is unaffected."
+  ]
+}

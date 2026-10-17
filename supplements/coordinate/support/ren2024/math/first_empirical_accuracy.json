@@ -1,0 +1,8 @@
+{
+  "SNR_definition": "(Fpeak-0.25)/Rms",
+  "SNR": 315.1,
+  "empirical90percent_major_arcsec": 0.34935052364328784,
+  "empirical90percent_minor_arcsec": 0.29564519200253886,
+  "fitted_PA_deg_east_of_north": 178.6,
+  "Gaussian_sigma_or_joint90percent_contour_conversion": "not_assumed"
+}

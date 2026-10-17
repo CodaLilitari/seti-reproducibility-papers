@@ -1,0 +1,57 @@
+[
+  {
+    "path": "REPORT.md",
+    "bytes": 6909,
+    "sha256": "fbf777dd59f50ac8222bb0874f970898184167e5cf868689e3bbfbab20304bb6"
+  },
+  {
+    "path": "POSTHOC_DIAGNOSTICS.md",
+    "bytes": 7662,
+    "sha256": "10f55504c4bac09058d24d8ca5ca7e88fe5a59ab0bd016e51148ea731740cf21"
+  },
+  {
+    "path": "replay.py",
+    "bytes": 5361,
+    "sha256": "8d23a0ce4dc67f01af9e9803ae6da2db0f452d101d0b6089a5fef2d7c994f32e"
+  },
+  {
+    "path": "replay_receipt.json",
+    "bytes": 2674,
+    "sha256": "64dbf708f897304c348255fd275ff68785f2919ad41ce776f6521417ce0c9e8c"
+  },
+  {
+    "path": "manifest_verification.log",
+    "bytes": 62,
+    "sha256": "328a695b3cb349208ed216d85169971f7249508245d8e89245cf48b3250c2890"
+  },
+  {
+    "path": "six_tests.log",
+    "bytes": 637,
+    "sha256": "295d0cd87c8d493ad83b9d1ac67fed1faf0d969ac24004321604c14411d65d95"
+  },
+  {
+    "path": "three_peaks.log",
+    "bytes": 2096,
+    "sha256": "74478d48ffa8090dc2246d838aab9928f06a6a75c3e21a1c92196492571c9afd"
+  },
+  {
+    "path": "counterexamples.py",
+    "bytes": 9215,
+    "sha256": "72e817379406be24ce05c511afc86df8d4c888bd56ab32c0a900645d384f0049"
+  },
+  {
+    "path": "counterexamples_receipt.json",
+    "bytes": 4768,
+    "sha256": "a394c22ec6b1d3e11282ec8e3727c607ed80d225172ec6d496b35d8ce47faa07"
+  },
+  {
+    "path": "posthoc_diagnostics.py",
+    "bytes": 12562,
+    "sha256": "fe02d831f8ce2a677aa9a30d34fc480dcf794cef18f0b80f173b5d997888f438"
+  },
+  {
+    "path": "posthoc_diagnostics_results.json",
+    "bytes": 31259,
+    "sha256": "aba00b0936908a163d16af5efaac284321eb9b12d15932bf18ff4a4f06237e0f"
+  }
+]

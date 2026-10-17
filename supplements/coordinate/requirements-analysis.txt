@@ -1,0 +1,6 @@
+# Direct numerical dependencies from preserved historical execution records.
+# No dependency installation or resolution was performed during curation.
+# No license is assigned by this file.
+numpy==2.5.3
+scipy==1.18.1
+astropy==8.0.1

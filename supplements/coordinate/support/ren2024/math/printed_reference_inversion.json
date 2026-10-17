@@ -1,0 +1,37 @@
+[
+  {
+    "candidate": "A",
+    "survey": "RACS-DR1",
+    "implied_star_to_gaia_J2000_arcsec": 0.00018462132064627095
+  },
+  {
+    "candidate": "B",
+    "survey": "RACS-DR1",
+    "implied_star_to_gaia_J2000_arcsec": 0.0005951946359428156
+  },
+  {
+    "candidate": "G",
+    "survey": "VLASS",
+    "implied_star_to_gaia_J2000_arcsec": 0.00018722583105547014
+  },
+  {
+    "candidate": "G",
+    "survey": "FIRST",
+    "implied_star_to_gaia_J2000_arcsec": 0.0001872272619525345
+  },
+  {
+    "candidate": "G",
+    "survey": "NVSS",
+    "implied_star_to_gaia_J2000_arcsec": 0.00018735062077006364
+  },
+  {
+    "candidate": "G",
+    "survey": "RACS-DR1",
+    "implied_star_to_gaia_J2000_arcsec": 0.00018724888455745164
+  },
+  {
+    "candidate": "G",
+    "survey": "TGSS",
+    "implied_star_to_gaia_J2000_arcsec": 0.9998140501653456
+  }
+]

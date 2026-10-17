@@ -1,0 +1,63 @@
+#
+#   VizieR Astronomical Server vizier.cds.unistra.fr
+#    Date: 2026-10-11T08:11:25 [V7.6.1]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-10-11T08:11:25	  Query execution date
+#INFO	request=https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=VIII%2F65%2Fnvss&-c=353.88516033694015%20-0.07361180991359333&-c.rs=10&-out.all&-out.max=20	  Full request URL
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.6.1	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+#INFO	-c=353.885160-00.073612,rs=10.	
+#Constraint -out.max=20
+
+#RESOURCE=yCat_8065
+#Name: VIII/65
+#Title: 1.4GHz NRAO VLA Sky Survey (NVSS) (Condon+ 1998)
+#INFO	ivoid=ivo://cds.vizier/viii/65	    IVOID of underlying data collection
+#INFO	data_ivoid=ivo://cds.vizier/viii/65	    IVOID of underlying data collection
+#INFO	creator=Condon J.J.	    First author or institution
+#INFO	cites=bibcode:1998AJ....115.1693C	    Article or Data origin sources
+#INFO	journal=AJ	    Journal name
+#INFO	original_date=1998	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/VIII/65	    Dataset landing page
+#INFO	publication_date=2007-12-13	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Table	VIII_65_nvss:
+#Name: VIII/65/nvss
+#Title: The NVSS Catalog
+#Column	_r	(F5.2)	Distance from center (23 35 32.44-00 04 25.0)[FK5/J2000]	[ucd=pos.angDistance]
+#Column	recno	(I8)	Record number assigned by the VizieR team. Should Not be used for identification.	[ucd=meta.record]
+#Column	Field	(a8)	Name of the original survey image field from which the component was derived.	[ucd=obs.field]
+#Column	Xpos	(F7.2)	X position (RA direction) of the radio source	[ucd=pos.cartesian.x;instr.det]
+#Column	Ypos	(F7.2)	Y position (Dec direction) of the radio source	[ucd=pos.cartesian.y;instr.det]
+#Column	NVSS	(a14)	Source name (1)	[ucd=meta.id;meta.main]
+#Column	RAJ2000	(A11)	Right Ascension J2000 (2)	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(A11)	Declination J2000 (2)	[ucd=pos.eq.dec;meta.main]
+#Column	e_RAJ2000	(F5.2)	Mean error on RA	[ucd=stat.error;pos.eq.ra]
+#Column	e_DEJ2000	(F4.1)	Mean error on Dec	[ucd=stat.error;pos.eq.dec]
+#Column	S1.4	(F8.1)	Integrated 1.4GHz flux density of radio source	[ucd=phot.flux.density;em.radio.750-1500MHz]
+#Column	e_S1.4	(F7.1)	Mean error on S1.4	[ucd=stat.error]
+#Column	l_MajAxis	(A1)	Limit flag on MajAxis	[ucd=meta.code.error;phys.angSize]
+#Column	MajAxis	(F5.1)	Fitted (deconvolved) major axis of radio source	[ucd=phys.angSize;em.radio;meta.modelled]
+#Column	l_MinAxis	(A1)	Limit flag on MinAxis	[ucd=meta.code.error;phys.angSize]
+#Column	MinAxis	(F5.1)	Fitted (deconvolved) minor axis of radio source	[ucd=phys.angSize;em.radio;meta.modelled]
+#Column	PA	(F5.1)	[-90, 90]? Position angle of fitted major axis	[ucd=pos.posAng;meta.modelled]
+#Column	e_MajAxis	(F4.1)	? Mean error on MajAxis	[ucd=stat.error;phys.angSize]
+#Column	e_MinAxis	(F4.1)	? Mean error on MinAxis	[ucd=stat.error;phys.angSize]
+#Column	e_PA	(F4.1)	? Mean error on PA	[ucd=stat.error]
+#Column	f_resFlux	(A2)	[PS* ] Residual Code (3)	[ucd=meta.code]
+#Column	resFlux	(I4)	? Peak residual flux, in mJy/beam (3)	[ucd=phot.flux.density;em.radio]
+#Column	polFlux	(F6.2)	? Integrated linearly polarized flux density	[ucd=phot.flux.density]
+#Column	polPA	(F5.1)	[-90,90]? The position angle of polFlux (4)	[ucd=pos.posAng;phys.polarization]
+#Column	e_polFlux	(F5.2)	? Mean error on polFlux	[ucd=stat.error]
+#Column	e_polPA	(F4.1)	? Mean error on polPA	[ucd=stat.error]
+#Column	Image	(a5)	FITS Image of the target, about 200x200 pixels of 5x5arcsec (or consult http://www.cv.nrao.edu/nvss/postage.shtml)	[ucd=meta.ref.url]
+_r	recno	Field	Xpos	Ypos	NVSS	RAJ2000	DEJ2000	e_RAJ2000	e_DEJ2000	S1.4	e_S1.4	l_MajAxis	MajAxis	l_MinAxis	MinAxis	PA	e_MajAxis	e_MinAxis	e_PA	f_resFlux	resFlux	polFlux	polPA	e_polFlux	e_polPA	Image
+arcsec	 	 	pix	pix	 	"h:m:s"	"d:m:s"	s	arcsec	mJy	mJy	 	arcsec	 	arcsec	deg	arcsec	arcsec	deg	 	mJy	mJy	deg	mJy	deg	
+-----	--------	--------	-------	-------	--------------	-----------	-----------	-----	----	--------	-------	-	-----	-	-----	-----	----	----	----	--	----	------	-----	-----	----	-----
+ 5.12	 1743785	C2328P00	  59.30	 495.33	233532-000425 	23 35 32.78	-00 04 25.0	 0.04	 0.7	    33.9	    1.1	<	 16.0	<	 15.6	     	    	    	    	  	    	  0.24	-64.6	 0.42	35.7	Image
+

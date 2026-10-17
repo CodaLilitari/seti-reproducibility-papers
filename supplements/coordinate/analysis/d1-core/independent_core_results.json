@@ -1,0 +1,285 @@
+{
+  "implementation": "Independent standard-library Python; no Red modules or result files imported.",
+  "group_summaries": {
+    "WISE": {
+      "rows": 36,
+      "matches_stated_lt_0p05": 15,
+      "matches_minus16_lt_0p05": 25,
+      "mae_stated_arcsec": 0.3348795481761752,
+      "mae_minus16_arcsec": 0.08353506047502138,
+      "max_abs_minus16_arcsec": 0.4968678098405812
+    },
+    "RADIO": {
+      "rows": 7,
+      "matches_stated_lt_0p05": 7,
+      "matches_minus16_lt_0p05": 1,
+      "mae_stated_arcsec": 0.005579624286654483,
+      "mae_minus16_arcsec": 0.4878018615329343,
+      "max_abs_minus16_arcsec": 1.2277667168149806
+    },
+    "WISE_A_F": {
+      "rows": 24,
+      "matches_stated_lt_0p05": 3,
+      "matches_minus16_lt_0p05": 24,
+      "mae_stated_arcsec": 0.5004744982714749,
+      "mae_minus16_arcsec": 0.002255565102434252,
+      "max_abs_minus16_arcsec": 0.00509205683203362
+    },
+    "WISE_H_J": {
+      "rows": 12,
+      "matches_stated_lt_0p05": 12,
+      "matches_minus16_lt_0p05": 1,
+      "mae_stated_arcsec": 0.003689647985575832,
+      "mae_minus16_arcsec": 0.24609405122019565,
+      "max_abs_minus16_arcsec": 0.4968678098405812
+    }
+  },
+  "effective_epoch_fits": [
+    {
+      "branch": "WISE",
+      "candidate": "A",
+      "best_shift_years": -16.008775769321687,
+      "rms_arcsec": 0.002250971038588772
+    },
+    {
+      "branch": "WISE",
+      "candidate": "B",
+      "best_shift_years": -16.056317949647223,
+      "rms_arcsec": 0.002669178212744901
+    },
+    {
+      "branch": "WISE",
+      "candidate": "C",
+      "best_shift_years": -15.933060244220655,
+      "rms_arcsec": 0.0024698562809488977
+    },
+    {
+      "branch": "WISE",
+      "candidate": "D",
+      "best_shift_years": -16.006157514168876,
+      "rms_arcsec": 0.0010776928124722764
+    },
+    {
+      "branch": "WISE",
+      "candidate": "E",
+      "best_shift_years": -16.022846795002692,
+      "rms_arcsec": 0.002654835780217271
+    },
+    {
+      "branch": "WISE",
+      "candidate": "F",
+      "best_shift_years": -15.85354440685444,
+      "rms_arcsec": 0.0018459278887491232
+    },
+    {
+      "branch": "WISE",
+      "candidate": "H",
+      "best_shift_years": -0.026426127289028045,
+      "rms_arcsec": 0.0016921680349462134
+    },
+    {
+      "branch": "WISE",
+      "candidate": "I",
+      "best_shift_years": -0.34480909997444087,
+      "rms_arcsec": 0.00793847850405235
+    },
+    {
+      "branch": "WISE",
+      "candidate": "J",
+      "best_shift_years": -0.06364379309400192,
+      "rms_arcsec": 0.0016547372469956315
+    },
+    {
+      "branch": "RADIO",
+      "candidate": "A",
+      "best_shift_years": -0.0550046043168777,
+      "rms_arcsec": 0.00446048445032429
+    },
+    {
+      "branch": "RADIO",
+      "candidate": "B",
+      "best_shift_years": -0.20154101774403443,
+      "rms_arcsec": 0.009424878031817364
+    }
+  ],
+  "simbad_j2000_checks": [
+    {
+      "candidate": "A",
+      "status": "returned",
+      "separation_to_gaia_J2000_arcsec": 3.189979278318407e-07
+    },
+    {
+      "candidate": "B",
+      "status": "returned",
+      "separation_to_gaia_J2000_arcsec": 2.375333586312538e-07
+    },
+    {
+      "candidate": "C",
+      "status": "returned",
+      "separation_to_gaia_J2000_arcsec": 4.777797857705763e-06
+    },
+    {
+      "candidate": "D",
+      "status": "returned",
+      "separation_to_gaia_J2000_arcsec": 1.0334011345592845e-07
+    },
+    {
+      "candidate": "E",
+      "status": "returned",
+      "separation_to_gaia_J2000_arcsec": 2.8118580226138395e-07
+    },
+    {
+      "candidate": "F",
+      "status": "returned",
+      "separation_to_gaia_J2000_arcsec": 1.4430014758596955e-07
+    },
+    {
+      "candidate": "G",
+      "status": "returned",
+      "separation_to_gaia_J2000_arcsec": 4.661528247303882e-09
+    },
+    {
+      "candidate": "H",
+      "status": "not returned by exact Gaia identifier; no object within 10 arcsec in independent cone check",
+      "separation_to_gaia_J2000_arcsec": null
+    },
+    {
+      "candidate": "I",
+      "status": "not returned by exact Gaia identifier; no object within 10 arcsec in independent cone check",
+      "separation_to_gaia_J2000_arcsec": null
+    },
+    {
+      "candidate": "J",
+      "status": "not returned by exact Gaia identifier; no object within 10 arcsec in independent cone check",
+      "separation_to_gaia_J2000_arcsec": null
+    }
+  ],
+  "ren2024_inversion": [
+    {
+      "candidate": "A",
+      "survey": "RACS-DR1",
+      "implied_star_ra_deg": 191.30395222958376,
+      "implied_star_dec_deg": -26.867182222222223,
+      "separation_to_fresh_SIMBAD_J2000_arcsec": 0.000184603365389447,
+      "printed_total_arcsec": 4.88,
+      "component_norm_arcsec": 4.879685338215979
+    },
+    {
+      "candidate": "B",
+      "survey": "RACS-DR1",
+      "implied_star_ra_deg": 59.01583458708923,
+      "implied_star_dec_deg": -40.530005555555555,
+      "separation_to_fresh_SIMBAD_J2000_arcsec": 0.0005951999399091534,
+      "printed_total_arcsec": 0.388,
+      "component_norm_arcsec": 0.38780020629184814
+    },
+    {
+      "candidate": "G",
+      "survey": "VLASS",
+      "implied_star_ra_deg": 353.8853713876041,
+      "implied_star_dec_deg": -0.07339111111111112,
+      "separation_to_fresh_SIMBAD_J2000_arcsec": 0.00018721255574679618,
+      "printed_total_arcsec": 5.686,
+      "component_norm_arcsec": 5.685966320688156
+    },
+    {
+      "candidate": "G",
+      "survey": "FIRST",
+      "implied_star_ra_deg": 353.8853713876075,
+      "implied_star_dec_deg": -0.0733911111111111,
+      "separation_to_fresh_SIMBAD_J2000_arcsec": 0.00018721398638537966,
+      "printed_total_arcsec": 5.728,
+      "component_norm_arcsec": 5.728053159669523
+    },
+    {
+      "candidate": "G",
+      "survey": "NVSS",
+      "implied_star_ra_deg": 353.8853713878947,
+      "implied_star_dec_deg": -0.07339111111111112,
+      "separation_to_fresh_SIMBAD_J2000_arcsec": 0.000187337293107427,
+      "printed_total_arcsec": 4.434,
+      "component_norm_arcsec": 4.434301861623767
+    },
+    {
+      "candidate": "G",
+      "survey": "RACS-DR1",
+      "implied_star_ra_deg": 353.8853713876588,
+      "implied_star_dec_deg": -0.07339111111111112,
+      "separation_to_fresh_SIMBAD_J2000_arcsec": 0.00018723559936521518,
+      "printed_total_arcsec": 5.5,
+      "component_norm_arcsec": 5.49651707902377
+    },
+    {
+      "candidate": "G",
+      "survey": "TGSS",
+      "implied_star_ra_deg": 353.88537138764946,
+      "implied_star_dec_deg": -0.07366888888888888,
+      "separation_to_fresh_SIMBAD_J2000_arcsec": 0.9998140622414002,
+      "printed_total_arcsec": 5.499,
+      "component_norm_arcsec": 5.498791503594221
+    }
+  ],
+  "table10_conditional": [
+    {
+      "candidate": "A",
+      "band": "W1",
+      "published_offset_arcsec": 1.6,
+      "published_scale_arcsec": 0.17,
+      "published_p": 4e-19,
+      "p_from_rounded_published_inputs": 5.818511194039919e-20,
+      "correct_date_offset_arcsec": 0.1805676496353554,
+      "conditional_p_fixed_published_scale": 0.5688748922096507,
+      "conditional_one_sided_sigma": -0.17351044868826987,
+      "published_sigma": 8.86
+    },
+    {
+      "candidate": "A",
+      "band": "W2",
+      "published_offset_arcsec": 1.48,
+      "published_scale_arcsec": 0.21,
+      "published_p": 3e-11,
+      "p_from_rounded_published_inputs": 1.6388075975968618e-11,
+      "correct_date_offset_arcsec": 0.11093525436706082,
+      "conditional_p_fixed_published_scale": 0.8697660949329501,
+      "conditional_one_sided_sigma": -1.1252861184907565,
+      "published_sigma": 6.55
+    },
+    {
+      "candidate": "B",
+      "band": "W1",
+      "published_offset_arcsec": 0.76,
+      "published_scale_arcsec": 0.26,
+      "published_p": 0.012,
+      "p_from_rounded_published_inputs": 0.013951205633448241,
+      "correct_date_offset_arcsec": 0.31243297232157197,
+      "conditional_p_fixed_published_scale": 0.4857798601436807,
+      "conditional_one_sided_sigma": 0.035652155961220344,
+      "published_sigma": 2.26
+    },
+    {
+      "candidate": "B",
+      "band": "W2",
+      "published_offset_arcsec": 1.2,
+      "published_scale_arcsec": 0.28,
+      "published_p": 0.0001,
+      "p_from_rounded_published_inputs": 0.0001027025646196554,
+      "correct_date_offset_arcsec": 0.9131724072178333,
+      "conditional_p_fixed_published_scale": 0.004901878556198158,
+      "conditional_one_sided_sigma": 2.582675198789578,
+      "published_sigma": 3.66
+    },
+    {
+      "candidate": "E",
+      "band": "W1",
+      "published_offset_arcsec": 0.88,
+      "published_scale_arcsec": 0.23,
+      "published_p": 0.0005,
+      "p_from_rounded_published_inputs": 0.0006625127868179374,
+      "correct_date_offset_arcsec": 0.22969164967153607,
+      "conditional_p_fixed_published_scale": 0.607343806738977,
+      "conditional_one_sided_sigma": -0.2724027134639688,
+      "published_sigma": 3.29
+    }
+  ],
+  "important_limit": "Conditional Table 10 values hold the published Rayleigh scale fixed; controls and estimator were not reprocessed."
+}

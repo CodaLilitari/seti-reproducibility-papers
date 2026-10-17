@@ -1,0 +1,980 @@
+{
+  "scope": "Explicitly post-hoc exploratory development diagnostics; original outcomes unchanged; formal SNR is not FAP.",
+  "generated_utc": "2026-10-08T10:27:19.250455+00:00",
+  "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.3",
+  "astropy": "8.0.1",
+  "source_sha256": "09f1e69d89dce001e447fbc509b9453f033b2428d183add334b43b93dbc8c93b",
+  "five_peak_extension": [
+    {
+      "period_days": 5.659700301150176,
+      "epoch_btjd": 1412.1439295102427,
+      "duration_hours": 1.5,
+      "power": 606.6323297505978,
+      "depth_ppm": 3483.849220770315,
+      "formal_depth_snr": 34.613655824127214,
+      "iteration": 1,
+      "event_counts": [
+        45,
+        45,
+        45,
+        45
+      ]
+    },
+    {
+      "period_days": 11.391178403641586,
+      "epoch_btjd": 1412.4251795102427,
+      "duration_hours": 2.0,
+      "power": 213.88104469642508,
+      "depth_ppm": 2534.092423358734,
+      "formal_depth_snr": 20.59447038405228,
+      "iteration": 2,
+      "event_counts": [
+        60,
+        60
+      ]
+    },
+    {
+      "period_days": 10.712166647590706,
+      "epoch_btjd": 1410.971012843576,
+      "duration_hours": 3.0,
+      "power": 50.39560819873244,
+      "depth_ppm": 846.4372474256518,
+      "formal_depth_snr": 9.947960143778564,
+      "iteration": 3,
+      "event_counts": [
+        74,
+        90,
+        90
+      ]
+    },
+    {
+      "period_days": 3.3596407469362264,
+      "epoch_btjd": 1413.9800422905719,
+      "duration_hours": 1.5,
+      "power": 40.074362793736874,
+      "depth_ppm": 816.0386715426183,
+      "formal_depth_snr": 8.880911837936099,
+      "iteration": 4,
+      "event_counts": [
+        42,
+        40,
+        45,
+        45,
+        45
+      ]
+    },
+    {
+      "period_days": 4.5045193335065985,
+      "epoch_btjd": 1411.8862922905719,
+      "duration_hours": 4.0,
+      "power": 24.054501647749067,
+      "depth_ppm": 380.4239276575483,
+      "formal_depth_snr": 6.777870249174256,
+      "iteration": 5,
+      "event_counts": [
+        120,
+        120,
+        120,
+        120,
+        120
+      ]
+    }
+  ],
+  "b_after_fixed_c_d_masks": {
+    "retained": 13995,
+    "maximum": {
+      "period_days": 10.712166647590706,
+      "epoch_btjd": 1410.971012843576,
+      "duration_hours": 3.0,
+      "power": 50.39560819873244,
+      "depth_ppm": 846.4372474256518,
+      "formal_depth_snr": 9.947960143778564
+    },
+    "best_grid_point_within_0p01d_of_b": {
+      "period_days": 3.3626342830453058,
+      "epoch_btjd": 1413.9730961769094,
+      "duration_hours": 1.5,
+      "power": 38.87727938855478,
+      "depth_ppm": 807.4877401606896,
+      "formal_depth_snr": 8.749762345029433
+    },
+    "b_neighborhood_grid_point_rank": 20,
+    "catalog_period_phase_optimized": {
+      "period_days": 3.35992,
+      "epoch_btjd": 1413.9772628435762,
+      "duration_hours": 1.5,
+      "power": 37.706265953791295,
+      "depth_ppm": 793.399331862921,
+      "formal_depth_snr": 8.616668397553955
+    },
+    "grid_points_with_power_above_exact_b_period": 24,
+    "rank_note": "Rank counts 12000 correlated frequency-grid points, not independent peaks or a p-value; exact known period optimizes phase/duration post hoc."
+  },
+  "detrend_ablation": {
+    "0.5": {
+      "retained": 13995,
+      "maximum": {
+        "period_days": 3.3626342830453058,
+        "epoch_btjd": 1413.9730961769094,
+        "duration_hours": 1.5,
+        "power": 37.13150002206402,
+        "depth_ppm": 789.1606626906721,
+        "formal_depth_snr": 8.551054884943468
+      },
+      "best_grid_point_within_0p01d_of_b": {
+        "period_days": 3.3626342830453058,
+        "epoch_btjd": 1413.9730961769094,
+        "duration_hours": 1.5,
+        "power": 37.13150002206402,
+        "depth_ppm": 789.1606626906721,
+        "formal_depth_snr": 8.551054884943468
+      },
+      "b_neighborhood_grid_point_rank": 1,
+      "catalog_period_phase_optimized": {
+        "period_days": 3.35992,
+        "epoch_btjd": 1413.9772628435762,
+        "duration_hours": 1.5,
+        "power": 36.13146072016422,
+        "depth_ppm": 776.6642662490905,
+        "formal_depth_snr": 8.43481358824499
+      },
+      "grid_points_with_power_above_exact_b_period": 1,
+      "rank_note": "Rank counts 12000 correlated frequency-grid points, not independent peaks or a p-value; exact known period optimizes phase/duration post hoc."
+    },
+    "2.0": {
+      "retained": 13995,
+      "maximum": {
+        "period_days": 10.712166647590706,
+        "epoch_btjd": 1410.971012843576,
+        "duration_hours": 3.0,
+        "power": 55.213649543284724,
+        "depth_ppm": 885.9448657397581,
+        "formal_depth_snr": 10.41263406915558
+      },
+      "best_grid_point_within_0p01d_of_b": {
+        "period_days": 3.3626342830453058,
+        "epoch_btjd": 1413.9730961769094,
+        "duration_hours": 1.5,
+        "power": 38.796750166030904,
+        "depth_ppm": 806.655237182977,
+        "formal_depth_snr": 8.740695760346988
+      },
+      "b_neighborhood_grid_point_rank": 134,
+      "catalog_period_phase_optimized": {
+        "period_days": 3.35992,
+        "epoch_btjd": 1413.9772628435762,
+        "duration_hours": 1.5,
+        "power": 37.56490976951165,
+        "depth_ppm": 791.91542491666,
+        "formal_depth_snr": 8.600502008814537
+      },
+      "grid_points_with_power_above_exact_b_period": 187,
+      "rank_note": "Rank counts 12000 correlated frequency-grid points, not independent peaks or a p-value; exact known period optimizes phase/duration post hoc."
+    }
+  },
+  "mask_ablation": {
+    "0.5": {
+      "retained": 14144,
+      "maximum": {
+        "period_days": 10.712166647590706,
+        "epoch_btjd": 1410.971012843576,
+        "duration_hours": 3.0,
+        "power": 50.19061270377784,
+        "depth_ppm": 844.7139560301421,
+        "formal_depth_snr": 9.928673491869569
+      },
+      "best_grid_point_within_0p01d_of_b": {
+        "period_days": 3.3626342830453058,
+        "epoch_btjd": 1413.9730961769094,
+        "duration_hours": 1.5,
+        "power": 38.71499953633398,
+        "depth_ppm": 805.8006876757082,
+        "formal_depth_snr": 8.732200523712736
+      },
+      "b_neighborhood_grid_point_rank": 20,
+      "catalog_period_phase_optimized": {
+        "period_days": 3.35992,
+        "epoch_btjd": 1413.9772628435762,
+        "duration_hours": 1.5,
+        "power": 37.54623343068634,
+        "depth_ppm": 791.7138732104306,
+        "formal_depth_snr": 8.599074654159978
+      },
+      "grid_points_with_power_above_exact_b_period": 23,
+      "rank_note": "Rank counts 12000 correlated frequency-grid points, not independent peaks or a p-value; exact known period optimizes phase/duration post hoc."
+    },
+    "1.0": {
+      "retained": 13851,
+      "maximum": {
+        "period_days": 10.712166647590706,
+        "epoch_btjd": 1410.971012843576,
+        "duration_hours": 3.0,
+        "power": 50.17543293034509,
+        "depth_ppm": 844.5862076779497,
+        "formal_depth_snr": 9.92525160752095
+      },
+      "best_grid_point_within_0p01d_of_b": {
+        "period_days": 3.3626342830453058,
+        "epoch_btjd": 1413.9730961769094,
+        "duration_hours": 1.5,
+        "power": 38.696766108706115,
+        "depth_ppm": 805.6109131823503,
+        "formal_depth_snr": 8.728716482553212
+      },
+      "b_neighborhood_grid_point_rank": 20,
+      "catalog_period_phase_optimized": {
+        "period_days": 3.35992,
+        "epoch_btjd": 1413.9772628435762,
+        "duration_hours": 1.5,
+        "power": 37.52791125670204,
+        "depth_ppm": 791.5206755428917,
+        "formal_depth_snr": 8.595563917478783
+      },
+      "grid_points_with_power_above_exact_b_period": 24,
+      "rank_note": "Rank counts 12000 correlated frequency-grid points, not independent peaks or a p-value; exact known period optimizes phase/duration post hoc."
+    },
+    "1.5": {
+      "retained": 13553,
+      "maximum": {
+        "period_days": 10.712166647590706,
+        "epoch_btjd": 1410.971012843576,
+        "duration_hours": 3.0,
+        "power": 49.373840542373316,
+        "depth_ppm": 837.8125775268438,
+        "formal_depth_snr": 9.843628538099624
+      },
+      "best_grid_point_within_0p01d_of_b": {
+        "period_days": 3.3626342830453058,
+        "epoch_btjd": 1413.9730961769094,
+        "duration_hours": 1.5,
+        "power": 38.044333437455265,
+        "depth_ppm": 798.7906894356597,
+        "formal_depth_snr": 8.653317670811578
+      },
+      "b_neighborhood_grid_point_rank": 19,
+      "catalog_period_phase_optimized": {
+        "period_days": 3.35992,
+        "epoch_btjd": 1413.9772628435762,
+        "duration_hours": 1.5,
+        "power": 36.8835826170845,
+        "depth_ppm": 784.69632127895,
+        "formal_depth_snr": 8.519968300623434
+      },
+      "grid_points_with_power_above_exact_b_period": 23,
+      "rank_note": "Rank counts 12000 correlated frequency-grid points, not independent peaks or a p-value; exact known period optimizes phase/duration post hoc."
+    }
+  },
+  "third_peak_matched_full_resolution": {
+    "standard_box": {
+      "ephemeris": {
+        "iteration": 3,
+        "input_cadences": 13995,
+        "period_days": 10.712166647590706,
+        "epoch_btjd": 1410.971012843576,
+        "duration_hours": 3.0,
+        "depth_ppm": 846.4372474256518,
+        "formal_depth_snr": 9.947960143778564,
+        "power": 50.39560819873244,
+        "sap_same_unweighted_box_ppm": -208.40061813702923,
+        "populated_events": 3,
+        "events": [
+          {
+            "cycle": 0,
+            "center_btjd": 1410.971012843576,
+            "n_in": 74,
+            "n_local_out": 133,
+            "local_depth_ppm": 1477.5435457029005
+          },
+          {
+            "cycle": 1,
+            "center_btjd": 1421.6831794911668,
+            "n_in": 90,
+            "n_local_out": 269,
+            "local_depth_ppm": 649.60431451278
+          },
+          {
+            "cycle": 2,
+            "center_btjd": 1432.3953461387575,
+            "n_in": 90,
+            "n_local_out": 270,
+            "local_depth_ppm": 395.8600704884399
+          }
+        ],
+        "stats": {
+          "transit_times": [
+            1410.971012843576,
+            1421.6831794911668,
+            1432.3953461387575
+          ],
+          "per_transit_count": [
+            74,
+            90,
+            90
+          ],
+          "per_transit_log_likelihood": [
+            31.256936449966723,
+            13.916142981601574,
+            5.222528767164135
+          ],
+          "depth": [
+            0.0008464372474256518,
+            8.508651373668925e-05
+          ],
+          "depth_phased": [
+            0.00011296156138936162,
+            0.00010086535171143334
+          ],
+          "depth_half": [
+            0.0005432746013534918,
+            6.553651787948134e-05
+          ],
+          "depth_odd": [
+            0.000753525092768428,
+            0.00014220407682795036
+          ],
+          "depth_even": [
+            0.000897310353024762,
+            0.0001055073554102075
+          ],
+          "harmonic_amplitude": 1.4606023436838133e-05,
+          "harmonic_delta_log_likelihood": -49.09218469671032
+        },
+        "two_populated_events": true,
+        "note": "Formal library SNR/power are diagnostics; correlated noise and search trials uncalibrated."
+      },
+      "n_in": 254,
+      "global_depths_ppm": {
+        "sap_raw_median_normalized": -2386.8350181629194,
+        "pdc_raw_median_normalized": 342.4589297575975,
+        "sap_detrended": -208.40061813702923,
+        "pdc_detrended": 846.9731561433092
+      },
+      "events": [
+        {
+          "cycle": 0,
+          "center_btjd": 1410.971012843576,
+          "n_in": 74,
+          "n_local_out": 133,
+          "n_left_out": 3,
+          "n_right_out": 130,
+          "local_depths_ppm": {
+            "sap_raw_median_normalized": -900.7889443744953,
+            "pdc_raw_median_normalized": 1517.2123320436287,
+            "sap_detrended": -862.5808241175312,
+            "pdc_detrended": 1477.5435457029005
+          }
+        },
+        {
+          "cycle": 1,
+          "center_btjd": 1421.6831794911668,
+          "n_in": 90,
+          "n_local_out": 269,
+          "n_left_out": 134,
+          "n_right_out": 135,
+          "local_depths_ppm": {
+            "sap_raw_median_normalized": -282.03432544565266,
+            "pdc_raw_median_normalized": 674.1578020832228,
+            "sap_detrended": -258.5488054625056,
+            "pdc_detrended": 649.60431451278
+          }
+        },
+        {
+          "cycle": 2,
+          "center_btjd": 1432.3953461387575,
+          "n_in": 90,
+          "n_local_out": 270,
+          "n_left_out": 135,
+          "n_right_out": 135,
+          "local_depths_ppm": {
+            "sap_raw_median_normalized": 229.47940888180406,
+            "pdc_raw_median_normalized": 423.5173341991375,
+            "sap_detrended": 244.56057936651592,
+            "pdc_detrended": 395.8600704884399
+          }
+        }
+      ]
+    },
+    "legacy_box": {
+      "ephemeris": {
+        "score": 1.2385055127132106e-05,
+        "period_days": 10.757971447619484,
+        "epoch_btjd": 1410.9475716629838,
+        "duration_hours": 4.034239292857307,
+        "depth_ppm": 776.7526209608176,
+        "in_transit_bins": 21,
+        "populated_events": 3,
+        "bins_per_event": [
+          5,
+          8,
+          8
+        ],
+        "phase_start_bin": 509,
+        "phase_width_bins": 8,
+        "iteration": 3,
+        "input_bins": 933,
+        "sap_depth_same_box_ppm": -272.59261788859226
+      },
+      "n_in": 318,
+      "global_depths_ppm": {
+        "sap_raw_median_normalized": -2608.906953357836,
+        "pdc_raw_median_normalized": 275.9749178008284,
+        "sap_detrended": -262.0515665887145,
+        "pdc_detrended": 766.8122556217512
+      },
+      "events": [
+        {
+          "cycle": 0,
+          "center_btjd": 1410.9475716629838,
+          "n_in": 76,
+          "n_local_out": 177,
+          "n_left_out": 0,
+          "n_right_out": 177,
+          "local_depths_ppm": {
+            "sap_raw_median_normalized": -1155.7007194621012,
+            "pdc_raw_median_normalized": 1568.2420081787923,
+            "sap_detrended": -1120.3958390085554,
+            "pdc_detrended": 1537.2891554989305
+          }
+        },
+        {
+          "cycle": 1,
+          "center_btjd": 1421.7055431106032,
+          "n_in": 121,
+          "n_local_out": 362,
+          "n_left_out": 181,
+          "n_right_out": 181,
+          "local_depths_ppm": {
+            "sap_raw_median_normalized": -938.265414447686,
+            "pdc_raw_median_normalized": 714.1177251111707,
+            "sap_detrended": -738.3088346675718,
+            "pdc_detrended": 733.9068519517571
+          }
+        },
+        {
+          "cycle": 2,
+          "center_btjd": 1432.4635145582229,
+          "n_in": 121,
+          "n_local_out": 363,
+          "n_left_out": 182,
+          "n_right_out": 181,
+          "local_depths_ppm": {
+            "sap_raw_median_normalized": 93.8470315947666,
+            "pdc_raw_median_normalized": 400.4130103165891,
+            "sap_detrended": 127.80041502173133,
+            "pdc_detrended": 381.3835012551488
+          }
+        }
+      ]
+    }
+  },
+  "s5_recovered_b_ephemeris_fixed_in_s4": {
+    "ephemeris": {
+      "iteration": 3,
+      "input_cadences": 16616,
+      "period_days": 3.3626342830453058,
+      "epoch_btjd": 1440.8439617620709,
+      "duration_hours": 1.5,
+      "depth_ppm": 727.5279506450289,
+      "formal_depth_snr": 8.645443445433683,
+      "power": 37.98580980603026,
+      "sap_same_unweighted_box_ppm": 642.9736271079676,
+      "populated_events": 6,
+      "events": [
+        {
+          "cycle": 0,
+          "center_btjd": 1440.8439617620709,
+          "n_in": 45,
+          "n_local_out": 135,
+          "local_depth_ppm": 905.6917819898143
+        },
+        {
+          "cycle": 1,
+          "center_btjd": 1444.2065960451162,
+          "n_in": 43,
+          "n_local_out": 127,
+          "local_depth_ppm": 726.9166641935574
+        },
+        {
+          "cycle": 2,
+          "center_btjd": 1447.5692303281614,
+          "n_in": 45,
+          "n_local_out": 134,
+          "local_depth_ppm": 954.9482476558827
+        },
+        {
+          "cycle": 4,
+          "center_btjd": 1454.294498894252,
+          "n_in": 45,
+          "n_local_out": 135,
+          "local_depth_ppm": 1006.5173653758235
+        },
+        {
+          "cycle": 5,
+          "center_btjd": 1457.6571331772975,
+          "n_in": 45,
+          "n_local_out": 128,
+          "local_depth_ppm": 1050.8469239999429
+        },
+        {
+          "cycle": 6,
+          "center_btjd": 1461.0197674603428,
+          "n_in": 45,
+          "n_local_out": 135,
+          "local_depth_ppm": 652.2885772951505
+        }
+      ],
+      "stats": {
+        "transit_times": [
+          1440.8439617620709,
+          1444.2065960451162,
+          1447.5692303281614,
+          1450.9318646112067,
+          1454.294498894252,
+          1457.6571331772975,
+          1461.0197674603428
+        ],
+        "per_transit_count": [
+          45,
+          43,
+          45,
+          0,
+          45,
+          45,
+          45
+        ],
+        "per_transit_log_likelihood": [
+          6.239295517765375,
+          6.060885685841029,
+          8.770730067292714,
+          0.0,
+          9.09591482107892,
+          3.665920884352111,
+          4.153062829700224
+        ],
+        "depth": [
+          0.000727527950645031,
+          8.415160601499196e-05
+        ],
+        "depth_phased": [
+          -4.318359571888197e-05,
+          7.29677226876635e-05
+        ],
+        "depth_half": [
+          0.0002860635568229885,
+          5.565078898745466e-05
+        ],
+        "depth_odd": [
+          0.0006472686493911658,
+          0.0001460120676475036
+        ],
+        "depth_even": [
+          0.0007668008909959572,
+          0.00010242383570871862
+        ],
+        "harmonic_amplitude": 1.4521116852492182e-05,
+        "harmonic_delta_log_likelihood": -36.905123174274195
+      },
+      "two_populated_events": true,
+      "note": "Formal library SNR/power are diagnostics; correlated noise and search trials uncalibrated."
+    },
+    "n_in": 211,
+    "global_depths_ppm": {
+      "sap_raw_median_normalized": 1316.9192493775613,
+      "pdc_raw_median_normalized": 616.6212398690698,
+      "sap_detrended": 298.7915965549229,
+      "pdc_detrended": 453.5044107938626
+    },
+    "events": [
+      {
+        "cycle": -8,
+        "center_btjd": 1413.9428874977084,
+        "n_in": 37,
+        "n_local_out": 132,
+        "n_left_out": 68,
+        "n_right_out": 64,
+        "local_depths_ppm": {
+          "sap_raw_median_normalized": 575.8578373875082,
+          "pdc_raw_median_normalized": 511.74938851294763,
+          "sap_detrended": 584.2700157389429,
+          "pdc_detrended": 520.5543623769909
+        }
+      },
+      {
+        "cycle": -7,
+        "center_btjd": 1417.3055217807537,
+        "n_in": 39,
+        "n_local_out": 117,
+        "n_left_out": 60,
+        "n_right_out": 57,
+        "local_depths_ppm": {
+          "sap_raw_median_normalized": 387.7120726619747,
+          "pdc_raw_median_normalized": 1368.3950823384096,
+          "sap_detrended": 353.7153604399997,
+          "pdc_detrended": 1369.4090954005744
+        }
+      },
+      {
+        "cycle": -4,
+        "center_btjd": 1427.3934246298898,
+        "n_in": 45,
+        "n_local_out": 135,
+        "n_left_out": 67,
+        "n_right_out": 68,
+        "local_depths_ppm": {
+          "sap_raw_median_normalized": -146.4366888631781,
+          "pdc_raw_median_normalized": -217.09992309220934,
+          "sap_detrended": -134.9064835800403,
+          "pdc_detrended": -236.64533304528962
+        }
+      },
+      {
+        "cycle": -3,
+        "center_btjd": 1430.756058912935,
+        "n_in": 45,
+        "n_local_out": 135,
+        "n_left_out": 67,
+        "n_right_out": 68,
+        "local_depths_ppm": {
+          "sap_raw_median_normalized": -128.28051214742936,
+          "pdc_raw_median_normalized": -80.2163046109628,
+          "sap_detrended": -147.25779985746323,
+          "pdc_detrended": -73.52512743039524
+        }
+      },
+      {
+        "cycle": -2,
+        "center_btjd": 1434.1186931959803,
+        "n_in": 45,
+        "n_local_out": 135,
+        "n_left_out": 67,
+        "n_right_out": 68,
+        "local_depths_ppm": {
+          "sap_raw_median_normalized": 640.7615191429035,
+          "pdc_raw_median_normalized": 662.5640415609469,
+          "sap_detrended": 684.5917968698049,
+          "pdc_detrended": 656.9789733807129
+        }
+      }
+    ]
+  },
+  "export_reconstruction_diagnostics": {
+    "bins": 965,
+    "cadences": 14332,
+    "medians_full_precision": {
+      "sap": 8314.01640625,
+      "pdc": 9555.939388020834
+    },
+    "delivered_declared_medians": {
+      "sap": 8314.016406666666,
+      "pdc": 9555.939393333334
+    },
+    "time_integer_delta_range": [
+      -12.0,
+      15.0
+    ],
+    "time_rms_microdays": 5.336063636196037,
+    "mismatching_bins_by_column": [
+      903,
+      1,
+      0
+    ],
+    "max_abs_delta_by_column": [
+      15.0,
+      1.0,
+      0.0
+    ],
+    "rounding_probes": {
+      "time_samples_3_decimal_places": {
+        "max_abs_delta_microdays": 100.0,
+        "exact_bins": 59
+      },
+      "time_samples_4_decimal_places": {
+        "max_abs_delta_microdays": 0.0,
+        "exact_bins": 965
+      },
+      "time_samples_5_decimal_places": {
+        "max_abs_delta_microdays": 15.0,
+        "exact_bins": 58
+      },
+      "time_samples_6_decimal_places": {
+        "max_abs_delta_microdays": 15.0,
+        "exact_bins": 62
+      },
+      "time_samples_7_decimal_places": {
+        "max_abs_delta_microdays": 15.0,
+        "exact_bins": 61
+      },
+      "flux_samples_1_decimal_places": {
+        "median_sap_pdc": [
+          8314.026666666667,
+          9555.933333333332
+        ],
+        "max_abs_delta_ppm": [
+          4.0,
+          3.0
+        ],
+        "exact_bins": [
+          190,
+          318
+        ]
+      },
+      "flux_samples_2_decimal_places": {
+        "median_sap_pdc": [
+          8314.015333333335,
+          9555.939999999999
+        ],
+        "max_abs_delta_ppm": [
+          1.0,
+          1.0
+        ],
+        "exact_bins": [
+          832,
+          885
+        ]
+      },
+      "flux_samples_3_decimal_places": {
+        "median_sap_pdc": [
+          8314.016533333333,
+          9555.939333333336
+        ],
+        "max_abs_delta_ppm": [
+          1.0,
+          1.0
+        ],
+        "exact_bins": [
+          944,
+          956
+        ]
+      },
+      "flux_samples_4_decimal_places": {
+        "median_sap_pdc": [
+          8314.016406666666,
+          9555.939393333334
+        ],
+        "max_abs_delta_ppm": [
+          0.0,
+          0.0
+        ],
+        "exact_bins": [
+          965,
+          965
+        ]
+      }
+    }
+  },
+  "fits_checksum_diagnostics": {
+    "4": [
+      {
+        "hdu": 0,
+        "name": "PRIMARY",
+        "header_checksum": "0nm33nj00nj00nj0",
+        "datasum_card_present": false,
+        "astropy_verify_checksum": 1,
+        "astropy_verify_datasum": 2,
+        "raw_hdu_ones_complement_sum_hex": "ffffffff",
+        "raw_hdu_sum_is_negative_zero": true,
+        "raw_data_ones_complement_sum": 0,
+        "recomputed_checksum_with_actual_data": "0nm33nj00nj00nj0",
+        "matches_stored_when_data_included": true
+      },
+      {
+        "hdu": 1,
+        "name": "LIGHTCURVE",
+        "header_checksum": "M47YN34WM34WM34W",
+        "datasum_card_present": false,
+        "astropy_verify_checksum": 0,
+        "astropy_verify_datasum": 2,
+        "raw_hdu_ones_complement_sum_hex": "ffffffff",
+        "raw_hdu_sum_is_negative_zero": true,
+        "raw_data_ones_complement_sum": 144300162,
+        "recomputed_checksum_with_actual_data": "M47YN34WM34WM34W",
+        "matches_stored_when_data_included": true
+      },
+      {
+        "hdu": 2,
+        "name": "APERTURE",
+        "header_checksum": "8H6eAE5Z1E5b8E5Z",
+        "datasum_card_present": false,
+        "astropy_verify_checksum": 0,
+        "astropy_verify_datasum": 2,
+        "raw_hdu_ones_complement_sum_hex": "ffffffff",
+        "raw_hdu_sum_is_negative_zero": true,
+        "raw_data_ones_complement_sum": 4247,
+        "recomputed_checksum_with_actual_data": "8H6eAE5Z1E5b8E5Z",
+        "matches_stored_when_data_included": true
+      }
+    ],
+    "5": [
+      {
+        "hdu": 0,
+        "name": "PRIMARY",
+        "header_checksum": "0ko32il30il30il3",
+        "datasum_card_present": false,
+        "astropy_verify_checksum": 1,
+        "astropy_verify_datasum": 2,
+        "raw_hdu_ones_complement_sum_hex": "ffffffff",
+        "raw_hdu_sum_is_negative_zero": true,
+        "raw_data_ones_complement_sum": 0,
+        "recomputed_checksum_with_actual_data": "0ko32il30il30il3",
+        "matches_stored_when_data_included": true
+      },
+      {
+        "hdu": 1,
+        "name": "LIGHTCURVE",
+        "header_checksum": "5eio6eio5eio5eio",
+        "datasum_card_present": false,
+        "astropy_verify_checksum": 0,
+        "astropy_verify_datasum": 2,
+        "raw_hdu_ones_complement_sum_hex": "ffffffff",
+        "raw_hdu_sum_is_negative_zero": true,
+        "raw_data_ones_complement_sum": 838522141,
+        "recomputed_checksum_with_actual_data": "5eio6eio5eio5eio",
+        "matches_stored_when_data_included": true
+      },
+      {
+        "hdu": 2,
+        "name": "APERTURE",
+        "header_checksum": "X9Aia88ZR8AfX85Z",
+        "datasum_card_present": false,
+        "astropy_verify_checksum": 0,
+        "astropy_verify_datasum": 2,
+        "raw_hdu_ones_complement_sum_hex": "ffffffff",
+        "raw_hdu_sum_is_negative_zero": true,
+        "raw_data_ones_complement_sum": 8163,
+        "recomputed_checksum_with_actual_data": "X9Aia88ZR8AfX85Z",
+        "matches_stored_when_data_included": true
+      }
+    ]
+  },
+  "astropy_checksum_implementation": "    def verify_checksum(self):\n        \"\"\"\n        Verify that the value in the ``CHECKSUM`` keyword matches the\n        value calculated for the current HDU CHECKSUM.\n\n        Returns\n        -------\n        valid : int\n            - 0 - failure\n            - 1 - success\n            - 2 - no ``CHECKSUM`` keyword present\n        \"\"\"\n        if \"CHECKSUM\" in self._header:\n            if \"DATASUM\" in self._header:\n                datasum = self._calculate_datasum()\n            else:\n                datasum = 0\n            checksum = self._calculate_checksum(datasum)\n            if checksum == self._header[\"CHECKSUM\"]:\n                return 1\n            else:\n                # Failed\n                return 0\n        else:\n            return 2\n",
+  "initial_fits_warnings": [
+    "Checksum verification failed for HDU ('LIGHTCURVE', 1).\n",
+    "Checksum verification failed for HDU ('APERTURE', 1).\n"
+  ],
+  "small_synthetic": {
+    "seed": 42317,
+    "n": 1248,
+    "cases": {
+      "flat_null": {
+        "peak": {
+          "period_days": 1.67996,
+          "epoch_btjd": 0.03125,
+          "duration_hours": 1.5,
+          "power": 0.0,
+          "depth_ppm": 0.0,
+          "formal_depth_snr": 0.0
+        },
+        "tested_periods_days": [
+          1.67996,
+          3.35992,
+          6.71984,
+          13.43968
+        ],
+        "powers": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "single_white_noise_null": {
+        "peak": {
+          "period_days": 3.35992,
+          "epoch_btjd": 0.61875,
+          "duration_hours": 1.5,
+          "power": 4.725923274217184,
+          "depth_ppm": 125.51126475629168,
+          "formal_depth_snr": 3.044680651342072
+        },
+        "tested_periods_days": [
+          1.67996,
+          3.35992,
+          6.71984,
+          13.43968
+        ],
+        "powers": [
+          2.4491432159011386,
+          4.725923274217184,
+          3.9089039843799043,
+          4.5849075212028065
+        ]
+      },
+      "known_box_injection": {
+        "peak": {
+          "period_days": 3.35992,
+          "epoch_btjd": 0.4,
+          "duration_hours": 1.5,
+          "power": 301.1074358163043,
+          "depth_ppm": 1001.8440261442968,
+          "formal_depth_snr": 24.302959005209726
+        },
+        "tested_periods_days": [
+          1.67996,
+          3.35992,
+          6.71984,
+          13.43968
+        ],
+        "powers": [
+          154.01904107912512,
+          301.1074358163043,
+          140.92411563106745,
+          88.36812385887173
+        ]
+      },
+      "injection_with_central_gap": {
+        "peak": {
+          "period_days": 3.35992,
+          "epoch_btjd": 0.4,
+          "duration_hours": 1.5,
+          "power": 228.4154933415392,
+          "depth_ppm": 1007.5613978348123,
+          "formal_depth_snr": 21.172489671231407
+        },
+        "tested_periods_days": [
+          1.67996,
+          3.35992,
+          6.71984,
+          13.43968
+        ],
+        "powers": [
+          100.84710841649735,
+          228.4154933415392,
+          112.88034710062087,
+          80.59990974889016
+        ]
+      },
+      "equal_eclipses_half_orbit_alias": {
+        "peak": {
+          "period_days": 3.35992,
+          "epoch_btjd": 0.4,
+          "duration_hours": 1.5,
+          "power": 301.1074358163043,
+          "depth_ppm": 1001.8440261442968,
+          "formal_depth_snr": 24.302959005209726
+        },
+        "tested_periods_days": [
+          1.67996,
+          3.35992,
+          6.71984,
+          13.43968
+        ],
+        "powers": [
+          154.01904107912512,
+          301.1074358163043,
+          140.92411563106745,
+          88.36812385887173
+        ],
+        "construction": "Two equal eclipses per true binary orbital period 2*3.35992 d are exactly the same box sequence as a 3.35992 d planet model; photometric period recovery cannot distinguish these constructions."
+      }
+    },
+    "scope": "Four specified alias periods and one noise realization only; no false-alarm or completeness calibration."
+  },
+  "standard_files_unchanged": true,
+  "original_manifest_after": {
+    "entries": 19,
+    "failures": []
+  },
+  "elapsed_seconds": 11.816774200007785,
+  "peak_working_set_bytes": 71430144
+}

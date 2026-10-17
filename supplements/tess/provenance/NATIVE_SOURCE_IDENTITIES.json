@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-15",
+  "scope": "Identifiers derived from preserved local retrieval/crosscheck records; no new remote query or FITS computation",
+  "sources": [
+    {
+      "tic_id": 259377017,
+      "sector": 4,
+      "product": "SPOC two-minute light curve",
+      "data_release": 42,
+      "destination_relative": "standard-bls/data/toi270-s0004.fits",
+      "native_product_filename": "tess2018292075959-s0004-0000000259377017-0124-s_lc.fits",
+      "canonical_url": "https://archive.stsci.edu/missions/tess/tid/s0004/0000/0002/5937/7017/tess2018292075959-s0004-0000000259377017-0124-s_lc.fits",
+      "bytes": 1897920,
+      "sha256": "09f1e69d89dce001e447fbc509b9453f033b2428d183add334b43b93dbc8c93b",
+      "retrieved_utc": "2026-10-08T10:14:39.940439+00:00",
+      "time_metadata_from_preserved_crosscheck": {
+        "BJDREFI": 2457000,
+        "BJDREFF": 0.0,
+        "TIMESYS": "TDB",
+        "TIMEDEL": 0.001388888888888889
+      },
+      "identity_metadata_from_preserved_crosscheck": {
+        "TICID": 259377017,
+        "SECTOR": 4,
+        "DATA_REL": 42
+      },
+      "fits_mutated": false
+    },
+    {
+      "tic_id": 259377017,
+      "sector": 5,
+      "product": "SPOC two-minute light curve",
+      "data_release": 42,
+      "destination_relative": "standard-bls/data/toi270-s0005.fits",
+      "native_product_filename": "tess2018319095959-s0005-0000000259377017-0125-s_lc.fits",
+      "canonical_url": "https://archive.stsci.edu/missions/tess/tid/s0005/0000/0002/5937/7017/tess2018319095959-s0005-0000000259377017-0125-s_lc.fits",
+      "bytes": 1923840,
+      "sha256": "739250df0d1ccda4304e01213f1f0f53c24603e3e223ff646157b6721665a9d5",
+      "retrieved_utc": "2026-10-08T10:14:42.576070+00:00",
+      "time_metadata_from_preserved_crosscheck": {
+        "BJDREFI": 2457000,
+        "BJDREFF": 0.0,
+        "TIMESYS": "TDB",
+        "TIMEDEL": 0.001388888888888889
+      },
+      "identity_metadata_from_preserved_crosscheck": {
+        "TICID": 259377017,
+        "SECTOR": 5,
+        "DATA_REL": 42
+      },
+      "fits_mutated": false
+    }
+  ],
+  "lossy_original": "source/planet_hunt_tess_development_2026-10-08/data/toi270_s4_binned.csv",
+  "rights_status": "Local candidate only; upstream attribution/terms and project release license remain pending",
+  "lossy_derivative_limit": "965-bin headerless export; per-bin uncertainties, masks and centroids were not transferred; rounding fingerprint does not prove historical Wolfram causation"
+}

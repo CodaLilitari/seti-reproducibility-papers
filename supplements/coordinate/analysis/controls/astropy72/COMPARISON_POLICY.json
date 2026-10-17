@@ -1,0 +1,26 @@
+{
+  "frozen_utc": "2026-10-15T17:28:07.016517+00:00",
+  "science_commands_permitted": 1,
+  "rerun_permitted": false,
+  "schema_and_order": "Exact CSV field names, row order, candidate/band/model/epoch strings",
+  "expected_rows": 72,
+  "expected_candidate_band_pairs": 36,
+  "expected_rows_per_model": 36,
+  "required_csv_sha256": "25b8600736c555a38a6101ff6a422bd516341a42ba48beb61cd4d03684dcdd89",
+  "csv_byte_identity_required": true,
+  "relative_tolerance": 1e-09,
+  "absolute_tolerance_arcsec": 1e-10,
+  "tiny_values": "For nonzero reference magnitude below 1e-8, relative tolerance only; exact zero uses absolute tolerance.",
+  "scientific_summary": "Exact fields, schema, counts and strings; numeric maxima use the unchanged relative/absolute arcsec criteria. Exact numeric equality reported separately.",
+  "runtime_fields_excluded_from_scientific_comparison": [
+    "astropy",
+    "numpy",
+    "python",
+    "executable",
+    "platform"
+  ],
+  "internal_assertions": "Unchanged: 72 rows, 36 unique pairs, max difference < 1e-4 arcsec.",
+  "guards": "Existing inspected Python audit hook; no socket except local gethostname, subprocess or outside-QA writes. IERS downloads disabled; library threads 1; below-normal child priority; no GPU.",
+  "scope": "One provenance-only derivative of historical arithmetic, not new measurements, original historical author code, or a new physical validation.",
+  "stop": "Any discrepancy stays failed: no numerical retry, source tuning, or tolerance relaxation."
+}

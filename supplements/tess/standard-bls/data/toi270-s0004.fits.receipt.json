@@ -1,0 +1,9 @@
+{
+  "url": "https://archive.stsci.edu/missions/tess/tid/s0004/0000/0002/5937/7017/tess2018292075959-s0004-0000000259377017-0124-s_lc.fits",
+  "resolved_url": "https://archive.stsci.edu/missions/tess/tid/s0004/0000/0002/5937/7017/tess2018292075959-s0004-0000000259377017-0124-s_lc.fits",
+  "status": 200,
+  "started_utc": "2026-10-08T10:14:38.151640+00:00",
+  "finished_utc": "2026-10-08T10:14:39.940439+00:00",
+  "bytes": 1897920,
+  "sha256": "09f1e69d89dce001e447fbc509b9453f033b2428d183add334b43b93dbc8c93b"
+}

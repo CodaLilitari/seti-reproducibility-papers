@@ -1,0 +1,198 @@
+{
+  "utc": "2026-10-08T11:59:33.109190+00:00",
+  "scope": "Offline synthetic development only; no unfamiliar metadata/flux or server probes",
+  "tests": 47,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "source_unchanged_during_run": true,
+  "source_sha256": {
+    "metadata_contract.py": "b6da38de7987a6783a003925e0c7f07370309ea29d5a5478afca9356753214ad",
+    "run_offline_checks.py": "e92419e95be37e9f2503a1491a355691a66019c2b7d50ba10137dcb92b9819e8",
+    "synthetic_driver.py": "ee0e54e97a2c388fc60c7f35115f3928e21adcd981b0900999cee065e1ce9da1",
+    "tess_components.py": "1e01c9ba8b358228aed0581f1731f99dc1595402037f4bbf9f7cc0f8c6832826",
+    "test_metadata_contract.py": "9463277e448875963892c40655d2ce284e8dca0375c968b3a1108ca86167101d",
+    "test_tess_components.py": "ae96d40a17bf6fb6de580604bd56a9f808fa106d594d53c96da76ff4dd786712"
+  },
+  "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "astropy": "8.0.1"
+  },
+  "network_guard": "socket/DNS/bind/sendto blocked",
+  "numerical_threads": 1,
+  "windows_priority_verified": "BELOW_NORMAL_PRIORITY_CLASS",
+  "peak_working_set_bytes": 104251392,
+  "elapsed_seconds": 2.968763899989426,
+  "phi_1_power_25": 0.013315260765244287,
+  "730_day_grid_plan": {
+    "baseline_days": 730.0,
+    "max_frequency_step_per_day": 8.781173164734808e-07,
+    "intervals": 1810401,
+    "points": 1810402,
+    "phase_drift_bound_days": 0.008333333333333333,
+    "claim": "Bound on period-grid endpoint phase drift only; not event-time or period uncertainty."
+  },
+  "connected_holdout_status": "recovered",
+  "connected_freeze_sha256": "68f4b8d3693539290efe44dc0dd753ca0683a4ae6996201bc8d84c5714c49662",
+  "base_v3_manifest_sha256": "89eacdaf36a78fafd517c000af9696363fa754fbb0936d9ad8fe415a469114f8",
+  "contribution_diagnostic_examples": {
+    "diffuse": {
+      "status": "recovered",
+      "covered_events": 10,
+      "depth": 1.97,
+      "variance": 0.1,
+      "formal_snr": 6.229686990531707,
+      "nonpositive_event_count": 1,
+      "all_covered_events_combined": true,
+      "event_contributions": [
+        {
+          "event_index": 0,
+          "normalized_inverse_variance_weight": 0.1,
+          "signed_snr_contribution": -0.03162277660168379
+        },
+        {
+          "event_index": 1,
+          "normalized_inverse_variance_weight": 0.1,
+          "signed_snr_contribution": 0.6957010852370434
+        },
+        {
+          "event_index": 2,
+          "normalized_inverse_variance_weight": 0.1,
+          "signed_snr_contribution": 0.6957010852370434
+        },
+        {
+          "event_index": 3,
+          "normalized_inverse_variance_weight": 0.1,
+          "signed_snr_contribution": 0.6957010852370434
+        },
+        {
+          "event_index": 4,
+          "normalized_inverse_variance_weight": 0.1,
+          "signed_snr_contribution": 0.6957010852370434
+        },
+        {
+          "event_index": 5,
+          "normalized_inverse_variance_weight": 0.1,
+          "signed_snr_contribution": 0.6957010852370434
+        },
+        {
+          "event_index": 6,
+          "normalized_inverse_variance_weight": 0.1,
+          "signed_snr_contribution": 0.6957010852370434
+        },
+        {
+          "event_index": 7,
+          "normalized_inverse_variance_weight": 0.1,
+          "signed_snr_contribution": 0.6957010852370434
+        },
+        {
+          "event_index": 8,
+          "normalized_inverse_variance_weight": 0.1,
+          "signed_snr_contribution": 0.6957010852370434
+        },
+        {
+          "event_index": 9,
+          "normalized_inverse_variance_weight": 0.1,
+          "signed_snr_contribution": 0.6957010852370434
+        }
+      ],
+      "max_absolute_snr_contribution_fraction": 0.11055276381909547,
+      "contribution_concentration_unavailable_reason": null,
+      "three_se_depth_consistency": true,
+      "criterion": "At least two covered events; all combined, including zero/negative; positive aggregate, formal SNR>=5, depth consistency<=3 combined SE."
+    },
+    "concentrated": {
+      "status": "recovered",
+      "covered_events": 10,
+      "depth": 1.970000000000001,
+      "variance": 0.1,
+      "formal_snr": 6.229686990531711,
+      "nonpositive_event_count": 1,
+      "all_covered_events_combined": true,
+      "event_contributions": [
+        {
+          "event_index": 0,
+          "normalized_inverse_variance_weight": 0.1,
+          "signed_snr_contribution": -0.03162277660168379
+        },
+        {
+          "event_index": 1,
+          "normalized_inverse_variance_weight": 0.1,
+          "signed_snr_contribution": 6.236011545852043
+        },
+        {
+          "event_index": 2,
+          "normalized_inverse_variance_weight": 0.1,
+          "signed_snr_contribution": 0.0031622776601683794
+        },
+        {
+          "event_index": 3,
+          "normalized_inverse_variance_weight": 0.1,
+          "signed_snr_contribution": 0.0031622776601683794
+        },
+        {
+          "event_index": 4,
+          "normalized_inverse_variance_weight": 0.1,
+          "signed_snr_contribution": 0.0031622776601683794
+        },
+        {
+          "event_index": 5,
+          "normalized_inverse_variance_weight": 0.1,
+          "signed_snr_contribution": 0.0031622776601683794
+        },
+        {
+          "event_index": 6,
+          "normalized_inverse_variance_weight": 0.1,
+          "signed_snr_contribution": 0.0031622776601683794
+        },
+        {
+          "event_index": 7,
+          "normalized_inverse_variance_weight": 0.1,
+          "signed_snr_contribution": 0.0031622776601683794
+        },
+        {
+          "event_index": 8,
+          "normalized_inverse_variance_weight": 0.1,
+          "signed_snr_contribution": 0.0031622776601683794
+        },
+        {
+          "event_index": 9,
+          "normalized_inverse_variance_weight": 0.1,
+          "signed_snr_contribution": 0.0031622776601683794
+        }
+      ],
+      "max_absolute_snr_contribution_fraction": 0.9909547738693468,
+      "contribution_concentration_unavailable_reason": null,
+      "three_se_depth_consistency": true,
+      "criterion": "At least two covered events; all combined, including zero/negative; positive aggregate, formal SNR>=5, depth consistency<=3 combined SE."
+    },
+    "zero": {
+      "status": "non_recovery",
+      "covered_events": 2,
+      "depth": 0.0,
+      "variance": 0.5,
+      "formal_snr": 0.0,
+      "nonpositive_event_count": 2,
+      "all_covered_events_combined": true,
+      "event_contributions": [
+        {
+          "event_index": 0,
+          "normalized_inverse_variance_weight": 0.5,
+          "signed_snr_contribution": 0.0
+        },
+        {
+          "event_index": 1,
+          "normalized_inverse_variance_weight": 0.5,
+          "signed_snr_contribution": 0.0
+        }
+      ],
+      "max_absolute_snr_contribution_fraction": null,
+      "contribution_concentration_unavailable_reason": "zero_total_absolute_snr_contribution",
+      "three_se_depth_consistency": true,
+      "criterion": "At least two covered events; all combined, including zero/negative; positive aggregate, formal SNR>=5, depth consistency<=3 combined SE."
+    }
+  }
+}

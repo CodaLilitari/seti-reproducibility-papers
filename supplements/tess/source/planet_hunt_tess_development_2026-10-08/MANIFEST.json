@@ -1,0 +1,97 @@
+[
+  {
+    "path": "CODA_HANDOFF.md",
+    "bytes": 2209,
+    "sha256": "a2e272053be01cda39a03eab97a72c58cf2064d4eb9f066bef6a4044bbbec3cc"
+  },
+  {
+    "path": "PLAN_BEFORE_FLUX.md",
+    "bytes": 2130,
+    "sha256": "849ea2d97731724d95c84e6c11b8363b3cea6b49c03e6b99111b6c5fc48dd8ce"
+  },
+  {
+    "path": "README.md",
+    "bytes": 7307,
+    "sha256": "f782a6189e9d750b5ab3d756c384fe71249824c576ee3695f1154b205fa33d0c"
+  },
+  {
+    "path": "data/catalog_comparison.csv",
+    "bytes": 214,
+    "sha256": "ee70118bdb5ef881ab52e0792802a83a9afd4c755cf8e87ecea2667ce7149534"
+  },
+  {
+    "path": "data/export.b64",
+    "bytes": 10283,
+    "sha256": "201a162d979755c779de0b32fd6732e5f2f316003f57119f4c00122b9c579881"
+  },
+  {
+    "path": "data/retrieval.wl",
+    "bytes": 1018,
+    "sha256": "1ff2aadd10c6972b4f5b0b28f1566fd19bc10f22efeb919a8812089440a507b6"
+  },
+  {
+    "path": "data/toi270_s4_binned.csv",
+    "bytes": 19928,
+    "sha256": "7e2269301ce4b08fe13d0c57b34efcb54bd4a5fc293a23a362a648b39ec4d0e1"
+  },
+  {
+    "path": "data/toi270_s4_binned.csv.gz",
+    "bytes": 7708,
+    "sha256": "ea6d4c0ceb83df5683ab100b93f32e95c5b9cf1fdcaaeb52c39130ca4664e6f6"
+  },
+  {
+    "path": "environment.json",
+    "bytes": 214,
+    "sha256": "690fc143b4ec4a16d0159ec72fee975b0bb659d14af8e9fb707d5fca915be414"
+  },
+  {
+    "path": "results/detrended.csv",
+    "bytes": 121649,
+    "sha256": "b483afe405498f5a321d8e360d9098557c81c3defa618076f0d0dfed69eed867"
+  },
+  {
+    "path": "results/implementation_tests.txt",
+    "bytes": 627,
+    "sha256": "bcc4daa57bc8b5fc69e0df398dccc155b15b466cd0ba550211d8381720a6f08f"
+  },
+  {
+    "path": "results/known_planet_recovery.png",
+    "bytes": 122460,
+    "sha256": "2e0041de7d0a93df0ab1f7360a5e57b58699036406a15d803eee4c51686de37a"
+  },
+  {
+    "path": "results/periodogram_1.csv",
+    "bytes": 900052,
+    "sha256": "db0e525bbd91064341f9b029e5669c4bad1673a1db579843bcd859720984dd54"
+  },
+  {
+    "path": "results/periodogram_2.csv",
+    "bytes": 900052,
+    "sha256": "16bbb1febbdce1adb955bb51de9e65a64afcd8b0489e0d5958f0a7e126ebb1ee"
+  },
+  {
+    "path": "results/periodogram_3.csv",
+    "bytes": 900052,
+    "sha256": "8e8364d753a578e8103f9f2d5fc12e8d67fcc27e4f92192679da9bdef5375b83"
+  },
+  {
+    "path": "results/search_results.json",
+    "bytes": 2010,
+    "sha256": "5674ac9a86790730d7450a3ec7717d03dc7b162f8a17eb1ed9f9ce46d27bf188"
+  },
+  {
+    "path": "search.py",
+    "bytes": 5619,
+    "sha256": "48d62036f02e9ba8e26262f19d85df8850f9231274f43420ca4538cdc8056755"
+  },
+  {
+    "path": "test_search.py",
+    "bytes": 2116,
+    "sha256": "a6f1069e35f7bfd0281550f5aaa338526d16a9edd0bcaaf1af466698e76d3953"
+  },
+  {
+    "path": "verify.py",
+    "bytes": 635,
+    "sha256": "1a447450ac433ffe849d3929567bfd06692aec5bda77dd3a72e5ed29f3caf252"
+  }
+]

@@ -1,0 +1,5 @@
+# Historical full-cadence/post-hoc/v3.1 environment: CPython 3.13.15.
+# Identity record only; curation installs or downloads nothing.
+numpy==2.5.3
+scipy==1.18.1
+astropy==8.0.1

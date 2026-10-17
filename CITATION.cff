@@ -1,0 +1,17 @@
+{
+  "cff-version": "1.2.0",
+  "message": "This file describes the accompanying reproducibility collection. Please cite the relevant individual preprint listed in README.md for its scientific claims. No DOI is assigned here.",
+  "type": "dataset",
+  "title": "SETI reproducibility papers: coordinate-epoch audit and TESS development evidence",
+  "version": "1.0",
+  "authors": [
+    {
+      "family-names": "Pemberton",
+      "given-names": "Richard Andrei",
+      "affiliation": "Independent researcher",
+      "email": "andreipemberton@gmail.com"
+    }
+  ],
+  "abstract": "An accompanying collection of two methods preprints, source snapshots, analysis code and bounded execution records for a coordinate-epoch audit and known-system TOI-270 transit-search development. Historical discrepancies and coverage limits are retained.",
+  "url": "https://gitlab.com/codalilitari/seti-reproducibility-papers"
+}

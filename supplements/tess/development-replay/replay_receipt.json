@@ -1,0 +1,80 @@
+{
+  "generated_utc": "2026-10-08T06:14:45.388886-04:00",
+  "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "numpy": "2.3.5",
+  "thread_limits": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "network": "socket connections, DNS, bind and sendto blocked by audit hook",
+  "priority": "Original untyped Windows request did not establish below-normal priority; helper corrected after diagnostic probe. No enforced original priority claim.",
+  "source_manifest_before": {
+    "entries": 19,
+    "failures": []
+  },
+  "source_manifest_after": {
+    "entries": 19,
+    "failures": []
+  },
+  "tests": {
+    "run": 6,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "original_config_unchanged": true,
+  "peak_comparisons": [
+    {
+      "iteration": 1,
+      "period_days": 5.655459544383346,
+      "depth_ppm": 3366.713417725168,
+      "sap_depth_same_box_ppm": 3166.5503603836514,
+      "period_delta_days": 0.0,
+      "pdc_depth_delta_ppm": 0.0,
+      "sap_depth_delta_ppm": 0.0,
+      "populated_events": 4,
+      "bins_per_event": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "iteration": 2,
+      "period_days": 11.374012590234061,
+      "depth_ppm": 2704.2904994298196,
+      "sap_depth_same_box_ppm": 2843.5131584376422,
+      "period_delta_days": 0.0,
+      "pdc_depth_delta_ppm": 0.0,
+      "sap_depth_delta_ppm": 0.0,
+      "populated_events": 2,
+      "bins_per_event": [
+        4,
+        4
+      ]
+    },
+    {
+      "iteration": 3,
+      "period_days": 10.757971447619484,
+      "depth_ppm": 776.7526209608176,
+      "sap_depth_same_box_ppm": -272.59261788859226,
+      "period_delta_days": 0.0,
+      "pdc_depth_delta_ppm": 0.0,
+      "sap_depth_delta_ppm": 0.0,
+      "populated_events": 3,
+      "bins_per_event": [
+        5,
+        8,
+        8
+      ]
+    }
+  ],
+  "peak_working_set_bytes": null,
+  "elapsed_seconds": 12.971289099950809,
+  "scope": "Lossy 30-minute original development replay only; no new target or astronomical validation",
+  "memory_measurement_note": "The original Windows peak-memory query returned zero because its ctypes handle signature was incomplete. Peak working set for that ended process is unavailable; no zero-memory claim is made. The helper was corrected for subsequent synthetic runs."
+}

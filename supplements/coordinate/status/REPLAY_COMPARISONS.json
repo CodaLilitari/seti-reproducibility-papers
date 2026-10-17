@@ -1,0 +1,1274 @@
+{
+  "schema_version": 1,
+  "curated_utc": "2026-10-15T17:35:16.369096+00:00",
+  "record_kind": "Existing execution evidence curated without rerunning any of the eight original commands.",
+  "original_private_receipt_identity": {
+    "bytes": 31906,
+    "sha256": "e34f29640ec524c94216c04bde5b50e07ec29a760a9458d5aed5bf090afecd0d"
+  },
+  "source_status": "Coda execution records; no assertion that Lily independently inspected these private raw histories.",
+  "started_utc": "2026-10-15T16:14:35.101388+00:00",
+  "completed_utc": "2026-10-15T16:16:29.986417+00:00",
+  "status": "completed_with_reference_mismatches",
+  "original_stage_manifest_identity": {
+    "bytes": 17755,
+    "sha256": "af2aa31f22ed3598e44372e915bd2a1c4d9627fe9f8f9b8c39f8bee3d7371d79"
+  },
+  "environment": {
+    "python": "3.13.15",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "astropy": "8.0.1",
+    "thread_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "iers_auto_download": false,
+    "imports_succeeded": [
+      "numpy",
+      "scipy.stats.rayleigh",
+      "astropy.coordinates",
+      "astropy.io.fits"
+    ]
+  },
+  "commands": [
+    {
+      "label": "d1_core",
+      "script": "analysis/d1-core/independent_core_check.py",
+      "started_utc": "2026-10-15T16:14:39.999417+00:00",
+      "completed_utc": "2026-10-15T16:14:40.118249+00:00",
+      "wall_seconds": 0.11883199994917959,
+      "exit_code": 0,
+      "timed_out": false,
+      "stdout_sha256": "ffccd7f061de01300390378081c63b2554582e341c52dad2839fb0d348e3473e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "executed_passed_exit",
+      "source_identity": {
+        "bytes": 14364,
+        "sha256": "75972d53b1f514353fb84499dc66ae39d6ac939521d9f69d8491c0ec84992f2f"
+      },
+      "executions": 1,
+      "inputs": [
+        {
+          "replay_relative_path": "analysis/d1-core/fresh_gaia_tap_2026-09-27.csv",
+          "supplied_path": "analysis/d1-core/fresh_gaia_tap_2026-09-27.csv",
+          "sha256": "1fc488d2d080643f042006de0d45d04bc6d261aa49e12a92cd640e81b8d10a48",
+          "bytes": 1278
+        },
+        {
+          "replay_relative_path": "analysis/d1-core/fresh_simbad_tap_2026-09-27.csv",
+          "supplied_path": "analysis/d1-core/fresh_simbad_tap_2026-09-27.csv",
+          "sha256": "233f4f717c311cc64862e2a5c88864e7ca3d241415fdb8d6ef2feb32f2773452",
+          "bytes": 1219
+        },
+        {
+          "replay_relative_path": "analysis/d1-core/primary_values.json",
+          "supplied_path": "analysis/d1-core/primary_values.json",
+          "sha256": "641eec1c013bfc99e950ac69751799418dbbc143eba769f758af0a06f87c1837",
+          "bytes": 3728
+        }
+      ],
+      "input_inventory_basis": "Statically inspected source read paths, verified against retained replay working-copy bytes and frozen stage."
+    },
+    {
+      "label": "control_36",
+      "script": "analysis/controls/falsification/audit_falsification.py",
+      "started_utc": "2026-10-15T16:16:24.123376+00:00",
+      "completed_utc": "2026-10-15T16:16:24.589586+00:00",
+      "wall_seconds": 0.46621289994800463,
+      "exit_code": 0,
+      "timed_out": false,
+      "stdout_sha256": "6d75561362f76d418d78ec0b311930b38e177cef2ccb803e6bfbd57052262132",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "executed_passed_exit",
+      "source_identity": {
+        "bytes": 10650,
+        "sha256": "cad3184e9ca4029f2c513e09df2525bd0a5044ba590b0e9dd3f69504ef1a849d"
+      },
+      "executions": 1,
+      "inputs": [
+        {
+          "replay_relative_path": "analysis/controls/falsification/inputs/gaia_dr3_snapshot_20260925.csv",
+          "supplied_path": "analysis/controls/falsification/inputs/gaia_dr3_snapshot_20260925.csv",
+          "sha256": "ebc0f022f36d65525a96082be2c9b7d96302e17f24a02276af50a5fc70dd5c8b",
+          "bytes": 1759
+        },
+        {
+          "replay_relative_path": "analysis/controls/falsification/source_tables.json",
+          "supplied_path": "analysis/controls/falsification/source_tables.json",
+          "sha256": "62a9fe9430be1d0b9ff0e85549ae002a7c565be1239f3994dc7ddf2b41490396",
+          "bytes": 22117
+        }
+      ],
+      "input_inventory_basis": "Statically inspected source read paths, verified against retained replay working-copy bytes and frozen stage."
+    },
+    {
+      "label": "control_estimator",
+      "script": "analysis/controls/scripts/fit_recovered_A.py",
+      "started_utc": "2026-10-15T16:16:24.633028+00:00",
+      "completed_utc": "2026-10-15T16:16:25.745288+00:00",
+      "wall_seconds": 1.1122335999971256,
+      "exit_code": 0,
+      "timed_out": false,
+      "stdout_sha256": "5b87fb0e12b3deaccb595eb64d9ba44ae2aa7fe61fb6568ac560e1c3da65a134",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "executed_passed_exit",
+      "source_identity": {
+        "bytes": 4523,
+        "sha256": "ea6d340878d73a7f0c46f34e4e0105b02d46a3b41af2b19939849d2f2a934649"
+      },
+      "executions": 1,
+      "inputs": [
+        {
+          "replay_relative_path": "analysis/controls/source_archives/A_controls_transcribed.csv",
+          "supplied_path": "analysis/controls/source_archives/A_controls_transcribed.csv",
+          "sha256": "9310f8e93b0c0da997f85abacdb882ce3702d9ef3ee0884aa1338fa34872a4a2",
+          "bytes": 5708
+        }
+      ],
+      "input_inventory_basis": "Statically inspected source read paths, verified against retained replay working-copy bytes and frozen stage."
+    },
+    {
+      "label": "control_rounding",
+      "script": "analysis/controls/source_archives/verify_free_location_rounding.py",
+      "started_utc": "2026-10-15T16:16:25.776760+00:00",
+      "completed_utc": "2026-10-15T16:16:26.675673+00:00",
+      "wall_seconds": 0.8989150000270456,
+      "exit_code": 0,
+      "timed_out": false,
+      "stdout_sha256": "62221ff9edc8a73984f4019231d824d663a446535517daf990882dbbdf933e37",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "executed_passed_exit",
+      "source_identity": {
+        "bytes": 2840,
+        "sha256": "45231f1b8918a85afa9fc8e58cfb84554eb2ea1e2e4ae3c4cb8f707646babd83"
+      },
+      "executions": 1,
+      "inputs": [
+        {
+          "replay_relative_path": "analysis/controls/source_archives/A_controls_transcribed.csv",
+          "supplied_path": "analysis/controls/source_archives/A_controls_transcribed.csv",
+          "sha256": "9310f8e93b0c0da997f85abacdb882ce3702d9ef3ee0884aa1338fa34872a4a2",
+          "bytes": 5708
+        }
+      ],
+      "input_inventory_basis": "Statically inspected source read paths, verified against retained replay working-copy bytes and frozen stage."
+    },
+    {
+      "label": "control_bounds",
+      "script": "analysis/bounds/check_bounds.py",
+      "started_utc": "2026-10-15T16:16:26.698567+00:00",
+      "completed_utc": "2026-10-15T16:16:26.889425+00:00",
+      "wall_seconds": 0.19085830001858994,
+      "exit_code": 0,
+      "timed_out": false,
+      "stdout_sha256": "200e6f005edb049dac9a7dd79946ac1f69b63a7c93f8b8534b8f8c269b62697b",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "executed_passed_exit",
+      "source_identity": {
+        "bytes": 6927,
+        "sha256": "438a826a32c374226e931e143366087cad89ebe2236ceb5067346ac49eb60570"
+      },
+      "executions": 1,
+      "inputs": [
+        {
+          "replay_relative_path": "analysis/bounds/inputs/A_controls_transcribed.csv",
+          "supplied_path": "analysis/bounds/inputs/A_controls_transcribed.csv",
+          "sha256": "9310f8e93b0c0da997f85abacdb882ce3702d9ef3ee0884aa1338fa34872a4a2",
+          "bytes": 5708
+        },
+        {
+          "replay_relative_path": "analysis/bounds/inputs/gaia_A_controls.csv",
+          "supplied_path": "analysis/bounds/inputs/gaia_A_controls.csv",
+          "sha256": "4bd7293532668068e74a875e459775c64919d495109161fb1cf6ccadf4e9d737",
+          "bytes": 2478
+        },
+        {
+          "replay_relative_path": "analysis/bounds/inputs/gaia_A_control_uncertainties.csv",
+          "supplied_path": "analysis/bounds/inputs/gaia_A_control_uncertainties.csv",
+          "sha256": "38b63656356082d673d0908f56e93a85fd464890aa8d9268923f17edf4f02d23",
+          "bytes": 1052
+        },
+        {
+          "replay_relative_path": "analysis/bounds/inputs/candidate_radius_models.csv",
+          "supplied_path": "analysis/bounds/inputs/candidate_radius_models.csv",
+          "sha256": "846bffa0d5a7f084f22fb2c9c74b0a04201a522b89ff3ea32b22ee710a6f2eab",
+          "bytes": 10895
+        }
+      ],
+      "input_inventory_basis": "Statically inspected source read paths, verified against retained replay working-copy bytes and frozen stage."
+    },
+    {
+      "label": "ren2024_seven",
+      "script": "analysis/ren2024/ren2024-assessment/math/audit_astrometry.py",
+      "started_utc": "2026-10-15T16:16:26.910012+00:00",
+      "completed_utc": "2026-10-15T16:16:28.284245+00:00",
+      "wall_seconds": 1.374234700051602,
+      "exit_code": 0,
+      "timed_out": false,
+      "stdout_sha256": "ca40932ce3435f6a565cca75d4fbbf280b84335e4870a0c5ae91192094385d59",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "executed_passed_exit",
+      "source_identity": {
+        "bytes": 25249,
+        "sha256": "09adb284f2c2a8cb3f37d1ae37f6979bc69195cc0fedf712035136dc208beffd"
+      },
+      "executions": 1,
+      "inputs": [
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/gaia/three_sources_covariance.csv",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/gaia/three_sources_covariance.csv",
+          "sha256": "7d5bfa21e7732c49e967446e6953575efbc2a7e7b6fe702891e3f180d390e547",
+          "bytes": 1310
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/source/Ren2024_Coordinate_State_Followup_2026-10-08/data/ren2024_table1_transcribed.csv",
+          "supplied_path": "analysis/ren2024/source/Ren2024_Coordinate_State_Followup_2026-10-08/data/ren2024_table1_transcribed.csv",
+          "sha256": "afafc8b350cef8c6a02f79980024d876ba229243d6b081e7d69435929e396e17",
+          "bytes": 641
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/g-surveys/G_SOURCE_PROVENANCE.json",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/g-surveys/G_SOURCE_PROVENANCE.json",
+          "sha256": "6c1a5a4f733a8461e91329146628acae13c528649ccd154fedbcdc681111d913",
+          "bytes": 14895
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/racs/catalog_A.tsv",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/racs/catalog_A.tsv",
+          "sha256": "7b932e3d873a0dba7c325af5f9693084e92dd315522352fabc645c7006c23f74",
+          "bytes": 6411
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/racs/catalog_B.tsv",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/racs/catalog_B.tsv",
+          "sha256": "16e6a510ceb75ae7f8511cfeebea2fff8887e12359b15dfa583813cd0112527d",
+          "bytes": 6409
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/racs/catalog_G.tsv",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/racs/catalog_G.tsv",
+          "sha256": "3ffebc25dc81181def614ac6ab4cf0ec5efd57757da57566093a06e046a0fc30",
+          "bytes": 6413
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/g-surveys/vlass_g.tsv",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/g-surveys/vlass_g.tsv",
+          "sha256": "af8e1c384ec0d57a3eaefd8dc4da36d5788ebb20c1617d08834b2f5300fb9a08",
+          "bytes": 12237
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/g-surveys/vlass_ReadMe.txt",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/g-surveys/vlass_ReadMe.txt",
+          "sha256": "7ba7e70e9f3154213dc0cd318323809817f25f305d7494b910f0d672bf216264",
+          "bytes": 21550
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/g-surveys/first_g.tsv",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/g-surveys/first_g.tsv",
+          "sha256": "fbbcb7fa4785cfc85132196dcc9fe4396bff32b643239eea262b9381d0de8b28",
+          "bytes": 4474
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/g-surveys/first_ReadMe.txt",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/g-surveys/first_ReadMe.txt",
+          "sha256": "3965786bd3d56718d054f40ab0aa563936446516dd4270d12e49da3700ab5d8a",
+          "bytes": 15809
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/g-surveys/nvss_g.tsv",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/g-surveys/nvss_g.tsv",
+          "sha256": "d16663fe2aa7a1bf81808e02ea6ca03fa2113880eedb13651f2e47e5e67381d0",
+          "bytes": 4629
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/g-surveys/nvss_ReadMe.txt",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/g-surveys/nvss_ReadMe.txt",
+          "sha256": "7235bb67b68e98321ff2551eb912f2eff67db3a18a48266da6cd438f3f76b429",
+          "bytes": 6296
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/g-surveys/tgss_g.tsv",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/g-surveys/tgss_g.tsv",
+          "sha256": "a59dfec212c68df246a0fe9c1e547fb9891050ac4e89140a3b1553446e1c0411",
+          "bytes": 3967
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/g-surveys/tgss_ReadMe.txt",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/g-surveys/tgss_ReadMe.txt",
+          "sha256": "5ae7dc3f56151eea2ca5338b2affca7031b6fc4eeb2612c77408af3689dd776e",
+          "bytes": 6913
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/racs/header_1240-25A.txt",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/racs/header_1240-25A.txt",
+          "sha256": "3d6279f3b67585942fce8d4d49d18468e09ee8ca93b960e22054077ac27ec5cc",
+          "bytes": 5022
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/racs/header_0354-43A.txt",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/racs/header_0354-43A.txt",
+          "sha256": "585b156f3b04d1e98846822101d86966cc11e1a58bc5ca8dfe4297543452dd43",
+          "bytes": 5022
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/racs/header_2347+00A.txt",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/racs/header_2347+00A.txt",
+          "sha256": "b8cfe15a32bd1d39e6ec254f295a40a77b8ea9b3d67f5cc631e255c522e8368c",
+          "bytes": 5022
+        }
+      ],
+      "input_inventory_basis": "Read-input hashes recorded by this execution; some inputs are prior commands outputs.",
+      "private_input_receipt_identity": {
+        "bytes": 7004,
+        "sha256": "f0b7ce993d76ea62ce8991983efe474652621cba30760f0fe37d88c0359e6b91"
+      }
+    },
+    {
+      "label": "tgss",
+      "script": "analysis/ren2024/ren2024-assessment/math/tgss_reference_diagnostic.py",
+      "started_utc": "2026-10-15T16:16:28.316731+00:00",
+      "completed_utc": "2026-10-15T16:16:29.157366+00:00",
+      "wall_seconds": 0.8406338999629952,
+      "exit_code": 0,
+      "timed_out": false,
+      "stdout_sha256": "9a54076ebdb67ad96915b1b03515f5c8b2d31d8fc1e2cf4d8e3fe063d08f9665",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "executed_passed_exit",
+      "source_identity": {
+        "bytes": 13457,
+        "sha256": "046d613181419dd484b26aac220893336b8ff53028af0deb19c060235dccbe39"
+      },
+      "executions": 1,
+      "inputs": [
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/gaia/three_sources_covariance.csv",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/gaia/three_sources_covariance.csv",
+          "sha256": "7d5bfa21e7732c49e967446e6953575efbc2a7e7b6fe702891e3f180d390e547",
+          "bytes": 1310
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/source/Ren2024_Coordinate_State_Followup_2026-10-08/data/ren2024_table1_transcribed.csv",
+          "supplied_path": "analysis/ren2024/source/Ren2024_Coordinate_State_Followup_2026-10-08/data/ren2024_table1_transcribed.csv",
+          "sha256": "afafc8b350cef8c6a02f79980024d876ba229243d6b081e7d69435929e396e17",
+          "bytes": 641
+        }
+      ],
+      "input_inventory_basis": "Read-input hashes recorded by this execution; some inputs are prior commands outputs.",
+      "private_input_receipt_identity": {
+        "bytes": 5407,
+        "sha256": "af20c201f4f0511c7a7ee7561755bd4858a61a1c97aa9eef55ff21f37070897b"
+      }
+    },
+    {
+      "label": "finite_rho",
+      "script": "analysis/ren2024/ren2024-assessment/math/reviewer_followup.py",
+      "started_utc": "2026-10-15T16:16:29.160512+00:00",
+      "completed_utc": "2026-10-15T16:16:29.968153+00:00",
+      "wall_seconds": 0.8076429999782704,
+      "exit_code": 0,
+      "timed_out": false,
+      "stdout_sha256": "09b73d60c3b4bc95923a5d18eba9d9d9b6491877af811ca6791f9b8545cebd87",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "executed_passed_exit",
+      "source_identity": {
+        "bytes": 23210,
+        "sha256": "1679038861901aceffb417479f71c1ef228c4adc6a66f13918af354c77c02d1c"
+      },
+      "executions": 1,
+      "inputs": [
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/math/audit_astrometry.py",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/math/audit_astrometry.py",
+          "sha256": "09adb284f2c2a8cb3f37d1ae37f6979bc69195cc0fedf712035136dc208beffd",
+          "bytes": 25249
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/source/Ren2024_Coordinate_State_Followup_2026-10-08/data/ren2024_table1_transcribed.csv",
+          "supplied_path": "analysis/ren2024/source/Ren2024_Coordinate_State_Followup_2026-10-08/data/ren2024_table1_transcribed.csv",
+          "sha256": "afafc8b350cef8c6a02f79980024d876ba229243d6b081e7d69435929e396e17",
+          "bytes": 641
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/gaia/three_sources_covariance.csv",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/gaia/three_sources_covariance.csv",
+          "sha256": "7d5bfa21e7732c49e967446e6953575efbc2a7e7b6fe702891e3f180d390e547",
+          "bytes": 1310
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/g-surveys/G_SOURCE_PROVENANCE.json",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/g-surveys/G_SOURCE_PROVENANCE.json",
+          "sha256": "6c1a5a4f733a8461e91329146628acae13c528649ccd154fedbcdc681111d913",
+          "bytes": 14895
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/math/epoch_details.json",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/math/epoch_details.json",
+          "sha256": "90c55f68c08d95c30c3e592d0419b0d833c943d72687d239f4129928a46a4f16",
+          "bytes": 42491
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/math/conditional_covariance_sensitivity.csv",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/math/conditional_covariance_sensitivity.csv",
+          "sha256": "d00389f87446b2717f40d067ac38d81881fbcded1960b9caf0630f439157d737",
+          "bytes": 34628
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/math/seven_rows.csv",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/math/seven_rows.csv",
+          "sha256": "23b2d2f82057e80ca159cc4db3a9141f0d832c2bc78f9c5c468ece3a0d1729f8",
+          "bytes": 2790
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/math/gaia_covariance_checks.json",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/math/gaia_covariance_checks.json",
+          "sha256": "a602eb563dbf0a6689b6d5c71446f9abd7871cfaecae1f7d7449203f0f60b565",
+          "bytes": 6567
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/racs/cadc_product_uris.csv",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/racs/cadc_product_uris.csv",
+          "sha256": "b70276787096dcce92d533728b58d35935d74b6bf88ee006207afc58f33a2f4c",
+          "bytes": 281
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/racs/catalog_A.tsv",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/racs/catalog_A.tsv",
+          "sha256": "7b932e3d873a0dba7c325af5f9693084e92dd315522352fabc645c7006c23f74",
+          "bytes": 6411
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/racs/header_1240-25A.txt",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/racs/header_1240-25A.txt",
+          "sha256": "3d6279f3b67585942fce8d4d49d18468e09ee8ca93b960e22054077ac27ec5cc",
+          "bytes": 5022
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/racs/header_1240-25A.txt.receipt.json",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/racs/header_1240-25A.txt.receipt.json",
+          "sha256": "f085e676531755f8af358c114221a8adc85137baf2a09c22820a391982f8e53b",
+          "bytes": 404
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/racs/catalog_B.tsv",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/racs/catalog_B.tsv",
+          "sha256": "16e6a510ceb75ae7f8511cfeebea2fff8887e12359b15dfa583813cd0112527d",
+          "bytes": 6409
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/racs/header_0354-43A.txt",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/racs/header_0354-43A.txt",
+          "sha256": "585b156f3b04d1e98846822101d86966cc11e1a58bc5ca8dfe4297543452dd43",
+          "bytes": 5022
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/racs/header_0354-43A.txt.receipt.json",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/racs/header_0354-43A.txt.receipt.json",
+          "sha256": "8eabf32911ab82459b94c5220b5949f10911a19406c3bebbb13cfa0c704a3ca6",
+          "bytes": 404
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/racs/catalog_G.tsv",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/racs/catalog_G.tsv",
+          "sha256": "3ffebc25dc81181def614ac6ab4cf0ec5efd57757da57566093a06e046a0fc30",
+          "bytes": 6413
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/racs/header_2347+00A.txt",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/racs/header_2347+00A.txt",
+          "sha256": "b8cfe15a32bd1d39e6ec254f295a40a77b8ea9b3d67f5cc631e255c522e8368c",
+          "bytes": 5022
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/racs/header_2347+00A.txt.receipt.json",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/racs/header_2347+00A.txt.receipt.json",
+          "sha256": "d129d5a1b1dd6258a4d7da3122d652485ee82765f697502389971ad12b5bdebc",
+          "bytes": 404
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/g-surveys/vlass_g.tsv",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/g-surveys/vlass_g.tsv",
+          "sha256": "af8e1c384ec0d57a3eaefd8dc4da36d5788ebb20c1617d08834b2f5300fb9a08",
+          "bytes": 12237
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/g-surveys/first_g.tsv",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/g-surveys/first_g.tsv",
+          "sha256": "fbbcb7fa4785cfc85132196dcc9fe4396bff32b643239eea262b9381d0de8b28",
+          "bytes": 4474
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/g-surveys/nvss_g.tsv",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/g-surveys/nvss_g.tsv",
+          "sha256": "d16663fe2aa7a1bf81808e02ea6ca03fa2113880eedb13651f2e47e5e67381d0",
+          "bytes": 4629
+        },
+        {
+          "replay_relative_path": "analysis/ren2024/ren2024-assessment/g-surveys/tgss_g.tsv",
+          "supplied_path": "analysis/ren2024/ren2024-assessment/g-surveys/tgss_g.tsv",
+          "sha256": "a59dfec212c68df246a0fe9c1e547fb9891050ac4e89140a3b1553446e1c0411",
+          "bytes": 3967
+        }
+      ],
+      "input_inventory_basis": "Read-input hashes recorded by this execution; some inputs are prior commands outputs.",
+      "private_input_receipt_identity": {
+        "bytes": 15246,
+        "sha256": "6d7e3ac4f89d1b56206c146656e1b50177063528b6c3608efaf1370c6420fd3a"
+      }
+    }
+  ],
+  "criteria": {
+    "default": {
+      "relative": 1e-09,
+      "absolute": 1e-10
+    },
+    "optimized_epoch_shift_years": {
+      "relative": 0,
+      "absolute": 1e-05
+    },
+    "tiny_nonzero_probabilities": {
+      "relative": 1e-09,
+      "absolute": 0
+    },
+    "integer_identifiers_counts_booleans_and_strings": "exact",
+    "notes": "Declared before replay. Schema, row order and row count must match. Failure is recorded, not relaxed."
+  },
+  "criteria_identity": {
+    "bytes": 423,
+    "sha256": "7728129b7a2d7ff6106beb2e41c7a7b9ad81170f13a65cf11f8d005e095a8ef3"
+  },
+  "comparisons": [
+    {
+      "label": "d1_core/independent_rowwise.csv",
+      "status": "passed",
+      "reference_sha256": "25a36cf82f93ce3e926701018cd58a97b1251a793a7dba460b40eca1dd1ba21c",
+      "actual_sha256": "240f624dce239da2ed41150dae9a0a738c354398ece2563fbef416cab61d62bb",
+      "byte_identical": false,
+      "numeric_cells": 258,
+      "max_absolute_difference": 2.7588709095027752e-11,
+      "reference_identity": {
+        "bytes": 4696,
+        "sha256": "25a36cf82f93ce3e926701018cd58a97b1251a793a7dba460b40eca1dd1ba21c"
+      },
+      "actual_identity": {
+        "bytes": 4702,
+        "sha256": "240f624dce239da2ed41150dae9a0a738c354398ece2563fbef416cab61d62bb"
+      },
+      "reference_supplied_path": "analysis/d1-core/independent_rowwise.csv",
+      "replay_relative_output_path": "analysis/d1-core/independent_rowwise.csv",
+      "actual_supplied_path": null
+    },
+    {
+      "label": "d1_core/independent_effective_epoch_fits.csv",
+      "status": "failed",
+      "reference_sha256": "5499b00c1903fc8c76e2c184f3287e0b3bc8218957e4aa4f3d81a4689edaec19",
+      "actual_sha256": "ac3ef74c839dbcedcc64e8b4aa8d12c09ad31a920aa6d761fdea503a7bab92e4",
+      "byte_identical": false,
+      "numeric_cells": 22,
+      "max_absolute_difference": 4.792732238456665e-05,
+      "reference_identity": {
+        "bytes": 594,
+        "sha256": "5499b00c1903fc8c76e2c184f3287e0b3bc8218957e4aa4f3d81a4689edaec19"
+      },
+      "actual_identity": {
+        "bytes": 598,
+        "sha256": "ac3ef74c839dbcedcc64e8b4aa8d12c09ad31a920aa6d761fdea503a7bab92e4"
+      },
+      "reference_supplied_path": "analysis/d1-core/independent_effective_epoch_fits.csv",
+      "replay_relative_output_path": "analysis/d1-core/independent_effective_epoch_fits.csv",
+      "actual_supplied_path": null,
+      "scientific_exception_id": "D1-I-best-shift-years"
+    },
+    {
+      "label": "d1_core/independent_ren2024_inversion.csv",
+      "status": "passed",
+      "reference_sha256": "a68f7015503c8039a658cddff4bcd3198a9e4bebd53fb88ccefd96a4a7a943c0",
+      "actual_sha256": "a68f7015503c8039a658cddff4bcd3198a9e4bebd53fb88ccefd96a4a7a943c0",
+      "byte_identical": true,
+      "numeric_cells": 35,
+      "max_absolute_difference": 0.0,
+      "reference_identity": {
+        "bytes": 802,
+        "sha256": "a68f7015503c8039a658cddff4bcd3198a9e4bebd53fb88ccefd96a4a7a943c0"
+      },
+      "actual_identity": {
+        "bytes": 802,
+        "sha256": "a68f7015503c8039a658cddff4bcd3198a9e4bebd53fb88ccefd96a4a7a943c0"
+      },
+      "reference_supplied_path": "analysis/d1-core/independent_ren2024_inversion.csv",
+      "replay_relative_output_path": "analysis/d1-core/independent_ren2024_inversion.csv",
+      "actual_supplied_path": "analysis/d1-core/independent_ren2024_inversion.csv"
+    },
+    {
+      "label": "d1_core/independent_table10_conditional.csv",
+      "status": "passed",
+      "reference_sha256": "07c3df615f7c76b0e7da7a8d990ed9cef1443ecd3ebedfd37a243bf147a727c1",
+      "actual_sha256": "378e5b26f8f70c010976fa81704c9a25612a00747d21d2ab02d292aec9bc5ebe",
+      "byte_identical": false,
+      "numeric_cells": 40,
+      "max_absolute_difference": 2.5576762929802044e-11,
+      "reference_identity": {
+        "bytes": 753,
+        "sha256": "07c3df615f7c76b0e7da7a8d990ed9cef1443ecd3ebedfd37a243bf147a727c1"
+      },
+      "actual_identity": {
+        "bytes": 754,
+        "sha256": "378e5b26f8f70c010976fa81704c9a25612a00747d21d2ab02d292aec9bc5ebe"
+      },
+      "reference_supplied_path": "analysis/d1-core/independent_table10_conditional.csv",
+      "replay_relative_output_path": "analysis/d1-core/independent_table10_conditional.csv",
+      "actual_supplied_path": null
+    },
+    {
+      "label": "d1_core/independent_core_results.json",
+      "status": "failed",
+      "reference_sha256": "64ef6ea867c178574cbb5defd1096e0b4e5cce2b50e23fa035e8c410a7fdbd70",
+      "actual_sha256": "3a3f7cabc95faae3e0fe58a5c5e121c3baa1420c266fd70216930674a230af66",
+      "byte_identical": false,
+      "numeric_cells": 116,
+      "max_absolute_difference": 4.792732238456665e-05,
+      "reference_identity": {
+        "bytes": 8986,
+        "sha256": "64ef6ea867c178574cbb5defd1096e0b4e5cce2b50e23fa035e8c410a7fdbd70"
+      },
+      "actual_identity": {
+        "bytes": 9277,
+        "sha256": "3a3f7cabc95faae3e0fe58a5c5e121c3baa1420c266fd70216930674a230af66"
+      },
+      "reference_supplied_path": "analysis/d1-core/independent_core_results.json",
+      "replay_relative_output_path": "analysis/d1-core/independent_core_results.json",
+      "actual_supplied_path": null,
+      "scientific_exception_id": "D1-I-best-shift-years"
+    },
+    {
+      "label": "control_36/candidate_radius_models.csv",
+      "status": "passed",
+      "reference_sha256": "846bffa0d5a7f084f22fb2c9c74b0a04201a522b89ff3ea32b22ee710a6f2eab",
+      "actual_sha256": "846bffa0d5a7f084f22fb2c9c74b0a04201a522b89ff3ea32b22ee710a6f2eab",
+      "byte_identical": true,
+      "numeric_cells": 612,
+      "max_absolute_difference": 0.0,
+      "reference_identity": {
+        "bytes": 10895,
+        "sha256": "846bffa0d5a7f084f22fb2c9c74b0a04201a522b89ff3ea32b22ee710a6f2eab"
+      },
+      "actual_identity": {
+        "bytes": 10895,
+        "sha256": "846bffa0d5a7f084f22fb2c9c74b0a04201a522b89ff3ea32b22ee710a6f2eab"
+      },
+      "reference_supplied_path": "analysis/controls/falsification/candidate_radius_models.csv",
+      "replay_relative_output_path": "analysis/controls/falsification/candidate_radius_models.csv",
+      "actual_supplied_path": "analysis/controls/falsification/candidate_radius_models.csv"
+    },
+    {
+      "label": "control_36/effective_epoch_fits.csv",
+      "status": "passed",
+      "reference_sha256": "d14f4ffb40627ac8fce9ac40ddf1e6c28255c8186fa7b0a7abd52645168e5f03",
+      "actual_sha256": "d14f4ffb40627ac8fce9ac40ddf1e6c28255c8186fa7b0a7abd52645168e5f03",
+      "byte_identical": true,
+      "numeric_cells": 44,
+      "max_absolute_difference": 0.0,
+      "reference_identity": {
+        "bytes": 1020,
+        "sha256": "d14f4ffb40627ac8fce9ac40ddf1e6c28255c8186fa7b0a7abd52645168e5f03"
+      },
+      "actual_identity": {
+        "bytes": 1020,
+        "sha256": "d14f4ffb40627ac8fce9ac40ddf1e6c28255c8186fa7b0a7abd52645168e5f03"
+      },
+      "reference_supplied_path": "analysis/controls/falsification/effective_epoch_fits.csv",
+      "replay_relative_output_path": "analysis/controls/falsification/effective_epoch_fits.csv",
+      "actual_supplied_path": "analysis/controls/falsification/effective_epoch_fits.csv"
+    },
+    {
+      "label": "control_36/rayleigh_rounding_tests.csv",
+      "status": "passed",
+      "reference_sha256": "8d868e4416eccafff9485bdaa4a6e0fdb67a97f711217adc29fa5224ede1f7b8",
+      "actual_sha256": "8d868e4416eccafff9485bdaa4a6e0fdb67a97f711217adc29fa5224ede1f7b8",
+      "byte_identical": true,
+      "numeric_cells": 792,
+      "max_absolute_difference": 0.0,
+      "reference_identity": {
+        "bytes": 15390,
+        "sha256": "8d868e4416eccafff9485bdaa4a6e0fdb67a97f711217adc29fa5224ede1f7b8"
+      },
+      "actual_identity": {
+        "bytes": 15390,
+        "sha256": "8d868e4416eccafff9485bdaa4a6e0fdb67a97f711217adc29fa5224ede1f7b8"
+      },
+      "reference_supplied_path": "analysis/controls/falsification/rayleigh_rounding_tests.csv",
+      "replay_relative_output_path": "analysis/controls/falsification/rayleigh_rounding_tests.csv",
+      "actual_supplied_path": "analysis/controls/falsification/rayleigh_rounding_tests.csv"
+    },
+    {
+      "label": "control_estimator",
+      "status": "passed",
+      "reference_sha256": "d56471ae6eef45c4574d92e2ed3051442a15b3f873b56170e7fc46e4ebd4e3dc",
+      "actual_sha256": "94774f7696eacba92a354df64b2ee0ebd619d0468ac617e733400d92497b6c12",
+      "byte_identical": false,
+      "numeric_cells": 134,
+      "max_absolute_difference": 0.0,
+      "reference_identity": {
+        "bytes": 5575,
+        "sha256": "d56471ae6eef45c4574d92e2ed3051442a15b3f873b56170e7fc46e4ebd4e3dc"
+      },
+      "actual_identity": {
+        "bytes": 7277,
+        "sha256": "94774f7696eacba92a354df64b2ee0ebd619d0468ac617e733400d92497b6c12"
+      },
+      "reference_supplied_path": "support/astrometry/control_estimator_replay.json",
+      "replay_relative_output_path": "analysis/controls/results/A_control_estimator_replay.json",
+      "actual_supplied_path": null
+    },
+    {
+      "label": "control_rounding",
+      "status": "passed",
+      "reference_sha256": "3664adf3af7ea7bd0c92e8f13382d1b27ab0bd086090e7adba5c44df49f5b392",
+      "actual_sha256": "3664adf3af7ea7bd0c92e8f13382d1b27ab0bd086090e7adba5c44df49f5b392",
+      "byte_identical": true,
+      "numeric_cells": 404,
+      "max_absolute_difference": 0.0,
+      "reference_identity": {
+        "bytes": 322437,
+        "sha256": "3664adf3af7ea7bd0c92e8f13382d1b27ab0bd086090e7adba5c44df49f5b392"
+      },
+      "actual_identity": {
+        "bytes": 322437,
+        "sha256": "3664adf3af7ea7bd0c92e8f13382d1b27ab0bd086090e7adba5c44df49f5b392"
+      },
+      "reference_supplied_path": "analysis/controls/source_archives/free_location_rounding_exclusion.json",
+      "replay_relative_output_path": "analysis/controls/source_archives/free_location_rounding_exclusion.json",
+      "actual_supplied_path": "analysis/controls/source_archives/free_location_rounding_exclusion.json"
+    },
+    {
+      "label": "control_bounds/per_source",
+      "status": "passed",
+      "reference_sha256": "b937052c6ff4e736d463642a8d749fd9abfe72cbd6ad55505cc7fbf3639388e6",
+      "actual_sha256": "b937052c6ff4e736d463642a8d749fd9abfe72cbd6ad55505cc7fbf3639388e6",
+      "byte_identical": true,
+      "numeric_cells": 593,
+      "max_absolute_difference": 0.0,
+      "reference_identity": {
+        "bytes": 11041,
+        "sha256": "b937052c6ff4e736d463642a8d749fd9abfe72cbd6ad55505cc7fbf3639388e6"
+      },
+      "actual_identity": {
+        "bytes": 11041,
+        "sha256": "b937052c6ff4e736d463642a8d749fd9abfe72cbd6ad55505cc7fbf3639388e6"
+      },
+      "reference_supplied_path": "analysis/bounds/per_source_bounds.csv",
+      "replay_relative_output_path": "analysis/bounds/per_source_bounds.csv",
+      "actual_supplied_path": "analysis/bounds/per_source_bounds.csv"
+    },
+    {
+      "label": "control_bounds/band_results",
+      "status": "passed",
+      "reference_sha256": "f23eeb3618edafe8238af44c17cf25af4fc3959a7581c53531ba15079ce59c7e",
+      "actual_sha256": "8c4bb7b16e088d8c950c1478b4f86b23b0643f627f00b000de3166d67d3e93d4",
+      "byte_identical": false,
+      "numeric_cells": 26,
+      "max_absolute_difference": 0.0,
+      "reference_identity": {
+        "bytes": 2383,
+        "sha256": "f23eeb3618edafe8238af44c17cf25af4fc3959a7581c53531ba15079ce59c7e"
+      },
+      "actual_identity": {
+        "bytes": 3620,
+        "sha256": "8c4bb7b16e088d8c950c1478b4f86b23b0643f627f00b000de3166d67d3e93d4"
+      },
+      "reference_supplied_path": "support/astrometry/conditional_bounds.json",
+      "replay_relative_output_path": "analysis/bounds/bound_results.json",
+      "actual_supplied_path": null
+    },
+    {
+      "label": "ren2024_seven/seven_rows.csv",
+      "status": "passed",
+      "reference_sha256": "23b2d2f82057e80ca159cc4db3a9141f0d832c2bc78f9c5c468ece3a0d1729f8",
+      "actual_sha256": "23b2d2f82057e80ca159cc4db3a9141f0d832c2bc78f9c5c468ece3a0d1729f8",
+      "byte_identical": true,
+      "numeric_cells": 94,
+      "max_absolute_difference": 0.0,
+      "reference_identity": {
+        "bytes": 2790,
+        "sha256": "23b2d2f82057e80ca159cc4db3a9141f0d832c2bc78f9c5c468ece3a0d1729f8"
+      },
+      "actual_identity": {
+        "bytes": 2790,
+        "sha256": "23b2d2f82057e80ca159cc4db3a9141f0d832c2bc78f9c5c468ece3a0d1729f8"
+      },
+      "reference_supplied_path": "support/ren2024/math/seven_rows.csv",
+      "replay_relative_output_path": "analysis/ren2024/ren2024-assessment/math/seven_rows.csv",
+      "actual_supplied_path": "analysis/ren2024/ren2024-assessment/math/seven_rows.csv"
+    },
+    {
+      "label": "ren2024_seven/conditional_covariance_sensitivity.csv",
+      "status": "passed",
+      "reference_sha256": "d00389f87446b2717f40d067ac38d81881fbcded1960b9caf0630f439157d737",
+      "actual_sha256": "d00389f87446b2717f40d067ac38d81881fbcded1960b9caf0630f439157d737",
+      "byte_identical": true,
+      "numeric_cells": 1944,
+      "max_absolute_difference": 0.0,
+      "reference_identity": {
+        "bytes": 34628,
+        "sha256": "d00389f87446b2717f40d067ac38d81881fbcded1960b9caf0630f439157d737"
+      },
+      "actual_identity": {
+        "bytes": 34628,
+        "sha256": "d00389f87446b2717f40d067ac38d81881fbcded1960b9caf0630f439157d737"
+      },
+      "reference_supplied_path": "support/ren2024/math/conditional_covariance_sensitivity.csv",
+      "replay_relative_output_path": "analysis/ren2024/ren2024-assessment/math/conditional_covariance_sensitivity.csv",
+      "actual_supplied_path": "analysis/ren2024/ren2024-assessment/math/conditional_covariance_sensitivity.csv"
+    },
+    {
+      "label": "ren2024_seven/epoch_details.json",
+      "status": "passed",
+      "reference_sha256": "90c55f68c08d95c30c3e592d0419b0d833c943d72687d239f4129928a46a4f16",
+      "actual_sha256": "90c55f68c08d95c30c3e592d0419b0d833c943d72687d239f4129928a46a4f16",
+      "byte_identical": true,
+      "numeric_cells": 700,
+      "max_absolute_difference": 0.0,
+      "reference_identity": {
+        "bytes": 42491,
+        "sha256": "90c55f68c08d95c30c3e592d0419b0d833c943d72687d239f4129928a46a4f16"
+      },
+      "actual_identity": {
+        "bytes": 42491,
+        "sha256": "90c55f68c08d95c30c3e592d0419b0d833c943d72687d239f4129928a46a4f16"
+      },
+      "reference_supplied_path": "support/ren2024/math/epoch_details.json",
+      "replay_relative_output_path": "analysis/ren2024/ren2024-assessment/math/epoch_details.json",
+      "actual_supplied_path": "analysis/ren2024/ren2024-assessment/math/epoch_details.json"
+    },
+    {
+      "label": "ren2024_seven/printed_reference_inversion.json",
+      "status": "passed",
+      "reference_sha256": "e4ff15db855357a464c9f16544cae7366a69a1bcf0afb5c0730b06d3ebf2765f",
+      "actual_sha256": "e4ff15db855357a464c9f16544cae7366a69a1bcf0afb5c0730b06d3ebf2765f",
+      "byte_identical": true,
+      "numeric_cells": 7,
+      "max_absolute_difference": 0.0,
+      "reference_identity": {
+        "bytes": 867,
+        "sha256": "e4ff15db855357a464c9f16544cae7366a69a1bcf0afb5c0730b06d3ebf2765f"
+      },
+      "actual_identity": {
+        "bytes": 867,
+        "sha256": "e4ff15db855357a464c9f16544cae7366a69a1bcf0afb5c0730b06d3ebf2765f"
+      },
+      "reference_supplied_path": "support/ren2024/math/printed_reference_inversion.json",
+      "replay_relative_output_path": "analysis/ren2024/ren2024-assessment/math/printed_reference_inversion.json",
+      "actual_supplied_path": "support/ren2024/math/printed_reference_inversion.json"
+    },
+    {
+      "label": "ren2024_seven/tgss_discrepancy.json",
+      "status": "passed",
+      "reference_sha256": "d33759c6dabb9a571b6be5250f97dc0b67022f5e04849dfcfdd183abbbf5b1e5",
+      "actual_sha256": "d33759c6dabb9a571b6be5250f97dc0b67022f5e04849dfcfdd183abbbf5b1e5",
+      "byte_identical": true,
+      "numeric_cells": 4,
+      "max_absolute_difference": 0.0,
+      "reference_identity": {
+        "bytes": 253,
+        "sha256": "d33759c6dabb9a571b6be5250f97dc0b67022f5e04849dfcfdd183abbbf5b1e5"
+      },
+      "actual_identity": {
+        "bytes": 253,
+        "sha256": "d33759c6dabb9a571b6be5250f97dc0b67022f5e04849dfcfdd183abbbf5b1e5"
+      },
+      "reference_supplied_path": "support/ren2024/math/tgss_discrepancy.json",
+      "replay_relative_output_path": "analysis/ren2024/ren2024-assessment/math/tgss_discrepancy.json",
+      "actual_supplied_path": "support/ren2024/math/tgss_discrepancy.json"
+    },
+    {
+      "label": "ren2024_seven/first_empirical_accuracy.json",
+      "status": "passed",
+      "reference_sha256": "f1ffb84b264ea0be94a24ac3d909d2f794347b2e4284d4dd4e83bbf6a6f774b0",
+      "actual_sha256": "f1ffb84b264ea0be94a24ac3d909d2f794347b2e4284d4dd4e83bbf6a6f774b0",
+      "byte_identical": true,
+      "numeric_cells": 4,
+      "max_absolute_difference": 0.0,
+      "reference_identity": {
+        "bytes": 295,
+        "sha256": "f1ffb84b264ea0be94a24ac3d909d2f794347b2e4284d4dd4e83bbf6a6f774b0"
+      },
+      "actual_identity": {
+        "bytes": 295,
+        "sha256": "f1ffb84b264ea0be94a24ac3d909d2f794347b2e4284d4dd4e83bbf6a6f774b0"
+      },
+      "reference_supplied_path": "support/ren2024/math/first_empirical_accuracy.json",
+      "replay_relative_output_path": "analysis/ren2024/ren2024-assessment/math/first_empirical_accuracy.json",
+      "actual_supplied_path": "support/ren2024/math/first_empirical_accuracy.json"
+    },
+    {
+      "label": "ren2024_seven/gaia_covariance_checks",
+      "status": "passed",
+      "reference_sha256": "a602eb563dbf0a6689b6d5c71446f9abd7871cfaecae1f7d7449203f0f60b565",
+      "actual_sha256": "a602eb563dbf0a6689b6d5c71446f9abd7871cfaecae1f7d7449203f0f60b565",
+      "byte_identical": true,
+      "numeric_cells": 195,
+      "max_absolute_difference": 0.0,
+      "reference_identity": {
+        "bytes": 6567,
+        "sha256": "a602eb563dbf0a6689b6d5c71446f9abd7871cfaecae1f7d7449203f0f60b565"
+      },
+      "actual_identity": {
+        "bytes": 6567,
+        "sha256": "a602eb563dbf0a6689b6d5c71446f9abd7871cfaecae1f7d7449203f0f60b565"
+      },
+      "reference_supplied_path": "analysis/ren2024/ren2024-assessment/math/gaia_covariance_checks.json",
+      "replay_relative_output_path": "analysis/ren2024/ren2024-assessment/math/gaia_covariance_checks.json",
+      "actual_supplied_path": "analysis/ren2024/ren2024-assessment/math/gaia_covariance_checks.json"
+    },
+    {
+      "label": "tgss",
+      "status": "passed",
+      "reference_sha256": "9a54076ebdb67ad96915b1b03515f5c8b2d31d8fc1e2cf4d8e3fe063d08f9665",
+      "actual_sha256": "9a54076ebdb67ad96915b1b03515f5c8b2d31d8fc1e2cf4d8e3fe063d08f9665",
+      "byte_identical": true,
+      "numeric_cells": 40,
+      "max_absolute_difference": 0.0,
+      "reference_identity": {
+        "bytes": 3573,
+        "sha256": "9a54076ebdb67ad96915b1b03515f5c8b2d31d8fc1e2cf4d8e3fe063d08f9665"
+      },
+      "actual_identity": {
+        "bytes": 3573,
+        "sha256": "9a54076ebdb67ad96915b1b03515f5c8b2d31d8fc1e2cf4d8e3fe063d08f9665"
+      },
+      "reference_supplied_path": "support/ren2024/math/tgss_reference_diagnostic.json",
+      "replay_relative_output_path": "analysis/ren2024/ren2024-assessment/math/tgss_reference_diagnostic.json",
+      "actual_supplied_path": "support/ren2024/math/tgss_reference_diagnostic.json"
+    },
+    {
+      "label": "finite_rho",
+      "status": "passed",
+      "reference_sha256": "92a8f41f486e48c89cc8445b5b93610c1de58434a0cd7181338e3323f5f3a1a8",
+      "actual_sha256": "92a8f41f486e48c89cc8445b5b93610c1de58434a0cd7181338e3323f5f3a1a8",
+      "byte_identical": true,
+      "numeric_cells": 72,
+      "max_absolute_difference": 0.0,
+      "reference_identity": {
+        "bytes": 1768,
+        "sha256": "92a8f41f486e48c89cc8445b5b93610c1de58434a0cd7181338e3323f5f3a1a8"
+      },
+      "actual_identity": {
+        "bytes": 1768,
+        "sha256": "92a8f41f486e48c89cc8445b5b93610c1de58434a0cd7181338e3323f5f3a1a8"
+      },
+      "reference_supplied_path": "support/ren2024/math/reviewer_followup_finite_rho.csv",
+      "replay_relative_output_path": "analysis/ren2024/ren2024-assessment/math/reviewer_followup_finite_rho.csv",
+      "actual_supplied_path": "support/ren2024/math/reviewer_followup_finite_rho.csv"
+    },
+    {
+      "label": "finite_rho/scientific_result_fields",
+      "status": "passed",
+      "reference_sha256": "961a27bcef6e77fa9f77b93428f54669ce7f624df57af306c284c63a9fe9708e",
+      "actual_sha256": "5f80a396ef61b42197902d0c74f46facfe22843c9299e23aad2d1bc0345ebb9d",
+      "byte_identical": false,
+      "numeric_cells": 161,
+      "max_absolute_difference": 0.0,
+      "reference_identity": {
+        "bytes": 15069,
+        "sha256": "961a27bcef6e77fa9f77b93428f54669ce7f624df57af306c284c63a9fe9708e"
+      },
+      "actual_identity": {
+        "bytes": 15039,
+        "sha256": "5f80a396ef61b42197902d0c74f46facfe22843c9299e23aad2d1bc0345ebb9d"
+      },
+      "reference_supplied_path": null,
+      "replay_relative_output_path": "analysis/ren2024/ren2024-assessment/math/reviewer_followup.json",
+      "actual_supplied_path": null
+    }
+  ],
+  "comparison_summary": {
+    "records": 22,
+    "passed": 20,
+    "failed": 2,
+    "distinct_scientific_discrepancies": 1
+  },
+  "exceptions": [
+    {
+      "branch": "WISE",
+      "candidate": "I",
+      "reference_best_shift_years": -0.34480909997444087,
+      "replayed_best_shift_years": -0.34485702729682544,
+      "absolute_difference_years": 4.792732238456665e-05,
+      "predeclared_absolute_tolerance_years": 1e-05,
+      "tolerance_status": "failed_not_relaxed",
+      "reference_rms_arcsec": 0.00793847850405235,
+      "replayed_rms_arcsec": 0.007938478486915687,
+      "absolute_rms_difference_arcsec": 1.713666361591315e-11,
+      "qualification": "One optimizer-position discrepancy, exposed in both CSV and JSON; central-offset replay passed. Cause not established, optimizer/global-optimum certification not supplied.",
+      "D1_scientific_execution_count": 1,
+      "exception_id": "D1-I-best-shift-years",
+      "representations": [
+        {
+          "field": "d1_core/independent_effective_epoch_fits.csv/7/best_shift_years",
+          "reference": -0.34480909997444087,
+          "actual": -0.34485702729682544,
+          "abs_difference": 4.792732238456665e-05,
+          "rtol": 0,
+          "atol": 1e-05
+        },
+        {
+          "field": "d1_core/independent_core_results.json/effective_epoch_fits/7/best_shift_years",
+          "reference": -0.34480909997444087,
+          "actual": -0.34485702729682544,
+          "abs_difference": 4.792732238456665e-05,
+          "rtol": 0,
+          "atol": 1e-05
+        }
+      ],
+      "failure_records": 2,
+      "distinct_scientific_quantities": 1
+    }
+  ],
+  "strict_fit_rms_postcomparison": {
+    "reason": "Apply default numeric tolerance specifically to RMS fields; preserve epoch-shift failures unchanged.",
+    "relative_tolerance": 1e-09,
+    "absolute_tolerance_arcsec": 1e-10,
+    "results": [
+      {
+        "branch": "WISE",
+        "candidate": "A",
+        "passed": true,
+        "absolute_difference_arcsec": 1.622754491545364e-11
+      },
+      {
+        "branch": "WISE",
+        "candidate": "B",
+        "passed": true,
+        "absolute_difference_arcsec": 1.1099458158136954e-11
+      },
+      {
+        "branch": "WISE",
+        "candidate": "C",
+        "passed": true,
+        "absolute_difference_arcsec": 0.0
+      },
+      {
+        "branch": "WISE",
+        "candidate": "D",
+        "passed": true,
+        "absolute_difference_arcsec": 0.0
+      },
+      {
+        "branch": "WISE",
+        "candidate": "E",
+        "passed": true,
+        "absolute_difference_arcsec": 7.93283841393766e-13
+      },
+      {
+        "branch": "WISE",
+        "candidate": "F",
+        "passed": true,
+        "absolute_difference_arcsec": 0.0
+      },
+      {
+        "branch": "WISE",
+        "candidate": "H",
+        "passed": true,
+        "absolute_difference_arcsec": 0.0
+      },
+      {
+        "branch": "WISE",
+        "candidate": "I",
+        "passed": true,
+        "absolute_difference_arcsec": 1.713666361591315e-11
+      },
+      {
+        "branch": "WISE",
+        "candidate": "J",
+        "passed": true,
+        "absolute_difference_arcsec": 0.0
+      },
+      {
+        "branch": "RADIO",
+        "candidate": "A",
+        "passed": true,
+        "absolute_difference_arcsec": 5.068738831437436e-12
+      },
+      {
+        "branch": "RADIO",
+        "candidate": "B",
+        "passed": true,
+        "absolute_difference_arcsec": 4.0754101482409766e-12
+      }
+    ],
+    "scientific_rerun": false
+  },
+  "executed_scientific_check_records": {
+    "checks.json": {
+      "count": 174,
+      "passed": 174,
+      "failed": 0
+    },
+    "tgss_reference_checks.json": {
+      "count": 17,
+      "passed": 17,
+      "failed": 0
+    },
+    "reviewer_followup_checks.json": {
+      "count": 122,
+      "passed": 122,
+      "failed": 0
+    }
+  },
+  "scope": "Same-code numerical replay of frozen inputs, not an independent method, archive acquisition or physical validation.",
+  "unexercised": [
+    "omitted D1 pandas/HTML extraction",
+    "source acquisition and primary-image inspection",
+    "figure regeneration",
+    "physical association/IR contamination modeling",
+    "unrelated TESS and observational pipelines"
+  ],
+  "preservation": {
+    "stage_unchanged": true,
+    "canonical_sources_unchanged": true
+  },
+  "guard_scope": "Inspected Python audit hook; local gethostname allowed, other socket events/subprocess/outside-QA writes denied. No blocked events in successful commands. Application guard, not OS firewall.",
+  "preflight_history": {
+    "initial_failure": "Overbroad Python audit guard denied local socket.gethostname during NumPy/SciPy import; no scientific command ran in that attempt.",
+    "change": "Allow local gethostname only; other socket events, subprocess launches and writes outside the QA root remain denied.",
+    "science_code_modified": false,
+    "failed_preflight_retained_privately": true,
+    "D1_stop": "D1 exited 0, then failed two reference comparisons for the same I shift. Other independent commands were authorized to continue without repeating D1; failure not changed."
+  },
+  "historical_astropy72": {
+    "completed_utc": "2026-10-15T16:30:54.899908+00:00",
+    "status": "passed",
+    "scope": "One rerun of exact historical 72-case arithmetic comparison; no new observations or historical-pipeline recovery.",
+    "csv_rows": 72,
+    "unique_candidate_band_pairs": 36,
+    "csv_byte_identical": true,
+    "summary_byte_identical": false,
+    "scientific_summary": {
+      "gaia_snapshot_date": "2026-09-25",
+      "rows": 72,
+      "candidates_bands": 36,
+      "max_absolute_difference_arcsec": 8.49259882240716e-06,
+      "max_absolute_difference_by_model_arcsec": {
+        "correct_2016": 5.592861009873218e-07,
+        "offset_minus16": 8.49259882240716e-06
+      },
+      "accepted_tolerance_arcsec": 0.0001,
+      "method": "SkyCoord parses sexagesimal strings; distance from parallax; radial velocity assumed zero; apply_space_motion from Gaia reference epoch; spherical separation. No stdlib audit functions imported.",
+      "limitations": "Checks propagation arithmetic under zero radial velocity; not new observations, fresh Gaia retrieval, or original-code recovery."
+    },
+    "maximum_difference_microarcsec": 8.49259882240716,
+    "outputs": {
+      "astropy_crosscheck.csv": {
+        "bytes": 6491,
+        "sha256": "25b8600736c555a38a6101ff6a422bd516341a42ba48beb61cd4d03684dcdd89"
+      },
+      "astropy_crosscheck_summary.json": {
+        "bytes": 998,
+        "sha256": "7ec4681f48ef2a7ba02ecd7240e70d78014fa8dbf4faca8a4bde4270675275a3"
+      }
+    },
+    "preservation": {
+      "stage_unchanged": true,
+      "canonical_sources_unchanged": true,
+      "working_sources_and_inputs_unchanged": true
+    },
+    "failures": [],
+    "original_private_receipt": {
+      "bytes": 9877,
+      "sha256": "a2b2120c57dc1df2d77f9c852729a3faa317520fa0b4bbafb229e0260216b635"
+    },
+    "environment": {
+      "python": "3.13.15",
+      "numpy": "2.5.3",
+      "scipy": "1.18.1",
+      "astropy": "8.0.1",
+      "thread_environment": {
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "VECLIB_MAXIMUM_THREADS": "1"
+      },
+      "iers_auto_download": false,
+      "imports_succeeded": [
+        "numpy",
+        "scipy.stats.rayleigh",
+        "astropy.coordinates",
+        "astropy.io.fits"
+      ]
+    },
+    "source_identity": {
+      "bytes": 4145,
+      "sha256": "b28b5324ff2c6c567ca12031bef5221aba1c7c4b245e6a39d4187706c94c0188"
+    },
+    "comparison_policy": {
+      "frozen_utc": "2026-10-15T16:30:43.248047+00:00",
+      "science_commands_permitted": 1,
+      "rerun_permitted": false,
+      "schema_and_order": "exact field names, row order, candidate/band/model strings and epoch strings",
+      "expected_rows": 72,
+      "expected_candidate_band_pairs": 36,
+      "expected_rows_per_model": 36,
+      "numeric_columns": [
+        "astropy_radius_arcsec",
+        "stdlib_radius_arcsec",
+        "astropy_minus_stdlib_arcsec"
+      ],
+      "relative_tolerance": 1e-09,
+      "absolute_tolerance_arcsec": 1e-10,
+      "tiny_values": "For nonzero reference magnitude below 1e-8, relative tolerance only; exact zero uses absolute tolerance.",
+      "scientific_summary": "Exact nonnumeric fields/counts; numerical maxima use same arcsec tolerances.",
+      "runtime_summary": "Versions and paths reported separately; not scientific pass/fail.",
+      "internal_assertions": "Unchanged: 72 rows, 36 unique pairs and max difference < 1e-4 arcsec.",
+      "stop": "Any scientific mismatch stays failed; no source edits, relaxation or numerical rerun."
+    },
+    "comparison_policy_identity": {
+      "bytes": 1040,
+      "sha256": "953e63ec2874917fe0103e5ad3109c7c6ecb426138a77552bc6e701b38d9430b"
+    },
+    "execution": {
+      "label": "astropy_crosscheck",
+      "started_utc": "2026-10-15T16:30:49.753264+00:00",
+      "exit_code": 0,
+      "timed_out": false,
+      "completed_utc": "2026-10-15T16:30:50.663737+00:00",
+      "wall_seconds": 0.9104771999991499,
+      "stdout": {
+        "bytes": 1000,
+        "sha256": "1afac17ea5a2a40e502c220e64418d50bdde251e85cc88f1242b9fda7fb007a4"
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    "numerical_inputs": [
+      {
+        "path": "inputs/gaia_dr3_snapshot_20260925.csv",
+        "bytes": 1759,
+        "sha256": "ebc0f022f36d65525a96082be2c9b7d96302e17f24a02276af50a5fc70dd5c8b"
+      },
+      {
+        "path": "source_tables.json",
+        "bytes": 22117,
+        "sha256": "62a9fe9430be1d0b9ff0e85549ae002a7c565be1239f3994dc7ddf2b41490396"
+      },
+      {
+        "path": "candidate_radius_models.csv",
+        "bytes": 10895,
+        "sha256": "846bffa0d5a7f084f22fb2c9c74b0a04201a522b89ff3ea32b22ee710a6f2eab"
+      }
+    ],
+    "documentary_html_input": {
+      "sha256": "c6c167e9fce6d5a0662a262e2fa0f2a92a1b824aa09484ce2fcf378e8f82f7d2",
+      "supplied": false,
+      "scope": "Historical hash-only dependency; removed only in separately identified successor derivative."
+    },
+    "limits": "Successful historical arithmetic replay does not cancel D1 exception or recover a historical authors implementation. New derivative record is separate."
+  },
+  "new_astropy72_derivative_record": "analysis/controls/astropy72/REPLAY_COMPARISON.json",
+  "curation": "Private absolute interpreter/cache/work paths and unrelated logs omitted. Source/output/reference hashes verified against retained actual files during curation. Supplied paths are package-root relative and exist; null means that exact artifact is not supplied. Replay-relative paths name the historical working layout, not promised payloads. Full raw output metadata and private receipts remain archived; only the compact selected-field comparison is supplied."
+}

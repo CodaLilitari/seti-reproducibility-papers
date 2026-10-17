@@ -1,0 +1,43 @@
+{
+  "schema": "tess-review-scope-summary-v1",
+  "date_of_reports": "2026-10-08",
+  "evidence_type": "Coda summary of saved Lilitari reports; no new execution and no backend identity authentication",
+  "sources": [
+    {
+      "label": "LILITARI_V3_ASSESSMENT.md",
+      "bytes": 7124,
+      "sha256": "c1f6d4cdab629880506eb1e635bd546441c85b978c2e9e869bfa4f764b90e739",
+      "supplied": false
+    },
+    {
+      "label": "LILITARI_V3_1_CLOSURE.md",
+      "bytes": 2865,
+      "sha256": "bea7caf088c646b3ad43b55669033031be2c4eb7d10e6fbd02f3491dedaedc9b",
+      "supplied": false
+    }
+  ],
+  "v3": {
+    "metadata_tests": 8,
+    "selected_non_bls_extracted_tests": 21,
+    "separate_math_support_probes": 6,
+    "saved_event_recombination": "reported recovery reproduced",
+    "astropy_available": false,
+    "full_42_test_suite_rerun": false,
+    "connected_bls_path_rerun": false,
+    "source_extraction": "unchanged selected definitions; not a full-module replay"
+  },
+  "v3_1": {
+    "reporting_regressions": 5,
+    "reported_passed": 5,
+    "failures_errors_skips": 0,
+    "astropy_or_bls_rerun": false,
+    "full_47_test_suite_rerun": false,
+    "source_extraction": "unchanged reporting definitions"
+  },
+  "attribution_boundary": "Coda full Astropy execution and Lily partial checks are distinct. The original review files and reviewer scripts are excluded from this candidate. This summary does not make those executions independently runnable here.",
+  "computational_examples_in_this_candidate": [
+    "tess-development-v3_1/VERIFICATION_RECEIPT.json",
+    "tess-development-v3_1/test_tess_components.py",
+    "tess-development-v3_1/tess_components.py"
+  ]
+}

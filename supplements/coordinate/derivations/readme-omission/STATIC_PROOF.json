@@ -1,0 +1,48 @@
+{
+  "scope": "Static byte and narrowly normalized Python AST proof only. Neither scientific module was imported or executed.",
+  "python_version": "3.12.14",
+  "scientific_execution": false,
+  "module_import": false,
+  "network": false,
+  "gpu": false,
+  "audit_astrometry": {
+    "path": "analysis/ren2024/ren2024-assessment/math/audit_astrometry.py",
+    "original_sha256": "09adb284f2c2a8cb3f37d1ae37f6979bc69195cc0fedf712035136dc208beffd",
+    "derived_sha256": "0f6ea11aa6cc006ab10dfaa644d394c9fdeeb019ae59467b22511a1820b07c93",
+    "original_bytes": 25249,
+    "derived_bytes": 25202,
+    "exact_removed_text": "        read(BASE/f'g-surveys/{s}_ReadMe.txt')\n",
+    "original_line": 167,
+    "removed_expr_count": 1,
+    "all_remaining_ast_nodes_equal_ignoring_source_locations": true,
+    "normalized_ast_sha256": "48ba2c515aa7eeb7daf1da877dec4dae587afbc323f30abfbed22978a99e629b",
+    "derived_ast_sha256": "48ba2c515aa7eeb7daf1da877dec4dae587afbc323f30abfbed22978a99e629b",
+    "all_check_call_asts_unchanged": true,
+    "check_call_ast_count": 21,
+    "interpretation": "Unused ReadMe decoding and four historical documentation hashes are omitted from future INPUTS receipts and the input-preservation check scope. TSV rows and retained provenance facts are unchanged."
+  },
+  "reviewer_followup": {
+    "path": "analysis/ren2024/ren2024-assessment/math/reviewer_followup.py",
+    "original_sha256": "1679038861901aceffb417479f71c1ef228c4adc6a66f13918af354c77c02d1c",
+    "derived_sha256": "74db6c97716432868afda630e4f7eebe195b12129f0749285937b5bb05d8a752",
+    "original_bytes": 23210,
+    "derived_bytes": 23210,
+    "original_line": 95,
+    "changed_constant_count": 1,
+    "old_expected_audit_sha256": "09adb284f2c2a8cb3f37d1ae37f6979bc69195cc0fedf712035136dc208beffd",
+    "new_expected_audit_sha256": "0f6ea11aa6cc006ab10dfaa644d394c9fdeeb019ae59467b22511a1820b07c93",
+    "assertion_retained": true,
+    "pin_equals_actual_derived_audit_sha256": true,
+    "all_other_ast_nodes_equal_ignoring_source_locations": true,
+    "normalized_ast_sha256": "bf89e3419dde6c15f923e75f0db98bf18daa6f6cb74ae7e6eebfc2ac28962222",
+    "derived_ast_sha256": "bf89e3419dde6c15f923e75f0db98bf18daa6f6cb74ae7e6eebfc2ac28962222",
+    "interpretation": "Only the expected script-identity constant is updated. No assertion, numerical expression, tolerance, scientific input or output is removed or changed."
+  },
+  "limits": [
+    "Static dependence evidence is not a fresh numerical runtime equivalence test.",
+    "Historical 174-check and 122-check records apply to the prior exact source identities.",
+    "Future runtime receipts will differ in source identities and omitted documentation input hashes.",
+    "All retained scientific data and historical output bytes are checked separately against the v2 manifest."
+  ],
+  "source_diff_sha256": "a41fdb653a3239e109f385f0b5fae8dd135328dac711ab4a43aa7988365cb07a"
+}

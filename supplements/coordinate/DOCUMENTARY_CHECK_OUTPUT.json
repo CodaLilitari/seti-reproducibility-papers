@@ -1,0 +1,107 @@
+{
+  "scope": "Documentary arithmetic and stored-table consistency only; no new astrometry, covariance optimization, FITS extraction, source query or full-science replay.",
+  "status": "pass",
+  "branch_summaries": {
+    "AF": {
+      "n": 24,
+      "match_at_stated_epoch": 3,
+      "match_minus16": 24,
+      "mae_stated": 0.5004744982714749,
+      "mae_minus16": 0.002255565102434252
+    },
+    "HJ": {
+      "n": 12,
+      "match_at_stated_epoch": 12,
+      "match_minus16": 1,
+      "mae_stated": 0.003689647985575832,
+      "mae_minus16": 0.24609405122019565
+    },
+    "radio": {
+      "n": 7,
+      "match_at_stated_epoch": 7,
+      "match_minus16": 1,
+      "mae_stated": 0.005579624286654483,
+      "mae_minus16": 0.48780186153293437
+    }
+  },
+  "recovered_A_scales": {
+    "W1": {
+      "n": 15,
+      "scale": 0.17447062790051512
+    },
+    "W2": {
+      "n": 15,
+      "scale": 0.21292408662870121
+    },
+    "W3": {
+      "n": 15,
+      "scale": 1.5010485224224652
+    },
+    "W4": {
+      "n": 9,
+      "scale": 3.2876148057689347
+    }
+  },
+  "fixed_scale_diagnostics": {
+    "A W1": 0.5688748922096507,
+    "A W2": 0.8697660949329501,
+    "B W1": 0.4857798601436807,
+    "B W2": 0.004901878556198158,
+    "E W1": 0.607343806738977
+  },
+  "seven_row_native_values": [
+    {
+      "native_J2000_radius_arcsec": 4.877314668883262,
+      "native_proxy_radius_arcsec": 3.2940573080944358,
+      "native_support_radius_min_arcsec": 3.2839024253569686,
+      "native_support_radius_max_arcsec": 3.369073622445916
+    },
+    {
+      "native_J2000_radius_arcsec": 0.3897082963718791,
+      "native_proxy_radius_arcsec": 0.49136565123859993,
+      "native_support_radius_min_arcsec": 0.49044130701534094,
+      "native_support_radius_max_arcsec": 0.520563135511551
+    },
+    {
+      "native_J2000_radius_arcsec": 5.6848263111635084,
+      "native_proxy_radius_arcsec": 6.491339507961628,
+      "native_support_radius_min_arcsec": null,
+      "native_support_radius_max_arcsec": null
+    },
+    {
+      "native_J2000_radius_arcsec": 5.728039125473202,
+      "native_proxy_radius_arcsec": 5.698184077075165,
+      "native_support_radius_min_arcsec": 5.482942538844524,
+      "native_support_radius_max_arcsec": 6.212618899470249
+    },
+    {
+      "native_J2000_radius_arcsec": 4.4342911405689245,
+      "native_proxy_radius_arcsec": 4.254673359455386,
+      "native_support_radius_min_arcsec": 4.188560796286775,
+      "native_support_radius_max_arcsec": 4.324142150422875
+    },
+    {
+      "native_J2000_radius_arcsec": 5.500703777319571,
+      "native_proxy_radius_arcsec": 6.32008301745547,
+      "native_support_radius_min_arcsec": 6.319186942407147,
+      "native_support_radius_max_arcsec": 6.374508594541928
+    },
+    {
+      "native_J2000_radius_arcsec": 5.770598287483574,
+      "native_proxy_radius_arcsec": null,
+      "native_support_radius_min_arcsec": 6.0796218089186125,
+      "native_support_radius_max_arcsec": 6.14758190525409
+    }
+  ],
+  "A_epoch_envelope_width_arcsec": 0.08517119708894727,
+  "TGSS_printed_component_norm_arcsec": 5.498791503594221,
+  "TGSS_joint_residual_norm_arcsec": 0.6910939925914055,
+  "density_arcsec_minus2": 2.4890481879729193e-09,
+  "printed_density_factor": 3615.84,
+  "illustrative_expected_aperture_overlaps": 3.9097877508833547,
+  "A_stored_finite_rho_D": [
+    3.548636973325912,
+    2.5241569146023184,
+    2.0970193624586653
+  ]
+}

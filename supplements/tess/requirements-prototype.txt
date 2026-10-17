@@ -1,0 +1,3 @@
+# Original prototype: CPython 3.13.5; Coda replay: CPython 3.13.15.
+# Direct dependency imported by search.py, tests and tiny counterexamples.
+numpy==2.3.5

@@ -1,0 +1,76 @@
+{
+  "scope": "Offline synthetic reusable TESS v3.1 development components; event-contribution diagnostics only",
+  "files": [
+    {
+      "path": "IMPLEMENTATION_SPEC.md",
+      "bytes": 12548,
+      "sha256": "d133263c01f1b3f4bcd8c58683c4a9d7604608a96275997b0e3318896a0116d4"
+    },
+    {
+      "path": "METADATA_COMPLETENESS_SPEC.md",
+      "bytes": 22181,
+      "sha256": "e12694943a9aaa6d7546e68d86163976c8340dc32126335e93642e7a188e1a40"
+    },
+    {
+      "path": "metadata_contract.py",
+      "bytes": 21817,
+      "sha256": "b6da38de7987a6783a003925e0c7f07370309ea29d5a5478afca9356753214ad"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11464,
+      "sha256": "4d065f6f1498f6b29ccbf1c642d794b964bcfa54220de278d9bf92d1cf74a237"
+    },
+    {
+      "path": "run_offline_checks.py",
+      "bytes": 3887,
+      "sha256": "e92419e95be37e9f2503a1491a355691a66019c2b7d50ba10137dcb92b9819e8"
+    },
+    {
+      "path": "synthetic_driver.py",
+      "bytes": 3299,
+      "sha256": "ee0e54e97a2c388fc60c7f35115f3928e21adcd981b0900999cee065e1ce9da1"
+    },
+    {
+      "path": "tess_components.py",
+      "bytes": 25983,
+      "sha256": "1e01c9ba8b358228aed0581f1731f99dc1595402037f4bbf9f7cc0f8c6832826"
+    },
+    {
+      "path": "test_metadata_contract.py",
+      "bytes": 18041,
+      "sha256": "9463277e448875963892c40655d2ce284e8dca0375c968b3a1108ca86167101d"
+    },
+    {
+      "path": "test_tess_components.py",
+      "bytes": 15996,
+      "sha256": "ae96d40a17bf6fb6de580604bd56a9f808fa106d594d53c96da76ff4dd786712"
+    },
+    {
+      "path": "unittest.log",
+      "bytes": 6801,
+      "sha256": "bced5da77e6f55717c97256b265d462b3073378f578fc1d3feae3bb86298ea4a"
+    },
+    {
+      "path": "VERIFICATION_RECEIPT.json",
+      "bytes": 7573,
+      "sha256": "b26d3b7e907ecbc7a59f754ba4db6566bb0738cdb4d0eae0ea7050f9521532ec"
+    },
+    {
+      "path": "synthetic_output/discovery_freeze.json",
+      "bytes": 85195,
+      "sha256": "c978b901025857d894737b7f2fb251dc86c55eb840811e9c2220de1dfcdbe668"
+    },
+    {
+      "path": "synthetic_output/synthetic_driver_result.json",
+      "bytes": 6707,
+      "sha256": "392c976a64ab24ef08265d992b1421e85208a66465a5a559889d9a0eaa315047"
+    }
+  ],
+  "base_v3_manifest_sha256": "89eacdaf36a78fafd517c000af9696363fa754fbb0936d9ad8fe415a469114f8",
+  "original_v3_manifest_and_all_13_entries_verified_unchanged": true,
+  "production_changed_functions": [
+    "combine_events"
+  ],
+  "synthetic_outputs_equal_excluding_added_diagnostics_and_source_freeze_identities": true
+}

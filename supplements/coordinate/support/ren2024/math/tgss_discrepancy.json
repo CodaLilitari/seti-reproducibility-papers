@@ -1,0 +1,7 @@
+{
+  "printed_native_declination_difference_arcsec": 0.0,
+  "printed_north_arcsec": -1.048,
+  "computed_north_arcsec": -2.0478141406339563,
+  "computed_minus_printed_north_arcsec": -0.9998141406339562,
+  "radio_coordinate_edit_supported": false
+}

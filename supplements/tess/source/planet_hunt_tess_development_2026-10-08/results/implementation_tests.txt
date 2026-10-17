@@ -1,0 +1,11 @@
+test_export_shape_and_order (test_search.Checks.test_export_shape_and_order) ... ok
+test_flat_has_no_positive_peak (test_search.Checks.test_flat_has_no_positive_peak) ... ok
+test_gap_baseline_not_bridged (test_search.Checks.test_gap_baseline_not_bridged) ... ok
+test_nonpositive_or_unsorted_input_rejected (test_search.Checks.test_nonpositive_or_unsorted_input_rejected) ... ok
+test_phase_wrap (test_search.Checks.test_phase_wrap) ... ok
+test_synthetic_period_recovery (test_search.Checks.test_synthetic_period_recovery) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 26.194s
+
+OK

@@ -1,0 +1,543 @@
+{
+  "status": "two_commands_passed_once_each_after_reference_path_recovery",
+  "scope": "Curated record of completed 17 October execution, independently checked against retained output bytes and parsed scientific fields during release assembly. No scientific execution during this assembly.",
+  "started_utc": "2026-10-17T06:05:38.861562+00:00",
+  "completed_utc": "2026-10-17T06:07:31.675988+00:00",
+  "source_stage_manifest_sha256": "cf2e6c1d853a405f942abfe844ce3534f1e6e5596dc8f97d5c1f16309cf06b3f",
+  "scientific_commands": [
+    {
+      "label": "audit_astrometry",
+      "script": "analysis/ren2024/ren2024-assessment/math/audit_astrometry.py",
+      "started_utc": "2026-10-17T06:05:49.917780+00:00",
+      "completed_utc": "2026-10-17T06:05:51.380464+00:00",
+      "wall_seconds": 1.4626962000038475,
+      "exit_code": 0,
+      "script_sha256": "0f6ea11aa6cc006ab10dfaa644d394c9fdeeb019ae59467b22511a1820b07c93"
+    },
+    {
+      "script": "analysis/ren2024/ren2024-assessment/math/reviewer_followup.py",
+      "script_sha256": "74db6c97716432868afda630e4f7eebe195b12129f0749285937b5bb05d8a752",
+      "started_utc": "2026-10-17T06:07:30.684040+00:00",
+      "completed_utc": "2026-10-17T06:07:31.657655+00:00",
+      "wall_seconds": 0.9736267999978736,
+      "exit_code": 0
+    }
+  ],
+  "environment_probe": {
+    "label": "environment",
+    "script": "environment",
+    "started_utc": "2026-10-17T06:05:38.868788+00:00",
+    "completed_utc": "2026-10-17T06:05:49.904593+00:00",
+    "wall_seconds": 11.035819400043692,
+    "exit_code": 0,
+    "script_sha256": null
+  },
+  "environment": {
+    "python": "3.13.15",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "astropy": "8.0.1",
+    "thread_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "iers_auto_download": false,
+    "imports_succeeded": [
+      "numpy",
+      "scipy.stats.rayleigh",
+      "astropy.coordinates",
+      "astropy.io.fits"
+    ]
+  },
+  "guards": {
+    "guard_sha256": "b11c03fec05d0a11d8e848a08f9878feae36000a51ddf91b04af7018c2adc2ee",
+    "network_in_scripts": false,
+    "gpu": false,
+    "iers_auto_download": false,
+    "isolated_working_copy": true
+  },
+  "comparison_policy": {
+    "created_utc": "2026-10-17T06:05:38.860140+00:00",
+    "commands": [
+      "analysis/ren2024/ren2024-assessment/math/audit_astrometry.py",
+      "analysis/ren2024/ren2024-assessment/math/reviewer_followup.py"
+    ],
+    "seven_row_exact_output_files": [
+      "seven_rows.csv",
+      "conditional_covariance_sensitivity.csv",
+      "epoch_details.json",
+      "printed_reference_inversion.json",
+      "tgss_discrepancy.json",
+      "first_empirical_accuracy.json",
+      "gaia_covariance_checks.json"
+    ],
+    "finite_rho_exact_csv": "reviewer_followup_finite_rho.csv",
+    "finite_rho_exact_json_fields": [
+      "native_A_proxy_residual_arcsec",
+      "finite_correlations",
+      "fixed_bias_scenario",
+      "rho_profile_tests",
+      "source_row_assertions",
+      "row_bound_header_assertions",
+      "hardcoded_snapshot_checks"
+    ],
+    "criteria": "Byte equality for the eight listed numerical files, exact parsed equality for the seven listed scientific JSON fields. These are stricter than, and do not relax, the existing 1e-9 relative/1e-10 absolute comparison criteria. No optimized-epoch calculation is executed.",
+    "counts": "Require actual 174 audit assertions and 122 follow-up assertions, all passed; the input-preservation scope loses only the four ReadMe hashes.",
+    "guard_sha256": "b11c03fec05d0a11d8e848a08f9878feae36000a51ddf91b04af7018c2adc2ee",
+    "reference_manifest_sha256": "cf2e6c1d853a405f942abfe844ce3534f1e6e5596dc8f97d5c1f16309cf06b3f",
+    "excluded": "No acquisition, new targets, photometry, GPU, figure generation, D1 optimized-epoch replay, or other scientific command."
+  },
+  "checks": {
+    "audit_astrometry": {
+      "count": 174,
+      "all_passed": true,
+      "checks_output_sha256": "57a3f9527825733ed6381dc87cca1d3a9dc6bdc6b74ea6815bd87a204cf02c1a"
+    },
+    "reviewer_followup": {
+      "count": 122,
+      "all_passed": true,
+      "checks_output_sha256": "c5457dd61d0d8218a6780028631c1eb72e27b2c87368faaa39ecb2297ea6cbf9"
+    }
+  },
+  "exact_numerical_file_comparisons": [
+    {
+      "file": "seven_rows.csv",
+      "supplied_reference_path": "support/ren2024/math/seven_rows.csv",
+      "reference_sha256": "23b2d2f82057e80ca159cc4db3a9141f0d832c2bc78f9c5c468ece3a0d1729f8",
+      "actual_sha256": "23b2d2f82057e80ca159cc4db3a9141f0d832c2bc78f9c5c468ece3a0d1729f8",
+      "byte_identical": true
+    },
+    {
+      "file": "conditional_covariance_sensitivity.csv",
+      "supplied_reference_path": "support/ren2024/math/conditional_covariance_sensitivity.csv",
+      "reference_sha256": "d00389f87446b2717f40d067ac38d81881fbcded1960b9caf0630f439157d737",
+      "actual_sha256": "d00389f87446b2717f40d067ac38d81881fbcded1960b9caf0630f439157d737",
+      "byte_identical": true
+    },
+    {
+      "file": "epoch_details.json",
+      "supplied_reference_path": "support/ren2024/math/epoch_details.json",
+      "reference_sha256": "90c55f68c08d95c30c3e592d0419b0d833c943d72687d239f4129928a46a4f16",
+      "actual_sha256": "90c55f68c08d95c30c3e592d0419b0d833c943d72687d239f4129928a46a4f16",
+      "byte_identical": true
+    },
+    {
+      "file": "printed_reference_inversion.json",
+      "supplied_reference_path": "support/ren2024/math/printed_reference_inversion.json",
+      "reference_sha256": "e4ff15db855357a464c9f16544cae7366a69a1bcf0afb5c0730b06d3ebf2765f",
+      "actual_sha256": "e4ff15db855357a464c9f16544cae7366a69a1bcf0afb5c0730b06d3ebf2765f",
+      "byte_identical": true
+    },
+    {
+      "file": "tgss_discrepancy.json",
+      "supplied_reference_path": "support/ren2024/math/tgss_discrepancy.json",
+      "reference_sha256": "d33759c6dabb9a571b6be5250f97dc0b67022f5e04849dfcfdd183abbbf5b1e5",
+      "actual_sha256": "d33759c6dabb9a571b6be5250f97dc0b67022f5e04849dfcfdd183abbbf5b1e5",
+      "byte_identical": true
+    },
+    {
+      "file": "first_empirical_accuracy.json",
+      "supplied_reference_path": "support/ren2024/math/first_empirical_accuracy.json",
+      "reference_sha256": "f1ffb84b264ea0be94a24ac3d909d2f794347b2e4284d4dd4e83bbf6a6f774b0",
+      "actual_sha256": "f1ffb84b264ea0be94a24ac3d909d2f794347b2e4284d4dd4e83bbf6a6f774b0",
+      "byte_identical": true
+    },
+    {
+      "file": "gaia_covariance_checks.json",
+      "supplied_reference_path": "analysis/ren2024/ren2024-assessment/math/gaia_covariance_checks.json",
+      "reference_sha256": "a602eb563dbf0a6689b6d5c71446f9abd7871cfaecae1f7d7449203f0f60b565",
+      "actual_sha256": "a602eb563dbf0a6689b6d5c71446f9abd7871cfaecae1f7d7449203f0f60b565",
+      "byte_identical": true
+    },
+    {
+      "file": "reviewer_followup_finite_rho.csv",
+      "supplied_reference_path": "support/ren2024/math/reviewer_followup_finite_rho.csv",
+      "reference_sha256": "92a8f41f486e48c89cc8445b5b93610c1de58434a0cd7181338e3323f5f3a1a8",
+      "actual_sha256": "92a8f41f486e48c89cc8445b5b93610c1de58434a0cd7181338e3323f5f3a1a8",
+      "byte_identical": true
+    }
+  ],
+  "exact_scientific_json_fields": [
+    {
+      "field": "native_A_proxy_residual_arcsec",
+      "exact_parsed_equal": true,
+      "canonical_reference_sha256": "f9c63f1b7a8327a181663cf30d877d5e4cc21f7a5e0da8694c9893d30312a2d5",
+      "canonical_actual_sha256": "f9c63f1b7a8327a181663cf30d877d5e4cc21f7a5e0da8694c9893d30312a2d5"
+    },
+    {
+      "field": "finite_correlations",
+      "exact_parsed_equal": true,
+      "canonical_reference_sha256": "5e27601838b54f260cafde2fd1e3b02fbc57b76611ea93651e83b2ac4b54084d",
+      "canonical_actual_sha256": "5e27601838b54f260cafde2fd1e3b02fbc57b76611ea93651e83b2ac4b54084d"
+    },
+    {
+      "field": "fixed_bias_scenario",
+      "exact_parsed_equal": true,
+      "canonical_reference_sha256": "1493533ef0252eabc8fb1d340bb00720f8cbfa25d60c04505713b0f14a2165ce",
+      "canonical_actual_sha256": "1493533ef0252eabc8fb1d340bb00720f8cbfa25d60c04505713b0f14a2165ce"
+    },
+    {
+      "field": "rho_profile_tests",
+      "exact_parsed_equal": true,
+      "canonical_reference_sha256": "0a8bdf10f93262cc68c931746412163aba1416576ebe4f61def94f2ddcaec3fc",
+      "canonical_actual_sha256": "0a8bdf10f93262cc68c931746412163aba1416576ebe4f61def94f2ddcaec3fc"
+    },
+    {
+      "field": "source_row_assertions",
+      "exact_parsed_equal": true,
+      "canonical_reference_sha256": "9db763955d5760c50fd1f7adbf78afeb4d5cd5701226c041bd83d8e09d27f0cc",
+      "canonical_actual_sha256": "9db763955d5760c50fd1f7adbf78afeb4d5cd5701226c041bd83d8e09d27f0cc"
+    },
+    {
+      "field": "row_bound_header_assertions",
+      "exact_parsed_equal": true,
+      "canonical_reference_sha256": "847aafe4be72e12cfbd0525bbba65fafa525df5636bf9d76f828dbc7045a0aab",
+      "canonical_actual_sha256": "847aafe4be72e12cfbd0525bbba65fafa525df5636bf9d76f828dbc7045a0aab"
+    },
+    {
+      "field": "hardcoded_snapshot_checks",
+      "exact_parsed_equal": true,
+      "canonical_reference_sha256": "22866cc693f214ad6e605046088f3fe5164778d9c0fbb9b704be2aa2edd0830b",
+      "canonical_actual_sha256": "22866cc693f214ad6e605046088f3fe5164778d9c0fbb9b704be2aa2edd0830b"
+    }
+  ],
+  "scientific_json_reference": {
+    "private_source_name": "historical reviewer_followup.json",
+    "sha256": "961a27bcef6e77fa9f77b93428f54669ce7f624df57af306c284c63a9fe9708e",
+    "supplied_path": null,
+    "scope": "Only selected scientific fields were compared; private review prose and full reference body are not redistributed."
+  },
+  "actual_followup_json_sha256": "5f80a396ef61b42197902d0c74f46facfe22843c9299e23aad2d1bc0345ebb9d",
+  "runtime_inputs": {
+    "audit_astrometry": [
+      {
+        "path": "analysis/ren2024/ren2024-assessment/gaia/three_sources_covariance.csv",
+        "sha256": "7d5bfa21e7732c49e967446e6953575efbc2a7e7b6fe702891e3f180d390e547",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/source/Ren2024_Coordinate_State_Followup_2026-10-08/data/ren2024_table1_transcribed.csv",
+        "sha256": "afafc8b350cef8c6a02f79980024d876ba229243d6b081e7d69435929e396e17",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/g-surveys/G_SOURCE_PROVENANCE.json",
+        "sha256": "6c1a5a4f733a8461e91329146628acae13c528649ccd154fedbcdc681111d913",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/racs/catalog_A.tsv",
+        "sha256": "7b932e3d873a0dba7c325af5f9693084e92dd315522352fabc645c7006c23f74",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/racs/catalog_B.tsv",
+        "sha256": "16e6a510ceb75ae7f8511cfeebea2fff8887e12359b15dfa583813cd0112527d",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/racs/catalog_G.tsv",
+        "sha256": "3ffebc25dc81181def614ac6ab4cf0ec5efd57757da57566093a06e046a0fc30",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/g-surveys/vlass_g.tsv",
+        "sha256": "af8e1c384ec0d57a3eaefd8dc4da36d5788ebb20c1617d08834b2f5300fb9a08",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/g-surveys/first_g.tsv",
+        "sha256": "fbbcb7fa4785cfc85132196dcc9fe4396bff32b643239eea262b9381d0de8b28",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/g-surveys/nvss_g.tsv",
+        "sha256": "d16663fe2aa7a1bf81808e02ea6ca03fa2113880eedb13651f2e47e5e67381d0",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/g-surveys/tgss_g.tsv",
+        "sha256": "a59dfec212c68df246a0fe9c1e547fb9891050ac4e89140a3b1553446e1c0411",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/racs/header_1240-25A.txt",
+        "sha256": "3d6279f3b67585942fce8d4d49d18468e09ee8ca93b960e22054077ac27ec5cc",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/racs/header_0354-43A.txt",
+        "sha256": "585b156f3b04d1e98846822101d86966cc11e1a58bc5ca8dfe4297543452dd43",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/racs/header_2347+00A.txt",
+        "sha256": "b8cfe15a32bd1d39e6ec254f295a40a77b8ea9b3d67f5cc631e255c522e8368c",
+        "matches_supplied_payload": true
+      }
+    ],
+    "reviewer_followup": [
+      {
+        "path": "analysis/ren2024/ren2024-assessment/math/audit_astrometry.py",
+        "sha256": "0f6ea11aa6cc006ab10dfaa644d394c9fdeeb019ae59467b22511a1820b07c93",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/source/Ren2024_Coordinate_State_Followup_2026-10-08/data/ren2024_table1_transcribed.csv",
+        "sha256": "afafc8b350cef8c6a02f79980024d876ba229243d6b081e7d69435929e396e17",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/gaia/three_sources_covariance.csv",
+        "sha256": "7d5bfa21e7732c49e967446e6953575efbc2a7e7b6fe702891e3f180d390e547",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/g-surveys/G_SOURCE_PROVENANCE.json",
+        "sha256": "6c1a5a4f733a8461e91329146628acae13c528649ccd154fedbcdc681111d913",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/math/epoch_details.json",
+        "sha256": "90c55f68c08d95c30c3e592d0419b0d833c943d72687d239f4129928a46a4f16",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/math/conditional_covariance_sensitivity.csv",
+        "sha256": "d00389f87446b2717f40d067ac38d81881fbcded1960b9caf0630f439157d737",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/math/seven_rows.csv",
+        "sha256": "23b2d2f82057e80ca159cc4db3a9141f0d832c2bc78f9c5c468ece3a0d1729f8",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/math/gaia_covariance_checks.json",
+        "sha256": "a602eb563dbf0a6689b6d5c71446f9abd7871cfaecae1f7d7449203f0f60b565",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/racs/cadc_product_uris.csv",
+        "sha256": "b70276787096dcce92d533728b58d35935d74b6bf88ee006207afc58f33a2f4c",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/racs/catalog_A.tsv",
+        "sha256": "7b932e3d873a0dba7c325af5f9693084e92dd315522352fabc645c7006c23f74",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/racs/header_1240-25A.txt",
+        "sha256": "3d6279f3b67585942fce8d4d49d18468e09ee8ca93b960e22054077ac27ec5cc",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/racs/header_1240-25A.txt.receipt.json",
+        "sha256": "f085e676531755f8af358c114221a8adc85137baf2a09c22820a391982f8e53b",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/racs/catalog_B.tsv",
+        "sha256": "16e6a510ceb75ae7f8511cfeebea2fff8887e12359b15dfa583813cd0112527d",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/racs/header_0354-43A.txt",
+        "sha256": "585b156f3b04d1e98846822101d86966cc11e1a58bc5ca8dfe4297543452dd43",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/racs/header_0354-43A.txt.receipt.json",
+        "sha256": "8eabf32911ab82459b94c5220b5949f10911a19406c3bebbb13cfa0c704a3ca6",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/racs/catalog_G.tsv",
+        "sha256": "3ffebc25dc81181def614ac6ab4cf0ec5efd57757da57566093a06e046a0fc30",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/racs/header_2347+00A.txt",
+        "sha256": "b8cfe15a32bd1d39e6ec254f295a40a77b8ea9b3d67f5cc631e255c522e8368c",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/racs/header_2347+00A.txt.receipt.json",
+        "sha256": "d129d5a1b1dd6258a4d7da3122d652485ee82765f697502389971ad12b5bdebc",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/g-surveys/vlass_g.tsv",
+        "sha256": "af8e1c384ec0d57a3eaefd8dc4da36d5788ebb20c1617d08834b2f5300fb9a08",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/g-surveys/first_g.tsv",
+        "sha256": "fbbcb7fa4785cfc85132196dcc9fe4396bff32b643239eea262b9381d0de8b28",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/g-surveys/nvss_g.tsv",
+        "sha256": "d16663fe2aa7a1bf81808e02ea6ca03fa2113880eedb13651f2e47e5e67381d0",
+        "matches_supplied_payload": true
+      },
+      {
+        "path": "analysis/ren2024/ren2024-assessment/g-surveys/tgss_g.tsv",
+        "sha256": "a59dfec212c68df246a0fe9c1e547fb9891050ac4e89140a3b1553446e1c0411",
+        "matches_supplied_payload": true
+      }
+    ]
+  },
+  "source_and_documentation_difference": {
+    "audit_original_v2_sha256": "09adb284f2c2a8cb3f37d1ae37f6979bc69195cc0fedf712035136dc208beffd",
+    "audit_executed_sha256": "0f6ea11aa6cc006ab10dfaa644d394c9fdeeb019ae59467b22511a1820b07c93",
+    "followup_original_v2_sha256": "1679038861901aceffb417479f71c1ef228c4adc6a66f13918af354c77c02d1c",
+    "followup_executed_sha256": "74db6c97716432868afda630e4f7eebe195b12129f0749285937b5bb05d8a752",
+    "exact_diff": "derivations/readme-omission/SOURCE_DIFF.patch",
+    "static_proof": "derivations/readme-omission/STATIC_PROOF.json",
+    "omitted_documents": [
+      {
+        "survey": "VLASS",
+        "original_v2_path": "analysis/ren2024/ren2024-assessment/g-surveys/vlass_ReadMe.txt",
+        "original_sha256": "7ba7e70e9f3154213dc0cd318323809817f25f305d7494b910f0d672bf216264",
+        "canonical_url": "https://cdsarc.cds.unistra.fr/ftp/J/ApJS/255/30/ReadMe",
+        "catalog_id": "J/ApJS/255/30/comp",
+        "status": "externally_referenced_not_bundled",
+        "numerical_input": false
+      },
+      {
+        "survey": "FIRST",
+        "original_v2_path": "analysis/ren2024/ren2024-assessment/g-surveys/first_ReadMe.txt",
+        "original_sha256": "3965786bd3d56718d054f40ab0aa563936446516dd4270d12e49da3700ab5d8a",
+        "canonical_url": "https://cdsarc.cds.unistra.fr/ftp/VIII/92/ReadMe",
+        "catalog_id": "VIII/92/first14",
+        "status": "externally_referenced_not_bundled",
+        "numerical_input": false
+      },
+      {
+        "survey": "NVSS",
+        "original_v2_path": "analysis/ren2024/ren2024-assessment/g-surveys/nvss_ReadMe.txt",
+        "original_sha256": "7235bb67b68e98321ff2551eb912f2eff67db3a18a48266da6cd438f3f76b429",
+        "canonical_url": "https://cdsarc.cds.unistra.fr/ftp/VIII/65/ReadMe",
+        "catalog_id": "VIII/65/nvss",
+        "status": "externally_referenced_not_bundled",
+        "numerical_input": false
+      },
+      {
+        "survey": "TGSS",
+        "original_v2_path": "analysis/ren2024/ren2024-assessment/g-surveys/tgss_ReadMe.txt",
+        "original_sha256": "5ae7dc3f56151eea2ca5338b2affca7031b6fc4eeb2612c77408af3689dd776e",
+        "canonical_url": "https://cdsarc.cds.unistra.fr/ftp/J/A+A/598/A78/ReadMe",
+        "catalog_id": "J/A+A/598/A78/table3",
+        "status": "externally_referenced_not_bundled",
+        "numerical_input": false
+      }
+    ],
+    "input_coverage": "The audit preserves 13 supplied inputs; the four external ReadMes are absent from executed INPUTS hashes and from the input-preservation scope. The follow-up preserves 22 supplied inputs and asserts the new audit identity. All actual numerical inputs retain their identities.",
+    "historical_check_count_note": "The older 174-check/122-check records remain historical; this record independently documents those counts for the exact two current derivatives. Counts are repeated assertions, not independent validations."
+  },
+  "controller_history": {
+    "initial_status": "failed_or_incomplete",
+    "audit_execution_exit_code": 0,
+    "initial_completed_byte_comparisons": [
+      {
+        "file": "seven_rows.csv",
+        "reference_sha256": "23b2d2f82057e80ca159cc4db3a9141f0d832c2bc78f9c5c468ece3a0d1729f8",
+        "actual_sha256": "23b2d2f82057e80ca159cc4db3a9141f0d832c2bc78f9c5c468ece3a0d1729f8",
+        "byte_identical": true
+      },
+      {
+        "file": "conditional_covariance_sensitivity.csv",
+        "reference_sha256": "d00389f87446b2717f40d067ac38d81881fbcded1960b9caf0630f439157d737",
+        "actual_sha256": "d00389f87446b2717f40d067ac38d81881fbcded1960b9caf0630f439157d737",
+        "byte_identical": true
+      },
+      {
+        "file": "epoch_details.json",
+        "reference_sha256": "90c55f68c08d95c30c3e592d0419b0d833c943d72687d239f4129928a46a4f16",
+        "actual_sha256": "90c55f68c08d95c30c3e592d0419b0d833c943d72687d239f4129928a46a4f16",
+        "byte_identical": true
+      }
+    ],
+    "failure_type": "FileNotFoundError",
+    "missing_reference_path": "analysis/ren2024/ren2024-assessment/math/printed_reference_inversion.json",
+    "reason": "The controller looked for a support-only reference under the analysis math directory after the audit had completed successfully. This was a reference-location failure, not a numerical mismatch.",
+    "reference_path_amendment_utc": "2026-10-17T06:07:30.669103+00:00",
+    "correct_reference_paths": {
+      "seven_rows.csv": {
+        "path": "support/ren2024/math/seven_rows.csv",
+        "sha256": "23b2d2f82057e80ca159cc4db3a9141f0d832c2bc78f9c5c468ece3a0d1729f8"
+      },
+      "conditional_covariance_sensitivity.csv": {
+        "path": "support/ren2024/math/conditional_covariance_sensitivity.csv",
+        "sha256": "d00389f87446b2717f40d067ac38d81881fbcded1960b9caf0630f439157d737"
+      },
+      "epoch_details.json": {
+        "path": "support/ren2024/math/epoch_details.json",
+        "sha256": "90c55f68c08d95c30c3e592d0419b0d833c943d72687d239f4129928a46a4f16"
+      },
+      "printed_reference_inversion.json": {
+        "path": "support/ren2024/math/printed_reference_inversion.json",
+        "sha256": "e4ff15db855357a464c9f16544cae7366a69a1bcf0afb5c0730b06d3ebf2765f"
+      },
+      "tgss_discrepancy.json": {
+        "path": "support/ren2024/math/tgss_discrepancy.json",
+        "sha256": "d33759c6dabb9a571b6be5250f97dc0b67022f5e04849dfcfdd183abbbf5b1e5"
+      },
+      "first_empirical_accuracy.json": {
+        "path": "support/ren2024/math/first_empirical_accuracy.json",
+        "sha256": "f1ffb84b264ea0be94a24ac3d909d2f794347b2e4284d4dd4e83bbf6a6f774b0"
+      },
+      "gaia_covariance_checks.json": {
+        "path": "analysis/ren2024/ren2024-assessment/math/gaia_covariance_checks.json",
+        "sha256": "a602eb563dbf0a6689b6d5c71446f9abd7871cfaecae1f7d7449203f0f60b565"
+      },
+      "reviewer_followup_finite_rho.csv": {
+        "path": "support/ren2024/math/reviewer_followup_finite_rho.csv",
+        "sha256": "92a8f41f486e48c89cc8445b5b93610c1de58434a0cd7181338e3323f5f3a1a8"
+      }
+    },
+    "criteria_unchanged": true,
+    "audit_repeated": false,
+    "only_subsequent_scientific_command": "analysis/ren2024/ren2024-assessment/math/reviewer_followup.py",
+    "final_status": "passed_two_commands_once_each_with_reference_path_recovery",
+    "remaining_failures": []
+  },
+  "private_source_record_identities": [
+    {
+      "path": "PREDECLARED_COMPARISON_POLICY.json",
+      "bytes": 1601,
+      "sha256": "857268ace819fc198827434916dd82334c422a8427b6aa1df0d86ff7f84f63d3"
+    },
+    {
+      "path": "REPLAY_RECEIPT.json",
+      "bytes": 3049,
+      "sha256": "36e9eb0ccf46ee5c9547595a70677db9ad014689d885cf4f82dc4283b01a9438"
+    },
+    {
+      "path": "REFERENCE_PATH_AMENDMENT.json",
+      "bytes": 2455,
+      "sha256": "ecce3b5069cd20f0556e6e042dab0a2fdcd2b20a480cd2bb768845d71ef23c12"
+    },
+    {
+      "path": "CONTINUATION_RECEIPT.json",
+      "bytes": 3778,
+      "sha256": "1c2c1e993248d672c0ccd8d2c95fa70d97aaa7979fff17c16fefdae28d86723e"
+    }
+  ],
+  "curation": "Absolute executable/cache/work paths, raw error path strings and private review prose are omitted. The failure type, relative path, source hashes, original criteria, comparison results and recovery sequence are retained.",
+  "preservation": {
+    "frozen_v3_unchanged": true,
+    "canonical_scientific_reference_unchanged": true
+  },
+  "limitations": [
+    "No new catalogue or observational data.",
+    "No optimized-epoch calculation or candidate-I exception rerun.",
+    "No validation of missing source-specific epochs, radio covariance, frame registration, physical association or infrared contamination.",
+    "The separate historical candidate-I discrepancy remains unchanged."
+  ]
+}

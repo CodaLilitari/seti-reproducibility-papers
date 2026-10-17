@@ -1,0 +1,9 @@
+{
+  "requested_url": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/RACS/RACS-DR1_2347+00A.fits?meta=true",
+  "retrieved_utc": "2026-10-11T04:22:24.413785-04:00",
+  "method": "GET",
+  "status": 200,
+  "bytes": 5022,
+  "sha256": "b8cfe15a32bd1d39e6ec254f295a40a77b8ea9b3d67f5cc631e255c522e8368c",
+  "curation": "Selected retrieval facts only; full transport receipt retained privately."
+}

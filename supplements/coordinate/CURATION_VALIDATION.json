@@ -1,0 +1,35 @@
+{
+  "scope": "Syntax/identity/documentary checks only. No scientific modules imported; no scientific replay, source query or numerical environment installation.",
+  "python_version": "3.13.15",
+  "byte_identical_copies_verified": 82,
+  "source_and_derived_identities_verified": 4,
+  "syntax_files": [
+    "analysis/bounds/check_bounds.py",
+    "analysis/controls/falsification/audit_falsification.py",
+    "analysis/controls/scripts/fit_recovered_A.py",
+    "analysis/controls/source_archives/verify_free_location_rounding.py",
+    "analysis/d1-core/independent_core_check.py",
+    "analysis/ren2024/ren2024-assessment/math/audit_astrometry.py",
+    "analysis/ren2024/ren2024-assessment/math/reviewer_followup.py",
+    "analysis/ren2024/ren2024-assessment/math/tgss_reference_diagnostic.py",
+    "check_document_arithmetic.py",
+    "verify_bundle.py"
+  ],
+  "compile_only_no_import": true,
+  "bounded_documentary_checker_passed": true,
+  "finite_rho_fixture_count_and_order_passed": true,
+  "seven_row_complete_schema_and_unique_identity_passed": true,
+  "targeted_privacy_pattern_scan": {
+    "status": "no_matches",
+    "categories": [
+      "local_user_path",
+      "saved_private_chat",
+      "credential_header",
+      "private_review_identifier"
+    ],
+    "limit": "Targeted text scan and allowlist review; not a universal privacy or binary-metadata certification."
+  },
+  "original_source_hashes_unchanged": true,
+  "science_replay_executed": false,
+  "documentary_output_sha256": "eb3c18c922bca2f67cf2c912e766bded8008a5705d623574b7d8a43f3e5befed"
+}

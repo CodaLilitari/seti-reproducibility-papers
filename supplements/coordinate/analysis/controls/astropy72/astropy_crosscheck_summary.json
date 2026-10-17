@@ -1,0 +1,17 @@
+{
+  "astropy": "8.0.1",
+  "numpy": "2.5.3",
+  "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "gaia_snapshot_date": "2026-09-25",
+  "rows": 72,
+  "candidates_bands": 36,
+  "max_absolute_difference_arcsec": 8.49259882240716e-06,
+  "max_absolute_difference_by_model_arcsec": {
+    "correct_2016": 5.592861009873218e-07,
+    "offset_minus16": 8.49259882240716e-06
+  },
+  "accepted_tolerance_arcsec": 0.0001,
+  "method": "SkyCoord parses sexagesimal strings; distance from parallax; radial velocity assumed zero; apply_space_motion from Gaia reference epoch; spherical separation. No stdlib audit functions imported.",
+  "limitations": "Checks propagation arithmetic under zero radial velocity; not new observations, fresh Gaia retrieval, or original-code recovery."
+}

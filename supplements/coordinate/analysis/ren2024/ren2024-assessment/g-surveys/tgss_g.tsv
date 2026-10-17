@@ -1,0 +1,57 @@
+#
+#   VizieR Astronomical Server vizier.cds.unistra.fr
+#    Date: 2026-10-11T08:11:26 [V7.6.1]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-10-11T08:11:26	  Query execution date
+#INFO	request=https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J%2FA%2BA%2F598%2FA78%2Ftable3&-c=353.88516033694015%20-0.07361180991359333&-c.rs=10&-out.all&-out.max=20	  Full request URL
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.6.1	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+#INFO	-c=353.885160-00.073612,rs=10.	
+#Constraint -out.max=20
+
+#RESOURCE=yCat_35980078
+#Name: J/A+A/598/A78
+#Title: The GMRT 150MHz all-sky radio survey (Intema+, 2017)
+#INFO	ivoid=ivo://cds.vizier/j/a+a/598/a78	    IVOID of underlying data collection
+#INFO	data_ivoid=ivo://cds.vizier/j/a+a/598/a78	    IVOID of underlying data collection
+#INFO	creator=Intema H.T.	    First author or institution
+#INFO	cites=bibcode:2017A&A...598A..78I	    Article or Data origin sources
+#INFO	journal=A&A	    Journal name
+#INFO	original_date=2017	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/598/A78	    Dataset landing page
+#INFO	citation=doi:10.26093/cds/vizier.35980078	    Dataset identifier that can be used for citation
+#INFO	publication_date=2017-03-15	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Table	J_A_A_598_A78_table3:
+#Name: J/A+A/598/A78/table3
+#Title: Full source catalog of TGSS ADR1 150 MHz sources
+#Column	_r	(F5.2)	Distance from center (353.88516-00.07361)[FK5/J2000]	[ucd=pos.angDistance]
+#Column	recno	(I8)	Record number assigned by the VizieR team. Should Not be used for identification.	[ucd=meta.record]
+#Column	TGSSADR	(A16)	Name without prefix (JHHMMSS.S+DDMMSS) (1)	[ucd=meta.id;meta.main]
+#Column	RAJ2000	(F9.5)	Centroid right ascension (J2000)	[ucd=pos.eq.ra;meta.main]
+#Column	e_RAJ2000	(F4.1)	Uncertainty on right ascension (1 sigma)	[ucd=stat.error;pos.eq.ra]
+#Column	DEJ2000	(F9.5)	Centroid declination (J2000)	[ucd=pos.eq.dec;meta.main]
+#Column	e_DEJ2000	(F4.1)	Uncertainty on declination (1 sigma)	[ucd=stat.error;pos.eq.dec]
+#Column	Stotal	(F9.1)	Total (integrated) flux density at 150MHz	[ucd=phot.flux.density;em.radio.100-200MHz]
+#Column	e_Stotal	(F8.1)	Uncertainty on Stotal (1 sigma)	[ucd=stat.error]
+#Column	Speak	(F9.1)	Peak flux at 150MHz	[ucd=phot.flux.density;em.radio.100-200MHz]
+#Column	e_Speak	(F8.1)	Uncertainty on Speak (1 sigma)	[ucd=stat.error]
+#Column	Maj	(F5.1)	Gaussian fit major axis	[ucd=phys.angSize;meta.modelled]
+#Column	e_Maj	(F4.1)	Uncertainty on Maj (1 sigma)	[ucd=stat.error]
+#Column	Min	(F5.1)	Gaussian fit minor axis	[ucd=phys.angSize;src]
+#Column	e_Min	(F4.1)	Uncertainty on Min (1 sigma)	[ucd=stat.error;stat.min]
+#Column	PA	(F5.1)	[] Gaussian fit position angle (2)	[ucd=pos.posAng;meta.modelled]
+#Column	e_PA	(F4.1)	Uncertainty on PA (1 sigma)	[ucd=stat.error]
+#Column	Noise	(F6.1)	Local image background RMS noise	[ucd=instr.background;obs.image;pos.lg]
+#Column	Code	(A1)	[SCM] Source structure code (S/C/M) (3)	[ucd=meta.code]
+#Column	Mosaic	(A6)	Name of parent mosaic image (4)	[ucd=obs.image]
+_r	recno	TGSSADR	RAJ2000	e_RAJ2000	DEJ2000	e_DEJ2000	Stotal	e_Stotal	Speak	e_Speak	Maj	e_Maj	Min	e_Min	PA	e_PA	Noise	Code	Mosaic
+arcsec	 	 	deg	arcsec	deg	arcsec	mJy	mJy	mJy/beam	mJy/beam	arcsec	arcsec	arcsec	arcsec	deg	deg	mJy/beam	 	
+-----	--------	----------------	---------	----	---------	----	---------	--------	---------	--------	-----	----	-----	----	-----	----	------	-	------
+ 6.28	  619494	J233532.8-000426	353.88687	 2.0	-00.07396	 2.0	    113.2	    13.0	    108.2	    11.4	 27.4	 1.0	 25.3	 0.8	 29.6	18.5	   3.7	S	R72D33
+

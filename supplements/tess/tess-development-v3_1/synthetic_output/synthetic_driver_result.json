@@ -1,0 +1,227 @@
+{
+  "scope": "Synthetic connected development demonstration; no real target, source acquisition, alias discovery or FAP calibration.",
+  "frozen_sha256": "68f4b8d3693539290efe44dc0dd753ca0683a4ae6996201bc8d84c5714c49662",
+  "attempts": [
+    {
+      "attempt": 1,
+      "computation": "computed",
+      "period": 2.6994182288299937,
+      "screening": "pass",
+      "ephemeris_status": "fitted",
+      "timing_reason": null
+    },
+    {
+      "attempt": 2,
+      "computation": "computed",
+      "period": 3.3248407643312103,
+      "screening": "failed",
+      "ephemeris_status": "inconclusive",
+      "timing_reason": "unresolved_or_undeclared_alias"
+    },
+    {
+      "attempt": 3,
+      "computation": "computed",
+      "period": 2.7858572381587723,
+      "screening": "failed",
+      "ephemeris_status": "inconclusive",
+      "timing_reason": "unresolved_or_undeclared_alias"
+    }
+  ],
+  "discovery_preprocessing": {
+    "normalization": [
+      {
+        "product": "sap",
+        "sector": 1,
+        "median": 1.0002065432553322,
+        "accepted_samples": 5294,
+        "segments": 1
+      },
+      {
+        "product": "sap",
+        "sector": 2,
+        "median": 0.999766950506894,
+        "accepted_samples": 5294,
+        "segments": 1
+      },
+      {
+        "product": "pdc",
+        "sector": 1,
+        "median": 1.0002068969431783,
+        "accepted_samples": 5294,
+        "segments": 1
+      },
+      {
+        "product": "pdc",
+        "sector": 2,
+        "median": 0.9997626080738968,
+        "accepted_samples": 5294,
+        "segments": 1
+      }
+    ],
+    "accepted_samples": 10588
+  },
+  "holdout_preprocessing": {
+    "normalization": [
+      {
+        "product": "sap",
+        "sector": 1,
+        "median": 1.0001978707401529,
+        "accepted_samples": 5723,
+        "segments": 1
+      },
+      {
+        "product": "pdc",
+        "sector": 1,
+        "median": 1.0001972229759275,
+        "accepted_samples": 5723,
+        "segments": 1
+      }
+    ],
+    "accepted_samples": 5723
+  },
+  "holdout": {
+    "status": "recovered",
+    "covered_events": 2,
+    "depth": 0.008009909297463867,
+    "variance": 5.020005330076915e-10,
+    "formal_snr": 357.4995579415323,
+    "nonpositive_event_count": 0,
+    "all_covered_events_combined": true,
+    "event_contributions": [
+      {
+        "event_index": 0,
+        "normalized_inverse_variance_weight": 0.4994385141428981,
+        "signed_snr_contribution": 178.55923271244953
+      },
+      {
+        "event_index": 2,
+        "normalized_inverse_variance_weight": 0.5005614858571019,
+        "signed_snr_contribution": 178.94032522908282
+      }
+    ],
+    "max_absolute_snr_contribution_fraction": 0.5005329971858254,
+    "contribution_concentration_unavailable_reason": null,
+    "three_se_depth_consistency": true,
+    "criterion": "At least two covered events; all combined, including zero/negative; positive aggregate, formal SNR>=5, depth consistency<=3 combined SE.",
+    "events": [
+      {
+        "cycle": 8,
+        "center": 23.09998483510153,
+        "windows": {
+          "left": {
+            "expected": 60,
+            "accepted_unique": 59,
+            "lost_to_other_masks": 0,
+            "duplicate_cadence_ids": false,
+            "covered": true
+          },
+          "inside": {
+            "expected": 60,
+            "accepted_unique": 60,
+            "lost_to_other_masks": 0,
+            "duplicate_cadence_ids": false,
+            "covered": true
+          },
+          "right": {
+            "expected": 60,
+            "accepted_unique": 59,
+            "lost_to_other_masks": 0,
+            "duplicate_cadence_ids": false,
+            "covered": true
+          }
+        },
+        "duplicate_cadence_ids_across_windows": false,
+        "covered": true,
+        "depth": 0.008010366193891493,
+        "variance": 1.0051297983480311e-09
+      },
+      {
+        "cycle": 9,
+        "center": 25.799981443756486,
+        "windows": {
+          "left": {
+            "expected": 60,
+            "accepted_unique": 0,
+            "lost_to_other_masks": 60,
+            "duplicate_cadence_ids": false,
+            "covered": false
+          },
+          "inside": {
+            "expected": 60,
+            "accepted_unique": 50,
+            "lost_to_other_masks": 9,
+            "duplicate_cadence_ids": false,
+            "covered": true
+          },
+          "right": {
+            "expected": 60,
+            "accepted_unique": 60,
+            "lost_to_other_masks": 0,
+            "duplicate_cadence_ids": false,
+            "covered": true
+          }
+        },
+        "duplicate_cadence_ids_across_windows": false,
+        "covered": false,
+        "depth": null,
+        "variance": null
+      },
+      {
+        "cycle": 10,
+        "center": 28.499978052411443,
+        "windows": {
+          "left": {
+            "expected": 60,
+            "accepted_unique": 59,
+            "lost_to_other_masks": 0,
+            "duplicate_cadence_ids": false,
+            "covered": true
+          },
+          "inside": {
+            "expected": 60,
+            "accepted_unique": 60,
+            "lost_to_other_masks": 0,
+            "duplicate_cadence_ids": false,
+            "covered": true
+          },
+          "right": {
+            "expected": 60,
+            "accepted_unique": 60,
+            "lost_to_other_masks": 0,
+            "duplicate_cadence_ids": false,
+            "covered": true
+          }
+        },
+        "duplicate_cadence_ids_across_windows": false,
+        "covered": true,
+        "depth": 0.008009453426048712,
+        "variance": 1.0028748659080821e-09
+      }
+    ],
+    "prediction": {
+      "status": "supported",
+      "events": [
+        {
+          "cycle": 8,
+          "center": 23.09998483510153,
+          "sigma_days": 0.00011654853091006882
+        },
+        {
+          "cycle": 9,
+          "center": 25.799981443756486,
+          "sigma_days": 0.00013433860380643325
+        },
+        {
+          "cycle": 10,
+          "center": 28.499978052411443,
+          "sigma_days": 0.000152301444590628
+        }
+      ]
+    },
+    "freeze_sha256": "68f4b8d3693539290efe44dc0dd753ca0683a4ae6996201bc8d84c5714c49662",
+    "samples_removed_by_same_frozen_other_masks": 468,
+    "mask_ledger_sha256": "b9e2d57746e616529459c4eb93f329e51848ca4830935bfc4aad0762f7f1434e",
+    "period_phase_duration_refitted": false,
+    "holdout_input_arrays_sha256": "d657106b7f71020d0b2cd9b2948ed2d8dfcb67d84f257277b591dfe135ce8adc"
+  }
+}

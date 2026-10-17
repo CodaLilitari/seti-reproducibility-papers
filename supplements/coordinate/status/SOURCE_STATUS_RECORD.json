@@ -1,0 +1,78 @@
+{
+  "record_kind": "Existing 15 October 2026 retrieval evidence; no new query in successor preparation.",
+  "original_retrieval_record_identity": {
+    "bytes": 2326,
+    "sha256": "00088b1a486a6a16262b471113745d5af316c3ff97af2547afb0e129b8ddc94e"
+  },
+  "original_status_note_identity": {
+    "bytes": 2156,
+    "sha256": "4cf846396724117e60101fe1eb205cf9d560a44732e89e91de41ab5fe7d58cb6"
+  },
+  "records": [
+    {
+      "url": "https://arxiv.org/abs/2607.03619",
+      "observed_utc": "2026-10-15T15:47:20.419497+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2607.03619",
+      "content_type": "text/html; charset=utf-8",
+      "size": 46571,
+      "sha256": "70691b99995fd2bc743cb4c46913b6680d52281d279e17f751b3c92b5bc22102",
+      "private_body_name": "ren2026_abs.html",
+      "body_included": false
+    },
+    {
+      "url": "https://arxiv.org/pdf/2607.03619",
+      "observed_utc": "2026-10-15T15:47:20.601075+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/2607.03619",
+      "content_type": "application/pdf",
+      "size": 11220818,
+      "sha256": "09761bd3cee94b394b4959e3ca2cdd0264865e66000910ecd4f03262b33114a7",
+      "pdf_header": true,
+      "matches_frozen_v6_pdf": true,
+      "private_body_name": "ren2026_current.pdf",
+      "body_included": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.14921",
+      "observed_utc": "2026-10-15T15:47:21.597518+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2405.14921",
+      "content_type": "text/html; charset=utf-8",
+      "size": 41820,
+      "sha256": "7c6d07b3206befefdc6042d542729a61de7fd2fe9a22e226a52d20bcdae9f5c4",
+      "private_body_name": "ren2024_abs.html",
+      "body_included": false
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1093%2Fmnras%2Fstag1558",
+      "observed_utc": "2026-10-15T15:47:21.743062+00:00",
+      "status": 404,
+      "error": "HTTPError",
+      "final_url": "https://api.crossref.org/works/10.1093%2Fmnras%2Fstag1558"
+    },
+    {
+      "url": "https://apps.crossref.org/search/pending?doi=10.1093%2Fmnras%2Fstag1558",
+      "observed_utc": "2026-10-15T15:47:21.930061+00:00",
+      "status": 200,
+      "final_url": "https://apps.crossref.org/search/pending?doi=10.1093%2Fmnras%2Fstag1558",
+      "content_type": "application/json;charset=UTF-8",
+      "size": 1415,
+      "sha256": "3f6934bb65141066c4174969006e6f232e623ed6715bf15bb4eb15387738cb47",
+      "private_body_name": "ren2026_pending.json",
+      "body_included": false
+    },
+    {
+      "url": "https://doi.org/10.1093/mnras/stag1558",
+      "observed_utc": "2026-10-15T15:47:22.308478+00:00",
+      "status": 200,
+      "final_url": "https://apps.crossref.org/pendingpub/pendingpub.html?doi=10.1093%2Fmnras%2Fstag1558",
+      "content_type": "text/html",
+      "size": 18471,
+      "sha256": "0af39fe3b0c4bdaf0472fc8d637aee2db5f3de9cf8d1486ffafb797f355ccb11",
+      "private_body_name": "ren2026_doi.html",
+      "body_included": false
+    }
+  ],
+  "limits": "Equality of the retrieved unversioned PDF with pinned v6 is bounded to that response. No complete correction-absence, author-response, or journal-version comparison is established. HTTP bodies omitted, source reuse terms unresolved."
+}

@@ -1,0 +1,1108 @@
+{
+  "scope": "known-host development only, S4 and immediately subsequent S5; no blind validation",
+  "config": {
+    "period_min_days": 0.6,
+    "period_max_days": 13.0,
+    "frequency_trials": 12000,
+    "duration_hours": [
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      4.0
+    ],
+    "iterations": 3,
+    "oversample": 10,
+    "detrending": "unchanged delivered one-day running median, gaps >0.5d",
+    "mask_half_duration": 0.75,
+    "quality_mask": "QUALITY==0; finite positive SAP/PDC and positive formal errors",
+    "scope": "known-host development only, S4 and immediately subsequent S5; no blind validation",
+    "acceptance": "report maxima and event coverage even if failed; no outcome-driven tuning or replacement"
+  },
+  "cases": {
+    "s4_delivered_binned_unweighted": [
+      {
+        "iteration": 1,
+        "input_cadences": 965,
+        "period_days": 5.655459544383346,
+        "epoch_btjd": 1412.1494766666667,
+        "duration_hours": 1.5,
+        "depth_ppm": 3366.7134177251683,
+        "formal_depth_snr": 0.011589896736291285,
+        "power": 6.80085554225441e-05,
+        "sap_same_unweighted_box_ppm": 3166.5503603836514,
+        "populated_events": 4,
+        "events": [
+          {
+            "cycle": 0,
+            "center_btjd": 1412.1494766666667,
+            "n_in": 3,
+            "n_local_out": 9,
+            "local_depth_ppm": 3466.4384522918626
+          },
+          {
+            "cycle": 1,
+            "center_btjd": 1417.80493621105,
+            "n_in": 3,
+            "n_local_out": 9,
+            "local_depth_ppm": 3633.7927451279593
+          },
+          {
+            "cycle": 3,
+            "center_btjd": 1429.1158552998168,
+            "n_in": 3,
+            "n_local_out": 9,
+            "local_depth_ppm": 2951.6950633546003
+          },
+          {
+            "cycle": 4,
+            "center_btjd": 1434.7713148442,
+            "n_in": 3,
+            "n_local_out": 9,
+            "local_depth_ppm": 3388.7140716829153
+          }
+        ],
+        "stats": {
+          "transit_times": [
+            1412.1494766666667,
+            1417.80493621105,
+            1423.4603957554334,
+            1429.1158552998168,
+            1434.7713148442
+          ],
+          "per_transit_count": [
+            3,
+            3,
+            0,
+            3,
+            3
+          ],
+          "per_transit_log_likelihood": [
+            2.1119635570604188e-05,
+            1.8318555024817508e-05,
+            0.0,
+            1.4973039628288935e-05,
+            1.3597325198833452e-05
+          ],
+          "depth": [
+            0.0033667134177251677,
+            0.29048692100793483
+          ],
+          "depth_phased": [
+            -0.00024104785894760858,
+            0.33491854703048235
+          ],
+          "depth_half": [
+            0.0018192292005269094,
+            0.22063175123482548
+          ],
+          "depth_odd": [
+            0.0033314325681378797,
+            0.4095314207847836
+          ],
+          "depth_even": [
+            0.003401994267312456,
+            0.4095314207847836
+          ],
+          "harmonic_amplitude": 9.02197135677126e-05,
+          "harmonic_delta_log_likelihood": -6.523347857141036e-05
+        },
+        "two_populated_events": true,
+        "note": "Formal library SNR/power are diagnostics; correlated noise and search trials uncalibrated."
+      },
+      {
+        "iteration": 2,
+        "input_cadences": 947,
+        "period_days": 11.391178403641586,
+        "epoch_btjd": 1412.4307266666667,
+        "duration_hours": 2.0,
+        "depth_ppm": 2791.5341704028788,
+        "formal_depth_snr": 0.007862230072372916,
+        "power": 3.1170652098107555e-05,
+        "sap_same_unweighted_box_ppm": 2949.858254136895,
+        "populated_events": 2,
+        "events": [
+          {
+            "cycle": 0,
+            "center_btjd": 1412.4307266666667,
+            "n_in": 4,
+            "n_local_out": 11,
+            "local_depth_ppm": 2789.5372041336404
+          },
+          {
+            "cycle": 2,
+            "center_btjd": 1435.2130834739498,
+            "n_in": 4,
+            "n_local_out": 12,
+            "local_depth_ppm": 2949.8155269480444
+          }
+        ],
+        "stats": {
+          "transit_times": [
+            1412.4307266666667,
+            1423.8219050703083,
+            1435.2130834739498
+          ],
+          "per_transit_count": [
+            4,
+            0,
+            4
+          ],
+          "per_transit_log_likelihood": [
+            1.272990184451837e-05,
+            0.0,
+            1.8440750253589187e-05
+          ],
+          "depth": [
+            0.002791534170402879,
+            0.35505628106865617
+          ],
+          "depth_phased": [
+            -9.275511190281281e-05,
+            0.3550691677068973
+          ],
+          "depth_half": [
+            0.00134899440630263,
+            0.2521390764163079
+          ],
+          "depth_odd": [
+            0.0,
+            Infinity
+          ],
+          "depth_even": [
+            0.002791534170402879,
+            0.35505628106865617
+          ],
+          "harmonic_amplitude": 4.519286428032471e-05,
+          "harmonic_delta_log_likelihood": -3.0396737480507935e-05
+        },
+        "two_populated_events": true,
+        "note": "Formal library SNR/power are diagnostics; correlated noise and search trials uncalibrated."
+      },
+      {
+        "iteration": 3,
+        "input_cadences": 935,
+        "period_days": 10.681846195987125,
+        "epoch_btjd": 1411.0098933333334,
+        "duration_hours": 4.0,
+        "depth_ppm": 731.6025526261775,
+        "formal_depth_snr": 0.0034652194535241235,
+        "power": 6.155286392605096e-06,
+        "sap_same_unweighted_box_ppm": -271.9662839326695,
+        "populated_events": 3,
+        "events": [
+          {
+            "cycle": 0,
+            "center_btjd": 1411.0098933333334,
+            "n_in": 7,
+            "n_local_out": 12,
+            "local_depth_ppm": 1027.1399359197976
+          },
+          {
+            "cycle": 1,
+            "center_btjd": 1421.6917395293206,
+            "n_in": 8,
+            "n_local_out": 24,
+            "local_depth_ppm": 672.9252827401925
+          },
+          {
+            "cycle": 2,
+            "center_btjd": 1432.3735857253075,
+            "n_in": 8,
+            "n_local_out": 24,
+            "local_depth_ppm": 413.76639794484436
+          }
+        ],
+        "stats": {
+          "transit_times": [
+            1411.0098933333334,
+            1421.6917395293206,
+            1432.3735857253075
+          ],
+          "per_transit_count": [
+            7,
+            8,
+            8
+          ],
+          "per_transit_log_likelihood": [
+            2.9328390124932474e-06,
+            1.969011401923457e-06,
+            1.2534359781883928e-06
+          ],
+          "depth": [
+            0.0007316025526261775,
+            0.2111273362159325
+          ],
+          "depth_phased": [
+            0.00019834961916892775,
+            0.252222265925456
+          ],
+          "depth_half": [
+            0.0005148843186756033,
+            0.1635759672739155
+          ],
+          "depth_odd": [
+            0.0007022222255797788,
+            0.355100677594496
+          ],
+          "depth_even": [
+            0.0007472720603842568,
+            0.2603135760861059
+          ],
+          "harmonic_amplitude": 2.2363901542524793e-05,
+          "harmonic_delta_log_likelihood": -5.888928262274889e-06
+        },
+        "two_populated_events": true,
+        "note": "Formal library SNR/power are diagnostics; correlated noise and search trials uncalibrated."
+      }
+    ],
+    "s4_full_unweighted": [
+      {
+        "iteration": 1,
+        "input_cadences": 14444,
+        "period_days": 5.659700301150176,
+        "epoch_btjd": 1412.1439295102427,
+        "duration_hours": 1.5,
+        "depth_ppm": 3484.122411255218,
+        "formal_depth_snr": 0.04645223162279741,
+        "power": 0.001092519807894979,
+        "sap_same_unweighted_box_ppm": 3379.801368479463,
+        "populated_events": 4,
+        "events": [
+          {
+            "cycle": 0,
+            "center_btjd": 1412.1439295102427,
+            "n_in": 45,
+            "n_local_out": 129,
+            "local_depth_ppm": 3937.5755434968437
+          },
+          {
+            "cycle": 1,
+            "center_btjd": 1417.803629811393,
+            "n_in": 45,
+            "n_local_out": 131,
+            "local_depth_ppm": 3632.3701576346825
+          },
+          {
+            "cycle": 3,
+            "center_btjd": 1429.1230304136932,
+            "n_in": 45,
+            "n_local_out": 135,
+            "local_depth_ppm": 3555.929214155349
+          },
+          {
+            "cycle": 4,
+            "center_btjd": 1434.7827307148434,
+            "n_in": 45,
+            "n_local_out": 135,
+            "local_depth_ppm": 3399.75994277779
+          }
+        ],
+        "stats": {
+          "transit_times": [
+            1412.1439295102427,
+            1417.803629811393,
+            1423.4633301125432,
+            1429.1230304136932,
+            1434.7827307148434
+          ],
+          "per_transit_count": [
+            45,
+            45,
+            0,
+            45,
+            45
+          ],
+          "per_transit_log_likelihood": [
+            0.0003570499673692684,
+            0.00025527469972501843,
+            0.0,
+            0.00028332270066505876,
+            0.00019687244013563313
+          ],
+          "depth": [
+            0.0034841224112552183,
+            0.0750044139869765
+          ],
+          "depth_phased": [
+            -0.0003400919988624798,
+            0.08744437642491244
+          ],
+          "depth_half": [
+            0.0018643698335910205,
+            0.05723538763485761
+          ],
+          "depth_odd": [
+            0.0034596861491593012,
+            0.10574127705435239
+          ],
+          "depth_even": [
+            0.0035085586733511354,
+            0.10574127705435239
+          ],
+          "harmonic_amplitude": 6.768984251402753e-05,
+          "harmonic_delta_log_likelihood": -0.0010625625733821625
+        },
+        "two_populated_events": true,
+        "note": "Formal library SNR/power are diagnostics; correlated noise and search trials uncalibrated."
+      },
+      {
+        "iteration": 2,
+        "input_cadences": 14173,
+        "period_days": 11.391178403641586,
+        "epoch_btjd": 1412.4251795102427,
+        "duration_hours": 2.0,
+        "depth_ppm": 2532.3468311991087,
+        "formal_depth_snr": 0.027622783474611275,
+        "power": 0.00038476682840905005,
+        "sap_same_unweighted_box_ppm": 2603.686564812825,
+        "populated_events": 2,
+        "events": [
+          {
+            "cycle": 0,
+            "center_btjd": 1412.4251795102427,
+            "n_in": 60,
+            "n_local_out": 163,
+            "local_depth_ppm": 2677.1940757830967
+          },
+          {
+            "cycle": 2,
+            "center_btjd": 1435.2075363175259,
+            "n_in": 60,
+            "n_local_out": 180,
+            "local_depth_ppm": 2889.0790553754096
+          }
+        ],
+        "stats": {
+          "transit_times": [
+            1412.4251795102427,
+            1423.8163579138843,
+            1435.2075363175259
+          ],
+          "per_transit_count": [
+            60,
+            0,
+            60
+          ],
+          "per_transit_log_likelihood": [
+            0.00014860930161341872,
+            0.0,
+            0.0002361575267956313
+          ],
+          "depth": [
+            0.0025323468311991087,
+            0.09167601930944598
+          ],
+          "depth_phased": [
+            -0.00011145255419072836,
+            0.09167936182858331
+          ],
+          "depth_half": [
+            0.0012099712861416024,
+            0.06510329268654261
+          ],
+          "depth_odd": [
+            0.0,
+            Infinity
+          ],
+          "depth_even": [
+            0.0025323468311991087,
+            0.09167601930944598
+          ],
+          "harmonic_amplitude": 2.4879557031410517e-05,
+          "harmonic_delta_log_likelihood": -0.00037934617956349517
+        },
+        "two_populated_events": true,
+        "note": "Formal library SNR/power are diagnostics; correlated noise and search trials uncalibrated."
+      },
+      {
+        "iteration": 3,
+        "input_cadences": 13995,
+        "period_days": 10.712166647590706,
+        "epoch_btjd": 1410.971012843576,
+        "duration_hours": 3.0,
+        "depth_ppm": 846.9731561433092,
+        "formal_depth_snr": 0.0133754752719618,
+        "power": 9.110516795787453e-05,
+        "sap_same_unweighted_box_ppm": -208.40061813702923,
+        "populated_events": 3,
+        "events": [
+          {
+            "cycle": 0,
+            "center_btjd": 1410.971012843576,
+            "n_in": 74,
+            "n_local_out": 133,
+            "local_depth_ppm": 1477.5435457029005
+          },
+          {
+            "cycle": 1,
+            "center_btjd": 1421.6831794911668,
+            "n_in": 90,
+            "n_local_out": 269,
+            "local_depth_ppm": 649.60431451278
+          },
+          {
+            "cycle": 2,
+            "center_btjd": 1432.3953461387575,
+            "n_in": 90,
+            "n_local_out": 270,
+            "local_depth_ppm": 395.8600704884399
+          }
+        ],
+        "stats": {
+          "transit_times": [
+            1410.971012843576,
+            1421.6831794911668,
+            1432.3953461387575
+          ],
+          "per_transit_count": [
+            74,
+            90,
+            90
+          ],
+          "per_transit_log_likelihood": [
+            5.654091010019182e-05,
+            2.5164203816325174e-05,
+            9.400054041357526e-06
+          ],
+          "depth": [
+            0.0008469731561433092,
+            0.06332284565011068
+          ],
+          "depth_phased": [
+            0.00011307573975448304,
+            0.07502863740014427
+          ],
+          "depth_half": [
+            0.0005434586363879033,
+            0.0487635964629821
+          ],
+          "depth_odd": [
+            0.0007536059715823106,
+            0.1057538936319751
+          ],
+          "depth_even": [
+            0.0008982112452316622,
+            0.07855148555451863
+          ],
+          "harmonic_amplitude": 1.4599010252524665e-05,
+          "harmonic_delta_log_likelihood": -8.874820700594498e-05
+        },
+        "two_populated_events": true,
+        "note": "Formal library SNR/power are diagnostics; correlated noise and search trials uncalibrated."
+      }
+    ],
+    "s4_full_formal_error_weighted": [
+      {
+        "iteration": 1,
+        "input_cadences": 14444,
+        "period_days": 5.659700301150176,
+        "epoch_btjd": 1412.1439295102427,
+        "duration_hours": 1.5,
+        "depth_ppm": 3483.849220770315,
+        "formal_depth_snr": 34.613655824127214,
+        "power": 606.6323297505978,
+        "sap_same_unweighted_box_ppm": 3379.801368479463,
+        "populated_events": 4,
+        "events": [
+          {
+            "cycle": 0,
+            "center_btjd": 1412.1439295102427,
+            "n_in": 45,
+            "n_local_out": 129,
+            "local_depth_ppm": 3937.5755434968437
+          },
+          {
+            "cycle": 1,
+            "center_btjd": 1417.803629811393,
+            "n_in": 45,
+            "n_local_out": 131,
+            "local_depth_ppm": 3632.3701576346825
+          },
+          {
+            "cycle": 3,
+            "center_btjd": 1429.1230304136932,
+            "n_in": 45,
+            "n_local_out": 135,
+            "local_depth_ppm": 3555.929214155349
+          },
+          {
+            "cycle": 4,
+            "center_btjd": 1434.7827307148434,
+            "n_in": 45,
+            "n_local_out": 135,
+            "local_depth_ppm": 3399.75994277779
+          }
+        ],
+        "stats": {
+          "transit_times": [
+            1412.1439295102427,
+            1417.803629811393,
+            1423.4633301125432,
+            1429.1230304136932,
+            1434.7827307148434
+          ],
+          "per_transit_count": [
+            45,
+            45,
+            0,
+            45,
+            45
+          ],
+          "per_transit_log_likelihood": [
+            197.96194435915598,
+            141.62234121253775,
+            0.0,
+            157.46084754817238,
+            109.5871966307308
+          ],
+          "depth": [
+            0.00348384922077031,
+            0.00010064955977120217
+          ],
+          "depth_phased": [
+            -0.00033991146180987927,
+            0.00011750989648895625
+          ],
+          "depth_half": [
+            0.0018669741198152805,
+            7.685170859521682e-05
+          ],
+          "depth_odd": [
+            0.0034599708234422898,
+            0.0001419123509627111
+          ],
+          "depth_even": [
+            0.0035077156320935483,
+            0.00014187695323054653
+          ],
+          "harmonic_amplitude": 6.793848092316491e-05,
+          "harmonic_delta_log_likelihood": -589.9338840285218
+        },
+        "two_populated_events": true,
+        "note": "Formal library SNR/power are diagnostics; correlated noise and search trials uncalibrated."
+      },
+      {
+        "iteration": 2,
+        "input_cadences": 14173,
+        "period_days": 11.391178403641586,
+        "epoch_btjd": 1412.4251795102427,
+        "duration_hours": 2.0,
+        "depth_ppm": 2534.092423358734,
+        "formal_depth_snr": 20.59447038405228,
+        "power": 213.88104469642508,
+        "sap_same_unweighted_box_ppm": 2603.686564812825,
+        "populated_events": 2,
+        "events": [
+          {
+            "cycle": 0,
+            "center_btjd": 1412.4251795102427,
+            "n_in": 60,
+            "n_local_out": 163,
+            "local_depth_ppm": 2677.1940757830967
+          },
+          {
+            "cycle": 2,
+            "center_btjd": 1435.2075363175259,
+            "n_in": 60,
+            "n_local_out": 180,
+            "local_depth_ppm": 2889.0790553754096
+          }
+        ],
+        "stats": {
+          "transit_times": [
+            1412.4251795102427,
+            1423.8163579138843,
+            1435.2075363175259
+          ],
+          "per_transit_count": [
+            60,
+            0,
+            60
+          ],
+          "per_transit_log_likelihood": [
+            82.34698945176942,
+            0.0,
+            131.53405524465657
+          ],
+          "depth": [
+            0.002534092423358745,
+            0.00012304722462399726
+          ],
+          "depth_phased": [
+            -0.00011183911101151833,
+            0.00012326054947095824
+          ],
+          "depth_half": [
+            0.0012129115551019988,
+            8.745565891727268e-05
+          ],
+          "depth_odd": [
+            0.0,
+            Infinity
+          ],
+          "depth_even": [
+            0.002534092423358745,
+            0.00012304722462399726
+          ],
+          "harmonic_amplitude": 2.489386275495821e-05,
+          "harmonic_delta_log_likelihood": -210.86501046687408
+        },
+        "two_populated_events": true,
+        "note": "Formal library SNR/power are diagnostics; correlated noise and search trials uncalibrated."
+      },
+      {
+        "iteration": 3,
+        "input_cadences": 13995,
+        "period_days": 10.712166647590706,
+        "epoch_btjd": 1410.971012843576,
+        "duration_hours": 3.0,
+        "depth_ppm": 846.4372474256518,
+        "formal_depth_snr": 9.947960143778564,
+        "power": 50.39560819873244,
+        "sap_same_unweighted_box_ppm": -208.40061813702923,
+        "populated_events": 3,
+        "events": [
+          {
+            "cycle": 0,
+            "center_btjd": 1410.971012843576,
+            "n_in": 74,
+            "n_local_out": 133,
+            "local_depth_ppm": 1477.5435457029005
+          },
+          {
+            "cycle": 1,
+            "center_btjd": 1421.6831794911668,
+            "n_in": 90,
+            "n_local_out": 269,
+            "local_depth_ppm": 649.60431451278
+          },
+          {
+            "cycle": 2,
+            "center_btjd": 1432.3953461387575,
+            "n_in": 90,
+            "n_local_out": 270,
+            "local_depth_ppm": 395.8600704884399
+          }
+        ],
+        "stats": {
+          "transit_times": [
+            1410.971012843576,
+            1421.6831794911668,
+            1432.3953461387575
+          ],
+          "per_transit_count": [
+            74,
+            90,
+            90
+          ],
+          "per_transit_log_likelihood": [
+            31.256936449966723,
+            13.916142981601574,
+            5.222528767164135
+          ],
+          "depth": [
+            0.0008464372474256518,
+            8.508651373668925e-05
+          ],
+          "depth_phased": [
+            0.00011296156138936162,
+            0.00010086535171143334
+          ],
+          "depth_half": [
+            0.0005432746013534918,
+            6.553651787948134e-05
+          ],
+          "depth_odd": [
+            0.000753525092768428,
+            0.00014220407682795036
+          ],
+          "depth_even": [
+            0.000897310353024762,
+            0.0001055073554102075
+          ],
+          "harmonic_amplitude": 1.4606023436838133e-05,
+          "harmonic_delta_log_likelihood": -49.09218469671032
+        },
+        "two_populated_events": true,
+        "note": "Formal library SNR/power are diagnostics; correlated noise and search trials uncalibrated."
+      }
+    ],
+    "s5_full_formal_error_weighted": [
+      {
+        "iteration": 1,
+        "input_cadences": 17135,
+        "period_days": 5.659700301150176,
+        "epoch_btjd": 1440.4439617620708,
+        "duration_hours": 1.5,
+        "depth_ppm": 3508.2594038887833,
+        "formal_depth_snr": 38.211769747641725,
+        "power": 739.779725618752,
+        "sap_same_unweighted_box_ppm": 3448.109614692571,
+        "populated_events": 5,
+        "events": [
+          {
+            "cycle": 0,
+            "center_btjd": 1440.4439617620708,
+            "n_in": 45,
+            "n_local_out": 135,
+            "local_depth_ppm": 4005.73359870299
+          },
+          {
+            "cycle": 1,
+            "center_btjd": 1446.103662063221,
+            "n_in": 45,
+            "n_local_out": 135,
+            "local_depth_ppm": 3432.478462498771
+          },
+          {
+            "cycle": 2,
+            "center_btjd": 1451.7633623643712,
+            "n_in": 44,
+            "n_local_out": 135,
+            "local_depth_ppm": 3839.28656131729
+          },
+          {
+            "cycle": 3,
+            "center_btjd": 1457.4230626655212,
+            "n_in": 45,
+            "n_local_out": 135,
+            "local_depth_ppm": 4013.601836615418
+          },
+          {
+            "cycle": 4,
+            "center_btjd": 1463.0827629666715,
+            "n_in": 45,
+            "n_local_out": 135,
+            "local_depth_ppm": 3440.0183106421387
+          }
+        ],
+        "stats": {
+          "transit_times": [
+            1440.4439617620708,
+            1446.103662063221,
+            1451.7633623643712,
+            1457.4230626655212,
+            1463.0827629666715
+          ],
+          "per_transit_count": [
+            45,
+            45,
+            44,
+            45,
+            45
+          ],
+          "per_transit_log_likelihood": [
+            173.82223367430805,
+            125.25136892467461,
+            145.68843067632255,
+            167.82366827615004,
+            127.19402406730775
+          ],
+          "depth": [
+            0.003508259403888835,
+            9.181096366533308e-05
+          ],
+          "depth_phased": [
+            -5.822221502084748e-05,
+            0.00010542792838814249
+          ],
+          "depth_half": [
+            0.0019724566748114043,
+            6.963463618645188e-05
+          ],
+          "depth_odd": [
+            0.003482615835523376,
+            0.00014422728523385298
+          ],
+          "depth_even": [
+            0.003525501120771734,
+            0.00011841604092611335
+          ],
+          "harmonic_amplitude": 5.7234502699631035e-05,
+          "harmonic_delta_log_likelihood": -722.4289867798307
+        },
+        "two_populated_events": true,
+        "note": "Formal library SNR/power are diagnostics; correlated noise and search trials uncalibrated."
+      },
+      {
+        "iteration": 2,
+        "input_cadences": 16796,
+        "period_days": 11.374012590234061,
+        "epoch_btjd": 1446.5793784287375,
+        "duration_hours": 2.0,
+        "depth_ppm": 2567.0663073847663,
+        "formal_depth_snr": 20.523345087726373,
+        "power": 212.1251482456695,
+        "sap_same_unweighted_box_ppm": 2458.053077888896,
+        "populated_events": 2,
+        "events": [
+          {
+            "cycle": 0,
+            "center_btjd": 1446.5793784287375,
+            "n_in": 60,
+            "n_local_out": 180,
+            "local_depth_ppm": 2947.012504596448
+          },
+          {
+            "cycle": 1,
+            "center_btjd": 1457.9533910189716,
+            "n_in": 60,
+            "n_local_out": 180,
+            "local_depth_ppm": 2600.013419739818
+          }
+        ],
+        "stats": {
+          "transit_times": [
+            1446.5793784287375,
+            1457.9533910189716
+          ],
+          "per_transit_count": [
+            60,
+            60
+          ],
+          "per_transit_log_likelihood": [
+            124.90442020400891,
+            87.22072804165977
+          ],
+          "depth": [
+            0.0025670663073847568,
+            0.00012508030715324038
+          ],
+          "depth_phased": [
+            0.0001591557898045551,
+            0.00010542387355946903
+          ],
+          "depth_half": [
+            0.0011581445304537574,
+            8.095224000922824e-05
+          ],
+          "depth_odd": [
+            0.0023391344793840274,
+            0.00017657997888687976
+          ],
+          "depth_even": [
+            0.0027949610954568545,
+            0.00017656568242406867
+          ],
+          "harmonic_amplitude": 1.7217327688506217e-05,
+          "harmonic_delta_log_likelihood": -209.94519499563467
+        },
+        "two_populated_events": true,
+        "note": "Formal library SNR/power are diagnostics; correlated noise and search trials uncalibrated."
+      },
+      {
+        "iteration": 3,
+        "input_cadences": 16616,
+        "period_days": 3.3626342830453058,
+        "epoch_btjd": 1440.8439617620709,
+        "duration_hours": 1.5,
+        "depth_ppm": 727.5279506450289,
+        "formal_depth_snr": 8.645443445433683,
+        "power": 37.98580980603026,
+        "sap_same_unweighted_box_ppm": 642.9736271079676,
+        "populated_events": 6,
+        "events": [
+          {
+            "cycle": 0,
+            "center_btjd": 1440.8439617620709,
+            "n_in": 45,
+            "n_local_out": 135,
+            "local_depth_ppm": 905.6917819898143
+          },
+          {
+            "cycle": 1,
+            "center_btjd": 1444.2065960451162,
+            "n_in": 43,
+            "n_local_out": 127,
+            "local_depth_ppm": 726.9166641935574
+          },
+          {
+            "cycle": 2,
+            "center_btjd": 1447.5692303281614,
+            "n_in": 45,
+            "n_local_out": 134,
+            "local_depth_ppm": 954.9482476558827
+          },
+          {
+            "cycle": 4,
+            "center_btjd": 1454.294498894252,
+            "n_in": 45,
+            "n_local_out": 135,
+            "local_depth_ppm": 1006.5173653758235
+          },
+          {
+            "cycle": 5,
+            "center_btjd": 1457.6571331772975,
+            "n_in": 45,
+            "n_local_out": 128,
+            "local_depth_ppm": 1050.8469239999429
+          },
+          {
+            "cycle": 6,
+            "center_btjd": 1461.0197674603428,
+            "n_in": 45,
+            "n_local_out": 135,
+            "local_depth_ppm": 652.2885772951505
+          }
+        ],
+        "stats": {
+          "transit_times": [
+            1440.8439617620709,
+            1444.2065960451162,
+            1447.5692303281614,
+            1450.9318646112067,
+            1454.294498894252,
+            1457.6571331772975,
+            1461.0197674603428
+          ],
+          "per_transit_count": [
+            45,
+            43,
+            45,
+            0,
+            45,
+            45,
+            45
+          ],
+          "per_transit_log_likelihood": [
+            6.239295517765375,
+            6.060885685841029,
+            8.770730067292714,
+            0.0,
+            9.09591482107892,
+            3.665920884352111,
+            4.153062829700224
+          ],
+          "depth": [
+            0.000727527950645031,
+            8.415160601499196e-05
+          ],
+          "depth_phased": [
+            -4.318359571888197e-05,
+            7.29677226876635e-05
+          ],
+          "depth_half": [
+            0.0002860635568229885,
+            5.565078898745466e-05
+          ],
+          "depth_odd": [
+            0.0006472686493911658,
+            0.0001460120676475036
+          ],
+          "depth_even": [
+            0.0007668008909959572,
+            0.00010242383570871862
+          ],
+          "harmonic_amplitude": 1.4521116852492182e-05,
+          "harmonic_delta_log_likelihood": -36.905123174274195
+        },
+        "two_populated_events": true,
+        "note": "Formal library SNR/power are diagnostics; correlated noise and search trials uncalibrated."
+      }
+    ]
+  },
+  "inputs": {
+    "4": {
+      "path": "data/toi270-s0004.fits",
+      "sha256": "09f1e69d89dce001e447fbc509b9453f033b2428d183add334b43b93dbc8c93b",
+      "rows": 18684,
+      "primary": {
+        "TICID": 259377017,
+        "SECTOR": 4,
+        "DATA_REL": 42
+      },
+      "time": {
+        "BJDREFI": 2457000,
+        "BJDREFF": 0.0,
+        "TIMESYS": "TDB",
+        "TIMEDEL": 0.001388888888888889
+      },
+      "checksums": [
+        {
+          "checksum": 1,
+          "datasum": 2
+        },
+        {
+          "checksum": 0,
+          "datasum": 2
+        },
+        {
+          "checksum": 0,
+          "datasum": 2
+        }
+      ],
+      "retained": 14444
+    },
+    "5": {
+      "path": "data/toi270-s0005.fits",
+      "sha256": "739250df0d1ccda4304e01213f1f0f53c24603e3e223ff646157b6721665a9d5",
+      "rows": 18944,
+      "primary": {
+        "TICID": 259377017,
+        "SECTOR": 5,
+        "DATA_REL": 42
+      },
+      "time": {
+        "BJDREFI": 2457000,
+        "BJDREFF": 0.0,
+        "TIMESYS": "TDB",
+        "TIMEDEL": 0.001388888888888889
+      },
+      "checksums": [
+        {
+          "checksum": 1,
+          "datasum": 2
+        },
+        {
+          "checksum": 0,
+          "datasum": 2
+        },
+        {
+          "checksum": 0,
+          "datasum": 2
+        }
+      ],
+      "retained": 17135
+    }
+  },
+  "export_reconstruction": {
+    "bins": 965,
+    "shape_matches": true,
+    "exact_integer_equality": false,
+    "max_abs_column_delta": [
+      15.0,
+      1.0,
+      0.0
+    ]
+  },
+  "elapsed_seconds": 5.2619788000010885,
+  "environment": {
+    "config": {
+      "period_min_days": 0.6,
+      "period_max_days": 13.0,
+      "frequency_trials": 12000,
+      "duration_hours": [
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        4.0
+      ],
+      "iterations": 3,
+      "oversample": 10,
+      "detrending": "unchanged delivered one-day running median, gaps >0.5d",
+      "mask_half_duration": 0.75,
+      "quality_mask": "QUALITY==0; finite positive SAP/PDC and positive formal errors",
+      "scope": "known-host development only, S4 and immediately subsequent S5; no blind validation",
+      "acceptance": "report maxima and event coverage even if failed; no outcome-driven tuning or replacement"
+    },
+    "source_search_sha256": "48d62036f02e9ba8e26262f19d85df8850f9231274f43420ca4538cdc8056755",
+    "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.3",
+    "astropy": "8.0.1",
+    "started_utc": "2026-10-08T10:17:02.902072+00:00"
+  }
+}

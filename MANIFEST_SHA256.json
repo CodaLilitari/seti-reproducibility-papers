@@ -1,0 +1,1070 @@
+{
+  "scope": "Public release collection v1.0, 17 October 2026; complete tracked inventory excluding this manifest. Remote accessibility, archive acceptance and DOI assignment are separate verification events.",
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "bytes": 905,
+      "sha256": "b0fea0f5c67676129bce1e98684fed077856579c581e2f657cc640613ca44116"
+    },
+    {
+      "path": "CONTRIBUTIONS.md",
+      "bytes": 5558,
+      "sha256": "f32910df6542c7be5dbb913ee1eb21a34b7d048e6d17ce8637d6d11acff94851"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5998,
+      "sha256": "ab23c960a59929589bd65dce51a3795b3d80992816a294bb172f0d4c27109026"
+    },
+    {
+      "path": "downloads/coordinate-epoch-provenance-supplement-v1.0.zip",
+      "bytes": 571592,
+      "sha256": "aa80fd10c295e4ffaab297ad93721d904900c3ed31084a3c6f1df193c3608cb8"
+    },
+    {
+      "path": "downloads/tess-transit-search-methods-supplement-v1.0.zip",
+      "bytes": 3570700,
+      "sha256": "acec1cdaf0eb0afc5a0cc5f129d1b64d2ebb64886fc7bd608f168223e2fda3b0"
+    },
+    {
+      "path": "papers/coordinate/Coordinate_Epoch_Provenance_Preprint_v1.0.docx",
+      "bytes": 207448,
+      "sha256": "b44aa961e13dd2751d6bb6253a949112db6aca6c7dd567196bf98028200d925b"
+    },
+    {
+      "path": "papers/coordinate/Coordinate_Epoch_Provenance_Preprint_v1.0.md",
+      "bytes": 65358,
+      "sha256": "bc8efbb3184edc7ece5a88fc9d57f0c70c006b9546b822e76963feee3296ead7"
+    },
+    {
+      "path": "papers/coordinate/Coordinate_Epoch_Provenance_Preprint_v1.0.pdf",
+      "bytes": 741395,
+      "sha256": "c914fcbb8e107860704fc9e0c8a641128ee2e51244fde15f8607ef546bed4868"
+    },
+    {
+      "path": "papers/coordinate/figures/effective_epoch_fits.png",
+      "bytes": 58577,
+      "sha256": "b0f120e4e26506ed55e5991d91968fe2bcc0961841f3c3292c536720a88744ac"
+    },
+    {
+      "path": "papers/coordinate/figures/radius_residuals.png",
+      "bytes": 101844,
+      "sha256": "f887d5cea9125cd7c6a00963929680681af1eeffc067c585b79a9b256f7f3826"
+    },
+    {
+      "path": "papers/tess/TESS_Transit_Search_Methods_Preprint_v1.0.docx",
+      "bytes": 54252,
+      "sha256": "a12d56da4b970fc13f86d24aef356d5231a8143061a28a6b017d80789dee5c85"
+    },
+    {
+      "path": "papers/tess/TESS_Transit_Search_Methods_Preprint_v1.0.md",
+      "bytes": 34781,
+      "sha256": "3854bac503930231b9c9c7f391b5f53c3b68c4172fcc0204ae089e6b68b0dd9c"
+    },
+    {
+      "path": "papers/tess/TESS_Transit_Search_Methods_Preprint_v1.0.pdf",
+      "bytes": 318898,
+      "sha256": "bd1440848f246981215ddc1103948b9d93b3e907702439338dcf87003287a3f7"
+    },
+    {
+      "path": "supplements/coordinate/CLAIM_TO_EVIDENCE.csv",
+      "bytes": 12744,
+      "sha256": "68cedba58f8bf8ac9dece961c03acb9bac0437677689225b80556d2e58d14527"
+    },
+    {
+      "path": "supplements/coordinate/CLAIM_TO_EVIDENCE.md",
+      "bytes": 16853,
+      "sha256": "7150390472a02fd35243f1ae59302cf5b62f56b4d0f41de3d9c6f50f766c6bd1"
+    },
+    {
+      "path": "supplements/coordinate/CURATION_PROVENANCE.json",
+      "bytes": 25550,
+      "sha256": "1954be9479a592f73d2277a2aea23459ddbc59b6937c66af3c00a10350d7ae43"
+    },
+    {
+      "path": "supplements/coordinate/CURATION_VALIDATION.json",
+      "bytes": 1593,
+      "sha256": "45c0fc562cd6a5d07fc21a802adcb2fcbea5a489ec747a63859c51175d219de1"
+    },
+    {
+      "path": "supplements/coordinate/DERIVATIVES.md",
+      "bytes": 7791,
+      "sha256": "89b2526d79c9dfdc4e50ec2c51f0246dd74a32f1f1fa39bb140b1104bcdc4f7a"
+    },
+    {
+      "path": "supplements/coordinate/DOCUMENTARY_CHECK_OUTPUT.json",
+      "bytes": 3502,
+      "sha256": "eb3c18c922bca2f67cf2c912e766bded8008a5705d623574b7d8a43f3e5befed"
+    },
+    {
+      "path": "supplements/coordinate/MANIFEST_SHA256.json",
+      "bytes": 21738,
+      "sha256": "ac94c2840ce7591ec019004bc16a6728268bfca10442daffefa2ba6040c71853"
+    },
+    {
+      "path": "supplements/coordinate/README.md",
+      "bytes": 11945,
+      "sha256": "81942ad024675ca1ee46e40bf9e1c036bf8e24cd6518dbc6e67a8715e38906b1"
+    },
+    {
+      "path": "supplements/coordinate/RELEASE_STATUS.md",
+      "bytes": 2564,
+      "sha256": "f22b39c4fd7457646ae6e5f7d91ec26781c3e416392c65781b6f96dcb7ff8ff4"
+    },
+    {
+      "path": "supplements/coordinate/SOURCE_NOTICES_AND_ACKNOWLEDGMENTS.md",
+      "bytes": 9835,
+      "sha256": "d9cc3f9b2666d7c68f05afa1434837830c96e9866c065c8d09b10911a78dbf23"
+    },
+    {
+      "path": "supplements/coordinate/analysis/bounds/check_bounds.py",
+      "bytes": 6927,
+      "sha256": "438a826a32c374226e931e143366087cad89ebe2236ceb5067346ac49eb60570"
+    },
+    {
+      "path": "supplements/coordinate/analysis/bounds/inputs/A_controls_transcribed.csv",
+      "bytes": 5708,
+      "sha256": "9310f8e93b0c0da997f85abacdb882ce3702d9ef3ee0884aa1338fa34872a4a2"
+    },
+    {
+      "path": "supplements/coordinate/analysis/bounds/inputs/candidate_radius_models.csv",
+      "bytes": 10895,
+      "sha256": "846bffa0d5a7f084f22fb2c9c74b0a04201a522b89ff3ea32b22ee710a6f2eab"
+    },
+    {
+      "path": "supplements/coordinate/analysis/bounds/inputs/gaia_A_control_uncertainties.csv",
+      "bytes": 1052,
+      "sha256": "38b63656356082d673d0908f56e93a85fd464890aa8d9268923f17edf4f02d23"
+    },
+    {
+      "path": "supplements/coordinate/analysis/bounds/inputs/gaia_A_controls.csv",
+      "bytes": 2478,
+      "sha256": "4bd7293532668068e74a875e459775c64919d495109161fb1cf6ccadf4e9d737"
+    },
+    {
+      "path": "supplements/coordinate/analysis/bounds/per_source_bounds.csv",
+      "bytes": 11041,
+      "sha256": "b937052c6ff4e736d463642a8d749fd9abfe72cbd6ad55505cc7fbf3639388e6"
+    },
+    {
+      "path": "supplements/coordinate/analysis/controls/astropy72/AST_PROOF.json",
+      "bytes": 1816,
+      "sha256": "812272da0da7d845c450a719150b17cf4d5a8b50f4061fa3773fa2ad7ab67c04"
+    },
+    {
+      "path": "supplements/coordinate/analysis/controls/astropy72/COMPARISON_POLICY.json",
+      "bytes": 1534,
+      "sha256": "9e6894c4fdbd1c3791f3fb44c6a56edfd70e833768b1d363a4a23c3a15fc6748"
+    },
+    {
+      "path": "supplements/coordinate/analysis/controls/astropy72/DERIVATION_PROVENANCE.json",
+      "bytes": 2480,
+      "sha256": "b1c322018a90abd984163031cca27880e27ebe44e8a7e0d894d2671b063ca809"
+    },
+    {
+      "path": "supplements/coordinate/analysis/controls/astropy72/REPLAY_COMPARISON.json",
+      "bytes": 7522,
+      "sha256": "daefcfe0beb59280863b007a3a30b770c0a34399dffb7f59cfe023464670d136"
+    },
+    {
+      "path": "supplements/coordinate/analysis/controls/astropy72/SOURCE_DIFF.patch",
+      "bytes": 1005,
+      "sha256": "96b6da32ad735707ffefa9842376ffd4740e830a588fd8fc701c953baecfc4ae"
+    },
+    {
+      "path": "supplements/coordinate/analysis/controls/astropy72/astropy_crosscheck.csv",
+      "bytes": 6491,
+      "sha256": "25b8600736c555a38a6101ff6a422bd516341a42ba48beb61cd4d03684dcdd89"
+    },
+    {
+      "path": "supplements/coordinate/analysis/controls/astropy72/astropy_crosscheck_public.py",
+      "bytes": 4284,
+      "sha256": "21d4f6e4318b05d218f5edf0ae743f12ee7850471aeface56a9aa62da604aa66"
+    },
+    {
+      "path": "supplements/coordinate/analysis/controls/astropy72/astropy_crosscheck_summary.json",
+      "bytes": 875,
+      "sha256": "3fdf20db215f7a808cb97734d45ce8c32f10800cd0d030852c411b35138f6a60"
+    },
+    {
+      "path": "supplements/coordinate/analysis/controls/astropy72/candidate_radius_models.csv",
+      "bytes": 10895,
+      "sha256": "846bffa0d5a7f084f22fb2c9c74b0a04201a522b89ff3ea32b22ee710a6f2eab"
+    },
+    {
+      "path": "supplements/coordinate/analysis/controls/astropy72/inputs/gaia_dr3_snapshot_20260925.csv",
+      "bytes": 1759,
+      "sha256": "ebc0f022f36d65525a96082be2c9b7d96302e17f24a02276af50a5fc70dd5c8b"
+    },
+    {
+      "path": "supplements/coordinate/analysis/controls/astropy72/source_tables.json",
+      "bytes": 22117,
+      "sha256": "62a9fe9430be1d0b9ff0e85549ae002a7c565be1239f3994dc7ddf2b41490396"
+    },
+    {
+      "path": "supplements/coordinate/analysis/controls/falsification/audit_falsification.py",
+      "bytes": 10650,
+      "sha256": "cad3184e9ca4029f2c513e09df2525bd0a5044ba590b0e9dd3f69504ef1a849d"
+    },
+    {
+      "path": "supplements/coordinate/analysis/controls/falsification/candidate_radius_models.csv",
+      "bytes": 10895,
+      "sha256": "846bffa0d5a7f084f22fb2c9c74b0a04201a522b89ff3ea32b22ee710a6f2eab"
+    },
+    {
+      "path": "supplements/coordinate/analysis/controls/falsification/effective_epoch_fits.csv",
+      "bytes": 1020,
+      "sha256": "d14f4ffb40627ac8fce9ac40ddf1e6c28255c8186fa7b0a7abd52645168e5f03"
+    },
+    {
+      "path": "supplements/coordinate/analysis/controls/falsification/inputs/gaia_dr3_snapshot_20260925.csv",
+      "bytes": 1759,
+      "sha256": "ebc0f022f36d65525a96082be2c9b7d96302e17f24a02276af50a5fc70dd5c8b"
+    },
+    {
+      "path": "supplements/coordinate/analysis/controls/falsification/rayleigh_rounding_tests.csv",
+      "bytes": 15390,
+      "sha256": "8d868e4416eccafff9485bdaa4a6e0fdb67a97f711217adc29fa5224ede1f7b8"
+    },
+    {
+      "path": "supplements/coordinate/analysis/controls/falsification/source_provenance.json",
+      "bytes": 317,
+      "sha256": "fd65900cf1cc7dabe9228de88d4741a341f081137ef20c9f251ce2a93e1dd442"
+    },
+    {
+      "path": "supplements/coordinate/analysis/controls/falsification/source_tables.json",
+      "bytes": 22117,
+      "sha256": "62a9fe9430be1d0b9ff0e85549ae002a7c565be1239f3994dc7ddf2b41490396"
+    },
+    {
+      "path": "supplements/coordinate/analysis/controls/scripts/fit_recovered_A.py",
+      "bytes": 4523,
+      "sha256": "ea6d340878d73a7f0c46f34e4e0105b02d46a3b41af2b19939849d2f2a934649"
+    },
+    {
+      "path": "supplements/coordinate/analysis/controls/source_archives/A_controls_transcribed.csv",
+      "bytes": 5708,
+      "sha256": "9310f8e93b0c0da997f85abacdb882ce3702d9ef3ee0884aa1338fa34872a4a2"
+    },
+    {
+      "path": "supplements/coordinate/analysis/controls/source_archives/free_location_rounding_exclusion.json",
+      "bytes": 322437,
+      "sha256": "3664adf3af7ea7bd0c92e8f13382d1b27ab0bd086090e7adba5c44df49f5b392"
+    },
+    {
+      "path": "supplements/coordinate/analysis/controls/source_archives/verify_free_location_rounding.py",
+      "bytes": 2840,
+      "sha256": "45231f1b8918a85afa9fc8e58cfb84554eb2ea1e2e4ae3c4cb8f707646babd83"
+    },
+    {
+      "path": "supplements/coordinate/analysis/d1-core/QUERY_PROVENANCE.md",
+      "bytes": 1172,
+      "sha256": "913999626bbcf336134ee531fd53629450ccf50dff0f6334815ca037da97923b"
+    },
+    {
+      "path": "supplements/coordinate/analysis/d1-core/fresh_gaia_tap_2026-09-27.csv",
+      "bytes": 1278,
+      "sha256": "1fc488d2d080643f042006de0d45d04bc6d261aa49e12a92cd640e81b8d10a48"
+    },
+    {
+      "path": "supplements/coordinate/analysis/d1-core/fresh_simbad_tap_2026-09-27.csv",
+      "bytes": 1219,
+      "sha256": "233f4f717c311cc64862e2a5c88864e7ca3d241415fdb8d6ef2feb32f2773452"
+    },
+    {
+      "path": "supplements/coordinate/analysis/d1-core/independent_core_check.py",
+      "bytes": 14364,
+      "sha256": "75972d53b1f514353fb84499dc66ae39d6ac939521d9f69d8491c0ec84992f2f"
+    },
+    {
+      "path": "supplements/coordinate/analysis/d1-core/independent_core_results.json",
+      "bytes": 8986,
+      "sha256": "64ef6ea867c178574cbb5defd1096e0b4e5cce2b50e23fa035e8c410a7fdbd70"
+    },
+    {
+      "path": "supplements/coordinate/analysis/d1-core/independent_effective_epoch_fits.csv",
+      "bytes": 594,
+      "sha256": "5499b00c1903fc8c76e2c184f3287e0b3bc8218957e4aa4f3d81a4689edaec19"
+    },
+    {
+      "path": "supplements/coordinate/analysis/d1-core/independent_ren2024_inversion.csv",
+      "bytes": 802,
+      "sha256": "a68f7015503c8039a658cddff4bcd3198a9e4bebd53fb88ccefd96a4a7a943c0"
+    },
+    {
+      "path": "supplements/coordinate/analysis/d1-core/independent_rowwise.csv",
+      "bytes": 4696,
+      "sha256": "25a36cf82f93ce3e926701018cd58a97b1251a793a7dba460b40eca1dd1ba21c"
+    },
+    {
+      "path": "supplements/coordinate/analysis/d1-core/independent_table10_conditional.csv",
+      "bytes": 753,
+      "sha256": "07c3df615f7c76b0e7da7a8d990ed9cef1443ecd3ebedfd37a243bf147a727c1"
+    },
+    {
+      "path": "supplements/coordinate/analysis/d1-core/primary_values.json",
+      "bytes": 3728,
+      "sha256": "641eec1c013bfc99e950ac69751799418dbbc143eba769f758af0a06f87c1837"
+    },
+    {
+      "path": "supplements/coordinate/analysis/ren2024/ren2024-assessment/g-surveys/DOCUMENTATION_REFERENCES.json",
+      "bytes": 2067,
+      "sha256": "2f1d7e8777b4e43ed3c39a90db3860b77b4d3bc45402217b83b31866a092bca3"
+    },
+    {
+      "path": "supplements/coordinate/analysis/ren2024/ren2024-assessment/g-surveys/G_SOURCE_PROVENANCE.json",
+      "bytes": 14895,
+      "sha256": "6c1a5a4f733a8461e91329146628acae13c528649ccd154fedbcdc681111d913"
+    },
+    {
+      "path": "supplements/coordinate/analysis/ren2024/ren2024-assessment/g-surveys/first_g.tsv",
+      "bytes": 4474,
+      "sha256": "fbbcb7fa4785cfc85132196dcc9fe4396bff32b643239eea262b9381d0de8b28"
+    },
+    {
+      "path": "supplements/coordinate/analysis/ren2024/ren2024-assessment/g-surveys/nvss_g.tsv",
+      "bytes": 4629,
+      "sha256": "d16663fe2aa7a1bf81808e02ea6ca03fa2113880eedb13651f2e47e5e67381d0"
+    },
+    {
+      "path": "supplements/coordinate/analysis/ren2024/ren2024-assessment/g-surveys/tgss_g.tsv",
+      "bytes": 3967,
+      "sha256": "a59dfec212c68df246a0fe9c1e547fb9891050ac4e89140a3b1553446e1c0411"
+    },
+    {
+      "path": "supplements/coordinate/analysis/ren2024/ren2024-assessment/g-surveys/vlass_g.tsv",
+      "bytes": 12237,
+      "sha256": "af8e1c384ec0d57a3eaefd8dc4da36d5788ebb20c1617d08834b2f5300fb9a08"
+    },
+    {
+      "path": "supplements/coordinate/analysis/ren2024/ren2024-assessment/gaia/three_sources_covariance.csv",
+      "bytes": 1310,
+      "sha256": "7d5bfa21e7732c49e967446e6953575efbc2a7e7b6fe702891e3f180d390e547"
+    },
+    {
+      "path": "supplements/coordinate/analysis/ren2024/ren2024-assessment/math/audit_astrometry.py",
+      "bytes": 25202,
+      "sha256": "0f6ea11aa6cc006ab10dfaa644d394c9fdeeb019ae59467b22511a1820b07c93"
+    },
+    {
+      "path": "supplements/coordinate/analysis/ren2024/ren2024-assessment/math/conditional_covariance_sensitivity.csv",
+      "bytes": 34628,
+      "sha256": "d00389f87446b2717f40d067ac38d81881fbcded1960b9caf0630f439157d737"
+    },
+    {
+      "path": "supplements/coordinate/analysis/ren2024/ren2024-assessment/math/epoch_details.json",
+      "bytes": 42491,
+      "sha256": "90c55f68c08d95c30c3e592d0419b0d833c943d72687d239f4129928a46a4f16"
+    },
+    {
+      "path": "supplements/coordinate/analysis/ren2024/ren2024-assessment/math/gaia_covariance_checks.json",
+      "bytes": 6567,
+      "sha256": "a602eb563dbf0a6689b6d5c71446f9abd7871cfaecae1f7d7449203f0f60b565"
+    },
+    {
+      "path": "supplements/coordinate/analysis/ren2024/ren2024-assessment/math/reviewer_followup.py",
+      "bytes": 23210,
+      "sha256": "74db6c97716432868afda630e4f7eebe195b12129f0749285937b5bb05d8a752"
+    },
+    {
+      "path": "supplements/coordinate/analysis/ren2024/ren2024-assessment/math/seven_rows.csv",
+      "bytes": 2790,
+      "sha256": "23b2d2f82057e80ca159cc4db3a9141f0d832c2bc78f9c5c468ece3a0d1729f8"
+    },
+    {
+      "path": "supplements/coordinate/analysis/ren2024/ren2024-assessment/math/tgss_reference_diagnostic.py",
+      "bytes": 13457,
+      "sha256": "046d613181419dd484b26aac220893336b8ff53028af0deb19c060235dccbe39"
+    },
+    {
+      "path": "supplements/coordinate/analysis/ren2024/ren2024-assessment/racs/cadc_product_uris.csv",
+      "bytes": 281,
+      "sha256": "b70276787096dcce92d533728b58d35935d74b6bf88ee006207afc58f33a2f4c"
+    },
+    {
+      "path": "supplements/coordinate/analysis/ren2024/ren2024-assessment/racs/catalog_A.tsv",
+      "bytes": 6411,
+      "sha256": "7b932e3d873a0dba7c325af5f9693084e92dd315522352fabc645c7006c23f74"
+    },
+    {
+      "path": "supplements/coordinate/analysis/ren2024/ren2024-assessment/racs/catalog_B.tsv",
+      "bytes": 6409,
+      "sha256": "16e6a510ceb75ae7f8511cfeebea2fff8887e12359b15dfa583813cd0112527d"
+    },
+    {
+      "path": "supplements/coordinate/analysis/ren2024/ren2024-assessment/racs/catalog_G.tsv",
+      "bytes": 6413,
+      "sha256": "3ffebc25dc81181def614ac6ab4cf0ec5efd57757da57566093a06e046a0fc30"
+    },
+    {
+      "path": "supplements/coordinate/analysis/ren2024/ren2024-assessment/racs/header_0354-43A.txt",
+      "bytes": 5022,
+      "sha256": "585b156f3b04d1e98846822101d86966cc11e1a58bc5ca8dfe4297543452dd43"
+    },
+    {
+      "path": "supplements/coordinate/analysis/ren2024/ren2024-assessment/racs/header_0354-43A.txt.receipt.json",
+      "bytes": 404,
+      "sha256": "8eabf32911ab82459b94c5220b5949f10911a19406c3bebbb13cfa0c704a3ca6"
+    },
+    {
+      "path": "supplements/coordinate/analysis/ren2024/ren2024-assessment/racs/header_1240-25A.txt",
+      "bytes": 5022,
+      "sha256": "3d6279f3b67585942fce8d4d49d18468e09ee8ca93b960e22054077ac27ec5cc"
+    },
+    {
+      "path": "supplements/coordinate/analysis/ren2024/ren2024-assessment/racs/header_1240-25A.txt.receipt.json",
+      "bytes": 404,
+      "sha256": "f085e676531755f8af358c114221a8adc85137baf2a09c22820a391982f8e53b"
+    },
+    {
+      "path": "supplements/coordinate/analysis/ren2024/ren2024-assessment/racs/header_2347+00A.txt",
+      "bytes": 5022,
+      "sha256": "b8cfe15a32bd1d39e6ec254f295a40a77b8ea9b3d67f5cc631e255c522e8368c"
+    },
+    {
+      "path": "supplements/coordinate/analysis/ren2024/ren2024-assessment/racs/header_2347+00A.txt.receipt.json",
+      "bytes": 404,
+      "sha256": "d129d5a1b1dd6258a4d7da3122d652485ee82765f697502389971ad12b5bdebc"
+    },
+    {
+      "path": "supplements/coordinate/analysis/ren2024/source/Ren2024_Coordinate_State_Followup_2026-10-08/data/ren2024_table1_transcribed.csv",
+      "bytes": 641,
+      "sha256": "afafc8b350cef8c6a02f79980024d876ba229243d6b081e7d69435929e396e17"
+    },
+    {
+      "path": "supplements/coordinate/check_document_arithmetic.py",
+      "bytes": 4980,
+      "sha256": "206f547333cb5d0b8e166f408bed64a842a0f5400dd6cde094170e4f21613872"
+    },
+    {
+      "path": "supplements/coordinate/derivations/readme-omission/SOURCE_DIFF.patch",
+      "bytes": 1486,
+      "sha256": "a41fdb653a3239e109f385f0b5fae8dd135328dac711ab4a43aa7988365cb07a"
+    },
+    {
+      "path": "supplements/coordinate/derivations/readme-omission/STATIC_PROOF.json",
+      "bytes": 2913,
+      "sha256": "c23e895f1596204e1e1807ae93df9a09bd01c1ff4f87707a067eb55b119b620b"
+    },
+    {
+      "path": "supplements/coordinate/figures/effective_epoch_fits.png",
+      "bytes": 58577,
+      "sha256": "b0f120e4e26506ed55e5991d91968fe2bcc0961841f3c3292c536720a88744ac"
+    },
+    {
+      "path": "supplements/coordinate/figures/radius_residuals.png",
+      "bytes": 101844,
+      "sha256": "f887d5cea9125cd7c6a00963929680681af1eeffc067c585b79a9b256f7f3826"
+    },
+    {
+      "path": "supplements/coordinate/history/COORDINATE_REPLAY_STATUS_before_successor.md",
+      "bytes": 8670,
+      "sha256": "7848b43717313cf3fff56fbe071622aeb5507cbd11297fe9d6951b94792e4791"
+    },
+    {
+      "path": "supplements/coordinate/history/CURATION_PROVENANCE_v1.json",
+      "bytes": 31822,
+      "sha256": "db91051b4069553e3185c8b8f020cf46dc99072d28003e01c9cbfc908bae2375"
+    },
+    {
+      "path": "supplements/coordinate/history/CURATION_PROVENANCE_v2.json",
+      "bytes": 13368,
+      "sha256": "d2dff8316cc253dd169580ee9928d602a237e4e11a2139881abff639d382e65d"
+    },
+    {
+      "path": "supplements/coordinate/history/CURATION_PROVENANCE_v3.json",
+      "bytes": 28853,
+      "sha256": "8ed711702c93765defc224a083ecec866cce2e33e14f2c1f166607261f173d25"
+    },
+    {
+      "path": "supplements/coordinate/history/MANIFEST_SHA256_v1.json",
+      "bytes": 17755,
+      "sha256": "af2aa31f22ed3598e44372e915bd2a1c4d9627fe9f8f9b8c39f8bee3d7371d79"
+    },
+    {
+      "path": "supplements/coordinate/history/MANIFEST_SHA256_v2.json",
+      "bytes": 21464,
+      "sha256": "6fc74befecc0d3c9a494bdd8c91863f37be7363374daaca3cb6790c763046d47"
+    },
+    {
+      "path": "supplements/coordinate/history/MANIFEST_SHA256_v3.json",
+      "bytes": 21221,
+      "sha256": "cf2e6c1d853a405f942abfe844ce3534f1e6e5596dc8f97d5c1f16309cf06b3f"
+    },
+    {
+      "path": "supplements/coordinate/requirements-analysis.txt",
+      "bytes": 232,
+      "sha256": "cd07e569e4a9937120eae371f6d233d3c7e70ed6fa0c428c333f4153fd0896f9"
+    },
+    {
+      "path": "supplements/coordinate/status/COORDINATE_REPLAY_STATUS.md",
+      "bytes": 11074,
+      "sha256": "fb85f51876b0ee853c6e02fc5a8a8fec6c4ef4f31b1ec8be37c211f5fead51c0"
+    },
+    {
+      "path": "supplements/coordinate/status/CURRENT_SOURCE_STATUS.md",
+      "bytes": 2327,
+      "sha256": "2feac9b49f14fd022e8a9b76e5317c099d81dbafd7a2f7dfdf55f584da94fbc3"
+    },
+    {
+      "path": "supplements/coordinate/status/README_OMISSION_RUNTIME.json",
+      "bytes": 25506,
+      "sha256": "80f4b35cedd1dda072fb8b751c169351a26f810bde71dd4b34893c53267c02a9"
+    },
+    {
+      "path": "supplements/coordinate/status/REPLAY_COMPARISONS.json",
+      "bytes": 58912,
+      "sha256": "baf44c48fe26cd1a9020eb922bbe9a1d4d47b53212f462271e64ae3d5944f520"
+    },
+    {
+      "path": "supplements/coordinate/status/SOURCE_STATUS_RECORD.json",
+      "bytes": 3338,
+      "sha256": "1b4bfd34751ae2ae6c06957c1b40de12ad28b878db0ea684fc9f8724524b5964"
+    },
+    {
+      "path": "supplements/coordinate/support/astrometry/A_controls_transcribed.csv",
+      "bytes": 5708,
+      "sha256": "9310f8e93b0c0da997f85abacdb882ce3702d9ef3ee0884aa1338fa34872a4a2"
+    },
+    {
+      "path": "supplements/coordinate/support/astrometry/coda_joint_and_individual_fits.csv",
+      "bytes": 1020,
+      "sha256": "d14f4ffb40627ac8fce9ac40ddf1e6c28255c8186fa7b0a7abd52645168e5f03"
+    },
+    {
+      "path": "supplements/coordinate/support/astrometry/conditional_bounds.json",
+      "bytes": 2383,
+      "sha256": "f23eeb3618edafe8238af44c17cf25af4fc3959a7581c53531ba15079ce59c7e"
+    },
+    {
+      "path": "supplements/coordinate/support/astrometry/conditional_probabilities.csv",
+      "bytes": 753,
+      "sha256": "07c3df615f7c76b0e7da7a8d990ed9cef1443ecd3ebedfd37a243bf147a727c1"
+    },
+    {
+      "path": "supplements/coordinate/support/astrometry/control_estimator_replay.json",
+      "bytes": 5575,
+      "sha256": "d56471ae6eef45c4574d92e2ed3051442a15b3f873b56170e7fc46e4ebd4e3dc"
+    },
+    {
+      "path": "supplements/coordinate/support/astrometry/effective_epoch_fits.csv",
+      "bytes": 594,
+      "sha256": "5499b00c1903fc8c76e2c184f3287e0b3bc8218957e4aa4f3d81a4689edaec19"
+    },
+    {
+      "path": "supplements/coordinate/support/astrometry/gaia_A_control_uncertainties.csv",
+      "bytes": 1052,
+      "sha256": "38b63656356082d673d0908f56e93a85fd464890aa8d9268923f17edf4f02d23"
+    },
+    {
+      "path": "supplements/coordinate/support/astrometry/gaia_A_controls.csv",
+      "bytes": 2478,
+      "sha256": "4bd7293532668068e74a875e459775c64919d495109161fb1cf6ccadf4e9d737"
+    },
+    {
+      "path": "supplements/coordinate/support/astrometry/gaia_snapshot.csv",
+      "bytes": 1278,
+      "sha256": "1fc488d2d080643f042006de0d45d04bc6d261aa49e12a92cd640e81b8d10a48"
+    },
+    {
+      "path": "supplements/coordinate/support/astrometry/jwst_caption_values.csv",
+      "bytes": 455,
+      "sha256": "61200b68cc5292f41e17304210e1480ce458ee11befaf198690cfc41752aba97"
+    },
+    {
+      "path": "supplements/coordinate/support/astrometry/per_source_bounds.csv",
+      "bytes": 11041,
+      "sha256": "b937052c6ff4e736d463642a8d749fd9abfe72cbd6ad55505cc7fbf3639388e6"
+    },
+    {
+      "path": "supplements/coordinate/support/astrometry/primary_values.json",
+      "bytes": 3728,
+      "sha256": "641eec1c013bfc99e950ac69751799418dbbc143eba769f758af0a06f87c1837"
+    },
+    {
+      "path": "supplements/coordinate/support/astrometry/rayleigh_rounding_tests.csv",
+      "bytes": 15390,
+      "sha256": "8d868e4416eccafff9485bdaa4a6e0fdb67a97f711217adc29fa5224ede1f7b8"
+    },
+    {
+      "path": "supplements/coordinate/support/astrometry/ren2024_inversion.csv",
+      "bytes": 802,
+      "sha256": "a68f7015503c8039a658cddff4bcd3198a9e4bebd53fb88ccefd96a4a7a943c0"
+    },
+    {
+      "path": "supplements/coordinate/support/astrometry/rowwise_offsets.csv",
+      "bytes": 4696,
+      "sha256": "25a36cf82f93ce3e926701018cd58a97b1251a793a7dba460b40eca1dd1ba21c"
+    },
+    {
+      "path": "supplements/coordinate/support/astrometry/simbad_snapshot.csv",
+      "bytes": 1219,
+      "sha256": "233f4f717c311cc64862e2a5c88864e7ca3d241415fdb8d6ef2feb32f2773452"
+    },
+    {
+      "path": "supplements/coordinate/support/astrometry/table10_compatibility.csv",
+      "bytes": 3230,
+      "sha256": "c9419db51bf815bda9313ecbaf930ba1e699521e03c6836dff4a351449c59ced"
+    },
+    {
+      "path": "supplements/coordinate/support/ren2024/EPOCH_UNCERTAINTY_TABLE.csv",
+      "bytes": 28861,
+      "sha256": "e0f8f07d8caf09de4509414ccd44bcb89f384578deedb2735d599173eb1af45c"
+    },
+    {
+      "path": "supplements/coordinate/support/ren2024/math/conditional_covariance_sensitivity.csv",
+      "bytes": 34628,
+      "sha256": "d00389f87446b2717f40d067ac38d81881fbcded1960b9caf0630f439157d737"
+    },
+    {
+      "path": "supplements/coordinate/support/ren2024/math/epoch_details.json",
+      "bytes": 42491,
+      "sha256": "90c55f68c08d95c30c3e592d0419b0d833c943d72687d239f4129928a46a4f16"
+    },
+    {
+      "path": "supplements/coordinate/support/ren2024/math/first_empirical_accuracy.json",
+      "bytes": 295,
+      "sha256": "f1ffb84b264ea0be94a24ac3d909d2f794347b2e4284d4dd4e83bbf6a6f774b0"
+    },
+    {
+      "path": "supplements/coordinate/support/ren2024/math/printed_reference_inversion.json",
+      "bytes": 867,
+      "sha256": "e4ff15db855357a464c9f16544cae7366a69a1bcf0afb5c0730b06d3ebf2765f"
+    },
+    {
+      "path": "supplements/coordinate/support/ren2024/math/reviewer_followup_finite_rho.csv",
+      "bytes": 1768,
+      "sha256": "92a8f41f486e48c89cc8445b5b93610c1de58434a0cd7181338e3323f5f3a1a8"
+    },
+    {
+      "path": "supplements/coordinate/support/ren2024/math/seven_rows.csv",
+      "bytes": 2790,
+      "sha256": "23b2d2f82057e80ca159cc4db3a9141f0d832c2bc78f9c5c468ece3a0d1729f8"
+    },
+    {
+      "path": "supplements/coordinate/support/ren2024/math/tgss_discrepancy.json",
+      "bytes": 253,
+      "sha256": "d33759c6dabb9a571b6be5250f97dc0b67022f5e04849dfcfdd183abbbf5b1e5"
+    },
+    {
+      "path": "supplements/coordinate/support/ren2024/math/tgss_reference_RESULTS.md",
+      "bytes": 1820,
+      "sha256": "64b9aa8e96741a150627db3f43818a7622b5efe8e9ce7ee41c59bea5284dc45c"
+    },
+    {
+      "path": "supplements/coordinate/support/ren2024/math/tgss_reference_diagnostic.json",
+      "bytes": 3573,
+      "sha256": "9a54076ebdb67ad96915b1b03515f5c8b2d31d8fc1e2cf4d8e3fe063d08f9665"
+    },
+    {
+      "path": "supplements/coordinate/verify_bundle.py",
+      "bytes": 1178,
+      "sha256": "5142d0ae0b432f40a78afb61fa25fb337e35a0933b64689fd9cf3b0f41cf9a25"
+    },
+    {
+      "path": "supplements/tess/CLAIM_TO_EVIDENCE.json",
+      "bytes": 9762,
+      "sha256": "43ac26f278c000eb8a0064ca61350f8945322a300c304707c7c78e04689cf2b2"
+    },
+    {
+      "path": "supplements/tess/CLAIM_TO_EVIDENCE.md",
+      "bytes": 4302,
+      "sha256": "2ce3514d26c1190415e28734b3b3db612ce23d6fbf60944e7b75ccb956c5260e"
+    },
+    {
+      "path": "supplements/tess/CURATION_PROVENANCE.json",
+      "bytes": 31787,
+      "sha256": "dc634a72fb5834d3df0bec255bd4c889a0f101200414fe9929d1416b0fe504ca"
+    },
+    {
+      "path": "supplements/tess/MANIFEST_SHA256.json",
+      "bytes": 15078,
+      "sha256": "8ab44a636db3438657ab1473987f3aeffbffa5dae35a9f57834e80bd9e464388"
+    },
+    {
+      "path": "supplements/tess/README.md",
+      "bytes": 7868,
+      "sha256": "1334351fcb0b959ba07db7c9cb1ac2fe333e4fe432660d9110a61fc14f33bb9b"
+    },
+    {
+      "path": "supplements/tess/REPRODUCIBILITY.md",
+      "bytes": 8206,
+      "sha256": "708c2b7ecf1c1852794526e2e06f68bbebfe934cec5608b5cdb7487ad86428f8"
+    },
+    {
+      "path": "supplements/tess/development-replay/POSTHOC_DIAGNOSTICS.md",
+      "bytes": 7662,
+      "sha256": "10f55504c4bac09058d24d8ca5ca7e88fe5a59ab0bd016e51148ea731740cf21"
+    },
+    {
+      "path": "supplements/tess/development-replay/REPORT.md",
+      "bytes": 6909,
+      "sha256": "fbf777dd59f50ac8222bb0874f970898184167e5cf868689e3bbfbab20304bb6"
+    },
+    {
+      "path": "supplements/tess/development-replay/counterexamples.py",
+      "bytes": 9215,
+      "sha256": "72e817379406be24ce05c511afc86df8d4c888bd56ab32c0a900645d384f0049"
+    },
+    {
+      "path": "supplements/tess/development-replay/counterexamples_receipt.json",
+      "bytes": 4768,
+      "sha256": "a394c22ec6b1d3e11282ec8e3727c607ed80d225172ec6d496b35d8ce47faa07"
+    },
+    {
+      "path": "supplements/tess/development-replay/manifest_verification.log",
+      "bytes": 62,
+      "sha256": "328a695b3cb349208ed216d85169971f7249508245d8e89245cf48b3250c2890"
+    },
+    {
+      "path": "supplements/tess/development-replay/posthoc_diagnostics.py",
+      "bytes": 12562,
+      "sha256": "fe02d831f8ce2a677aa9a30d34fc480dcf794cef18f0b80f173b5d997888f438"
+    },
+    {
+      "path": "supplements/tess/development-replay/posthoc_diagnostics_results.json",
+      "bytes": 31259,
+      "sha256": "aba00b0936908a163d16af5efaac284321eb9b12d15932bf18ff4a4f06237e0f"
+    },
+    {
+      "path": "supplements/tess/development-replay/replay.py",
+      "bytes": 5361,
+      "sha256": "8d23a0ce4dc67f01af9e9803ae6da2db0f452d101d0b6089a5fef2d7c994f32e"
+    },
+    {
+      "path": "supplements/tess/development-replay/replay_receipt.json",
+      "bytes": 2451,
+      "sha256": "50e3d239674a6a4ed255b78e85b3f3f44dd68ec7629083d038dddaa21427ec8b"
+    },
+    {
+      "path": "supplements/tess/development-replay/six_tests.log",
+      "bytes": 637,
+      "sha256": "295d0cd87c8d493ad83b9d1ac67fed1faf0d969ac24004321604c14411d65d95"
+    },
+    {
+      "path": "supplements/tess/development-replay/three_peaks.log",
+      "bytes": 2096,
+      "sha256": "74478d48ffa8090dc2246d838aab9928f06a6a75c3e21a1c92196492571c9afd"
+    },
+    {
+      "path": "supplements/tess/provenance/INPUT_IDENTITIES_AND_CURATION.json",
+      "bytes": 31502,
+      "sha256": "ad6be2ef36b7fc75a5a48a5423ac3ed7f4d04f09900d88be9e80ed3db9d0af46"
+    },
+    {
+      "path": "supplements/tess/provenance/NATIVE_SOURCE_IDENTITIES.json",
+      "bytes": 2536,
+      "sha256": "5201faed64d99f544fcfda5cb740e1c65ce689efa605666d0aa2b6113c8893f9"
+    },
+    {
+      "path": "supplements/tess/provenance/SOURCE_ATTRIBUTION_AND_TERMS.md",
+      "bytes": 6120,
+      "sha256": "0b02c4392fa3b6be4cea05703b015258329efeafc2bc6f9accf0e55a4607c8b0"
+    },
+    {
+      "path": "supplements/tess/provenance/T5_REVIEW_SCOPE.json",
+      "bytes": 1712,
+      "sha256": "240c3bc5d17d1180c06f29de5c6de2168a23c69a3698fca6086d83342025a153"
+    },
+    {
+      "path": "supplements/tess/provenance/V3_1_REPORTING_CHANGELOG.md",
+      "bytes": 2438,
+      "sha256": "fd06deddb6ec6a80c1d230d92e2237950e99d4ec4128d4457ef9dae59d29d9fd"
+    },
+    {
+      "path": "supplements/tess/provenance/historical/V3_1_MANIFEST.json",
+      "bytes": 2909,
+      "sha256": "b90c89a0d88ca39ae502223b3d80cef9277abeaf6fde01673d6fc9faf08d2360"
+    },
+    {
+      "path": "supplements/tess/provenance/historical/development-replay-REVIEW_MANIFEST.json",
+      "bytes": 1646,
+      "sha256": "a62f937caa71150b7076087ce4053bb895e3d6db20a20a279d703ec06350aa9f"
+    },
+    {
+      "path": "supplements/tess/provenance/historical/supplement-v2/CLAIM_TO_EVIDENCE.json",
+      "bytes": 9732,
+      "sha256": "2adbdae542f2452be6aa4ef73e3d85dac222d3b97c26b96456f1420b119d9da9"
+    },
+    {
+      "path": "supplements/tess/provenance/historical/supplement-v2/CLAIM_TO_EVIDENCE.md",
+      "bytes": 4182,
+      "sha256": "2ec41f17408a40b92fbd3696f5ae34748203f7e468d5956bca3f4538baa4d3c5"
+    },
+    {
+      "path": "supplements/tess/provenance/historical/supplement-v2/CURATION_PROVENANCE.json",
+      "bytes": 29003,
+      "sha256": "1c025525f98a77be099ab141077ae7fd6dd6c7c056dea495b75e6c24a0742190"
+    },
+    {
+      "path": "supplements/tess/provenance/historical/supplement-v2/MANIFEST_SHA256.json",
+      "bytes": 13082,
+      "sha256": "d445051d85bf5e060d254002a50a3bcdd9eae3d764b6830948ae4371c1520c4b"
+    },
+    {
+      "path": "supplements/tess/provenance/historical/supplement-v2/README.md",
+      "bytes": 6478,
+      "sha256": "660e88d530b91f87978b84eb0a40b8393d817f8b1aa330173361de1733469e07"
+    },
+    {
+      "path": "supplements/tess/provenance/historical/supplement-v2/provenance/SOURCE_ATTRIBUTION_AND_TERMS.md",
+      "bytes": 5895,
+      "sha256": "fa046d6c4a4ac5a606ac7ac4d1bb6471e426645ffd2f472d792272df8842ff4e"
+    },
+    {
+      "path": "supplements/tess/provenance/historical/supplement-v3/CURATION_PROVENANCE.json",
+      "bytes": 30021,
+      "sha256": "e8db1c5e18dff67a2a82999b39fc9545a2ca9de94f90d41e026a33b0d79ca598"
+    },
+    {
+      "path": "supplements/tess/provenance/historical/supplement-v3/MANIFEST_SHA256.json",
+      "bytes": 14277,
+      "sha256": "ab993097210449ebcc6350442b10e03aebcea3b5e1194709390c7de622a0f006"
+    },
+    {
+      "path": "supplements/tess/provenance/historical/supplement-v3/README.md",
+      "bytes": 7462,
+      "sha256": "51be96badc9ffcf092476d90a9e1487ab649186b21b34b2ee737eb397010306d"
+    },
+    {
+      "path": "supplements/tess/provenance/historical/supplement-v3/provenance/SOURCE_ATTRIBUTION_AND_TERMS.md",
+      "bytes": 5675,
+      "sha256": "da1276393d0bde0b4add5b1a48b68c6ebaa3bbb5102b0d7f53b5d3aeb8bfc4fc"
+    },
+    {
+      "path": "supplements/tess/provenance/historical/v3_1-MANIFEST_SHA256.json",
+      "bytes": 2597,
+      "sha256": "ff1d58cbad68565088f0fb31393bc2498325bbcfb4de003f812eff158c4ccb72"
+    },
+    {
+      "path": "supplements/tess/provenance/licenses/ASTROPY_LICENSE.rst",
+      "bytes": 1522,
+      "sha256": "dc0c37a9ade395ef3a9b909b7db944729bd0064d6ff1d65e76ecc5e9db055915"
+    },
+    {
+      "path": "supplements/tess/replay/TESS_REPLAY_COMPARISON.json",
+      "bytes": 21512,
+      "sha256": "75b6c197ec0af4716e23d8ac86a618a2f23bb6ef5295a42c0bf2fe123e02cbe3"
+    },
+    {
+      "path": "supplements/tess/replay/TESS_REPLAY_STATUS.md",
+      "bytes": 5105,
+      "sha256": "94033b281dd833f293140558211f8f5131164f1c2a4697fc570219c1174c5c19"
+    },
+    {
+      "path": "supplements/tess/requirements-analysis.txt",
+      "bytes": 176,
+      "sha256": "6ef68928aad4c610cb032f27f4a7d6dd5116ffb1ac223719a46b439fe7a66358"
+    },
+    {
+      "path": "supplements/tess/requirements-prototype.txt",
+      "bytes": 156,
+      "sha256": "164a10fe027e1ae8c89f4cf52b1e6f000304599d6538cecd73e3b157db17b43c"
+    },
+    {
+      "path": "supplements/tess/source/planet_hunt_tess_development_2026-10-08/CODA_HANDOFF.md",
+      "bytes": 2209,
+      "sha256": "a2e272053be01cda39a03eab97a72c58cf2064d4eb9f066bef6a4044bbbec3cc"
+    },
+    {
+      "path": "supplements/tess/source/planet_hunt_tess_development_2026-10-08/MANIFEST.json",
+      "bytes": 2777,
+      "sha256": "e33f7f07ebbb5704a9a483236957bef6e28a1c5516330bdcd4be83d7420442de"
+    },
+    {
+      "path": "supplements/tess/source/planet_hunt_tess_development_2026-10-08/PLAN_BEFORE_FLUX.md",
+      "bytes": 2130,
+      "sha256": "849ea2d97731724d95c84e6c11b8363b3cea6b49c03e6b99111b6c5fc48dd8ce"
+    },
+    {
+      "path": "supplements/tess/source/planet_hunt_tess_development_2026-10-08/README.md",
+      "bytes": 7307,
+      "sha256": "f782a6189e9d750b5ab3d756c384fe71249824c576ee3695f1154b205fa33d0c"
+    },
+    {
+      "path": "supplements/tess/source/planet_hunt_tess_development_2026-10-08/data/catalog_comparison.csv",
+      "bytes": 214,
+      "sha256": "ee70118bdb5ef881ab52e0792802a83a9afd4c755cf8e87ecea2667ce7149534"
+    },
+    {
+      "path": "supplements/tess/source/planet_hunt_tess_development_2026-10-08/data/export.b64",
+      "bytes": 10283,
+      "sha256": "201a162d979755c779de0b32fd6732e5f2f316003f57119f4c00122b9c579881"
+    },
+    {
+      "path": "supplements/tess/source/planet_hunt_tess_development_2026-10-08/data/retrieval.wl",
+      "bytes": 1018,
+      "sha256": "1ff2aadd10c6972b4f5b0b28f1566fd19bc10f22efeb919a8812089440a507b6"
+    },
+    {
+      "path": "supplements/tess/source/planet_hunt_tess_development_2026-10-08/data/toi270_s4_binned.csv",
+      "bytes": 19928,
+      "sha256": "7e2269301ce4b08fe13d0c57b34efcb54bd4a5fc293a23a362a648b39ec4d0e1"
+    },
+    {
+      "path": "supplements/tess/source/planet_hunt_tess_development_2026-10-08/data/toi270_s4_binned.csv.gz",
+      "bytes": 7708,
+      "sha256": "ea6d4c0ceb83df5683ab100b93f32e95c5b9cf1fdcaaeb52c39130ca4664e6f6"
+    },
+    {
+      "path": "supplements/tess/source/planet_hunt_tess_development_2026-10-08/environment.json",
+      "bytes": 214,
+      "sha256": "690fc143b4ec4a16d0159ec72fee975b0bb659d14af8e9fb707d5fca915be414"
+    },
+    {
+      "path": "supplements/tess/source/planet_hunt_tess_development_2026-10-08/results/detrended.csv",
+      "bytes": 121649,
+      "sha256": "b483afe405498f5a321d8e360d9098557c81c3defa618076f0d0dfed69eed867"
+    },
+    {
+      "path": "supplements/tess/source/planet_hunt_tess_development_2026-10-08/results/implementation_tests.txt",
+      "bytes": 627,
+      "sha256": "bcc4daa57bc8b5fc69e0df398dccc155b15b466cd0ba550211d8381720a6f08f"
+    },
+    {
+      "path": "supplements/tess/source/planet_hunt_tess_development_2026-10-08/results/known_planet_recovery.png",
+      "bytes": 122460,
+      "sha256": "2e0041de7d0a93df0ab1f7360a5e57b58699036406a15d803eee4c51686de37a"
+    },
+    {
+      "path": "supplements/tess/source/planet_hunt_tess_development_2026-10-08/results/periodogram_1.csv",
+      "bytes": 900052,
+      "sha256": "db0e525bbd91064341f9b029e5669c4bad1673a1db579843bcd859720984dd54"
+    },
+    {
+      "path": "supplements/tess/source/planet_hunt_tess_development_2026-10-08/results/periodogram_2.csv",
+      "bytes": 900052,
+      "sha256": "16bbb1febbdce1adb955bb51de9e65a64afcd8b0489e0d5958f0a7e126ebb1ee"
+    },
+    {
+      "path": "supplements/tess/source/planet_hunt_tess_development_2026-10-08/results/periodogram_3.csv",
+      "bytes": 900052,
+      "sha256": "8e8364d753a578e8103f9f2d5fc12e8d67fcc27e4f92192679da9bdef5375b83"
+    },
+    {
+      "path": "supplements/tess/source/planet_hunt_tess_development_2026-10-08/results/search_results.json",
+      "bytes": 2010,
+      "sha256": "5674ac9a86790730d7450a3ec7717d03dc7b162f8a17eb1ed9f9ce46d27bf188"
+    },
+    {
+      "path": "supplements/tess/source/planet_hunt_tess_development_2026-10-08/search.py",
+      "bytes": 5619,
+      "sha256": "48d62036f02e9ba8e26262f19d85df8850f9231274f43420ca4538cdc8056755"
+    },
+    {
+      "path": "supplements/tess/source/planet_hunt_tess_development_2026-10-08/test_search.py",
+      "bytes": 2116,
+      "sha256": "a6f1069e35f7bfd0281550f5aaa338526d16a9edd0bcaaf1af466698e76d3953"
+    },
+    {
+      "path": "supplements/tess/source/planet_hunt_tess_development_2026-10-08/verify.py",
+      "bytes": 635,
+      "sha256": "1a447450ac433ffe849d3929567bfd06692aec5bda77dd3a72e5ed29f3caf252"
+    },
+    {
+      "path": "supplements/tess/standard-bls/configuration-before-run.json",
+      "bytes": 938,
+      "sha256": "31261f02b1b4e81134b45c76054a69ac06c5231268ab9d00e8d9a7b924552e4b"
+    },
+    {
+      "path": "supplements/tess/standard-bls/crosscheck-results.json",
+      "bytes": 31974,
+      "sha256": "12470849317ddb429f1e1c9dde1ab26d6f891f2a5df56081a98b5465dbab0d7a"
+    },
+    {
+      "path": "supplements/tess/standard-bls/data/toi270-s0004.fits",
+      "bytes": 1897920,
+      "sha256": "09f1e69d89dce001e447fbc509b9453f033b2428d183add334b43b93dbc8c93b"
+    },
+    {
+      "path": "supplements/tess/standard-bls/data/toi270-s0004.fits.receipt.json",
+      "bytes": 512,
+      "sha256": "34a79cdeedefe646880b27eff9946e889f6cab9a00e492d24d7ba5641ad5c9e7"
+    },
+    {
+      "path": "supplements/tess/standard-bls/data/toi270-s0005.fits",
+      "bytes": 1923840,
+      "sha256": "739250df0d1ccda4304e01213f1f0f53c24603e3e223ff646157b6721665a9d5"
+    },
+    {
+      "path": "supplements/tess/standard-bls/data/toi270-s0005.fits.receipt.json",
+      "bytes": 512,
+      "sha256": "572589a40dfa5ebd8387cdd5a45488eaa050d6adfac93c1b2b4c5d96c6f5b727"
+    },
+    {
+      "path": "supplements/tess/standard-bls/run_crosscheck.py",
+      "bytes": 7119,
+      "sha256": "9fd8943d52930c8e4285a548d16664a54c6f8c426e24999e497a9a46eaa87def"
+    },
+    {
+      "path": "supplements/tess/tess-development-v3_1/IMPLEMENTATION_SPEC.md",
+      "bytes": 12548,
+      "sha256": "d133263c01f1b3f4bcd8c58683c4a9d7604608a96275997b0e3318896a0116d4"
+    },
+    {
+      "path": "supplements/tess/tess-development-v3_1/METADATA_COMPLETENESS_SPEC.md",
+      "bytes": 22181,
+      "sha256": "e12694943a9aaa6d7546e68d86163976c8340dc32126335e93642e7a188e1a40"
+    },
+    {
+      "path": "supplements/tess/tess-development-v3_1/README.md",
+      "bytes": 11463,
+      "sha256": "5f474869ebb110f87a791a1f87ecff35595b2d3b61c8c316172c51b750252715"
+    },
+    {
+      "path": "supplements/tess/tess-development-v3_1/VERIFICATION_RECEIPT.json",
+      "bytes": 7250,
+      "sha256": "d0518d8fcd51bc0d9158cfbbf883cd4846d0e32a91b8cb1dfde32f568a4ac7a8"
+    },
+    {
+      "path": "supplements/tess/tess-development-v3_1/metadata_contract.py",
+      "bytes": 21817,
+      "sha256": "b6da38de7987a6783a003925e0c7f07370309ea29d5a5478afca9356753214ad"
+    },
+    {
+      "path": "supplements/tess/tess-development-v3_1/run_offline_checks.py",
+      "bytes": 3887,
+      "sha256": "e92419e95be37e9f2503a1491a355691a66019c2b7d50ba10137dcb92b9819e8"
+    },
+    {
+      "path": "supplements/tess/tess-development-v3_1/synthetic_driver.py",
+      "bytes": 3299,
+      "sha256": "ee0e54e97a2c388fc60c7f35115f3928e21adcd981b0900999cee065e1ce9da1"
+    },
+    {
+      "path": "supplements/tess/tess-development-v3_1/synthetic_output/discovery_freeze.json",
+      "bytes": 85195,
+      "sha256": "c978b901025857d894737b7f2fb251dc86c55eb840811e9c2220de1dfcdbe668"
+    },
+    {
+      "path": "supplements/tess/tess-development-v3_1/synthetic_output/synthetic_driver_result.json",
+      "bytes": 6707,
+      "sha256": "392c976a64ab24ef08265d992b1421e85208a66465a5a559889d9a0eaa315047"
+    },
+    {
+      "path": "supplements/tess/tess-development-v3_1/tess_components.py",
+      "bytes": 25983,
+      "sha256": "1e01c9ba8b358228aed0581f1731f99dc1595402037f4bbf9f7cc0f8c6832826"
+    },
+    {
+      "path": "supplements/tess/tess-development-v3_1/test_metadata_contract.py",
+      "bytes": 18041,
+      "sha256": "9463277e448875963892c40655d2ce284e8dca0375c968b3a1108ca86167101d"
+    },
+    {
+      "path": "supplements/tess/tess-development-v3_1/test_tess_components.py",
+      "bytes": 15996,
+      "sha256": "ae96d40a17bf6fb6de580604bd56a9f808fa106d594d53c96da76ff4dd786712"
+    },
+    {
+      "path": "supplements/tess/tess-development-v3_1/unittest.log",
+      "bytes": 6801,
+      "sha256": "bced5da77e6f55717c97256b265d462b3073378f578fc1d3feae3bb86298ea4a"
+    },
+    {
+      "path": "supplements/tess/verify_manifest.py",
+      "bytes": 2147,
+      "sha256": "7779e5cbc1cf261b1d3f5725e413fd81a4abdd8ebc47efdf168f5a45e65899c2"
+    }
+  ]
+}

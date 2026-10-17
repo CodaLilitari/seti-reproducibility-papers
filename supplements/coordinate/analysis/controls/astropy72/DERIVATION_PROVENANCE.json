@@ -1,0 +1,51 @@
+{
+  "status": "Executed once and compared; public release/licensing still pending",
+  "source_identity": {
+    "bytes": 4145,
+    "sha256": "b28b5324ff2c6c567ca12031bef5221aba1c7c4b245e6a39d4187706c94c0188"
+  },
+  "derivative_identity": {
+    "bytes": 4284,
+    "sha256": "21d4f6e4318b05d218f5edf0ae743f12ee7850471aeface56a9aa62da604aa66"
+  },
+  "source_description": "Historical Coda Astropy cross-check, preserved unchanged in the project archive; source can be reconstructed byte-for-byte from the supplied derivative by reversing the exact two-for-two provenance edit.",
+  "original_source_is_not_claimed_to_be_authors_historical_code": true,
+  "removed": "Only the documentary HTML path assignment and its SHA-256 assertion.",
+  "retained": "Gaia snapshot pin, all other original statements and bytes outside the exact edit.",
+  "added": "SHA-256 pins for source_tables.json and candidate_radius_models.csv before reading them.",
+  "inputs": [
+    {
+      "path": "inputs/gaia_dr3_snapshot_20260925.csv",
+      "bytes": 1759,
+      "sha256": "ebc0f022f36d65525a96082be2c9b7d96302e17f24a02276af50a5fc70dd5c8b"
+    },
+    {
+      "path": "source_tables.json",
+      "bytes": 22117,
+      "sha256": "62a9fe9430be1d0b9ff0e85549ae002a7c565be1239f3994dc7ddf2b41490396"
+    },
+    {
+      "path": "candidate_radius_models.csv",
+      "bytes": 10895,
+      "sha256": "846bffa0d5a7f084f22fb2c9c74b0a04201a522b89ff3ea32b22ee710a6f2eab"
+    }
+  ],
+  "diff": {
+    "path": "SOURCE_DIFF.patch",
+    "bytes": 1005,
+    "sha256": "96b6da32ad735707ffefa9842376ffd4740e830a588fd8fc701c953baecfc4ae"
+  },
+  "ast_proof": {
+    "path": "AST_PROOF.json",
+    "bytes": 1816,
+    "sha256": "812272da0da7d845c450a719150b17cf4d5a8b50f4061fa3773fa2ad7ab67c04"
+  },
+  "comparison": {
+    "path": "REPLAY_COMPARISON.json",
+    "bytes": 7522,
+    "sha256": "daefcfe0beb59280863b007a3a30b770c0a34399dffb7f59cfe023464670d136"
+  },
+  "excluded": "Full article HTML and its acquisition/extraction workflow. The three numerical inputs were not reacquired or re-extracted.",
+  "output_curation": "Raw summary omits executable field only; JSON is serialized for this curated artifact. Numerical and other fields retained unchanged. Private command/interpreter/cache paths are omitted from this derived execution record; raw receipts remain private.",
+  "permission": "Provenance and arithmetic verification do not assign software or upstream-data licenses."
+}

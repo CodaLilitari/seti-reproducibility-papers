@@ -1,0 +1,38 @@
+{
+  "W1": {
+    "N": 15,
+    "scale_lower_bound_arcsec": 0.4853068855069858,
+    "reported_scale_6decimals": 0.485307,
+    "one_sided_only_scale_lower_bound_arcsec": 0.4848096416513767,
+    "candidate_correct_central_radius_arcsec": 0.18056764965155364,
+    "survival_lower_bound_at_candidate_central_radius": 0.9331235431343734,
+    "reported_probability_6decimals": 0.933124,
+    "candidate_centroid_rounding_allowance_arcsec": 0.008352336668574857,
+    "survival_lower_bound_with_candidate_centroid_rounding": 0.9270301069134391,
+    "scale_lower_bound_with_parallax_plus_3sigma_arcsec": 0.4851881580880085,
+    "survival_lower_bound_with_larger_parallax_margin": 0.9330919296226065,
+    "binary_mixed_branch_scale_lower_bound_arcsec": 0.11334993806948102,
+    "binary_mixed_survival_lower_bound_at_central_candidate": 0.28115719848666715,
+    "binary_mixed_survival_lower_bound_with_candidate_rounding": 0.24933965934099253,
+    "positive_control_radius_bounds": 14,
+    "hypothesis": "All15 reference points share an extra minus16yr shift; identical centroids, membership, fixedzero Rayleigh MLE; PM and parallax correction-length uncertainty stays within explicitly allowed bounds."
+  },
+  "W2": {
+    "N": 15,
+    "scale_lower_bound_arcsec": 0.4679725832821725,
+    "reported_scale_6decimals": 0.467973,
+    "one_sided_only_scale_lower_bound_arcsec": 0.46623729564002636,
+    "candidate_correct_central_radius_arcsec": 0.11093525436982467,
+    "survival_lower_bound_at_candidate_central_radius": 0.9722935213384055,
+    "reported_probability_6decimals": 0.972294,
+    "candidate_centroid_rounding_allowance_arcsec": 0.008352338248117971,
+    "survival_lower_bound_with_candidate_centroid_rounding": 0.968034301115038,
+    "scale_lower_bound_with_parallax_plus_3sigma_arcsec": 0.4678544252681579,
+    "survival_lower_bound_with_larger_parallax_margin": 0.972279720675902,
+    "binary_mixed_branch_scale_lower_bound_arcsec": 0.1465180533328176,
+    "binary_mixed_survival_lower_bound_at_central_candidate": 0.7507868691428334,
+    "binary_mixed_survival_lower_bound_with_candidate_rounding": 0.7179038274772783,
+    "positive_control_radius_bounds": 15,
+    "hypothesis": "All15 reference points share an extra minus16yr shift; identical centroids, membership, fixedzero Rayleigh MLE; PM and parallax correction-length uncertainty stays within explicitly allowed bounds."
+  }
+}

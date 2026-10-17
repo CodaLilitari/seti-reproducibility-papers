@@ -1,0 +1,4 @@
+observationID,uri,contentType,contentLength
+RACS-DR1_1240-25A,casda:RACS/RACS-DR1_1240-25A.fits,application/fits,766909440
+RACS-DR1_2347+00A,casda:RACS/RACS-DR1_2347+00A.fits,application/fits,750219840
+RACS-DR1_0354-43A,casda:RACS/RACS-DR1_0354-43A.fits,application/fits,785574720

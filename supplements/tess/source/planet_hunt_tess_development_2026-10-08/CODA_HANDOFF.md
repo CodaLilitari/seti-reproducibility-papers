@@ -1,0 +1,11 @@
+# Coda: separate TESS planet-search branch
+
+Andrei invited planet hunting after the TIC 4206066 fact-check. This does not alter the frozen Kepler Q5 known-transit anomaly experiment or its stage decisions.
+
+Lily executed one source-aware development run on known TOI-270, using a lossy 30-minute export of Sector 4. The code received no catalog ephemerides. It approximately recovered c and d, missed b within its three-peak budget, and returned a third peak with disagreeing SAP/PDC signs. Preserve those outcomes as the development record; do not recast the known recoveries as discoveries or successful blind validation.
+
+The most valuable next work is original two-minute FITS acquisition for the same development host, one additional sector, a standard-library BLS cross-check (Astropy is preferred over extending this custom prototype), and targeted synthetic challenges. Separate recovery performance from statistically calibrated false alarms. The current prototype is unweighted, coarsely phase-binned, and only a development demonstration. Check aliasing, residuals from removed signals, time gaps, baseline leakage, event-level coverage, inconsistent processing products, and false detections on nonplanet examples. Do not mistake a period match alone for validation.
+
+Then write ONE compact target-selection and validation protocol for a small new sample, not a long series of infrastructure-only reviews. Suggested scale: 20 nearby bright K/M dwarfs with three or more TESS sectors, selected on catalog metadata with a reproducible ordering. Keep known controls separate and freeze the search criteria before outcome inspection. The exact metadata universe, thresholds and sector assignment have not yet been chosen or queried; specify them before running. Reserve a later sector for a fixed-ephemeris recovery check. Previously unreported candidates require pixel localization, eclipsing-binary/systematic checks and a current catalog/literature crossmatch. Report all selected hosts and failures without outcome-driven replacement.
+
+Use public resources and existing compute only. No contacts, submissions, purchases, public posting, or modifications to earlier frozen artifacts are requested.

@@ -1,0 +1,737 @@
+{
+  "status": "UNPUBLISHED SUCCESSOR V3; DOCUMENTARY AND STATIC DERIVATIVE ONLY",
+  "curated_utc": "2026-10-17T05:30:48.166393+00:00",
+  "predecessor_manifest": {
+    "path": "MANIFEST_SHA256.json",
+    "bytes": 21464,
+    "sha256": "6fc74befecc0d3c9a494bdd8c91863f37be7363374daaca3cb6790c763046d47"
+  },
+  "predecessor_manifest_supplied_at": "history/MANIFEST_SHA256_v2.json",
+  "predecessor_provenance": {
+    "path": "CURATION_PROVENANCE.json",
+    "bytes": 13368,
+    "sha256": "d2dff8316cc253dd169580ee9928d602a237e4e11a2139881abff639d382e65d"
+  },
+  "predecessor_ancestry_supplied_at": "history/CURATION_PROVENANCE_v2.json",
+  "current_inventory": "MANIFEST_SHA256.json (all current payloads, excluding itself)",
+  "self_reference_limit": "This provenance and the manifest are identified by the final manifest and external implementation receipt, respectively; no self-hash cycle is claimed.",
+  "unchanged_v2_payloads": [
+    {
+      "path": "analysis/bounds/check_bounds.py",
+      "bytes": 6927,
+      "sha256": "438a826a32c374226e931e143366087cad89ebe2236ceb5067346ac49eb60570"
+    },
+    {
+      "path": "analysis/bounds/inputs/A_controls_transcribed.csv",
+      "bytes": 5708,
+      "sha256": "9310f8e93b0c0da997f85abacdb882ce3702d9ef3ee0884aa1338fa34872a4a2"
+    },
+    {
+      "path": "analysis/bounds/inputs/candidate_radius_models.csv",
+      "bytes": 10895,
+      "sha256": "846bffa0d5a7f084f22fb2c9c74b0a04201a522b89ff3ea32b22ee710a6f2eab"
+    },
+    {
+      "path": "analysis/bounds/inputs/gaia_A_control_uncertainties.csv",
+      "bytes": 1052,
+      "sha256": "38b63656356082d673d0908f56e93a85fd464890aa8d9268923f17edf4f02d23"
+    },
+    {
+      "path": "analysis/bounds/inputs/gaia_A_controls.csv",
+      "bytes": 2478,
+      "sha256": "4bd7293532668068e74a875e459775c64919d495109161fb1cf6ccadf4e9d737"
+    },
+    {
+      "path": "analysis/bounds/per_source_bounds.csv",
+      "bytes": 11041,
+      "sha256": "b937052c6ff4e736d463642a8d749fd9abfe72cbd6ad55505cc7fbf3639388e6"
+    },
+    {
+      "path": "analysis/controls/astropy72/AST_PROOF.json",
+      "bytes": 1816,
+      "sha256": "812272da0da7d845c450a719150b17cf4d5a8b50f4061fa3773fa2ad7ab67c04"
+    },
+    {
+      "path": "analysis/controls/astropy72/astropy_crosscheck.csv",
+      "bytes": 6491,
+      "sha256": "25b8600736c555a38a6101ff6a422bd516341a42ba48beb61cd4d03684dcdd89"
+    },
+    {
+      "path": "analysis/controls/astropy72/astropy_crosscheck_public.py",
+      "bytes": 4284,
+      "sha256": "21d4f6e4318b05d218f5edf0ae743f12ee7850471aeface56a9aa62da604aa66"
+    },
+    {
+      "path": "analysis/controls/astropy72/astropy_crosscheck_summary.json",
+      "bytes": 875,
+      "sha256": "3fdf20db215f7a808cb97734d45ce8c32f10800cd0d030852c411b35138f6a60"
+    },
+    {
+      "path": "analysis/controls/astropy72/candidate_radius_models.csv",
+      "bytes": 10895,
+      "sha256": "846bffa0d5a7f084f22fb2c9c74b0a04201a522b89ff3ea32b22ee710a6f2eab"
+    },
+    {
+      "path": "analysis/controls/astropy72/COMPARISON_POLICY.json",
+      "bytes": 1534,
+      "sha256": "9e6894c4fdbd1c3791f3fb44c6a56edfd70e833768b1d363a4a23c3a15fc6748"
+    },
+    {
+      "path": "analysis/controls/astropy72/DERIVATION_PROVENANCE.json",
+      "bytes": 2480,
+      "sha256": "b1c322018a90abd984163031cca27880e27ebe44e8a7e0d894d2671b063ca809"
+    },
+    {
+      "path": "analysis/controls/astropy72/inputs/gaia_dr3_snapshot_20260925.csv",
+      "bytes": 1759,
+      "sha256": "ebc0f022f36d65525a96082be2c9b7d96302e17f24a02276af50a5fc70dd5c8b"
+    },
+    {
+      "path": "analysis/controls/astropy72/REPLAY_COMPARISON.json",
+      "bytes": 7522,
+      "sha256": "daefcfe0beb59280863b007a3a30b770c0a34399dffb7f59cfe023464670d136"
+    },
+    {
+      "path": "analysis/controls/astropy72/SOURCE_DIFF.patch",
+      "bytes": 1005,
+      "sha256": "96b6da32ad735707ffefa9842376ffd4740e830a588fd8fc701c953baecfc4ae"
+    },
+    {
+      "path": "analysis/controls/astropy72/source_tables.json",
+      "bytes": 22117,
+      "sha256": "62a9fe9430be1d0b9ff0e85549ae002a7c565be1239f3994dc7ddf2b41490396"
+    },
+    {
+      "path": "analysis/controls/falsification/audit_falsification.py",
+      "bytes": 10650,
+      "sha256": "cad3184e9ca4029f2c513e09df2525bd0a5044ba590b0e9dd3f69504ef1a849d"
+    },
+    {
+      "path": "analysis/controls/falsification/candidate_radius_models.csv",
+      "bytes": 10895,
+      "sha256": "846bffa0d5a7f084f22fb2c9c74b0a04201a522b89ff3ea32b22ee710a6f2eab"
+    },
+    {
+      "path": "analysis/controls/falsification/effective_epoch_fits.csv",
+      "bytes": 1020,
+      "sha256": "d14f4ffb40627ac8fce9ac40ddf1e6c28255c8186fa7b0a7abd52645168e5f03"
+    },
+    {
+      "path": "analysis/controls/falsification/inputs/gaia_dr3_snapshot_20260925.csv",
+      "bytes": 1759,
+      "sha256": "ebc0f022f36d65525a96082be2c9b7d96302e17f24a02276af50a5fc70dd5c8b"
+    },
+    {
+      "path": "analysis/controls/falsification/rayleigh_rounding_tests.csv",
+      "bytes": 15390,
+      "sha256": "8d868e4416eccafff9485bdaa4a6e0fdb67a97f711217adc29fa5224ede1f7b8"
+    },
+    {
+      "path": "analysis/controls/falsification/source_provenance.json",
+      "bytes": 317,
+      "sha256": "fd65900cf1cc7dabe9228de88d4741a341f081137ef20c9f251ce2a93e1dd442"
+    },
+    {
+      "path": "analysis/controls/falsification/source_tables.json",
+      "bytes": 22117,
+      "sha256": "62a9fe9430be1d0b9ff0e85549ae002a7c565be1239f3994dc7ddf2b41490396"
+    },
+    {
+      "path": "analysis/controls/scripts/fit_recovered_A.py",
+      "bytes": 4523,
+      "sha256": "ea6d340878d73a7f0c46f34e4e0105b02d46a3b41af2b19939849d2f2a934649"
+    },
+    {
+      "path": "analysis/controls/source_archives/A_controls_transcribed.csv",
+      "bytes": 5708,
+      "sha256": "9310f8e93b0c0da997f85abacdb882ce3702d9ef3ee0884aa1338fa34872a4a2"
+    },
+    {
+      "path": "analysis/controls/source_archives/free_location_rounding_exclusion.json",
+      "bytes": 322437,
+      "sha256": "3664adf3af7ea7bd0c92e8f13382d1b27ab0bd086090e7adba5c44df49f5b392"
+    },
+    {
+      "path": "analysis/controls/source_archives/verify_free_location_rounding.py",
+      "bytes": 2840,
+      "sha256": "45231f1b8918a85afa9fc8e58cfb84554eb2ea1e2e4ae3c4cb8f707646babd83"
+    },
+    {
+      "path": "analysis/d1-core/fresh_gaia_tap_2026-09-27.csv",
+      "bytes": 1278,
+      "sha256": "1fc488d2d080643f042006de0d45d04bc6d261aa49e12a92cd640e81b8d10a48"
+    },
+    {
+      "path": "analysis/d1-core/fresh_simbad_tap_2026-09-27.csv",
+      "bytes": 1219,
+      "sha256": "233f4f717c311cc64862e2a5c88864e7ca3d241415fdb8d6ef2feb32f2773452"
+    },
+    {
+      "path": "analysis/d1-core/independent_core_check.py",
+      "bytes": 14364,
+      "sha256": "75972d53b1f514353fb84499dc66ae39d6ac939521d9f69d8491c0ec84992f2f"
+    },
+    {
+      "path": "analysis/d1-core/independent_core_results.json",
+      "bytes": 8986,
+      "sha256": "64ef6ea867c178574cbb5defd1096e0b4e5cce2b50e23fa035e8c410a7fdbd70"
+    },
+    {
+      "path": "analysis/d1-core/independent_effective_epoch_fits.csv",
+      "bytes": 594,
+      "sha256": "5499b00c1903fc8c76e2c184f3287e0b3bc8218957e4aa4f3d81a4689edaec19"
+    },
+    {
+      "path": "analysis/d1-core/independent_ren2024_inversion.csv",
+      "bytes": 802,
+      "sha256": "a68f7015503c8039a658cddff4bcd3198a9e4bebd53fb88ccefd96a4a7a943c0"
+    },
+    {
+      "path": "analysis/d1-core/independent_rowwise.csv",
+      "bytes": 4696,
+      "sha256": "25a36cf82f93ce3e926701018cd58a97b1251a793a7dba460b40eca1dd1ba21c"
+    },
+    {
+      "path": "analysis/d1-core/independent_table10_conditional.csv",
+      "bytes": 753,
+      "sha256": "07c3df615f7c76b0e7da7a8d990ed9cef1443ecd3ebedfd37a243bf147a727c1"
+    },
+    {
+      "path": "analysis/d1-core/primary_values.json",
+      "bytes": 3728,
+      "sha256": "641eec1c013bfc99e950ac69751799418dbbc143eba769f758af0a06f87c1837"
+    },
+    {
+      "path": "analysis/d1-core/QUERY_PROVENANCE.md",
+      "bytes": 1172,
+      "sha256": "913999626bbcf336134ee531fd53629450ccf50dff0f6334815ca037da97923b"
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/g-surveys/first_g.tsv",
+      "bytes": 4474,
+      "sha256": "fbbcb7fa4785cfc85132196dcc9fe4396bff32b643239eea262b9381d0de8b28"
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/g-surveys/G_SOURCE_PROVENANCE.json",
+      "bytes": 14895,
+      "sha256": "6c1a5a4f733a8461e91329146628acae13c528649ccd154fedbcdc681111d913"
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/g-surveys/nvss_g.tsv",
+      "bytes": 4629,
+      "sha256": "d16663fe2aa7a1bf81808e02ea6ca03fa2113880eedb13651f2e47e5e67381d0"
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/g-surveys/tgss_g.tsv",
+      "bytes": 3967,
+      "sha256": "a59dfec212c68df246a0fe9c1e547fb9891050ac4e89140a3b1553446e1c0411"
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/g-surveys/vlass_g.tsv",
+      "bytes": 12237,
+      "sha256": "af8e1c384ec0d57a3eaefd8dc4da36d5788ebb20c1617d08834b2f5300fb9a08"
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/gaia/three_sources_covariance.csv",
+      "bytes": 1310,
+      "sha256": "7d5bfa21e7732c49e967446e6953575efbc2a7e7b6fe702891e3f180d390e547"
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/math/conditional_covariance_sensitivity.csv",
+      "bytes": 34628,
+      "sha256": "d00389f87446b2717f40d067ac38d81881fbcded1960b9caf0630f439157d737"
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/math/epoch_details.json",
+      "bytes": 42491,
+      "sha256": "90c55f68c08d95c30c3e592d0419b0d833c943d72687d239f4129928a46a4f16"
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/math/gaia_covariance_checks.json",
+      "bytes": 6567,
+      "sha256": "a602eb563dbf0a6689b6d5c71446f9abd7871cfaecae1f7d7449203f0f60b565"
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/math/seven_rows.csv",
+      "bytes": 2790,
+      "sha256": "23b2d2f82057e80ca159cc4db3a9141f0d832c2bc78f9c5c468ece3a0d1729f8"
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/math/tgss_reference_diagnostic.py",
+      "bytes": 13457,
+      "sha256": "046d613181419dd484b26aac220893336b8ff53028af0deb19c060235dccbe39"
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/racs/cadc_product_uris.csv",
+      "bytes": 281,
+      "sha256": "b70276787096dcce92d533728b58d35935d74b6bf88ee006207afc58f33a2f4c"
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/racs/catalog_A.tsv",
+      "bytes": 6411,
+      "sha256": "7b932e3d873a0dba7c325af5f9693084e92dd315522352fabc645c7006c23f74"
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/racs/catalog_B.tsv",
+      "bytes": 6409,
+      "sha256": "16e6a510ceb75ae7f8511cfeebea2fff8887e12359b15dfa583813cd0112527d"
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/racs/catalog_G.tsv",
+      "bytes": 6413,
+      "sha256": "3ffebc25dc81181def614ac6ab4cf0ec5efd57757da57566093a06e046a0fc30"
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/racs/header_0354-43A.txt",
+      "bytes": 5022,
+      "sha256": "585b156f3b04d1e98846822101d86966cc11e1a58bc5ca8dfe4297543452dd43"
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/racs/header_0354-43A.txt.receipt.json",
+      "bytes": 404,
+      "sha256": "8eabf32911ab82459b94c5220b5949f10911a19406c3bebbb13cfa0c704a3ca6"
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/racs/header_1240-25A.txt",
+      "bytes": 5022,
+      "sha256": "3d6279f3b67585942fce8d4d49d18468e09ee8ca93b960e22054077ac27ec5cc"
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/racs/header_1240-25A.txt.receipt.json",
+      "bytes": 404,
+      "sha256": "f085e676531755f8af358c114221a8adc85137baf2a09c22820a391982f8e53b"
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/racs/header_2347+00A.txt",
+      "bytes": 5022,
+      "sha256": "b8cfe15a32bd1d39e6ec254f295a40a77b8ea9b3d67f5cc631e255c522e8368c"
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/racs/header_2347+00A.txt.receipt.json",
+      "bytes": 404,
+      "sha256": "d129d5a1b1dd6258a4d7da3122d652485ee82765f697502389971ad12b5bdebc"
+    },
+    {
+      "path": "analysis/ren2024/source/Ren2024_Coordinate_State_Followup_2026-10-08/data/ren2024_table1_transcribed.csv",
+      "bytes": 641,
+      "sha256": "afafc8b350cef8c6a02f79980024d876ba229243d6b081e7d69435929e396e17"
+    },
+    {
+      "path": "check_document_arithmetic.py",
+      "bytes": 4980,
+      "sha256": "206f547333cb5d0b8e166f408bed64a842a0f5400dd6cde094170e4f21613872"
+    },
+    {
+      "path": "CLAIM_TO_EVIDENCE.csv",
+      "bytes": 12744,
+      "sha256": "68cedba58f8bf8ac9dece961c03acb9bac0437677689225b80556d2e58d14527"
+    },
+    {
+      "path": "CURATION_VALIDATION.json",
+      "bytes": 1593,
+      "sha256": "45c0fc562cd6a5d07fc21a802adcb2fcbea5a489ec747a63859c51175d219de1"
+    },
+    {
+      "path": "DOCUMENTARY_CHECK_OUTPUT.json",
+      "bytes": 3502,
+      "sha256": "eb3c18c922bca2f67cf2c912e766bded8008a5705d623574b7d8a43f3e5befed"
+    },
+    {
+      "path": "figures/effective_epoch_fits.png",
+      "bytes": 58577,
+      "sha256": "b0f120e4e26506ed55e5991d91968fe2bcc0961841f3c3292c536720a88744ac"
+    },
+    {
+      "path": "figures/radius_residuals.png",
+      "bytes": 101844,
+      "sha256": "f887d5cea9125cd7c6a00963929680681af1eeffc067c585b79a9b256f7f3826"
+    },
+    {
+      "path": "history/COORDINATE_REPLAY_STATUS_before_successor.md",
+      "bytes": 8670,
+      "sha256": "7848b43717313cf3fff56fbe071622aeb5507cbd11297fe9d6951b94792e4791"
+    },
+    {
+      "path": "history/CURATION_PROVENANCE_v1.json",
+      "bytes": 31822,
+      "sha256": "db91051b4069553e3185c8b8f020cf46dc99072d28003e01c9cbfc908bae2375"
+    },
+    {
+      "path": "history/MANIFEST_SHA256_v1.json",
+      "bytes": 17755,
+      "sha256": "af2aa31f22ed3598e44372e915bd2a1c4d9627fe9f8f9b8c39f8bee3d7371d79"
+    },
+    {
+      "path": "requirements-analysis.txt",
+      "bytes": 232,
+      "sha256": "cd07e569e4a9937120eae371f6d233d3c7e70ed6fa0c428c333f4153fd0896f9"
+    },
+    {
+      "path": "status/CURRENT_SOURCE_STATUS.md",
+      "bytes": 2327,
+      "sha256": "2feac9b49f14fd022e8a9b76e5317c099d81dbafd7a2f7dfdf55f584da94fbc3"
+    },
+    {
+      "path": "status/REPLAY_COMPARISONS.json",
+      "bytes": 58912,
+      "sha256": "baf44c48fe26cd1a9020eb922bbe9a1d4d47b53212f462271e64ae3d5944f520"
+    },
+    {
+      "path": "status/SOURCE_STATUS_RECORD.json",
+      "bytes": 3338,
+      "sha256": "1b4bfd34751ae2ae6c06957c1b40de12ad28b878db0ea684fc9f8724524b5964"
+    },
+    {
+      "path": "support/astrometry/A_controls_transcribed.csv",
+      "bytes": 5708,
+      "sha256": "9310f8e93b0c0da997f85abacdb882ce3702d9ef3ee0884aa1338fa34872a4a2"
+    },
+    {
+      "path": "support/astrometry/coda_joint_and_individual_fits.csv",
+      "bytes": 1020,
+      "sha256": "d14f4ffb40627ac8fce9ac40ddf1e6c28255c8186fa7b0a7abd52645168e5f03"
+    },
+    {
+      "path": "support/astrometry/conditional_bounds.json",
+      "bytes": 2383,
+      "sha256": "f23eeb3618edafe8238af44c17cf25af4fc3959a7581c53531ba15079ce59c7e"
+    },
+    {
+      "path": "support/astrometry/conditional_probabilities.csv",
+      "bytes": 753,
+      "sha256": "07c3df615f7c76b0e7da7a8d990ed9cef1443ecd3ebedfd37a243bf147a727c1"
+    },
+    {
+      "path": "support/astrometry/control_estimator_replay.json",
+      "bytes": 5575,
+      "sha256": "d56471ae6eef45c4574d92e2ed3051442a15b3f873b56170e7fc46e4ebd4e3dc"
+    },
+    {
+      "path": "support/astrometry/effective_epoch_fits.csv",
+      "bytes": 594,
+      "sha256": "5499b00c1903fc8c76e2c184f3287e0b3bc8218957e4aa4f3d81a4689edaec19"
+    },
+    {
+      "path": "support/astrometry/gaia_A_control_uncertainties.csv",
+      "bytes": 1052,
+      "sha256": "38b63656356082d673d0908f56e93a85fd464890aa8d9268923f17edf4f02d23"
+    },
+    {
+      "path": "support/astrometry/gaia_A_controls.csv",
+      "bytes": 2478,
+      "sha256": "4bd7293532668068e74a875e459775c64919d495109161fb1cf6ccadf4e9d737"
+    },
+    {
+      "path": "support/astrometry/gaia_snapshot.csv",
+      "bytes": 1278,
+      "sha256": "1fc488d2d080643f042006de0d45d04bc6d261aa49e12a92cd640e81b8d10a48"
+    },
+    {
+      "path": "support/astrometry/jwst_caption_values.csv",
+      "bytes": 455,
+      "sha256": "61200b68cc5292f41e17304210e1480ce458ee11befaf198690cfc41752aba97"
+    },
+    {
+      "path": "support/astrometry/per_source_bounds.csv",
+      "bytes": 11041,
+      "sha256": "b937052c6ff4e736d463642a8d749fd9abfe72cbd6ad55505cc7fbf3639388e6"
+    },
+    {
+      "path": "support/astrometry/primary_values.json",
+      "bytes": 3728,
+      "sha256": "641eec1c013bfc99e950ac69751799418dbbc143eba769f758af0a06f87c1837"
+    },
+    {
+      "path": "support/astrometry/rayleigh_rounding_tests.csv",
+      "bytes": 15390,
+      "sha256": "8d868e4416eccafff9485bdaa4a6e0fdb67a97f711217adc29fa5224ede1f7b8"
+    },
+    {
+      "path": "support/astrometry/ren2024_inversion.csv",
+      "bytes": 802,
+      "sha256": "a68f7015503c8039a658cddff4bcd3198a9e4bebd53fb88ccefd96a4a7a943c0"
+    },
+    {
+      "path": "support/astrometry/rowwise_offsets.csv",
+      "bytes": 4696,
+      "sha256": "25a36cf82f93ce3e926701018cd58a97b1251a793a7dba460b40eca1dd1ba21c"
+    },
+    {
+      "path": "support/astrometry/simbad_snapshot.csv",
+      "bytes": 1219,
+      "sha256": "233f4f717c311cc64862e2a5c88864e7ca3d241415fdb8d6ef2feb32f2773452"
+    },
+    {
+      "path": "support/astrometry/table10_compatibility.csv",
+      "bytes": 3230,
+      "sha256": "c9419db51bf815bda9313ecbaf930ba1e699521e03c6836dff4a351449c59ced"
+    },
+    {
+      "path": "support/ren2024/EPOCH_UNCERTAINTY_TABLE.csv",
+      "bytes": 28861,
+      "sha256": "e0f8f07d8caf09de4509414ccd44bcb89f384578deedb2735d599173eb1af45c"
+    },
+    {
+      "path": "support/ren2024/math/conditional_covariance_sensitivity.csv",
+      "bytes": 34628,
+      "sha256": "d00389f87446b2717f40d067ac38d81881fbcded1960b9caf0630f439157d737"
+    },
+    {
+      "path": "support/ren2024/math/epoch_details.json",
+      "bytes": 42491,
+      "sha256": "90c55f68c08d95c30c3e592d0419b0d833c943d72687d239f4129928a46a4f16"
+    },
+    {
+      "path": "support/ren2024/math/first_empirical_accuracy.json",
+      "bytes": 295,
+      "sha256": "f1ffb84b264ea0be94a24ac3d909d2f794347b2e4284d4dd4e83bbf6a6f774b0"
+    },
+    {
+      "path": "support/ren2024/math/printed_reference_inversion.json",
+      "bytes": 867,
+      "sha256": "e4ff15db855357a464c9f16544cae7366a69a1bcf0afb5c0730b06d3ebf2765f"
+    },
+    {
+      "path": "support/ren2024/math/reviewer_followup_finite_rho.csv",
+      "bytes": 1768,
+      "sha256": "92a8f41f486e48c89cc8445b5b93610c1de58434a0cd7181338e3323f5f3a1a8"
+    },
+    {
+      "path": "support/ren2024/math/seven_rows.csv",
+      "bytes": 2790,
+      "sha256": "23b2d2f82057e80ca159cc4db3a9141f0d832c2bc78f9c5c468ece3a0d1729f8"
+    },
+    {
+      "path": "support/ren2024/math/tgss_discrepancy.json",
+      "bytes": 253,
+      "sha256": "d33759c6dabb9a571b6be5250f97dc0b67022f5e04849dfcfdd183abbbf5b1e5"
+    },
+    {
+      "path": "support/ren2024/math/tgss_reference_diagnostic.json",
+      "bytes": 3573,
+      "sha256": "9a54076ebdb67ad96915b1b03515f5c8b2d31d8fc1e2cf4d8e3fe063d08f9665"
+    },
+    {
+      "path": "support/ren2024/math/tgss_reference_RESULTS.md",
+      "bytes": 1820,
+      "sha256": "64b9aa8e96741a150627db3f43818a7622b5efe8e9ce7ee41c59bea5284dc45c"
+    },
+    {
+      "path": "verify_bundle.py",
+      "bytes": 1178,
+      "sha256": "5142d0ae0b432f40a78afb61fa25fb337e35a0933b64689fd9cf3b0f41cf9a25"
+    }
+  ],
+  "omitted_documentation": [
+    {
+      "path": "analysis/ren2024/ren2024-assessment/g-surveys/first_ReadMe.txt",
+      "bytes": 15809,
+      "sha256": "3965786bd3d56718d054f40ab0aa563936446516dd4270d12e49da3700ab5d8a",
+      "reason": "Complete source documentation externally referenced; historical copy preserved in frozen v2"
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/g-surveys/nvss_ReadMe.txt",
+      "bytes": 6296,
+      "sha256": "7235bb67b68e98321ff2551eb912f2eff67db3a18a48266da6cd438f3f76b429",
+      "reason": "Complete source documentation externally referenced; historical copy preserved in frozen v2"
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/g-surveys/tgss_ReadMe.txt",
+      "bytes": 6913,
+      "sha256": "5ae7dc3f56151eea2ca5338b2affca7031b6fc4eeb2612c77408af3689dd776e",
+      "reason": "Complete source documentation externally referenced; historical copy preserved in frozen v2"
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/g-surveys/vlass_ReadMe.txt",
+      "bytes": 21550,
+      "sha256": "7ba7e70e9f3154213dc0cd318323809817f25f305d7494b910f0d672bf216264",
+      "reason": "Complete source documentation externally referenced; historical copy preserved in frozen v2"
+    }
+  ],
+  "changed_v2_payloads": [
+    {
+      "path": "analysis/ren2024/ren2024-assessment/math/audit_astrometry.py",
+      "before": {
+        "path": "analysis/ren2024/ren2024-assessment/math/audit_astrometry.py",
+        "bytes": 25249,
+        "sha256": "09adb284f2c2a8cb3f37d1ae37f6979bc69195cc0fedf712035136dc208beffd"
+      },
+      "after": {
+        "path": "analysis/ren2024/ren2024-assessment/math/audit_astrometry.py",
+        "bytes": 25202,
+        "sha256": "0f6ea11aa6cc006ab10dfaa644d394c9fdeeb019ae59467b22511a1820b07c93"
+      }
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/math/reviewer_followup.py",
+      "before": {
+        "path": "analysis/ren2024/ren2024-assessment/math/reviewer_followup.py",
+        "bytes": 23210,
+        "sha256": "1679038861901aceffb417479f71c1ef228c4adc6a66f13918af354c77c02d1c"
+      },
+      "after": {
+        "path": "analysis/ren2024/ren2024-assessment/math/reviewer_followup.py",
+        "bytes": 23210,
+        "sha256": "74db6c97716432868afda630e4f7eebe195b12129f0749285937b5bb05d8a752"
+      }
+    },
+    {
+      "path": "CLAIM_TO_EVIDENCE.md",
+      "before": {
+        "path": "CLAIM_TO_EVIDENCE.md",
+        "bytes": 16354,
+        "sha256": "f0e53b2ae9b15d671fa86bd534ac5ecfeb40f91cf30bf11bf39bbe8c7bb6c318"
+      },
+      "after": {
+        "path": "CLAIM_TO_EVIDENCE.md",
+        "bytes": 16787,
+        "sha256": "dd22bb018aed8e8c4a31dd49971100961a5dc4e916570f6453ac9d52ebe0cd8a"
+      }
+    },
+    {
+      "path": "DERIVATIVES.md",
+      "before": {
+        "path": "DERIVATIVES.md",
+        "bytes": 5017,
+        "sha256": "d4007cfe01035e5fa703b7ff201c2251350d41d875b0cf1ba06ac04519870f6b"
+      },
+      "after": {
+        "path": "DERIVATIVES.md",
+        "bytes": 6746,
+        "sha256": "e133b51d5c6d536820a443c7ebcb7291c2d7c93a99ddb7d4b591003b2fa2494b"
+      }
+    },
+    {
+      "path": "README.md",
+      "before": {
+        "path": "README.md",
+        "bytes": 9960,
+        "sha256": "28cb011f6c5e9caeef74e9a732847a637f890d6f261cf74f4f09afd31b8c5046"
+      },
+      "after": {
+        "path": "README.md",
+        "bytes": 10785,
+        "sha256": "6707c5503ea5664d8d203aa2f4b72b47e2709ec56a900c45999eca692a39b278"
+      }
+    },
+    {
+      "path": "RELEASE_STATUS.md",
+      "before": {
+        "path": "RELEASE_STATUS.md",
+        "bytes": 1826,
+        "sha256": "32480cd9584f045dce8144fbe576346f5f959c2dee18cf13360cf0f0ad4e0bd4"
+      },
+      "after": {
+        "path": "RELEASE_STATUS.md",
+        "bytes": 2071,
+        "sha256": "ab7c51e22ecd5f8f7febffc0191e963045a1f8d10be426cbc68963cb4866d2f8"
+      }
+    },
+    {
+      "path": "status/COORDINATE_REPLAY_STATUS.md",
+      "before": {
+        "path": "status/COORDINATE_REPLAY_STATUS.md",
+        "bytes": 10171,
+        "sha256": "f2f80453539465a416858b6e7b7eb66e1c857590ad2279804e978acbaea5de72"
+      },
+      "after": {
+        "path": "status/COORDINATE_REPLAY_STATUS.md",
+        "bytes": 10801,
+        "sha256": "1c05cbc4b25f3a1fc7d03e6a4577c85a46290f6959945d8e93bb3fd2cba7d3a4"
+      }
+    }
+  ],
+  "replaced_provenance": {
+    "path": "CURATION_PROVENANCE.json",
+    "bytes": 13368,
+    "sha256": "d2dff8316cc253dd169580ee9928d602a237e4e11a2139881abff639d382e65d"
+  },
+  "added_payloads": [
+    {
+      "path": "SOURCE_NOTICES_AND_ACKNOWLEDGMENTS.md",
+      "bytes": 9595,
+      "sha256": "eb9f27676f132e94690bcfed91df4ec1431300ab09044f835d9d3b82766aa6d8"
+    },
+    {
+      "path": "analysis/ren2024/ren2024-assessment/g-surveys/DOCUMENTATION_REFERENCES.json",
+      "bytes": 2067,
+      "sha256": "2f1d7e8777b4e43ed3c39a90db3860b77b4d3bc45402217b83b31866a092bca3"
+    },
+    {
+      "path": "derivations/readme-omission/SOURCE_DIFF.patch",
+      "bytes": 1486,
+      "sha256": "a41fdb653a3239e109f385f0b5fae8dd135328dac711ab4a43aa7988365cb07a"
+    },
+    {
+      "path": "derivations/readme-omission/STATIC_PROOF.json",
+      "bytes": 2913,
+      "sha256": "c23e895f1596204e1e1807ae93df9a09bd01c1ff4f87707a067eb55b119b620b"
+    },
+    {
+      "path": "history/CURATION_PROVENANCE_v2.json",
+      "bytes": 13368,
+      "sha256": "d2dff8316cc253dd169580ee9928d602a237e4e11a2139881abff639d382e65d"
+    },
+    {
+      "path": "history/MANIFEST_SHA256_v2.json",
+      "bytes": 21464,
+      "sha256": "6fc74befecc0d3c9a494bdd8c91863f37be7363374daaca3cb6790c763046d47"
+    }
+  ],
+  "source_code_changes": {
+    "scope": "Static byte and narrowly normalized Python AST proof only. Neither scientific module was imported or executed.",
+    "python_version": "3.12.14",
+    "scientific_execution": false,
+    "module_import": false,
+    "network": false,
+    "gpu": false,
+    "audit_astrometry": {
+      "path": "analysis/ren2024/ren2024-assessment/math/audit_astrometry.py",
+      "original_sha256": "09adb284f2c2a8cb3f37d1ae37f6979bc69195cc0fedf712035136dc208beffd",
+      "derived_sha256": "0f6ea11aa6cc006ab10dfaa644d394c9fdeeb019ae59467b22511a1820b07c93",
+      "original_bytes": 25249,
+      "derived_bytes": 25202,
+      "exact_removed_text": "        read(BASE/f'g-surveys/{s}_ReadMe.txt')\n",
+      "original_line": 167,
+      "removed_expr_count": 1,
+      "all_remaining_ast_nodes_equal_ignoring_source_locations": true,
+      "normalized_ast_sha256": "48ba2c515aa7eeb7daf1da877dec4dae587afbc323f30abfbed22978a99e629b",
+      "derived_ast_sha256": "48ba2c515aa7eeb7daf1da877dec4dae587afbc323f30abfbed22978a99e629b",
+      "all_check_call_asts_unchanged": true,
+      "check_call_ast_count": 21,
+      "interpretation": "Unused ReadMe decoding and four historical documentation hashes are omitted from future INPUTS receipts and the input-preservation check scope. TSV rows and retained provenance facts are unchanged."
+    },
+    "reviewer_followup": {
+      "path": "analysis/ren2024/ren2024-assessment/math/reviewer_followup.py",
+      "original_sha256": "1679038861901aceffb417479f71c1ef228c4adc6a66f13918af354c77c02d1c",
+      "derived_sha256": "74db6c97716432868afda630e4f7eebe195b12129f0749285937b5bb05d8a752",
+      "original_bytes": 23210,
+      "derived_bytes": 23210,
+      "original_line": 95,
+      "changed_constant_count": 1,
+      "old_expected_audit_sha256": "09adb284f2c2a8cb3f37d1ae37f6979bc69195cc0fedf712035136dc208beffd",
+      "new_expected_audit_sha256": "0f6ea11aa6cc006ab10dfaa644d394c9fdeeb019ae59467b22511a1820b07c93",
+      "assertion_retained": true,
+      "pin_equals_actual_derived_audit_sha256": true,
+      "all_other_ast_nodes_equal_ignoring_source_locations": true,
+      "normalized_ast_sha256": "bf89e3419dde6c15f923e75f0db98bf18daa6f6cb74ae7e6eebfc2ac28962222",
+      "derived_ast_sha256": "bf89e3419dde6c15f923e75f0db98bf18daa6f6cb74ae7e6eebfc2ac28962222",
+      "interpretation": "Only the expected script-identity constant is updated. No assertion, numerical expression, tolerance, scientific input or output is removed or changed."
+    },
+    "limits": [
+      "Static dependence evidence is not a fresh numerical runtime equivalence test.",
+      "Historical 174-check and 122-check records apply to the prior exact source identities.",
+      "Future runtime receipts will differ in source identities and omitted documentation input hashes.",
+      "All retained scientific data and historical output bytes are checked separately against the v2 manifest."
+    ],
+    "source_diff_sha256": "a41fdb653a3239e109f385f0b5fae8dd135328dac711ab4a43aa7988365cb07a"
+  },
+  "historical_records": "All historical scientific output and replay records remain byte-identical; past checks refer to past source identities. Historical omitted-file locators are retained as provenance, not current payload claims.",
+  "numerical_source_or_output_changes": false,
+  "scientific_execution": false,
+  "new_catalog_or_document_acquisition": false,
+  "network_in_builder": false,
+  "gpu": false,
+  "source_notice": "SOURCE_NOTICES_AND_ACKNOWLEDGMENTS.md is a scoped added payload; no blanket license is assigned.",
+  "release_boundary": "Eventual publication is user-authorized after preparation/review. No public write or upload performed by this curation."
+}

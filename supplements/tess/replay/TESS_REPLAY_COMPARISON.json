@@ -1,0 +1,595 @@
+{
+  "schema": "tess-existing-replay-comparison-v1",
+  "curation_date": "2026-10-15",
+  "execution_completed_utc": "2026-10-15T16:43:49.983084+00:00",
+  "status": "passed",
+  "scope": "One unchanged 47-test synthetic v3.1 command, no real-target or full-cadence search.",
+  "provenance": {
+    "source_receipt_identity": {
+      "bytes": 20949,
+      "sha256": "7173848565e77e9806d47155b7a50d83c14b9789dae7a190dda96f3c1d429585"
+    },
+    "source_receipt_supplied": false,
+    "description": "Whitelist-derived from an existing Coda execution receipt; curation did not execute tests. Private path values and unrelated operational logs are excluded.",
+    "omitted_or_normalized_fields": [
+      "commands[*].command interpreter and guard absolute path slots",
+      "commands[*].cwd",
+      "environment.executable",
+      "environment.astropy_cache",
+      "environment.astropy_config",
+      "runtime_metadata.executable",
+      "copy_receipt local source/destination paths"
+    ],
+    "guard_identity": {
+      "bytes": 2858,
+      "sha256": "b11c03fec05d0a11d8e848a08f9878feae36000a51ddf91b04af7018c2adc2ee"
+    },
+    "guard_supplied": false
+  },
+  "commands": [
+    {
+      "label": "environment",
+      "started_utc": "2026-10-15T16:43:40.018844+00:00",
+      "exit_code": 0,
+      "timed_out": false,
+      "completed_utc": "2026-10-15T16:43:41.977244+00:00",
+      "wall_seconds": 1.9583822999848053,
+      "stdout": {
+        "bytes": 841,
+        "sha256": "891954855ae2ff1db894d7527c6e7852e1310a91538aefce41cb581df617dbb3"
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "recorded_invocation_with_private_path_slots": [
+        "<recorded Python interpreter>",
+        "-I",
+        "-B",
+        "<private QA guard>/guarded_command.py",
+        "environment"
+      ],
+      "working_directory_role": "Isolated six-source working copy; private absolute path omitted"
+    },
+    {
+      "label": "run_offline_checks",
+      "started_utc": "2026-10-15T16:43:41.985562+00:00",
+      "exit_code": 0,
+      "timed_out": false,
+      "completed_utc": "2026-10-15T16:43:45.169067+00:00",
+      "wall_seconds": 3.183472900011111,
+      "stdout": {
+        "bytes": 7574,
+        "sha256": "fdbdd37eec6283dad4b79f672f80f4c95cce6392ee498ce2e97606ec4fca572e"
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "recorded_invocation_with_private_path_slots": [
+        "<recorded Python interpreter>",
+        "-I",
+        "-B",
+        "<private QA guard>/guarded_command.py",
+        "run_offline_checks.py"
+      ],
+      "working_directory_role": "Isolated six-source working copy; private absolute path omitted"
+    }
+  ],
+  "scientific_command_count": 1,
+  "environment_preflight_count": 1,
+  "scientific_command_entrypoint": "tess-development-v3_1/run_offline_checks.py",
+  "inputs": [
+    {
+      "path": "tess-development-v3_1/metadata_contract.py",
+      "bytes": 21817,
+      "sha256": "b6da38de7987a6783a003925e0c7f07370309ea29d5a5478afca9356753214ad"
+    },
+    {
+      "path": "tess-development-v3_1/run_offline_checks.py",
+      "bytes": 3887,
+      "sha256": "e92419e95be37e9f2503a1491a355691a66019c2b7d50ba10137dcb92b9819e8"
+    },
+    {
+      "path": "tess-development-v3_1/synthetic_driver.py",
+      "bytes": 3299,
+      "sha256": "ee0e54e97a2c388fc60c7f35115f3928e21adcd981b0900999cee065e1ce9da1"
+    },
+    {
+      "path": "tess-development-v3_1/tess_components.py",
+      "bytes": 25983,
+      "sha256": "1e01c9ba8b358228aed0581f1731f99dc1595402037f4bbf9f7cc0f8c6832826"
+    },
+    {
+      "path": "tess-development-v3_1/test_metadata_contract.py",
+      "bytes": 18041,
+      "sha256": "9463277e448875963892c40655d2ce284e8dca0375c968b3a1108ca86167101d"
+    },
+    {
+      "path": "tess-development-v3_1/test_tess_components.py",
+      "bytes": 15996,
+      "sha256": "ae96d40a17bf6fb6de580604bd56a9f808fa106d594d53c96da76ff4dd786712"
+    }
+  ],
+  "comparison_policy": {
+    "frozen_utc": "2026-10-15T16:43:33.625245+00:00",
+    "science_commands_permitted": 1,
+    "rerun_permitted": false,
+    "expected_tests": 47,
+    "failures_errors_skips": 0,
+    "exit_code": 0,
+    "exact_required": [
+      "source hashes unchanged",
+      "Windows BELOW_NORMAL_PRIORITY_CLASS verified",
+      "thread count 1",
+      "connected status recovered",
+      "connected freeze digest 68f4b8d3693539290efe44dc0dd753ca0683a4ae6996201bc8d84c5714c49662",
+      "all parsed scientific fields in both synthetic output JSONs equal historical",
+      "all verification receipt fields except listed runtime metadata equal historical",
+      "all 47 unittest test-name/outcome lines equal historical"
+    ],
+    "runtime_receipt_exclusions": [
+      "utc",
+      "executable",
+      "peak_working_set_bytes",
+      "elapsed_seconds"
+    ],
+    "log_exclusion": "Only the duration on the Ran 47 tests line; no test outcome may be ignored.",
+    "memory_requirement_bytes": 1073741824,
+    "numerical_tolerance": "Exact equality for parsed scientific JSON fields and freeze digest; no floating tolerance.",
+    "stop": "No modification of test outputs, retuning, tolerance relaxation, additional target or posthoc science command."
+  },
+  "comparison_policy_identity": {
+    "bytes": 1217,
+    "sha256": "4e8f281a92aa9b47b0740a75ebc248220e2ac5bac72d57ee393a8c88dfa254a7"
+  },
+  "environment": {
+    "python": "3.13.15",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "astropy": "8.0.1",
+    "thread_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "iers_auto_download": false,
+    "imports_succeeded": [
+      "numpy",
+      "scipy.stats.rayleigh",
+      "astropy.coordinates",
+      "astropy.io.fits"
+    ]
+  },
+  "guards": {
+    "environment": {
+      "blocked_events": [],
+      "scope": "Python audit events; inspected code contains no native network/GPU path. Not an OS firewall or packet capture."
+    },
+    "run_offline_checks": {
+      "blocked_events": [],
+      "scope": "Python audit events; inspected code contains no native network/GPU path. Not an OS firewall or packet capture."
+    }
+  },
+  "checks": [
+    {
+      "check": "verification.tests",
+      "passed": true
+    },
+    {
+      "check": "verification.failures",
+      "passed": true
+    },
+    {
+      "check": "verification.errors",
+      "passed": true
+    },
+    {
+      "check": "verification.skipped",
+      "passed": true
+    },
+    {
+      "check": "verification.successful",
+      "passed": true
+    },
+    {
+      "check": "verification.source_unchanged_during_run",
+      "passed": true
+    },
+    {
+      "check": "verification.numerical_threads",
+      "passed": true
+    },
+    {
+      "check": "verification.windows_priority_verified",
+      "passed": true
+    },
+    {
+      "check": "verification.connected_holdout_status",
+      "passed": true
+    },
+    {
+      "check": "verification.connected_freeze_sha256",
+      "passed": true
+    },
+    {
+      "check": "verification.measured_peak_below_unchanged_limit",
+      "passed": true
+    },
+    {
+      "check": "verification.all_nonexcluded_fields_equal",
+      "passed": true
+    },
+    {
+      "check": "synthetic_output/discovery_freeze.json.all_parsed_fields_equal",
+      "passed": true
+    },
+    {
+      "check": "synthetic_output/synthetic_driver_result.json.all_parsed_fields_equal",
+      "passed": true
+    },
+    {
+      "check": "freeze.digest_independently_valid",
+      "passed": true
+    },
+    {
+      "check": "log.all_47_names_outcomes_exact",
+      "passed": true
+    },
+    {
+      "check": "log.all_47_outcomes_ok",
+      "passed": true
+    },
+    {
+      "check": "log.only_duration_differs",
+      "passed": true
+    },
+    {
+      "check": "stage.six_sources_unchanged",
+      "passed": true
+    },
+    {
+      "check": "canonical.six_sources_and_four_references_unchanged",
+      "passed": true
+    },
+    {
+      "check": "working.six_sources_unchanged",
+      "passed": true
+    },
+    {
+      "check": "working.only_expected_outputs_created",
+      "passed": true
+    },
+    {
+      "check": "guards.no_blocked_events",
+      "passed": true
+    },
+    {
+      "check": "commands.one_preflight_one_science_both_exit_zero",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "scientific_verification_receipt": {
+    "scope": "Offline synthetic development only; no unfamiliar metadata/flux or server probes",
+    "tests": 47,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "successful": true,
+    "source_unchanged_during_run": true,
+    "source_sha256": {
+      "metadata_contract.py": "b6da38de7987a6783a003925e0c7f07370309ea29d5a5478afca9356753214ad",
+      "run_offline_checks.py": "e92419e95be37e9f2503a1491a355691a66019c2b7d50ba10137dcb92b9819e8",
+      "synthetic_driver.py": "ee0e54e97a2c388fc60c7f35115f3928e21adcd981b0900999cee065e1ce9da1",
+      "tess_components.py": "1e01c9ba8b358228aed0581f1731f99dc1595402037f4bbf9f7cc0f8c6832826",
+      "test_metadata_contract.py": "9463277e448875963892c40655d2ce284e8dca0375c968b3a1108ca86167101d",
+      "test_tess_components.py": "ae96d40a17bf6fb6de580604bd56a9f808fa106d594d53c96da76ff4dd786712"
+    },
+    "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+    "packages": {
+      "numpy": "2.5.3",
+      "scipy": "1.18.1",
+      "astropy": "8.0.1"
+    },
+    "network_guard": "socket/DNS/bind/sendto blocked",
+    "numerical_threads": 1,
+    "windows_priority_verified": "BELOW_NORMAL_PRIORITY_CLASS",
+    "phi_1_power_25": 0.013315260765244287,
+    "730_day_grid_plan": {
+      "baseline_days": 730.0,
+      "max_frequency_step_per_day": 8.781173164734808e-07,
+      "intervals": 1810401,
+      "points": 1810402,
+      "phase_drift_bound_days": 0.008333333333333333,
+      "claim": "Bound on period-grid endpoint phase drift only; not event-time or period uncertainty."
+    },
+    "connected_holdout_status": "recovered",
+    "connected_freeze_sha256": "68f4b8d3693539290efe44dc0dd753ca0683a4ae6996201bc8d84c5714c49662",
+    "base_v3_manifest_sha256": "89eacdaf36a78fafd517c000af9696363fa754fbb0936d9ad8fe415a469114f8",
+    "contribution_diagnostic_examples": {
+      "diffuse": {
+        "status": "recovered",
+        "covered_events": 10,
+        "depth": 1.97,
+        "variance": 0.1,
+        "formal_snr": 6.229686990531707,
+        "nonpositive_event_count": 1,
+        "all_covered_events_combined": true,
+        "event_contributions": [
+          {
+            "event_index": 0,
+            "normalized_inverse_variance_weight": 0.1,
+            "signed_snr_contribution": -0.03162277660168379
+          },
+          {
+            "event_index": 1,
+            "normalized_inverse_variance_weight": 0.1,
+            "signed_snr_contribution": 0.6957010852370434
+          },
+          {
+            "event_index": 2,
+            "normalized_inverse_variance_weight": 0.1,
+            "signed_snr_contribution": 0.6957010852370434
+          },
+          {
+            "event_index": 3,
+            "normalized_inverse_variance_weight": 0.1,
+            "signed_snr_contribution": 0.6957010852370434
+          },
+          {
+            "event_index": 4,
+            "normalized_inverse_variance_weight": 0.1,
+            "signed_snr_contribution": 0.6957010852370434
+          },
+          {
+            "event_index": 5,
+            "normalized_inverse_variance_weight": 0.1,
+            "signed_snr_contribution": 0.6957010852370434
+          },
+          {
+            "event_index": 6,
+            "normalized_inverse_variance_weight": 0.1,
+            "signed_snr_contribution": 0.6957010852370434
+          },
+          {
+            "event_index": 7,
+            "normalized_inverse_variance_weight": 0.1,
+            "signed_snr_contribution": 0.6957010852370434
+          },
+          {
+            "event_index": 8,
+            "normalized_inverse_variance_weight": 0.1,
+            "signed_snr_contribution": 0.6957010852370434
+          },
+          {
+            "event_index": 9,
+            "normalized_inverse_variance_weight": 0.1,
+            "signed_snr_contribution": 0.6957010852370434
+          }
+        ],
+        "max_absolute_snr_contribution_fraction": 0.11055276381909547,
+        "contribution_concentration_unavailable_reason": null,
+        "three_se_depth_consistency": true,
+        "criterion": "At least two covered events; all combined, including zero/negative; positive aggregate, formal SNR>=5, depth consistency<=3 combined SE."
+      },
+      "concentrated": {
+        "status": "recovered",
+        "covered_events": 10,
+        "depth": 1.970000000000001,
+        "variance": 0.1,
+        "formal_snr": 6.229686990531711,
+        "nonpositive_event_count": 1,
+        "all_covered_events_combined": true,
+        "event_contributions": [
+          {
+            "event_index": 0,
+            "normalized_inverse_variance_weight": 0.1,
+            "signed_snr_contribution": -0.03162277660168379
+          },
+          {
+            "event_index": 1,
+            "normalized_inverse_variance_weight": 0.1,
+            "signed_snr_contribution": 6.236011545852043
+          },
+          {
+            "event_index": 2,
+            "normalized_inverse_variance_weight": 0.1,
+            "signed_snr_contribution": 0.0031622776601683794
+          },
+          {
+            "event_index": 3,
+            "normalized_inverse_variance_weight": 0.1,
+            "signed_snr_contribution": 0.0031622776601683794
+          },
+          {
+            "event_index": 4,
+            "normalized_inverse_variance_weight": 0.1,
+            "signed_snr_contribution": 0.0031622776601683794
+          },
+          {
+            "event_index": 5,
+            "normalized_inverse_variance_weight": 0.1,
+            "signed_snr_contribution": 0.0031622776601683794
+          },
+          {
+            "event_index": 6,
+            "normalized_inverse_variance_weight": 0.1,
+            "signed_snr_contribution": 0.0031622776601683794
+          },
+          {
+            "event_index": 7,
+            "normalized_inverse_variance_weight": 0.1,
+            "signed_snr_contribution": 0.0031622776601683794
+          },
+          {
+            "event_index": 8,
+            "normalized_inverse_variance_weight": 0.1,
+            "signed_snr_contribution": 0.0031622776601683794
+          },
+          {
+            "event_index": 9,
+            "normalized_inverse_variance_weight": 0.1,
+            "signed_snr_contribution": 0.0031622776601683794
+          }
+        ],
+        "max_absolute_snr_contribution_fraction": 0.9909547738693468,
+        "contribution_concentration_unavailable_reason": null,
+        "three_se_depth_consistency": true,
+        "criterion": "At least two covered events; all combined, including zero/negative; positive aggregate, formal SNR>=5, depth consistency<=3 combined SE."
+      },
+      "zero": {
+        "status": "non_recovery",
+        "covered_events": 2,
+        "depth": 0.0,
+        "variance": 0.5,
+        "formal_snr": 0.0,
+        "nonpositive_event_count": 2,
+        "all_covered_events_combined": true,
+        "event_contributions": [
+          {
+            "event_index": 0,
+            "normalized_inverse_variance_weight": 0.5,
+            "signed_snr_contribution": 0.0
+          },
+          {
+            "event_index": 1,
+            "normalized_inverse_variance_weight": 0.5,
+            "signed_snr_contribution": 0.0
+          }
+        ],
+        "max_absolute_snr_contribution_fraction": null,
+        "contribution_concentration_unavailable_reason": "zero_total_absolute_snr_contribution",
+        "three_se_depth_consistency": true,
+        "criterion": "At least two covered events; all combined, including zero/negative; positive aggregate, formal SNR>=5, depth consistency<=3 combined SE."
+      }
+    }
+  },
+  "runtime_metadata": {
+    "utc": {
+      "reference": "2026-10-08T11:59:33.109190+00:00",
+      "replay": "2026-10-15T16:43:45.096988+00:00"
+    },
+    "peak_working_set_bytes": {
+      "reference": 104251392,
+      "replay": 103927808
+    },
+    "elapsed_seconds": {
+      "reference": 2.968763899989426,
+      "replay": 2.9839494000189006
+    }
+  },
+  "synthetic_outputs": [
+    {
+      "file": "synthetic_output/discovery_freeze.json",
+      "parsed_fields_equal": true,
+      "byte_identical": true,
+      "reference": {
+        "bytes": 85195,
+        "sha256": "c978b901025857d894737b7f2fb251dc86c55eb840811e9c2220de1dfcdbe668"
+      },
+      "replay": {
+        "bytes": 85195,
+        "sha256": "c978b901025857d894737b7f2fb251dc86c55eb840811e9c2220de1dfcdbe668"
+      }
+    },
+    {
+      "file": "synthetic_output/synthetic_driver_result.json",
+      "parsed_fields_equal": true,
+      "byte_identical": true,
+      "reference": {
+        "bytes": 6707,
+        "sha256": "392c976a64ab24ef08265d992b1421e85208a66465a5a559889d9a0eaa315047"
+      },
+      "replay": {
+        "bytes": 6707,
+        "sha256": "392c976a64ab24ef08265d992b1421e85208a66465a5a559889d9a0eaa315047"
+      }
+    }
+  ],
+  "output_comparisons": [
+    {
+      "file": "VERIFICATION_RECEIPT.json",
+      "historical_reference": {
+        "bytes": 7573,
+        "sha256": "b26d3b7e907ecbc7a59f754ba4db6566bb0738cdb4d0eae0ea7050f9521532ec"
+      },
+      "replay_output": {
+        "bytes": 7574,
+        "sha256": "fdbdd37eec6283dad4b79f672f80f4c95cce6392ee498ce2e97606ec4fca572e"
+      },
+      "supplied_reference_path": "tess-development-v3_1/VERIFICATION_RECEIPT.json",
+      "supplied_reference_identity": {
+        "bytes": 7250,
+        "sha256": "d0518d8fcd51bc0d9158cfbbf883cd4846d0e32a91b8cb1dfde32f568a4ac7a8"
+      },
+      "reference_derivative_note": "Only the private executable field was removed from the supplied historical verification receipt; other supplied references are exact copies."
+    },
+    {
+      "file": "unittest.log",
+      "historical_reference": {
+        "bytes": 6801,
+        "sha256": "bced5da77e6f55717c97256b265d462b3073378f578fc1d3feae3bb86298ea4a"
+      },
+      "replay_output": {
+        "bytes": 6801,
+        "sha256": "64a26414d670acb6c2be094b818024d3cf66b84d5457c0c895ba4401e4c13b20"
+      },
+      "supplied_reference_path": "tess-development-v3_1/unittest.log",
+      "supplied_reference_identity": {
+        "bytes": 6801,
+        "sha256": "bced5da77e6f55717c97256b265d462b3073378f578fc1d3feae3bb86298ea4a"
+      },
+      "reference_derivative_note": "Exact historical reference bytes."
+    },
+    {
+      "file": "synthetic_output/discovery_freeze.json",
+      "historical_reference": {
+        "bytes": 85195,
+        "sha256": "c978b901025857d894737b7f2fb251dc86c55eb840811e9c2220de1dfcdbe668"
+      },
+      "replay_output": {
+        "bytes": 85195,
+        "sha256": "c978b901025857d894737b7f2fb251dc86c55eb840811e9c2220de1dfcdbe668"
+      },
+      "supplied_reference_path": "tess-development-v3_1/synthetic_output/discovery_freeze.json",
+      "supplied_reference_identity": {
+        "bytes": 85195,
+        "sha256": "c978b901025857d894737b7f2fb251dc86c55eb840811e9c2220de1dfcdbe668"
+      },
+      "reference_derivative_note": "Exact historical reference bytes."
+    },
+    {
+      "file": "synthetic_output/synthetic_driver_result.json",
+      "historical_reference": {
+        "bytes": 6707,
+        "sha256": "392c976a64ab24ef08265d992b1421e85208a66465a5a559889d9a0eaa315047"
+      },
+      "replay_output": {
+        "bytes": 6707,
+        "sha256": "392c976a64ab24ef08265d992b1421e85208a66465a5a559889d9a0eaa315047"
+      },
+      "supplied_reference_path": "tess-development-v3_1/synthetic_output/synthetic_driver_result.json",
+      "supplied_reference_identity": {
+        "bytes": 6707,
+        "sha256": "392c976a64ab24ef08265d992b1421e85208a66465a5a559889d9a0eaa315047"
+      },
+      "reference_derivative_note": "Exact historical reference bytes."
+    }
+  ],
+  "preservation": {
+    "stage_six_sources_unchanged": true,
+    "canonical_ten_files_unchanged": true
+  },
+  "limitations": [
+    "Synthetic tests only; not calibration, unfamiliar-source execution or physical validation.",
+    "Thread settings and below-normal priority are not a kernel CPU/memory quota.",
+    "Peak memory ceiling is a post-execution check, not a preemptive cap.",
+    "Python audit hook is not an OS firewall or packet capture.",
+    "No broad stage manifest equality is claimed while another worker curates documents.",
+    "The raw QA wrapper, runtime logs and private original execution receipt are not supplied here; their hashes are provenance, not delivery.",
+    "This is same-code synthetic repeatability, not an independent implementation or additional observation. Historical and replay performance measurements remain separate."
+  ]
+}

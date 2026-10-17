@@ -1,0 +1,93 @@
+{
+  "question": "Can a different SINGLE epoch of this same Gaia linear-motion star reproduce both TGSS printed components?",
+  "answer": "No, within1990-2030 and under the specified model, even allowing half-unit rounding of the printed radio coordinates and offsets.",
+  "gaia_source_id": "2644370304260053376",
+  "epoch_model": "Gaia linear RA/Dec propagation with pmra cosine convention; east uses cos(propagated declination)",
+  "epoch_range_jyear": [
+    1990,
+    2030
+  ],
+  "printed_radio_coordinates": {
+    "ra_deg": 353.88687083333326,
+    "dec_deg": -0.07396
+  },
+  "printed_components_arcsec": [
+    5.398,
+    -1.048
+  ],
+  "computed_common_J2000_components_arcsec": [
+    5.398022000593692,
+    -2.0478140604514694
+  ],
+  "east_only_effective_epoch_jyear": 1999.999536684934,
+  "north_only_effective_epoch_jyear": 2020.1390228422893,
+  "implied_star_ra_deg": 353.8853713876494,
+  "implied_star_dec_deg": -0.07366888888888888,
+  "independent_RA_coordinate_epoch_jyear": 1999.9995373895358,
+  "independent_Dec_coordinate_epoch_jyear": 2020.1390228422886,
+  "analytic_joint_projection_epoch_jyear": 2010.517048948684,
+  "joint_scalar_fit_epoch_jyear": 2010.5170901408264,
+  "joint_fit_computed_components_arcsec": [
+    5.8974259823155215,
+    -1.525686711960994
+  ],
+  "joint_fit_computed_minus_printed_components_arcsec": [
+    0.4994259823155218,
+    -0.477686711960994
+  ],
+  "irreducible_component_residual_norm_arcsec": 0.6910939925914055,
+  "independent_orthogonal_residual_arcsec": 0.6910940047226836,
+  "rounding_feasibility": [
+    {
+      "scenario": "printed_components_only_radio_held_exact",
+      "component_tolerances_arcsec": [
+        0.0005,
+        0.0005
+      ],
+      "east_allowed_epoch_interval": [
+        1999.989007039936,
+        2000.0100663256226
+      ],
+      "north_allowed_epoch_interval": [
+        2020.128951458199,
+        2020.149094226379
+      ],
+      "common_epoch_exists": false
+    },
+    {
+      "scenario": "including_half_last_printed_radio_coordinate_digits",
+      "component_tolerances_arcsec": [
+        0.007999993751442832,
+        0.001
+      ],
+      "east_allowed_epoch_interval": [
+        1999.831062545963,
+        2000.1680108195956
+      ],
+      "north_allowed_epoch_interval": [
+        2020.1188800741093,
+        2020.1591656104688
+      ],
+      "common_epoch_exists": false
+    }
+  ],
+  "radius_checks": {
+    "printed_radius_arcsec": 5.499,
+    "printed_component_norm_arcsec": 5.498791503594221,
+    "printed_radius_minus_printed_norm_arcsec": 0.00020849640577846884,
+    "common_J2000_spherical_radius_arcsec": 5.773403118920513,
+    "common_J2000_radius_minus_printed_radius_arcsec": 0.27440311892051295
+  },
+  "TGSS_minus_RACS": {
+    "printed_radio_dec_difference_arcsec": -1.0119999999999851,
+    "printed_north_offset_difference_arcsec": -0.01200000000000001,
+    "difference_of_differences_arcsec": -0.9999999999999851
+  },
+  "scope_limits": [
+    "conditional arithmetic at supplied central Gaia values, not a statistical hypothesis test",
+    "does not exclude a different star, mixed fields, different reference coordinates, transcription or other workflow errors",
+    "does not identify the historical implementation or establish why the discrepancy occurred",
+    "does not change or invalidate the independently catalog-confirmed TGSS radio declination",
+    "the joint fit uses unweighted equal east/north residuals to test exact compatibility, not an astrometric likelihood"
+  ]
+}

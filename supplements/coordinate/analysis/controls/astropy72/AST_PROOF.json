@@ -1,0 +1,40 @@
+{
+  "checked_utc": "2026-10-15T17:28:06.983432+00:00",
+  "status": "passed",
+  "original_source": {
+    "bytes": 4145,
+    "sha256": "b28b5324ff2c6c567ca12031bef5221aba1c7c4b245e6a39d4187706c94c0188"
+  },
+  "derivative_source": {
+    "bytes": 4284,
+    "sha256": "21d4f6e4318b05d218f5edf0ae743f12ee7850471aeface56a9aa62da604aa66"
+  },
+  "normalization_scope": "Only the two exact top-level historical HTML provenance statements and the two exact new input-hash assertions are removed. No docstring, import, numerical statement, assertion, loop, parsing or output serialization is normalized.",
+  "historical_removed_nodes": [
+    {
+      "source": "HTML=BASE/'inputs/2607.03619v6.html'",
+      "node_type": "Assign"
+    },
+    {
+      "source": "assert hashlib.sha256(HTML.read_bytes()).hexdigest()=='c6c167e9fce6d5a0662a262e2fa0f2a92a1b824aa09484ce2fcf378e8f82f7d2'",
+      "node_type": "Assert"
+    }
+  ],
+  "derivative_removed_nodes": [
+    {
+      "source": "assert hashlib.sha256((BASE/'source_tables.json').read_bytes()).hexdigest()=='62a9fe9430be1d0b9ff0e85549ae002a7c565be1239f3994dc7ddf2b41490396'",
+      "node_type": "Assert"
+    },
+    {
+      "source": "assert hashlib.sha256((BASE/'candidate_radius_models.csv').read_bytes()).hexdigest()=='846bffa0d5a7f084f22fb2c9c74b0a04201a522b89ff3ea32b22ee710a6f2eab'",
+      "node_type": "Assert"
+    }
+  ],
+  "normalized_ast_equal": true,
+  "normalized_ast_sha256": "bf3ad0daf85aeceaeadb61bc15179458844f9da2465780966d2686d43baa18c1",
+  "proof_limit": "AST equivalence under this explicit normalization is not full source or compiled-bytecode identity; the source changed and has its own identity.",
+  "text_diff": {
+    "bytes": 1005,
+    "sha256": "96b6da32ad735707ffefa9842376ffd4740e830a588fd8fc701c953baecfc4ae"
+  }
+}

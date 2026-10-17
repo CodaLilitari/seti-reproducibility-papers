@@ -1,0 +1,289 @@
+{
+  "status": "UNPUBLISHED SUCCESSOR V2; REQUESTED DEPOSITS, FINAL REVIEW, DECLARATIONS AND LICENSING PENDING",
+  "curated_utc": "2026-10-15T17:35:16.746075+00:00",
+  "predecessor_manifest": {
+    "bytes": 17755,
+    "sha256": "af2aa31f22ed3598e44372e915bd2a1c4d9627fe9f8f9b8c39f8bee3d7371d79"
+  },
+  "predecessor_manifest_supplied_at": "history/MANIFEST_SHA256_v1.json",
+  "predecessor_provenance": {
+    "bytes": 31822,
+    "sha256": "db91051b4069553e3185c8b8f020cf46dc99072d28003e01c9cbfc908bae2375"
+  },
+  "predecessor_ancestry_supplied_at": "history/CURATION_PROVENANCE_v1.json",
+  "current_inventory": "MANIFEST_SHA256.json (all current payloads, excluding itself)",
+  "provenance_self_reference_limit": "This record identifies all other added/changed payloads; its own identity is in the final manifest to avoid a hash cycle.",
+  "unchanged_v1_payload_paths": [
+    "analysis/bounds/check_bounds.py",
+    "analysis/bounds/inputs/A_controls_transcribed.csv",
+    "analysis/bounds/inputs/candidate_radius_models.csv",
+    "analysis/bounds/inputs/gaia_A_control_uncertainties.csv",
+    "analysis/bounds/inputs/gaia_A_controls.csv",
+    "analysis/bounds/per_source_bounds.csv",
+    "analysis/controls/falsification/audit_falsification.py",
+    "analysis/controls/falsification/candidate_radius_models.csv",
+    "analysis/controls/falsification/effective_epoch_fits.csv",
+    "analysis/controls/falsification/inputs/gaia_dr3_snapshot_20260925.csv",
+    "analysis/controls/falsification/rayleigh_rounding_tests.csv",
+    "analysis/controls/falsification/source_provenance.json",
+    "analysis/controls/falsification/source_tables.json",
+    "analysis/controls/scripts/fit_recovered_A.py",
+    "analysis/controls/source_archives/A_controls_transcribed.csv",
+    "analysis/controls/source_archives/free_location_rounding_exclusion.json",
+    "analysis/controls/source_archives/verify_free_location_rounding.py",
+    "analysis/d1-core/fresh_gaia_tap_2026-09-27.csv",
+    "analysis/d1-core/fresh_simbad_tap_2026-09-27.csv",
+    "analysis/d1-core/independent_core_check.py",
+    "analysis/d1-core/independent_core_results.json",
+    "analysis/d1-core/independent_effective_epoch_fits.csv",
+    "analysis/d1-core/independent_ren2024_inversion.csv",
+    "analysis/d1-core/independent_rowwise.csv",
+    "analysis/d1-core/independent_table10_conditional.csv",
+    "analysis/d1-core/primary_values.json",
+    "analysis/d1-core/QUERY_PROVENANCE.md",
+    "analysis/ren2024/ren2024-assessment/g-surveys/first_g.tsv",
+    "analysis/ren2024/ren2024-assessment/g-surveys/first_ReadMe.txt",
+    "analysis/ren2024/ren2024-assessment/g-surveys/G_SOURCE_PROVENANCE.json",
+    "analysis/ren2024/ren2024-assessment/g-surveys/nvss_g.tsv",
+    "analysis/ren2024/ren2024-assessment/g-surveys/nvss_ReadMe.txt",
+    "analysis/ren2024/ren2024-assessment/g-surveys/tgss_g.tsv",
+    "analysis/ren2024/ren2024-assessment/g-surveys/tgss_ReadMe.txt",
+    "analysis/ren2024/ren2024-assessment/g-surveys/vlass_g.tsv",
+    "analysis/ren2024/ren2024-assessment/g-surveys/vlass_ReadMe.txt",
+    "analysis/ren2024/ren2024-assessment/gaia/three_sources_covariance.csv",
+    "analysis/ren2024/ren2024-assessment/math/audit_astrometry.py",
+    "analysis/ren2024/ren2024-assessment/math/conditional_covariance_sensitivity.csv",
+    "analysis/ren2024/ren2024-assessment/math/epoch_details.json",
+    "analysis/ren2024/ren2024-assessment/math/gaia_covariance_checks.json",
+    "analysis/ren2024/ren2024-assessment/math/reviewer_followup.py",
+    "analysis/ren2024/ren2024-assessment/math/seven_rows.csv",
+    "analysis/ren2024/ren2024-assessment/math/tgss_reference_diagnostic.py",
+    "analysis/ren2024/ren2024-assessment/racs/cadc_product_uris.csv",
+    "analysis/ren2024/ren2024-assessment/racs/catalog_A.tsv",
+    "analysis/ren2024/ren2024-assessment/racs/catalog_B.tsv",
+    "analysis/ren2024/ren2024-assessment/racs/catalog_G.tsv",
+    "analysis/ren2024/ren2024-assessment/racs/header_0354-43A.txt",
+    "analysis/ren2024/ren2024-assessment/racs/header_0354-43A.txt.receipt.json",
+    "analysis/ren2024/ren2024-assessment/racs/header_1240-25A.txt",
+    "analysis/ren2024/ren2024-assessment/racs/header_1240-25A.txt.receipt.json",
+    "analysis/ren2024/ren2024-assessment/racs/header_2347+00A.txt",
+    "analysis/ren2024/ren2024-assessment/racs/header_2347+00A.txt.receipt.json",
+    "analysis/ren2024/source/Ren2024_Coordinate_State_Followup_2026-10-08/data/ren2024_table1_transcribed.csv",
+    "check_document_arithmetic.py",
+    "CURATION_VALIDATION.json",
+    "DOCUMENTARY_CHECK_OUTPUT.json",
+    "figures/effective_epoch_fits.png",
+    "figures/radius_residuals.png",
+    "requirements-analysis.txt",
+    "support/astrometry/A_controls_transcribed.csv",
+    "support/astrometry/coda_joint_and_individual_fits.csv",
+    "support/astrometry/conditional_bounds.json",
+    "support/astrometry/conditional_probabilities.csv",
+    "support/astrometry/control_estimator_replay.json",
+    "support/astrometry/effective_epoch_fits.csv",
+    "support/astrometry/gaia_A_control_uncertainties.csv",
+    "support/astrometry/gaia_A_controls.csv",
+    "support/astrometry/gaia_snapshot.csv",
+    "support/astrometry/jwst_caption_values.csv",
+    "support/astrometry/per_source_bounds.csv",
+    "support/astrometry/primary_values.json",
+    "support/astrometry/rayleigh_rounding_tests.csv",
+    "support/astrometry/ren2024_inversion.csv",
+    "support/astrometry/rowwise_offsets.csv",
+    "support/astrometry/simbad_snapshot.csv",
+    "support/astrometry/table10_compatibility.csv",
+    "support/ren2024/EPOCH_UNCERTAINTY_TABLE.csv",
+    "support/ren2024/math/conditional_covariance_sensitivity.csv",
+    "support/ren2024/math/epoch_details.json",
+    "support/ren2024/math/first_empirical_accuracy.json",
+    "support/ren2024/math/printed_reference_inversion.json",
+    "support/ren2024/math/reviewer_followup_finite_rho.csv",
+    "support/ren2024/math/seven_rows.csv",
+    "support/ren2024/math/tgss_discrepancy.json",
+    "support/ren2024/math/tgss_reference_diagnostic.json",
+    "support/ren2024/math/tgss_reference_RESULTS.md",
+    "verify_bundle.py"
+  ],
+  "changed_v1_metadata": [
+    {
+      "path": "DERIVATIVES.md",
+      "v1_identity": {
+        "bytes": 2673,
+        "sha256": "19107e2f5c314bdd70d8dcd5c2c37a08f298cf90c87788089c7b6ee17d742358"
+      },
+      "successor_identity": {
+        "bytes": 5017,
+        "sha256": "d4007cfe01035e5fa703b7ff201c2251350d41d875b0cf1ba06ac04519870f6b"
+      }
+    },
+    {
+      "path": "README.md",
+      "v1_identity": {
+        "bytes": 8208,
+        "sha256": "ed49767a930cc2932b94cdeb1f7d3e211599a3491bc9adbba8605fd8d7fc7081"
+      },
+      "successor_identity": {
+        "bytes": 9960,
+        "sha256": "28cb011f6c5e9caeef74e9a732847a637f890d6f261cf74f4f09afd31b8c5046"
+      }
+    },
+    {
+      "path": "RELEASE_STATUS.md",
+      "v1_identity": {
+        "bytes": 1693,
+        "sha256": "49c4effda24a5e56467ec609893ad41b74ebb67a620c6433f6b1ac90243340f5"
+      },
+      "successor_identity": {
+        "bytes": 1826,
+        "sha256": "32480cd9584f045dce8144fbe576346f5f959c2dee18cf13360cf0f0ad4e0bd4"
+      }
+    }
+  ],
+  "replaced_provenance": {
+    "path": "CURATION_PROVENANCE.json",
+    "source_identity": {
+      "bytes": 31822,
+      "sha256": "db91051b4069553e3185c8b8f020cf46dc99072d28003e01c9cbfc908bae2375"
+    },
+    "reason": "New versioned ancestry/curation record; exact predecessor retained under history/."
+  },
+  "added_payloads": [
+    {
+      "path": "analysis/controls/astropy72/AST_PROOF.json",
+      "bytes": 1816,
+      "sha256": "812272da0da7d845c450a719150b17cf4d5a8b50f4061fa3773fa2ad7ab67c04"
+    },
+    {
+      "path": "analysis/controls/astropy72/astropy_crosscheck.csv",
+      "bytes": 6491,
+      "sha256": "25b8600736c555a38a6101ff6a422bd516341a42ba48beb61cd4d03684dcdd89"
+    },
+    {
+      "path": "analysis/controls/astropy72/astropy_crosscheck_public.py",
+      "bytes": 4284,
+      "sha256": "21d4f6e4318b05d218f5edf0ae743f12ee7850471aeface56a9aa62da604aa66"
+    },
+    {
+      "path": "analysis/controls/astropy72/astropy_crosscheck_summary.json",
+      "bytes": 875,
+      "sha256": "3fdf20db215f7a808cb97734d45ce8c32f10800cd0d030852c411b35138f6a60"
+    },
+    {
+      "path": "analysis/controls/astropy72/candidate_radius_models.csv",
+      "bytes": 10895,
+      "sha256": "846bffa0d5a7f084f22fb2c9c74b0a04201a522b89ff3ea32b22ee710a6f2eab"
+    },
+    {
+      "path": "analysis/controls/astropy72/COMPARISON_POLICY.json",
+      "bytes": 1534,
+      "sha256": "9e6894c4fdbd1c3791f3fb44c6a56edfd70e833768b1d363a4a23c3a15fc6748"
+    },
+    {
+      "path": "analysis/controls/astropy72/DERIVATION_PROVENANCE.json",
+      "bytes": 2480,
+      "sha256": "b1c322018a90abd984163031cca27880e27ebe44e8a7e0d894d2671b063ca809"
+    },
+    {
+      "path": "analysis/controls/astropy72/inputs/gaia_dr3_snapshot_20260925.csv",
+      "bytes": 1759,
+      "sha256": "ebc0f022f36d65525a96082be2c9b7d96302e17f24a02276af50a5fc70dd5c8b"
+    },
+    {
+      "path": "analysis/controls/astropy72/REPLAY_COMPARISON.json",
+      "bytes": 7522,
+      "sha256": "daefcfe0beb59280863b007a3a30b770c0a34399dffb7f59cfe023464670d136"
+    },
+    {
+      "path": "analysis/controls/astropy72/SOURCE_DIFF.patch",
+      "bytes": 1005,
+      "sha256": "96b6da32ad735707ffefa9842376ffd4740e830a588fd8fc701c953baecfc4ae"
+    },
+    {
+      "path": "analysis/controls/astropy72/source_tables.json",
+      "bytes": 22117,
+      "sha256": "62a9fe9430be1d0b9ff0e85549ae002a7c565be1239f3994dc7ddf2b41490396"
+    },
+    {
+      "path": "CLAIM_TO_EVIDENCE.csv",
+      "bytes": 12744,
+      "sha256": "68cedba58f8bf8ac9dece961c03acb9bac0437677689225b80556d2e58d14527"
+    },
+    {
+      "path": "CLAIM_TO_EVIDENCE.md",
+      "bytes": 16354,
+      "sha256": "f0e53b2ae9b15d671fa86bd534ac5ecfeb40f91cf30bf11bf39bbe8c7bb6c318"
+    },
+    {
+      "path": "history/COORDINATE_REPLAY_STATUS_before_successor.md",
+      "bytes": 8670,
+      "sha256": "7848b43717313cf3fff56fbe071622aeb5507cbd11297fe9d6951b94792e4791"
+    },
+    {
+      "path": "history/CURATION_PROVENANCE_v1.json",
+      "bytes": 31822,
+      "sha256": "db91051b4069553e3185c8b8f020cf46dc99072d28003e01c9cbfc908bae2375"
+    },
+    {
+      "path": "history/MANIFEST_SHA256_v1.json",
+      "bytes": 17755,
+      "sha256": "af2aa31f22ed3598e44372e915bd2a1c4d9627fe9f8f9b8c39f8bee3d7371d79"
+    },
+    {
+      "path": "status/COORDINATE_REPLAY_STATUS.md",
+      "bytes": 10171,
+      "sha256": "f2f80453539465a416858b6e7b7eb66e1c857590ad2279804e978acbaea5de72"
+    },
+    {
+      "path": "status/CURRENT_SOURCE_STATUS.md",
+      "bytes": 2327,
+      "sha256": "2feac9b49f14fd022e8a9b76e5317c099d81dbafd7a2f7dfdf55f584da94fbc3"
+    },
+    {
+      "path": "status/REPLAY_COMPARISONS.json",
+      "bytes": 58912,
+      "sha256": "baf44c48fe26cd1a9020eb922bbe9a1d4d47b53212f462271e64ae3d5944f520"
+    },
+    {
+      "path": "status/SOURCE_STATUS_RECORD.json",
+      "bytes": 3338,
+      "sha256": "1b4bfd34751ae2ae6c06957c1b40de12ad28b878db0ea684fc9f8724524b5964"
+    }
+  ],
+  "source_records": {
+    "old_eight_command_receipt": {
+      "bytes": 31906,
+      "sha256": "e34f29640ec524c94216c04bde5b50e07ec29a760a9458d5aed5bf090afecd0d"
+    },
+    "old_historical_astropy_receipt": {
+      "bytes": 9877,
+      "sha256": "a2b2120c57dc1df2d77f9c852729a3faa317520fa0b4bbafb229e0260216b635"
+    },
+    "new_astropy_derivative_receipt": {
+      "bytes": 9272,
+      "sha256": "26107613e50f5402e885e16096934141395a4074839f5cb9a2f1586981910217"
+    },
+    "claim_map_source": {
+      "bytes": 12655,
+      "sha256": "cb4361997360cb82b16b846d193b7f477d80afc7dd113f4cd214757653866900"
+    },
+    "source_status_note": {
+      "bytes": 2156,
+      "sha256": "4cf846396724117e60101fe1eb205cf9d560a44732e89e91de41ab5fe7d58cb6"
+    },
+    "source_retrieval_record": {
+      "bytes": 2326,
+      "sha256": "00088b1a486a6a16262b471113745d5af316c3ff97af2547afb0e129b8ddc94e"
+    }
+  },
+  "old_payloads_not_recomputed": true,
+  "new_scientific_execution": "One provenance-only Astropy72 derivative; comparison record under analysis/controls/astropy72/.",
+  "claim_map_changes": "Move real locators into the supplement; update A15 dated status and COV-01 supplied derivative; qualify A02 figure preservation/I exception; retain 25 historical rows plus one added entry, not exhaustive.",
+  "private_omissions": "No private reviewer answer, account/session, full HTML/PDF, raw HTTP body, raw absolute runtime path or unrelated log included. Source ancestry labels are private project-relative provenance, not promises that those old paths are shipped.",
+  "preservation": {
+    "frozen_stage_unchanged": true,
+    "canonical_sources_and_sent_packet_unchanged": true,
+    "working_sources_and_inputs_unchanged": true
+  },
+  "release_boundary": "Publication to PhilArchive, GitLab and the author portfolio is requested after preparation and review are finished. This curation performs no public release, blanket licensing, new source query or scientific scope expansion.",
+  "current_status_updated_utc": "2026-10-17T05:12:46.518705+00:00"
+}

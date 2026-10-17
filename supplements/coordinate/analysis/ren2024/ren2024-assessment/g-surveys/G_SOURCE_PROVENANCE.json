@@ -1,0 +1,323 @@
+{
+  "scope": "Candidate G original Ren 2024 Table 1 radio inputs: bounded public source-provenance recovery, no position propagation or image remeasurement",
+  "retrieved_date_utc": "2026-10-11",
+  "gaia_source_id": "2644370304260053376",
+  "query_center": {
+    "ra_degrees": 353.88516033694015,
+    "dec_degrees": -0.07361180991359333,
+    "radius_arcsec": 10,
+    "purpose": "Locate printed radio records only, not an epoch-corrected association statistic"
+  },
+  "historical_implementation_status": "Native rows corroborate printed coordinates and fluxes at published precision; Ren's actual query route, local software and exact historical catalog download are not recovered",
+  "global_frame_qualification": "All four raw CDS responses label their coordinate system eq_FK5 J2000. This service label is recorded without asserting that every intrinsic radio frame is literally FK5. TGSS image SIA separately labels ICRS. No frame-bias correction or full covariance calculation was performed.",
+  "sources": [
+    {
+      "survey": "VLASS",
+      "cited_reference": "Gordon et al. 2021, ApJS 255, 30",
+      "catalog": "J/ApJS/255/30/comp",
+      "release": "Original 2021 paper-associated CIRADA epoch-1 Quick Look catalog; not a newer astrometry-corrected epoch-1 catalog",
+      "source_name": "VLASS1QLCIR J233532.86-000424.9",
+      "native_position": {
+        "ra": 353.88693717,
+        "dec": -0.07359592,
+        "unit": "degree",
+        "coordinate_label": "J2000"
+      },
+      "native_position_uncertainty": {
+        "ra": 2.98E-06,
+        "dec": 3.19E-06,
+        "unit": "degree",
+        "definition": "PyBDSF fit uncertainties; not total absolute registration uncertainties",
+        "ra_dec_covariance": null
+      },
+      "native_flux_mjy": {
+        "total": 25.452,
+        "total_error": 0.304,
+        "peak_per_beam": 22.433,
+        "peak_error": 0.156
+      },
+      "product_identifiers": {
+        "component_id": 16,
+        "island_id": 22,
+        "tile": "T10t36",
+        "subtile": "J233359-003000",
+        "image_version": 1,
+        "epoch_campaign": "1.1",
+        "field": 13059,
+        "product": "VLASS1.1.ql.T10t36.J233359-003000.10.2048.v1.I.iter1.image.pbcor.tt0.subim.fits"
+      },
+      "epoch_evidence": {
+        "kind": "source-linked subtile metadata DATE-OBS",
+        "date_obs": "2017-12-16T03:50:02",
+        "image_creation_date_not_observation_date": "2018-05-02T04:55:51.67",
+        "timescale_explicitly_verified": null,
+        "effective_centroid_time_or_contributor_weights": null,
+        "source": "vlass_g_subtile.tsv"
+      },
+      "morphology": {
+        "source_code": "S",
+        "fitted_major_arcsec": 3.948,
+        "fitted_minor_arcsec": 2.4561,
+        "fitted_pa_degrees": 42.2838,
+        "deconvolved_major_arcsec": 1.1509,
+        "deconvolved_minor_arcsec": 0.9534,
+        "deconvolved_pa_degrees": 46.9867,
+        "beam_major_arcsec": 3.78,
+        "beam_minor_arcsec": 2.26,
+        "beam_pa_degrees": 42,
+        "quality_flag": 0,
+        "duplicate_flag": 0,
+        "main_sample": 1,
+        "interpretation_limit": "Catalog Gaussian morphology only; no image verification or resolved astrophysical identity claim"
+      },
+      "astrometric_systematics": {
+        "source_specific_correction": null,
+        "published_qualification": "Gordon 2021 section 3.3 gives original QL positional accuracy about 0.5 arcsec above Dec -20 degrees, with a population Gaia-minus-VLASS declination peak about -0.25 arcsec. Neither is a calibrated source-specific Gaussian sigma. CDS's shorter description says typical accuracy about 0.25 arcsec.",
+        "newer_comparator_excluded": "NRAO now distinguishes corrected VLASS1.1v2/1.2v2 images (approximately 0.2 arcsec typical accuracy) from original deprecated epoch 1 images (approximately 0.5 arcsec at this declination). Corrected positions were not silently substituted."
+      },
+      "barriers": [
+        "Original image URL from catalog returned HTTP 404 to a header-only range request; no FITS header or pixels acquired",
+        "Unknown local absolute registration and fit covariance",
+        "DATE-OBS recovered, but a separately weighted source-centroid observing epoch is not verified"
+      ],
+      "raw_files": [
+        "vlass_g.tsv",
+        "vlass_g_subtile.tsv",
+        "vlass_ReadMe.txt"
+      ],
+      "documentation_urls": [
+        "https://cdsarc.cds.unistra.fr/ftp/J/ApJS/255/30/ReadMe",
+        "https://arxiv.org/pdf/2102.11753v2",
+        "https://science.nrao.edu/vlass/data-access/vlass-epoch-1-quick-look-users-guide"
+      ]
+    },
+    {
+      "survey": "FIRST",
+      "cited_reference": "Helfand, White and Becker 2015, ApJ 801, 26",
+      "catalog": "VIII/92/first14",
+      "release": "2014Dec17 final catalog",
+      "source_name": "J233532.8-000425",
+      "native_position": {
+        "ra_hms": "23 35 32.864",
+        "dec_dms": "-00 04 25.30",
+        "coordinate_label": "J2000"
+      },
+      "native_position_uncertainty": {
+        "ra_sigma": null,
+        "dec_sigma": null,
+        "definition": "No per-source Gaussian position sigmas in this table. Official empirical positional uncertainty at 90% confidence is Size*(1/SNR+1/20) arcsec, using fitted pre-deconvolution major/minor size and SNR=(Fpeak-0.25)/Rms. An ellipse aligned to fitted PA, not independent supplied RA/Dec sigma values.",
+        "best_possible_accuracy_arcsec_approx": 0.1,
+        "published_systematic_error_upper_arcsec": 0.05
+      },
+      "native_flux_mjy": {
+        "peak_per_beam": 31.76,
+        "integrated": 33.59,
+        "local_rms_per_beam": 0.1
+      },
+      "product_identifiers": {
+        "coadded_image_field": "23345-00130Z"
+      },
+      "epoch_evidence": {
+        "kind": "source-specific weighted mean of contributing pointing epochs",
+        "mean_decimal_year": 1999.192,
+        "mean_jd": 2451249.6,
+        "weighted_rms_days": 1227.191,
+        "definition": "Flux-measurement epoch metadata from coadded observations; RMS is temporal spread, not uncertainty on the mean and not a hard observing interval",
+        "individual_dates_and_weights": null,
+        "timescale_explicitly_verified": null,
+        "documented_survey_support": {
+          "original_campaign": "Spring 1993 through Spring 2004",
+          "additional_southern_cap_campaigns": [
+            "Spring 2009",
+            "Spring 2011"
+          ],
+          "direct_exact_day_endpoints": null,
+          "inferred_conservative_calendar_envelope": {
+            "lower_inclusive": "1993-01-01",
+            "upper_exclusive": "2012-01-01",
+            "definition": "Full calendar-year envelope inferred from documented survey campaigns, not G-specific dates and not mean plus/minus RMS"
+          },
+          "source": "first_observing_status.html",
+          "url": "https://sundog.stsci.edu/first/obsstatus.html"
+        },
+        "conservative_full_survey_interval": {
+          "start": "1993-01-01",
+          "end_exclusive": "2012-01-01",
+          "qualification": "Conservative full-calendar-year envelope inferred from official Spring 1993 through Spring 2004 campaigns and Spring 2009 / Spring 2011 southern-cap additions. Not G-specific observation bounds; not derived from mean plus/minus RMS. Exact day endpoints are not documented.",
+          "source": "first_observing_status.html",
+          "source_url": "https://sundog.stsci.edu/first/obsstatus.html"
+        }
+      },
+      "morphology": {
+        "deconvolved_major_arcsec": 1.55,
+        "deconvolved_minor_arcsec": 1.28,
+        "deconvolved_pa_degrees": 155.0,
+        "fitted_major_arcsec": 6.57,
+        "fitted_minor_arcsec": 5.56,
+        "fitted_pa_degrees": 178.6,
+        "sidelobe_probability": 0.014,
+        "interpretation_limit": "Catalog Gaussian values, not an image or jet reconstruction"
+      },
+      "barriers": [
+        "Do not replace the broad contributing epoch distribution with a single instantaneous snapshot",
+        "No individual pointing weights or exact date bounds recovered",
+        "The 90% empirical error expression is not automatically a one-sigma Gaussian covariance"
+      ],
+      "raw_files": [
+        "first_g.tsv",
+        "first_ReadMe.txt",
+        "first_catalog_documentation.html",
+        "first_observing_status.html"
+      ],
+      "documentation_urls": [
+        "https://cdsarc.cds.unistra.fr/ftp/VIII/92/ReadMe",
+        "https://sundog.stsci.edu/first/catalogs/",
+        "https://sundog.stsci.edu/first/obsstatus.html"
+      ]
+    },
+    {
+      "survey": "NVSS",
+      "cited_reference": "Condon et al. 1998, AJ 115, 1693",
+      "catalog": "VIII/65/nvss",
+      "release": "CDS edition created from author-provided NVSSCatalog.text.gz dated 2002-09-27; ReadMe dated 2002-12-24, last modified 2008-01-15",
+      "source_name": "NVSS J233532-000425",
+      "native_position": {
+        "ra_hms": "23 35 32.78",
+        "dec_dms": "-00 04 25.0",
+        "coordinate_label": "J2000"
+      },
+      "native_position_uncertainty": {
+        "ra": 0.04,
+        "ra_unit": "seconds of RA time, not arcseconds",
+        "dec": 0.7,
+        "dec_unit": "arcsecond",
+        "definition": "Catalog mean errors",
+        "ra_dec_covariance": null,
+        "extra_systematic_term_applied": false
+      },
+      "native_flux_mjy": {
+        "integrated": 33.9,
+        "error": 1.1
+      },
+      "product_identifiers": {
+        "original_image_field": "C2328P00",
+        "x_pixel": 59.3,
+        "y_pixel": 495.33
+      },
+      "epoch_evidence": {
+        "source_specific_epoch": null,
+        "documented_general_epoch": "1995+/-2",
+        "definition": "Catalog ReadMe describes centroids at the observation epoch 1995+/-2. This is a survey-level approximate interval, not a source-specific date or Gaussian epoch uncertainty",
+        "derived_interval_for_sensitivity_only": [
+          1993,
+          1997
+        ],
+        "interval_derivation": "Simple endpoints of the documented approximate 1995+/-2 description; not independently verified G observation bounds"
+      },
+      "morphology": {
+        "deconvolved_major_upper_limit_arcsec": 16.0,
+        "deconvolved_minor_upper_limit_arcsec": 15.6,
+        "position_angle_degrees": null,
+        "survey_beam_fwhm_arcsec": 45,
+        "residual_flag": "blank",
+        "interpretation_limit": "Upper limits, not measured axes"
+      },
+      "barriers": [
+        "No source-specific observation date or contributing snapshot list recovered",
+        "J2000 labels the coordinate convention, not the 1995-ish observing date",
+        "RA error requires proper units and tangent-plane cosine handling by the calculation owner"
+      ],
+      "raw_files": [
+        "nvss_g.tsv",
+        "nvss_ReadMe.txt",
+        "nvss_project_documentation.html",
+        "nvss_catalog_documentation.txt"
+      ],
+      "documentation_urls": [
+        "https://cdsarc.cds.unistra.fr/ftp/VIII/65/ReadMe",
+        "https://www.cv.nrao.edu/nvss/"
+      ]
+    },
+    {
+      "survey": "TGSS",
+      "cited_reference": "Intema et al. 2017, A&A 598, A78",
+      "catalog": "J/A+A/598/A78/table3",
+      "release": "TGSS ADR1 full source catalog",
+      "source_name": "TGSSADR J233532.8-000426",
+      "native_position": {
+        "ra": 353.88687,
+        "dec": -0.07396,
+        "unit": "degree",
+        "coordinate_label": "J2000"
+      },
+      "native_position_uncertainty": {
+        "ra": 2.0,
+        "dec": 2.0,
+        "unit": "arcsecond",
+        "definition": "Published 1-sigma catalog errors; include a 2 arcsec systematic contribution added in quadrature by the authors to fit errors",
+        "add_2_arcsec_again": false,
+        "ra_dec_covariance": null
+      },
+      "native_flux_mjy": {
+        "integrated": 113.2,
+        "integrated_error": 13.0,
+        "peak_per_beam": 108.2,
+        "peak_error": 11.4,
+        "local_rms_per_beam": 3.7
+      },
+      "product_identifiers": {
+        "parent_mosaic": "R72D33",
+        "mosaic_product": "TGSSADR_R72D33_5x5.MOSAIC.FITS"
+      },
+      "epoch_evidence": {
+        "source_specific_epoch": null,
+        "documented_survey_interval": {
+          "start": "2010-04",
+          "end": "2012-03",
+          "definition": "Published survey observation interval; G-specific contributing observations/weights not recovered"
+        },
+        "sia_metadata_mjd_unaccepted": 57462.0,
+        "sia_metadata_qualification": "ASTRON SIA calls this midpoint of observation and returns the identical value for all three overlapping mosaics. It is not accepted as G's observing epoch without validation against acquisition provenance; the documented survey dates govern the stated interval. No conversion or propagation performed."
+      },
+      "morphology": {
+        "source_code": "S",
+        "code_definition": "isolated single-Gaussian source",
+        "fitted_major_arcsec": 27.4,
+        "major_error_arcsec": 1.0,
+        "fitted_minor_arcsec": 25.3,
+        "minor_error_arcsec": 0.8,
+        "fitted_pa_degrees": 29.6,
+        "pa_error_degrees": 18.5,
+        "interpretation_limit": "Fitted, not deconvolved, axes; low-resolution single-Gaussian classification is not physical point-source proof"
+      },
+      "frame_evidence": "The original paper sections 3.3.1/4.4 says pointing positions above Dec -35 degrees were registered against NVSS and checks absolute positions against RFC. G is in that declination regime. The TGSS and NVSS registration evidence therefore is not wholly independent. CDS labels FK5/J2000; image SIA labels ICRS.",
+      "barriers": [
+        "No G-specific observation epoch or constituent pointing weights",
+        "SIA date requires validation and must not replace the observation interval",
+        "Registration and morphology across frequencies prevent a naive independent proper-motion fit"
+      ],
+      "raw_files": [
+        "tgss_g.tsv",
+        "tgss_ReadMe.txt",
+        "tgss_project_documentation.html",
+        "tgss_g_sia.xml",
+        "tgss_g_sia_decoded.json"
+      ],
+      "documentation_urls": [
+        "https://cdsarc.cds.unistra.fr/ftp/J/A+A/598/A78/ReadMe",
+        "https://arxiv.org/pdf/1603.04368v2",
+        "https://tgssadr.strw.leidenuniv.nl/doku.php?id=start"
+      ]
+    }
+  ],
+  "actions_not_performed": [
+    "Numerical position propagation or significance calculation",
+    "FITS image or cutout download",
+    "Image measurement",
+    "Full catalog download",
+    "Paid API use",
+    "Contact",
+    "GPU or native UI",
+    "Substitution of newer corrected catalog data"
+  ]
+}

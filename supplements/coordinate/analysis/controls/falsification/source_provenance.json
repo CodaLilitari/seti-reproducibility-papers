@@ -1,0 +1,7 @@
+{
+  "path": "inputs/2607.03619v6.html",
+  "sha256": "c6c167e9fce6d5a0662a262e2fa0f2a92a1b824aa09484ce2fcf378e8f82f7d2",
+  "original_source_url": "https://arxiv.org/html/2607.03619v6",
+  "snapshot_date": "2026-09-25",
+  "extraction": "HTMLParser DOM text; math alttext replaces MathML; tables direct cell text"
+}

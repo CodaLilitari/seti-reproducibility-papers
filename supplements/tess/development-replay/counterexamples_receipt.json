@@ -1,0 +1,139 @@
+{
+  "generated_utc": "2026-10-08T10:18:23.735075+00:00",
+  "cases": {
+    "event_eligibility_before_argmax": {
+      "assertion_passed": true,
+      "n": 248,
+      "unrestricted_argmax": {
+        "phase_start_bin": 4,
+        "score": 0.0007334537634408602,
+        "depth_ppm": 9733.333333333334,
+        "populated_events": 1,
+        "bins_per_event": [
+          8
+        ],
+        "in_transit_bins": 8
+      },
+      "eligible_global_maximum": {
+        "phase_start_bin": 10,
+        "score": 0.00019997330367074528,
+        "depth_ppm": 3655.1724137931033,
+        "populated_events": 2,
+        "bins_per_event": [
+          8,
+          8
+        ],
+        "in_transit_bins": 16
+      },
+      "actual": {
+        "raised": "No trial has positive depth and two populated events"
+      },
+      "finding": "Prototype rejects all trials despite an eligible positive-depth global maximum on its own grid."
+    },
+    "half_open_vs_closed_boundaries": {
+      "assertion_passed": true,
+      "returned": {
+        "score": 0.0001835798311187173,
+        "period_days": 4.0,
+        "epoch_btjd": 1.125,
+        "duration_hours": 6.0,
+        "depth_ppm": 3497.9253112033184,
+        "in_transit_bins": 16,
+        "populated_events": 2,
+        "bins_per_event": [
+          9,
+          9
+        ],
+        "phase_start_bin": 4,
+        "phase_width_bins": 1
+      },
+      "binned_count": 16,
+      "geometric_count": 18,
+      "disagreement_times": [
+        1.25,
+        5.25
+      ],
+      "same_input_binned_depth_ppm": 3497.9253112033193,
+      "same_input_geometric_depth_ppm": -4000.0,
+      "finding": "Search and same-box diagnostics can disagree in sign even on the identical flux vector because membership differs."
+    },
+    "sparse_second_event": {
+      "assertion_passed": true,
+      "returned": {
+        "score": 3.540740740740741e-05,
+        "period_days": 4.0,
+        "epoch_btjd": 1.125,
+        "duration_hours": 6.0,
+        "depth_ppm": 3000.0,
+        "in_transit_bins": 4,
+        "populated_events": 2,
+        "bins_per_event": [
+          3,
+          1
+        ],
+        "phase_start_bin": 4,
+        "phase_width_bins": 1
+      },
+      "finding": "Two populated events permits one sample in the second event; this is eligibility only, not two independently supported transits."
+    },
+    "gap_baseline": {
+      "assertion_passed": true,
+      "step_residual_max": 0.0,
+      "isolated_dim_segment_sample_count": 5,
+      "isolated_dim_segment_residual_max": 0.0,
+      "finding": "No cross-gap leakage on step control; isolated dim segment is normalized to zero, so coverage is scientifically material."
+    },
+    "residual_mask_shoulders": {
+      "assertion_passed": true,
+      "true_duration_days": 0.5,
+      "fitted_duration_days": 0.25,
+      "mask_half_width_days": 0.1875,
+      "injected_dip_samples": 252,
+      "retained_dip_samples_after_mask": 56,
+      "finding": "The development mask can leave coherent shoulders when fitted width is too short; this is a methodological sensitivity, not proof of the actual third peak origin."
+    },
+    "actual_development_memberships": {
+      "results": [
+        {
+          "iteration": 1,
+          "membership_disagreements": 0,
+          "binned_count": 12,
+          "geometric_count": 12,
+          "pdc_geometric_depth_ppm": 3366.7134177251683,
+          "reported_pdc_depth_ppm": 3366.713417725168
+        },
+        {
+          "iteration": 2,
+          "membership_disagreements": 0,
+          "binned_count": 8,
+          "geometric_count": 8,
+          "pdc_geometric_depth_ppm": 2704.2904994298196,
+          "reported_pdc_depth_ppm": 2704.2904994298196
+        },
+        {
+          "iteration": 3,
+          "membership_disagreements": 0,
+          "binned_count": 21,
+          "geometric_count": 21,
+          "pdc_geometric_depth_ppm": 776.7526209608176,
+          "reported_pdc_depth_ppm": 776.7526209608176
+        }
+      ],
+      "finding": "These membership checks distinguish an executable general defect from its effect, if any, on the three delivered peaks."
+    }
+  },
+  "source_manifest_after": {
+    "entries": 19,
+    "failures": []
+  },
+  "prototype_copy_source_sha256": "48d62036f02e9ba8e26262f19d85df8850f9231274f43420ca4538cdc8056755",
+  "thread_limits": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "elapsed_seconds": 0.03132080001523718,
+  "peak_working_set_bytes": 36786176,
+  "scope": "Synthetic counterexamples against unchanged custom prototype; no new target, query or observational outcome."
+}

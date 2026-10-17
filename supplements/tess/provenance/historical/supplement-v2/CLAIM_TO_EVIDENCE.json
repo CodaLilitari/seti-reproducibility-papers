@@ -1,0 +1,239 @@
+{
+  "scope": "Nonexhaustive central-claim navigation map; T1–T5 are historical collection labels, not public deposits.",
+  "records": [
+    {
+      "evidence_id": "T1",
+      "claim": "Sections 2/Table 1: original three-peak S4 result, b miss and SAP/PDC sign disagreement",
+      "files": [
+        {
+          "path": "source/planet_hunt_tess_development_2026-10-08/results/search_results.json",
+          "bytes": 2010,
+          "sha256": "5674ac9a86790730d7450a3ec7717d03dc7b162f8a17eb1ed9f9ce46d27bf188"
+        },
+        {
+          "path": "source/planet_hunt_tess_development_2026-10-08/search.py",
+          "bytes": 5619,
+          "sha256": "48d62036f02e9ba8e26262f19d85df8850f9231274f43420ca4538cdc8056755"
+        },
+        {
+          "path": "source/planet_hunt_tess_development_2026-10-08/data/toi270_s4_binned.csv",
+          "bytes": 19928,
+          "sha256": "7e2269301ce4b08fe13d0c57b34efcb54bd4a5fc293a23a362a648b39ec4d0e1"
+        },
+        {
+          "path": "source/planet_hunt_tess_development_2026-10-08/results/implementation_tests.txt",
+          "bytes": 627,
+          "sha256": "bcc4daa57bc8b5fc69e0df398dccc155b15b466cd0ba550211d8381720a6f08f"
+        }
+      ],
+      "limit": "Historical known-system output; not blind validation or discovery."
+    },
+    {
+      "evidence_id": "T2",
+      "claim": "Section 3/Table 2: full-cadence S4/S5 established-library comparison",
+      "files": [
+        {
+          "path": "standard-bls/crosscheck-results.json",
+          "bytes": 31974,
+          "sha256": "12470849317ddb429f1e1c9dde1ab26d6f891f2a5df56081a98b5465dbab0d7a"
+        },
+        {
+          "path": "standard-bls/configuration-before-run.json",
+          "bytes": 938,
+          "sha256": "31261f02b1b4e81134b45c76054a69ac06c5231268ab9d00e8d9a7b924552e4b"
+        },
+        {
+          "path": "standard-bls/run_crosscheck.py",
+          "bytes": 7119,
+          "sha256": "9fd8943d52930c8e4285a548d16664a54c6f8c426e24999e497a9a46eaa87def"
+        },
+        {
+          "path": "standard-bls/data/toi270-s0004.fits",
+          "bytes": 1897920,
+          "sha256": "09f1e69d89dce001e447fbc509b9453f033b2428d183add334b43b93dbc8c93b"
+        },
+        {
+          "path": "standard-bls/data/toi270-s0005.fits",
+          "bytes": 1923840,
+          "sha256": "739250df0d1ccda4304e01213f1f0f53c24603e3e223ff646157b6721665a9d5"
+        }
+      ],
+      "limit": "Stored real-data development results; S5 is not a held-out validation."
+    },
+    {
+      "evidence_id": "T2",
+      "claim": "Section 3.1: five-peak and detrending probes; checksum and rounding diagnostics",
+      "files": [
+        {
+          "path": "development-replay/posthoc_diagnostics_results.json",
+          "bytes": 31259,
+          "sha256": "aba00b0936908a163d16af5efaac284321eb9b12d15932bf18ff4a4f06237e0f"
+        },
+        {
+          "path": "development-replay/posthoc_diagnostics.py",
+          "bytes": 12562,
+          "sha256": "fe02d831f8ce2a677aa9a30d34fc480dcf794cef18f0b80f173b5d997888f438"
+        },
+        {
+          "path": "development-replay/POSTHOC_DIAGNOSTICS.md",
+          "bytes": 7662,
+          "sha256": "10f55504c4bac09058d24d8ca5ca7e88fe5a59ab0bd016e51148ea731740cf21"
+        },
+        {
+          "path": "provenance/NATIVE_SOURCE_IDENTITIES.json",
+          "bytes": 2536,
+          "sha256": "5201faed64d99f544fcfda5cb740e1c65ce689efa605666d0aa2b6113c8893f9"
+        }
+      ],
+      "limit": "Explicit post-hoc diagnostics; no demonstrated upstream physical cause."
+    },
+    {
+      "evidence_id": "T2",
+      "claim": "Section 4: prototype counterexamples and exact original replay",
+      "files": [
+        {
+          "path": "development-replay/counterexamples_receipt.json",
+          "bytes": 4768,
+          "sha256": "a394c22ec6b1d3e11282ec8e3727c607ed80d225172ec6d496b35d8ce47faa07"
+        },
+        {
+          "path": "development-replay/counterexamples.py",
+          "bytes": 9215,
+          "sha256": "72e817379406be24ce05c511afc86df8d4c888bd56ab32c0a900645d384f0049"
+        },
+        {
+          "path": "development-replay/replay_receipt.json",
+          "bytes": 2451,
+          "sha256": "50e3d239674a6a4ed255b78e85b3f3f44dd68ec7629083d038dddaa21427ec8b"
+        },
+        {
+          "path": "development-replay/replay.py",
+          "bytes": 5361,
+          "sha256": "8d23a0ce4dc67f01af9e9803ae6da2db0f452d101d0b6089a5fef2d7c994f32e"
+        },
+        {
+          "path": "development-replay/REPORT.md",
+          "bytes": 6909,
+          "sha256": "fbf777dd59f50ac8222bb0874f970898184167e5cf868689e3bbfbab20304bb6"
+        }
+      ],
+      "limit": "Synthetic counterexamples do not establish the real nuisance cause."
+    },
+    {
+      "evidence_id": "T3",
+      "claim": "Sections 4.2–5: signed recovery, metadata, grid, mask, timing and freeze rules",
+      "files": [
+        {
+          "path": "tess-development-v3_1/IMPLEMENTATION_SPEC.md",
+          "bytes": 12548,
+          "sha256": "d133263c01f1b3f4bcd8c58683c4a9d7604608a96275997b0e3318896a0116d4"
+        },
+        {
+          "path": "tess-development-v3_1/METADATA_COMPLETENESS_SPEC.md",
+          "bytes": 22181,
+          "sha256": "e12694943a9aaa6d7546e68d86163976c8340dc32126335e93642e7a188e1a40"
+        },
+        {
+          "path": "tess-development-v3_1/tess_components.py",
+          "bytes": 25983,
+          "sha256": "1e01c9ba8b358228aed0581f1731f99dc1595402037f4bbf9f7cc0f8c6832826"
+        },
+        {
+          "path": "tess-development-v3_1/metadata_contract.py",
+          "bytes": 21817,
+          "sha256": "b6da38de7987a6783a003925e0c7f07370309ea29d5a5478afca9356753214ad"
+        },
+        {
+          "path": "tess-development-v3_1/synthetic_driver.py",
+          "bytes": 3299,
+          "sha256": "ee0e54e97a2c388fc60c7f35115f3928e21adcd981b0900999cee065e1ce9da1"
+        }
+      ],
+      "limit": "Current supplied implementation is v3.1. The intermediate v3 package and separate acquisition proposal are not supplied as complete archives; live adapters and cohort remain unactivated."
+    },
+    {
+      "evidence_id": "T4",
+      "claim": "Section 6/Table 3: diagnostic-only concentration and historical 47 tests",
+      "files": [
+        {
+          "path": "tess-development-v3_1/VERIFICATION_RECEIPT.json",
+          "bytes": 7250,
+          "sha256": "d0518d8fcd51bc0d9158cfbbf883cd4846d0e32a91b8cb1dfde32f568a4ac7a8"
+        },
+        {
+          "path": "tess-development-v3_1/unittest.log",
+          "bytes": 6801,
+          "sha256": "bced5da77e6f55717c97256b265d462b3073378f578fc1d3feae3bb86298ea4a"
+        },
+        {
+          "path": "tess-development-v3_1/test_tess_components.py",
+          "bytes": 15996,
+          "sha256": "ae96d40a17bf6fb6de580604bd56a9f808fa106d594d53c96da76ff4dd786712"
+        },
+        {
+          "path": "tess-development-v3_1/test_metadata_contract.py",
+          "bytes": 18041,
+          "sha256": "9463277e448875963892c40655d2ce284e8dca0375c968b3a1108ca86167101d"
+        },
+        {
+          "path": "tess-development-v3_1/synthetic_output/discovery_freeze.json",
+          "bytes": 85195,
+          "sha256": "c978b901025857d894737b7f2fb251dc86c55eb840811e9c2220de1dfcdbe668"
+        },
+        {
+          "path": "tess-development-v3_1/synthetic_output/synthetic_driver_result.json",
+          "bytes": 6707,
+          "sha256": "392c976a64ab24ef08265d992b1421e85208a66465a5a559889d9a0eaa315047"
+        },
+        {
+          "path": "provenance/V3_1_REPORTING_CHANGELOG.md",
+          "bytes": 2438,
+          "sha256": "fd06deddb6ec6a80c1d230d92e2237950e99d4ec4128d4457ef9dae59d29d9fd"
+        }
+      ],
+      "limit": "Historical Oct8 performance figures and fixed synthetic behavior; no calibrated false-alarm rate."
+    },
+    {
+      "evidence_id": "T4",
+      "claim": "Sections 6.1/9: separate Oct15 same-code synthetic replay",
+      "files": [
+        {
+          "path": "replay/TESS_REPLAY_STATUS.md",
+          "bytes": 5105,
+          "sha256": "94033b281dd833f293140558211f8f5131164f1c2a4697fc570219c1174c5c19"
+        },
+        {
+          "path": "replay/TESS_REPLAY_COMPARISON.json",
+          "bytes": 21512,
+          "sha256": "75b6c197ec0af4716e23d8ac86a618a2f23bb6ef5295a42c0bf2fe123e02cbe3"
+        },
+        {
+          "path": "tess-development-v3_1/run_offline_checks.py",
+          "bytes": 3887,
+          "sha256": "e92419e95be37e9f2503a1491a355691a66019c2b7d50ba10137dcb92b9819e8"
+        }
+      ],
+      "limit": "One existing 47-test command; not 94 independent tests, a new observation, or an independent implementation."
+    },
+    {
+      "evidence_id": "T5",
+      "claim": "Sections 6.1/9: scope and attribution of Lily partial review",
+      "files": [
+        {
+          "path": "provenance/T5_REVIEW_SCOPE.json",
+          "bytes": 1712,
+          "sha256": "240c3bc5d17d1180c06f29de5c6de2168a23c69a3698fca6086d83342025a153"
+        }
+      ],
+      "limit": "Source-hashed report summary only. Original reviewer answers and scripts are excluded; no complete independent Astropy replay is claimed."
+    }
+  ],
+  "explicitly_excluded": [
+    "Full private reviewer conversations and replay scripts",
+    "Intermediate v3 archives as complete objects",
+    "Acquisition/holdout proposal execution or complete unfamiliar-host universe",
+    "Stopped Kepler transaction raw records",
+    "Original plot generation command (not supplied)",
+    "Any public deposit, DOI or release license"
+  ]
+}

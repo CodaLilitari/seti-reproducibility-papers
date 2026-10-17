@@ -1,0 +1,27 @@
+{
+  "config": {
+    "period_min_days": 0.6,
+    "period_max_days": 13.0,
+    "frequency_trials": 12000,
+    "duration_hours": [
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      4.0
+    ],
+    "iterations": 3,
+    "oversample": 10,
+    "detrending": "unchanged delivered one-day running median, gaps >0.5d",
+    "mask_half_duration": 0.75,
+    "quality_mask": "QUALITY==0; finite positive SAP/PDC and positive formal errors",
+    "scope": "known-host development only, S4 and immediately subsequent S5; no blind validation",
+    "acceptance": "report maxima and event coverage even if failed; no outcome-driven tuning or replacement"
+  },
+  "source_search_sha256": "48d62036f02e9ba8e26262f19d85df8850f9231274f43420ca4538cdc8056755",
+  "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.3",
+  "astropy": "8.0.1",
+  "started_utc": "2026-10-08T10:17:02.902072+00:00"
+}

@@ -1,0 +1,14 @@
+--- historical/astropy_crosscheck.py
++++ astropy_crosscheck_public.py
+@@ -16,9 +16,9 @@
+ 
+ BASE=Path(__file__).resolve().parent
+ GAIA=BASE/'inputs/gaia_dr3_snapshot_20260925.csv'
+-HTML=BASE/'inputs/2607.03619v6.html'
+ assert hashlib.sha256(GAIA.read_bytes()).hexdigest()=='ebc0f022f36d65525a96082be2c9b7d96302e17f24a02276af50a5fc70dd5c8b'
+-assert hashlib.sha256(HTML.read_bytes()).hexdigest()=='c6c167e9fce6d5a0662a262e2fa0f2a92a1b824aa09484ce2fcf378e8f82f7d2'
++assert hashlib.sha256((BASE/'source_tables.json').read_bytes()).hexdigest()=='62a9fe9430be1d0b9ff0e85549ae002a7c565be1239f3994dc7ddf2b41490396'
++assert hashlib.sha256((BASE/'candidate_radius_models.csv').read_bytes()).hexdigest()=='846bffa0d5a7f084f22fb2c9c74b0a04201a522b89ff3ea32b22ee710a6f2eab'
+ tables=json.loads((BASE/'source_tables.json').read_text(encoding='utf8'))
+ gaia={r['source_id']:r for r in csv.DictReader(GAIA.open())}
+ stdlib={(r['candidate'],r['band']):r for r in csv.DictReader((BASE/'candidate_radius_models.csv').open())}

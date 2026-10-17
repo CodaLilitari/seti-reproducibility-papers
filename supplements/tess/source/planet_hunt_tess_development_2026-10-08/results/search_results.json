@@ -1,0 +1,86 @@
+{
+  "status": "known-system development recovery, no novel candidate claim",
+  "config": {
+    "period_min_days": 0.6,
+    "period_max_days": 13.0,
+    "frequency_trials": 12000,
+    "phase_bins": 512,
+    "duration_hours": [
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      4.0
+    ],
+    "iterations": 3,
+    "gap_days": 0.5,
+    "median_window_days": 1.0,
+    "mask_half_duration": 0.75
+  },
+  "n_bins": 965,
+  "btjd_range": [
+    1410.92656,
+    1436.259947
+  ],
+  "peaks": [
+    {
+      "score": 0.00013432570635789535,
+      "period_days": 5.655459544383346,
+      "epoch_btjd": 1412.1526459559113,
+      "duration_hours": 1.5905979968578159,
+      "depth_ppm": 3366.713417725168,
+      "in_transit_bins": 12,
+      "populated_events": 4,
+      "bins_per_event": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "phase_start_bin": 108,
+      "phase_width_bins": 6,
+      "iteration": 1,
+      "input_bins": 965,
+      "sap_depth_same_box_ppm": 3166.5503603836514
+    },
+    {
+      "score": 5.801021221309699e-05,
+      "period_days": 11.374012590234061,
+      "epoch_btjd": 1412.4371710471405,
+      "duration_hours": 2.1326273606688866,
+      "depth_ppm": 2704.2904994298196,
+      "in_transit_bins": 8,
+      "populated_events": 2,
+      "bins_per_event": [
+        4,
+        4
+      ],
+      "phase_start_bin": 66,
+      "phase_width_bins": 4,
+      "iteration": 2,
+      "input_bins": 945,
+      "sap_depth_same_box_ppm": 2843.5131584376422
+    },
+    {
+      "score": 1.2385055127132106e-05,
+      "period_days": 10.757971447619484,
+      "epoch_btjd": 1410.9475716629838,
+      "duration_hours": 4.034239292857307,
+      "depth_ppm": 776.7526209608176,
+      "in_transit_bins": 21,
+      "populated_events": 3,
+      "bins_per_event": [
+        5,
+        8,
+        8
+      ],
+      "phase_start_bin": 509,
+      "phase_width_bins": 8,
+      "iteration": 3,
+      "input_bins": 933,
+      "sap_depth_same_box_ppm": -272.59261788859226
+    }
+  ],
+  "remaining_bins": 902
+}

@@ -1,0 +1,43 @@
+{
+  "scope": "Historical source documentation references, not bundled payloads or fresh remote-byte verification.",
+  "current_inventory": "MANIFEST_SHA256.json",
+  "retained_factual_conventions": "G_SOURCE_PROVENANCE.json and support/ren2024/EPOCH_UNCERTAINTY_TABLE.csv remain byte-identical to v2; their raw-file names are historical locators.",
+  "documents": [
+    {
+      "survey": "VLASS",
+      "original_v2_path": "analysis/ren2024/ren2024-assessment/g-surveys/vlass_ReadMe.txt",
+      "original_sha256": "7ba7e70e9f3154213dc0cd318323809817f25f305d7494b910f0d672bf216264",
+      "canonical_url": "https://cdsarc.cds.unistra.fr/ftp/J/ApJS/255/30/ReadMe",
+      "catalog_id": "J/ApJS/255/30/comp",
+      "status": "externally_referenced_not_bundled",
+      "numerical_input": false
+    },
+    {
+      "survey": "FIRST",
+      "original_v2_path": "analysis/ren2024/ren2024-assessment/g-surveys/first_ReadMe.txt",
+      "original_sha256": "3965786bd3d56718d054f40ab0aa563936446516dd4270d12e49da3700ab5d8a",
+      "canonical_url": "https://cdsarc.cds.unistra.fr/ftp/VIII/92/ReadMe",
+      "catalog_id": "VIII/92/first14",
+      "status": "externally_referenced_not_bundled",
+      "numerical_input": false
+    },
+    {
+      "survey": "NVSS",
+      "original_v2_path": "analysis/ren2024/ren2024-assessment/g-surveys/nvss_ReadMe.txt",
+      "original_sha256": "7235bb67b68e98321ff2551eb912f2eff67db3a18a48266da6cd438f3f76b429",
+      "canonical_url": "https://cdsarc.cds.unistra.fr/ftp/VIII/65/ReadMe",
+      "catalog_id": "VIII/65/nvss",
+      "status": "externally_referenced_not_bundled",
+      "numerical_input": false
+    },
+    {
+      "survey": "TGSS",
+      "original_v2_path": "analysis/ren2024/ren2024-assessment/g-surveys/tgss_ReadMe.txt",
+      "original_sha256": "5ae7dc3f56151eea2ca5338b2affca7031b6fc4eeb2612c77408af3689dd776e",
+      "canonical_url": "https://cdsarc.cds.unistra.fr/ftp/J/A+A/598/A78/ReadMe",
+      "catalog_id": "J/A+A/598/A78/table3",
+      "status": "externally_referenced_not_bundled",
+      "numerical_input": false
+    }
+  ]
+}
